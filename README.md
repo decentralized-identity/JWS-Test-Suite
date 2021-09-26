@@ -13,7 +13,7 @@ This suite is used to create verifiable credentials and presentations that confo
 npm i
 npm run build
 npm run report:clean
-npm run report:generae
+npm run report:generate
 ```
 
 ### Build an Implementation
