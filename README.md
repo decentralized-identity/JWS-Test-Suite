@@ -1,4 +1,4 @@
-# JWS-Test-Suite
+# JsonWebSignature2020 Test Suite
 
 [![CI](https://github.com/decentralized-identity/JWS-Test-Suite/actions/workflows/ci.yml/badge.svg)](https://github.com/decentralized-identity/JWS-Test-Suite/actions/workflows/ci.yml)
 
@@ -8,6 +8,8 @@ The purpose of this test suite is to enable interoperability testing across
 implementations of [https://w3id.org/security/suites/jws-2020](https://w3id.org/security/suites/jws-2020).
 
 This suite is used to create verifiable credentials and presentations that conform to the [VC Data Model](https://www.w3.org/TR/vc-data-model/).
+
+This test suite does not currently support VC-JWT, even though some implementations may also suppot it.
 
 ## Usage
 
