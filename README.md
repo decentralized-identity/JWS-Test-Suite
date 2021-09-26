@@ -9,7 +9,7 @@ implementations of [https://w3id.org/security/suites/jws-2020](https://w3id.org/
 
 This suite is used to create verifiable credentials and presentations that conform to the [VC Data Model](https://www.w3.org/TR/vc-data-model/).
 
-This test suite does not currently support VC-JWT, even though some implementations may also suppot it.
+This test suite does not currently support VC-JWT, even though some implementations may also support it.
 
 ## Usage
 
