@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  transmute:
+    image: transmute/jws-test-suite-cli
+    build:
+      context: ./implementations/transmute
+      dockerfile: Dockerfile
+    volumes:
+      - ./data:/data

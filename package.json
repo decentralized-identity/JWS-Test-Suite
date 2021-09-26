@@ -1,0 +1,24 @@
+{
+  "name": "jws-test-suite",
+  "version": "1.0.0",
+  "description": "### Build an Implementation",
+  "main": "generate.js",
+  "scripts": {
+    "build": "docker-compose build",
+    "report:clean": "rm -rf ./data/implementations/transmute/*.json",
+    "report:generate": "node ./generate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decentralized-identity/JWS-Test-Suite.git"
+  },
+  "author": "Orie Steele",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/decentralized-identity/JWS-Test-Suite/issues"
+  },
+  "homepage": "https://github.com/decentralized-identity/JWS-Test-Suite#readme",
+  "devDependencies": {
+    "shelljs": "^0.8.4"
+  }
+}
