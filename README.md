@@ -1,5 +1,7 @@
 # JWS-Test-Suite
 
+[![CI](https://github.com/decentralized-identity/JWS-Test-Suite/actions/workflows/ci.yml/badge.svg)](https://github.com/decentralized-identity/JWS-Test-Suite/actions/workflows/ci.yml)
+
 See [dif-grant-1-jws-test-suite](https://blog.identity.foundation/dif-grant-1-jws-test-suite/).
 
 The purpose of this test suite is to enable interoperability testing across
