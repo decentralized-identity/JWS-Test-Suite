@@ -1,7 +1,10 @@
 # JWS test suite meetings for C&C WG
 
 [![hackmd-github-sync-badge](https://hackmd.io/WtOeBNQfRmye7FrjYjNI3g/badge)](https://hackmd.io/WtOeBNQfRmye7FrjYjNI3g)
+
 *Note: If you are viewing this on github and it seems out of date, try clicking the above link, hackmd may hold more recent content not yet approved/cleaned by WI editors/WG chairs for syncing to github archival records.*
+
+{ [Meeting Recordings](https://docs.google.com/spreadsheets/d/1wgccmMvIImx30qVE9GhRKWWv3vmL2ZyUauuKx3IfRmA/edit#gid=1791597999) }
 
 ## 9/27
 
