@@ -11,10 +11,10 @@
   "verifiableCredential": [],
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2021-09-27T17:27:40Z",
+    "created": "2021-09-28T17:36:14Z",
     "verificationMethod": "did:example:123#key-0",
     "proofPurpose": "authentication",
     "challenge": "123",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..M5uu-0P_qZiaW5Ag_OHB-FD8VGESBqlGLuIQGQwTPl5WKltalUNZDpj_Je2Y3y6Qok50BQ04c9WEWNxjeaawBA"
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..vv9N566P2g2PxDRcRsLjPZYorhrfh9H99QhB9Ve6gEtxhvoYXcrZP2SN1enMf3AQgJR1l66_Pw5OOWeEpwGEDA"
   }
 }
