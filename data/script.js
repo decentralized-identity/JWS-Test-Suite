@@ -54,6 +54,10 @@ const buildLinkToImplementationResultForVector = (
   return `<a href="/implementations/${implementation}/${vector}">${result}</a>`;
 };
 
+const buildLinkToImplementation = (imp, label) => {
+  return `<a href="https://github.com/decentralized-identity/JWS-Test-Suite/tree/main/implementations/${imp.name}">${label}</a>`;
+};
+
 const addTable = (name, data) => {
   const rows = Object.keys(data)
     .map((vectorName) => {
@@ -124,6 +128,10 @@ const addImplementation = (imp) => {
   <section>
 
   <h3>${imp.name}</h3>
+
+  <p>
+  ${buildLinkToImplementation(imp, "🔍 View source.")}
+  </p>
 
   ${addTable("Credentials", vectorTables.vc)}
 
