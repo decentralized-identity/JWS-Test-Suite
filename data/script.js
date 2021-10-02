@@ -1,3 +1,7 @@
+const baseUrl = window.location.origin.includes("localhost")
+  ? window.location.origin
+  : "https://identity.foundation/JWS-Test-Suite";
+
 var loadIndex = () => {
   function loadJSON(path, success, error) {
     var xhr = new XMLHttpRequest();
@@ -34,16 +38,16 @@ const fail = "❌ fail";
 
 const buildLinkToVector = (fileName) => {
   if (fileName.includes("credential")) {
-    return `<a href="/credentials/${fileName}.json">${fileName}</a>`;
+    return `<a href="${baseUrl}/credentials/${fileName}.json">${fileName}</a>`;
   }
 
   if (fileName.includes("presentation")) {
-    return `<a href="/presentations/${fileName}.json">${fileName}</a>`;
+    return `<a href="${baseUrl}/presentations/${fileName}.json">${fileName}</a>`;
   }
 };
 
 const buildLinkToKey = (keyName, keyLabel) => {
-  return `<a href="/keys/${keyName}">${keyLabel}</a>`;
+  return `<a href="${baseUrl}/keys/${keyName}">${keyLabel}</a>`;
 };
 
 const buildLinkToImplementationResultForVector = (
@@ -51,7 +55,7 @@ const buildLinkToImplementationResultForVector = (
   vector,
   result
 ) => {
-  return `<a href="/implementations/${implementation}/${vector}">${result}</a>`;
+  return `<a href="${baseUrl}/implementations/${implementation}/${vector}">${result}</a>`;
 };
 
 const buildLinkToImplementation = (imp, label) => {
