@@ -6,7 +6,8 @@
   "scripts": {
     "build": "docker-compose build",
     "report:clean": "rm -rf ./data/implementations/transmute/*.json ./data/implementations/danubetech/*.json",
-    "report:generate": "node ./generate.js"
+    "report:generate": "node ./generate.js",
+    "report:evaluate": "node ./evaluate.js"
   },
   "repository": {
     "type": "git",

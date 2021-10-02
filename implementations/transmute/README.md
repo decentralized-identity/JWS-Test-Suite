@@ -47,3 +47,19 @@ presentation create \
 --output $PROJECT_DATA/implementations/transmute/presentation.test.json \
 --key $PROJECT_DATA/keys/key-0-ed25519.json
 ```
+
+```
+
+export PROJECT_DATA=../../data;
+node ./bin.js \
+credential create \
+--input $PROJECT_DATA/credentials/credential-1.json \
+--output $PROJECT_DATA/sanity.signed.json \
+--key $PROJECT_DATA/keys/key-0-ed25519.json
+
+export PROJECT_DATA=../../data;
+node ./bin.js \
+credential verify \
+--input $PROJECT_DATA/sanity.signed.json \
+--output $PROJECT_DATA/sanity.signed.verified.json
+```

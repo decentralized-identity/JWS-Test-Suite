@@ -18,6 +18,7 @@ npm i
 npm run build
 npm run report:clean
 npm run report:generate
+npm run report:evaluate
 ```
 
 ### Build an Implementation

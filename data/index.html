@@ -1,1 +1,172 @@
-Standby for implementation report.
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>VC Proof Formats Test Suite</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <!--
+      === NOTA BENE ===
+      For the three scripts below, if your spec resides on dev.w3 you can check them
+      out in the same tree and use relative links so that they'll work offline,
+     -->
+    <script
+      class="remove"
+      src="https://www.w3.org/Tools/respec/respec-w3c"
+    ></script>
+    <script
+      class="remove"
+      src="https://unpkg.com/reqlist/lib/reqlist.js"
+    ></script>
+
+    <script type="text/javascript" class="remove">
+      var respecConfig = {
+        // specification status (e.g., WD, LCWD, NOTE, etc.). If in doubt use ED.
+        specStatus: "CG-DRAFT",
+        // publishDate: "2021-08-26",
+
+        // the specification's short name, as in http://www.w3.org/TR/short-name/
+        shortName: "jws-vc-test-suite",
+        xref: {
+          specs: [
+            "DID-CORE",
+            "VC-DATA-MODEL",
+            // "DID-CBOR-REPRESENTATION",
+            // "DID-RUBRIC",
+            // "did-spec-registries",
+            // "RFC4086",
+            // "RFC4880",
+            // "RFC6838",
+            // "RFC8259",
+            // "RFC8446",
+            // "RFC8174",
+            // "RFC2119",
+          ],
+          profile: "web-platform",
+        },
+
+        // subtitle for the spec
+        subtitle: "VC Data Model with JSON Web Signatures",
+
+        // if you wish the publication date to be other than today, set this
+        //publishDate: "2019-03-26",
+        //crEnd: "2019-04-23",
+        //implementationReportURI: "https://w3c.github.io/",
+
+        // if there is a previously published draft, uncomment this and set its YYYY-MM-DD date
+        // and its maturity status
+        // previousPublishDate: "2021-08-26",
+        // previousMaturity: "FPWD",
+
+        // extend the bibliography entries
+        localBiblio: {},
+        doJsonLd: true,
+
+        github: {
+          repoURL: "https://github.com/decentralized-identity/JWS-Test-Suite",
+          branch: "main",
+        },
+        includePermalinks: false,
+
+        // if there a publicly available Editor's Draft, this is the link
+        edDraftURI: "https://identity.foundation/JWS-Test-Suite/",
+
+        // if this is a LCWD, uncomment and set the end of its review period
+        // lcEnd: "2009-08-05",
+
+        // editors, add as many as you like
+        // only "name" is required
+        editors: [
+          {
+            name: "Orie Steele",
+            url: "https://www.linkedin.com/in/or13b/",
+            company: "Transmute",
+            companyURL: "https://www.transmute.industries/",
+            w3cid: 109171,
+          },
+        ],
+        // authors, add as many as you like.
+        // This is optional, uncomment if you have authors as well as editors.
+        // only "name" is required. Same format as editors.
+        authors: [],
+        // name of the WG
+        group: "credentials",
+
+        // name (with the @w3c.org) of the public mailing to which comments are due
+        wgPublicList: "public-credentials-wg",
+
+        // URI of the patent status for this WG, for Rec-track documents
+        // !!!! IMPORTANT !!!!
+        // This is important for Rec-track documents, do not copy a patent URI from a random
+        // document unless you know what you're doing. If in doubt ask your friendly neighborhood
+        // Team Contact.
+        //wgPatentURI:  "https://www.w3.org/2004/01/pp-impl/98922/status",
+        maxTocLevel: 5,
+        inlineCSS: true,
+        noRecTrack: true,
+      };
+    </script>
+    <style>
+      pre .highlight {
+        font-weight: bold;
+        color: green;
+      }
+
+      pre .comment {
+        font-weight: bold;
+        color: Gray;
+      }
+
+      .color-text {
+        font-weight: bold;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      }
+
+      .simple {
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section id="abstract">
+      <p>
+        This document provides interoperability testing facilities for
+        <a data-cite="VC-DATA-MODEL#proof-formats"
+          >Verifiable Credential Proof Formats</a
+        >
+      </p>
+    </section>
+
+    <section id="sotd">
+      <p>
+        Implementers are advised to consult this guide if they are directly
+        involved with the W3C Credentials Working Group or are actively involved
+        in authoring a Verifiable Credential implementation.
+      </p>
+    </section>
+
+    <section id="conformance"></section>
+
+    <section id="terminology" class="informative">
+      <h2>Terminology</h2>
+
+      <p>
+        See [[VC-DATA-MODEL]] for definitions of commonly-used
+        <a data-cite="VC-DATA-MODEL#terminology">VC terminology</a>.
+      </p>
+
+      <section id="index"></section>
+    </section>
+
+    <section id="implementations">
+      <h2>Implementations</h2>
+      <script src="./script.js"></script>
+      <script>
+        (async () => {
+          await generateImplementations();
+        })();
+      </script>
+
+      <div id="content-from-evaluation-index"></div>
+    </section>
+  </body>
+</html>

@@ -4,7 +4,9 @@
     "https://w3id.org/security/suites/jws-2020/v1"
   ],
   "id": "urn:uuid:789",
-  "type": ["VerifiablePresentation"],
+  "type": [
+    "VerifiablePresentation"
+  ],
   "holder": "did:example:123",
   "verifiableCredential": [
     {
@@ -15,7 +17,9 @@
           "@vocab": "https://example.com/#"
         }
       ],
-      "type": ["VerifiableCredential"],
+      "type": [
+        "VerifiableCredential"
+      ],
       "issuer": "did:example:123",
       "issuanceDate": "2021-01-01T19:23:24Z",
       "credentialSubject": {
@@ -24,7 +28,9 @@
       "evidence": [
         {
           "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192d4231",
-          "type": ["DocumentVerification"],
+          "type": [
+            "DocumentVerification"
+          ],
           "verifier": "https://example.edu/issuers/14",
           "evidenceDocument": "DriversLicense",
           "subjectPresence": "Physical",
@@ -32,7 +38,9 @@
         },
         {
           "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192dxyzab",
-          "type": ["SupportingActivity"],
+          "type": [
+            "SupportingActivity"
+          ],
           "verifier": "https://example.edu/issuers/14",
           "evidenceDocument": "Fluid Dynamics Focus",
           "subjectPresence": "Digital",
@@ -47,5 +55,13 @@
         "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..VA8VQqAerUT6AIVdHc8W8Q2aj12LOQjV_VZ1e134NU9Q20eBsNySPjNdmTWp2HkdquCnbRhBHxIbNeFEIOOhAg"
       }
     }
-  ]
+  ],
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2021-10-02T18:03:07Z",
+    "verificationMethod": "did:example:123#key-3",
+    "proofPurpose": "authentication",
+    "challenge": "123",
+    "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..wgAzbJnSGPtW_u0EvwdL1mqPYl_YZ-1TzGOZIFl4EAzUXAOUa3rXcJe0TO3TrkJiw6IcpZ8tNAksfv_fixg8t1WQ5XVFFeJ9s43Ov19hHD8UxJmuNF18rveuS1RlMVu4"
+  }
 }
