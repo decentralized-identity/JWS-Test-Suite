@@ -3,9 +3,9 @@
   "type" : [ "VerifiablePresentation" ],
   "proof" : {
     "type" : "JsonWebSignature2020",
-    "created" : "2021-10-02T19:27:59Z",
+    "created" : "2021-10-02T19:33:02Z",
     "proofPurpose" : "assertionMethod",
     "verificationMethod" : "did:example:123#key-0",
-    "jws" : "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..RvBEYiloHtjRkyFO0KUhbiQ9jOSgBDxc6kfLCelQYKgJnq3Os7j6Lv1zQ8Kocm9a9zmiIcnLENHH0aghNAugBA"
+    "jws" : "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..4hx4D0e7NLW1tYa4wIHE78yJNSulXeo92i2SEkWacOve9EXsHELUQeFPcr8Npnodqh2TishGxL1BT9XdQO07Dw"
   }
 }
