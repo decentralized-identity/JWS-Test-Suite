@@ -29,8 +29,30 @@ var loadIndex = () => {
 
 const impContainer = "content-from-evaluation-index";
 
-const pass = "✅";
-const fail = "❌";
+const pass = "✅ pass";
+const fail = "❌ fail";
+
+const buildLinkToVector = (fileName) => {
+  if (fileName.includes("credential")) {
+    return `<a href="/credentials/${fileName}.json">${fileName}</a>`;
+  }
+
+  if (fileName.includes("presentation")) {
+    return `<a href="/presentations/${fileName}.json">${fileName}</a>`;
+  }
+};
+
+const buildLinkToKey = (keyName, keyLabel) => {
+  return `<a href="/keys/${keyName}">${keyLabel}</a>`;
+};
+
+const buildLinkToImplementationResultForVector = (
+  implementation,
+  vector,
+  result
+) => {
+  return `<a href="/implementations/${implementation}/${vector}">${result}</a>`;
+};
 
 const addTable = (name, data) => {
   const rows = Object.keys(data)
@@ -40,7 +62,7 @@ const addTable = (name, data) => {
     .map((row) => {
       return `<tr>
     <td>
-     ${row.name}
+    ${buildLinkToVector(row.name)}
     </td>
     <td>
     ${row.ed25519 || ""}
@@ -64,10 +86,10 @@ const addTable = (name, data) => {
   <thead>
   <tr>
     <th>Vector</th>
-    <th>Ed25519</th>
-    <th>Secp256k1</th>
-    <th>Secp256r1</th>
-    <th>Secp384r1</th>
+    <th>${buildLinkToKey("key-0-ed25519.json", "Ed25519")}</th>
+    <th>${buildLinkToKey("key-1-secp256k1.json", "Secp256k1")}</th>
+    <th>${buildLinkToKey("key-2-secp256r1.json", "Secp256r1")}</th>
+    <th>${buildLinkToKey("key-3-secp384r1.json", "Secp384r1")}</th>
   </tr>
   </thead>
   <tbody>
@@ -87,7 +109,9 @@ const addImplementation = (imp) => {
     const name = v.split("--")[0].split(".json")[0];
     const key = v.split("-").pop().split(".json")[0];
     const type = v.includes("credential") ? "vc" : "vp";
-    const result = imp.vectors[v].verification.verified ? pass : fail;
+    let result = imp.vectors[v].verification.verified ? pass : fail;
+
+    result = buildLinkToImplementationResultForVector(imp.name, v, result);
     vectorTables[type] = vectorTables[type] || {};
     vectorTables[type][name] = vectorTables[type][name] || {};
     vectorTables[type][name] = {
