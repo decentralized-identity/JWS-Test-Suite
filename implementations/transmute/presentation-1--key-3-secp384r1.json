@@ -8,13 +8,60 @@
     "VerifiablePresentation"
   ],
   "holder": "did:example:123",
-  "verifiableCredential": [],
+  "verifiableCredential": [
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        {
+          "@vocab": "https://example.com/#"
+        }
+      ],
+      "type": [
+        "VerifiableCredential"
+      ],
+      "issuer": "did:example:123",
+      "issuanceDate": "2021-01-01T19:23:24Z",
+      "credentialSubject": {
+        "id": "did:example:456"
+      },
+      "evidence": [
+        {
+          "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192d4231",
+          "type": [
+            "DocumentVerification"
+          ],
+          "verifier": "https://example.edu/issuers/14",
+          "evidenceDocument": "DriversLicense",
+          "subjectPresence": "Physical",
+          "documentPresence": "Physical"
+        },
+        {
+          "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192dxyzab",
+          "type": [
+            "SupportingActivity"
+          ],
+          "verifier": "https://example.edu/issuers/14",
+          "evidenceDocument": "Fluid Dynamics Focus",
+          "subjectPresence": "Digital",
+          "documentPresence": "Digital"
+        }
+      ],
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2021-10-02T17:58:00Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:example:123#key-0",
+        "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..VA8VQqAerUT6AIVdHc8W8Q2aj12LOQjV_VZ1e134NU9Q20eBsNySPjNdmTWp2HkdquCnbRhBHxIbNeFEIOOhAg"
+      }
+    }
+  ],
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2021-10-02T15:37:16Z",
+    "created": "2021-10-02T18:10:08Z",
     "verificationMethod": "did:example:123#key-3",
     "proofPurpose": "authentication",
     "challenge": "123",
-    "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..7JElEA6g7AS6H9AEoibuZogoa8FCNrXatBYBgehzrRODHD_nzJpbddbdqD6Kx0cPV_EFoKW1FHEU-41Ks2L5DLhaOX184teiqhLPVfD7ZQozylw8TehXJQ81aM7-M0JX"
+    "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..2jB13IJJb08DT2ysRvYiqjkH-2QPAie6uDUee0QFCuBbN0YRFmhh6NH6hd2qXQZcYmQn8kMHo0bsisHFgJXyeQUbkbq3K0X9ZdpDHwd8rJJGrrHnxK9dReX4mNryKhuI"
   }
 }
