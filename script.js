@@ -62,7 +62,7 @@ const buildLinkToImplementation = (imp, label) => {
   return `<a href="https://github.com/decentralized-identity/JWS-Test-Suite/tree/main/implementations/${imp.name}">${label}</a>`;
 };
 
-const addTable = (name, data) => {
+const addTable = (name, data, impName) => {
   const rows = Object.keys(data)
     .map((vectorName) => {
       return { name: vectorName, ...data[vectorName] };
@@ -89,7 +89,7 @@ const addTable = (name, data) => {
 
   return `
   <section>
-  <h4>${name}</h4>
+  <h4 id="${impName}-${name.toLowerCase()}">${name}</h4>
   <table class="simple" style="width: 100%;">
   <thead>
   <tr>
@@ -137,9 +137,9 @@ const addImplementation = (imp) => {
   ${buildLinkToImplementation(imp, "🔍 View source.")}
   </p>
 
-  ${addTable("Credentials", vectorTables.vc)}
+  ${addTable("Credentials", vectorTables.vc, imp.name)}
 
-  ${addTable("Presentations", vectorTables.vp)}
+  ${addTable("Presentations", vectorTables.vp, imp.name)}
 
   </section>
   `;
