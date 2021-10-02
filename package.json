@@ -4,6 +4,7 @@
   "description": "### Build an Implementation",
   "main": "generate.js",
   "scripts": {
+    "postinstall": "cd ./implementations/transmute && npm i",
     "build": "docker-compose build",
     "report:clean": "rm -rf ./data/implementations/transmute/*.json ./data/implementations/danubetech/*.json",
     "report:generate": "node ./generate.js",
