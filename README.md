@@ -2,6 +2,8 @@
 
 [![CI](https://github.com/decentralized-identity/JWS-Test-Suite/actions/workflows/ci.yml/badge.svg)](https://github.com/decentralized-identity/JWS-Test-Suite/actions/workflows/ci.yml)
 
+## [Implementation Report](https://identity.foundation/JWS-Test-Suite/#implementations)
+
 See [dif-grant-1-jws-test-suite](https://blog.identity.foundation/dif-grant-1-jws-test-suite/).
 
 The purpose of this test suite is to enable interoperability testing across
@@ -18,6 +20,7 @@ npm i
 npm run build
 npm run report:clean
 npm run report:generate
+npm run report:evaluate
 ```
 
 ### Build an Implementation
@@ -56,4 +59,32 @@ presentation create \
 --input $INPUT \
 --output $OUTPUT \
 --key $KEY
+```
+
+### Verify a Credential with an Implementation
+
+```bash
+
+IMPLEMENTATION=transmute
+INPUT=/data/implementations/$IMPLEMENTATION/credential-0--key-0-ed25519.json
+OUTPUT=/data/implementations/$IMPLEMENTATION/credential-0--key-0-ed25519.test.verification.json
+
+docker-compose run $IMPLEMENTATION \
+credential verify \
+--input $INPUT \
+--output $OUTPUT
+```
+
+### Verify a Presentation with an Implementation
+
+```bash
+
+IMPLEMENTATION=transmute
+INPUT=/data/implementations/$IMPLEMENTATION/presentation-0--key-0-ed25519.json
+OUTPUT=/data/implementations/$IMPLEMENTATION/presentation-0--key-0-ed25519.test.verification.json
+
+docker-compose run $IMPLEMENTATION \
+presentation verify \
+--input $INPUT \
+--output $OUTPUT
 ```

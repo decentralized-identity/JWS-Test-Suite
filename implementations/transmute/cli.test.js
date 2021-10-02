@@ -29,3 +29,29 @@ it("can create presentation", async () => {
     format,
   });
 });
+
+it("can verify credential", async () => {
+  const format = "vc";
+  await cli.verifyVerifiableCredential({
+    input: getAbsolutePath(
+      "../../data/implementations/transmute/credential.test.json"
+    ),
+    output: getAbsolutePath(
+      "../../data/implementations/transmute/credential.test.verification.json"
+    ),
+    format,
+  });
+});
+
+it("can verify presentation", async () => {
+  const format = "vp";
+  await cli.verifyVerifiablePresentation({
+    input: getAbsolutePath(
+      "../../data/implementations/transmute/presentation.test.json"
+    ),
+    output: getAbsolutePath(
+      "../../data/implementations/transmute/presentation.test.verification.json"
+    ),
+    format,
+  });
+});

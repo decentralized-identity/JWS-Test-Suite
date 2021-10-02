@@ -17,11 +17,14 @@ jobs:
       - name: Build Implementations
         run: npm run build
 
-      - name: Clean Implementation Report
+      - name: Clean Report
         run: npm run report:clean
 
-      - name: Generate Implementation Report
+      - name: Generate Implementations
         run: npm run report:generate
+
+      - name: Evaluate Implementations
+        run: npm run report:evaluate
 
       - name: Deploy Implementation Report
         uses: peaceiris/actions-gh-pages@v3
