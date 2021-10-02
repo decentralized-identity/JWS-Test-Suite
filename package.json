@@ -5,7 +5,7 @@
   "main": "generate.js",
   "scripts": {
     "build": "docker-compose build",
-    "report:clean": "rm -rf ./data/implementations/transmute/*.json",
+    "report:clean": "rm -rf ./data/implementations/transmute/*.json ./data/implementations/danubetech/*.json",
     "report:generate": "node ./generate.js"
   },
   "repository": {

@@ -7,3 +7,10 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./data:/data
+  danubetech:
+    image: danubetech/ldsignatures-test-jws
+    build:
+      context: ./implementations/danubetech
+      dockerfile: Dockerfile
+    volumes:
+      - ./data:/data
