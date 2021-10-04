@@ -70,7 +70,7 @@ public class JWSTestSuite {
         return keyJwk;
     }
 
-    static void create(String input, String key, String outputFilename) throws JsonLDException, GeneralSecurityException, IOException {
+    static void create(String input, String key, String outputFilename, String proofPurpose) throws JsonLDException, GeneralSecurityException, IOException {
         JsonLDObject jsonLDObject = JsonLDObject.fromJson(input);
         Map<String, Object> keyMap = readKeyMap(key);
         URI verificationMethod = readVerificationMethod(keyMap);
@@ -82,19 +82,20 @@ public class JWSTestSuite {
         JsonWebSignature2020LdSigner jsonWebSignature2020LdSigner = new JsonWebSignature2020LdSigner();
         jsonWebSignature2020LdSigner.setVerificationMethod(verificationMethod);
         jsonWebSignature2020LdSigner.setCreated(new Date());
-        jsonWebSignature2020LdSigner.setProofPurpose(LDSecurityKeywords.JSONLD_TERM_ASSERTIONMETHOD);
+        jsonWebSignature2020LdSigner.setProofPurpose(proofPurpose);
         jsonWebSignature2020LdSigner.setSigner(byteSigner);
+        jsonWebSignature2020LdSigner.setChallenge("123");
         jsonWebSignature2020LdSigner.sign(jsonLDObject, true, false);
         String output = jsonLDObject.toJson(true);
         writeFile(outputFilename, output);
     }
 
     static void credentialCreate(String input, String key, String outputFilename) throws JsonLDException, GeneralSecurityException, IOException {
-        create(input, key, outputFilename);
+        create(input, key, outputFilename, LDSecurityKeywords.JSONLD_TERM_ASSERTIONMETHOD);
     }
 
     static void presentationCreate(String input, String key, String outputFilename) throws JsonLDException, GeneralSecurityException, IOException {
-        create(input, key, outputFilename);
+        create(input, key, outputFilename, LDSecurityKeywords.JSONLD_TERM_AUTHENTICATION);
     }
 
     public static void main(String[] args) throws Throwable {
