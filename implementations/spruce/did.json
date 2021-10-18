@@ -1,0 +1,58 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:example:123",
+  "assertionMethod": [
+    {
+      "id": "did:example:123#key-0",
+      "type": "JsonWebKey2020",
+      "controller": "did:example:123",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "JYCAGl6C7gcDeKbNqtXBfpGzH0f5elifj7L6zYNj_Is"
+      }
+    },
+    {
+      "id": "did:example:123#key-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:example:123",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "BuzCc8bUShI3GfVz-WLISZDGq7wnVB4h_nvNQcWn7Jw",
+        "y": "dLrbspB9PZvZF0dr42nCmF38192dQKglvB52IZBM-vs"
+      }
+    },
+    {
+      "id": "did:example:123#key-2",
+      "type": "JsonWebKey2020",
+      "controller": "did:example:123",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "P-256",
+        "x": "40TexHWb6XTyuShaqhiazvmfxyK5zibbtOBXsQFKJg8",
+        "y": "SGIGDSRHOOYJntO1lIapw_vR1FP7SPBlmA_2aM9HoFU"
+      }
+    },
+    {
+      "id": "did:example:123#key-3",
+      "type": "JsonWebKey2020",
+      "controller": "did:example:123",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "P-384",
+        "x": "BiU_mGfa3uWMKrC4Q6EFvM5D5Qiz2orm7ABlIaC1iJWOuapQC9U_fbqrKwRFRepf",
+        "y": "_23qoYv94V-PSWzqQMnUqq1nu_MdE4fEIaAhCCYplAwlp4c3LKZDtkgQaPdF4kIT"
+      }
+    }
+  ],
+  "authentication": [
+    "did:example:123#key-0",
+    "did:example:123#key-1",
+    "did:example:123#key-2",
+    "did:example:123#key-3"
+  ]
+}
