@@ -14,3 +14,10 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./data:/data
+  spruce:
+    image: spruce/jws-test-suite-cli
+    build:
+      context: ./implementations/spruce
+      dockerfile: Dockerfile
+    volumes:
+      - ./data:/data
