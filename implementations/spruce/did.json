@@ -47,12 +47,23 @@
         "x": "BiU_mGfa3uWMKrC4Q6EFvM5D5Qiz2orm7ABlIaC1iJWOuapQC9U_fbqrKwRFRepf",
         "y": "_23qoYv94V-PSWzqQMnUqq1nu_MdE4fEIaAhCCYplAwlp4c3LKZDtkgQaPdF4kIT"
       }
+    },
+    {
+      "id": "did:example:123#key-4",
+      "type": "JsonWebKey2020",
+      "controller": "did:example:123",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "oF_3bdq-pORqmzx2zROkrhVzAPQQ9JmDh1tjKvKgFh-1M5gywClzn0LoWkIiqqIiLOWXkfGRsqvi4VLbHQ_9WZza54EgIo_cyrZnXaIJCEFGQfwDK5-HqDqrgPCw3DFths04LY59LJ2aNxwgbu5otkQ2Vp8bU-U3_Hr5qz_U9xZjOev3OyD7kfBELAFXYHqnSfSJBJ-YxFjo-Plicjfha14U6C-hMeJlDu-Nwj-hCEHdDGK01_go9vIzA745xwAFfeyUZVhTpu6WLSn4RN9vRroLRjO5gvmHUZUquGh-sR4KNLebOeWcyxS5QEAbsYR82YsEWucLTdpFSdu1RVu8nw",
+        "e": "AQAB"
+      }
     }
   ],
   "authentication": [
     "did:example:123#key-0",
     "did:example:123#key-1",
     "did:example:123#key-2",
-    "did:example:123#key-3"
+    "did:example:123#key-3",
+    "did:example:123#key-4"
   ]
 }

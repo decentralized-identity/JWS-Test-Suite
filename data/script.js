@@ -98,6 +98,7 @@ const addTable = (name, data, impName) => {
     <th>${buildLinkToKey("key-1-secp256k1.json", "Secp256k1")}</th>
     <th>${buildLinkToKey("key-2-secp256r1.json", "Secp256r1")}</th>
     <th>${buildLinkToKey("key-3-secp384r1.json", "Secp384r1")}</th>
+    <th>${buildLinkToKey("key-4-rsa2048.json", "RSA (2048-bit)")}</th>
   </tr>
   </thead>
   <tbody>

@@ -2,8 +2,9 @@ const key0 = require("../../../data/keys/key-0-ed25519.json");
 const key1 = require("../../../data/keys/key-1-secp256k1.json");
 const key2 = require("../../../data/keys/key-2-secp256r1.json");
 const key3 = require("../../../data/keys/key-3-secp384r1.json");
+const key4 = require("../../../data/keys/key-4-rsa2048.json");
 
-const keys = [key0, key1, key2, key3];
+const keys = [key0, key1, key2, key3, key4];
 
 const doc = {
   "@context": [
