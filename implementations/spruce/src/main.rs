@@ -75,11 +75,11 @@ pub enum SSIJWS {
     Presentation(VCSubcommand),
 }
 
-pub struct DIDExampleStatic;
+pub struct DIDExample;
 
 #[cfg_attr(target_arch = "wasm32", async_trait(?Send))]
 #[cfg_attr(not(target_arch = "wasm32"), async_trait)]
-impl DIDMethod for DIDExampleStatic {
+impl DIDMethod for DIDExample {
     fn name(&self) -> &'static str {
         return "example";
     }
@@ -149,7 +149,7 @@ fn generate_did_doc(did: &str) -> Result<Document, GenerateDIDDocumentError> {
 
 #[cfg_attr(target_arch = "wasm32", async_trait(?Send))]
 #[cfg_attr(not(target_arch = "wasm32"), async_trait)]
-impl DIDResolver for DIDExampleStatic {
+impl DIDResolver for DIDExample {
     async fn resolve(
         &self,
         did: &str,
@@ -213,7 +213,7 @@ async fn main() -> Result<(), std::io::Error> {
                 proof_purpose: Some(ProofPurpose::AssertionMethod),
                 ..Default::default()
             };
-            let resolver = DIDExampleStatic;
+            let resolver = DIDExample;
             let proof = JsonWebSignature2020
                 .sign(&credential, &options, &resolver, &private_key_jwk, None)
                 .await
@@ -239,7 +239,7 @@ async fn main() -> Result<(), std::io::Error> {
             let input_file = File::open(input)?;
             let input_reader = BufReader::new(input_file);
             let vc: Credential = serde_json::from_reader(input_reader)?;
-            let resolver = DIDExampleStatic;
+            let resolver = DIDExample;
             let result = vc.verify(None, &resolver).await;
             let output_file = OpenOptions::new()
                 .write(true)
@@ -273,7 +273,7 @@ async fn main() -> Result<(), std::io::Error> {
                 challenge: Some("123".to_string()),
                 ..Default::default()
             };
-            let resolver = DIDExampleStatic;
+            let resolver = DIDExample;
             let proof = JsonWebSignature2020
                 .sign(&presentation, &options, &resolver, &private_key_jwk, None)
                 .await
@@ -299,7 +299,7 @@ async fn main() -> Result<(), std::io::Error> {
             let input_file = File::open(input)?;
             let input_reader = BufReader::new(input_file);
             let vp: Presentation = serde_json::from_reader(input_reader)?;
-            let resolver = DIDExampleStatic;
+            let resolver = DIDExample;
             let result = vp.verify(None, &resolver).await;
             let output_file = OpenOptions::new()
                 .write(true)
