@@ -8,8 +8,13 @@ use std::io::{BufReader, BufWriter};
 use std::path::PathBuf;
 use std::str::FromStr;
 use structopt::StructOpt;
+use thiserror::Error;
 
-use ssi::did::{DIDMethod, Document};
+use ssi::did::{
+    Context, Contexts, DIDMethod, Document, VerificationMethod, VerificationMethodMap,
+    DEFAULT_CONTEXT, DIDURL,
+};
+
 use ssi::did_resolve::{
     DIDResolver, DocumentMetadata, ResolutionInputMetadata, ResolutionMetadata, ERROR_NOT_FOUND,
 };
@@ -84,6 +89,64 @@ impl DIDMethod for DIDExampleStatic {
     }
 }
 
+#[derive(Error, Debug)]
+pub enum ReadKeyError {
+    #[error("IO error: {0}")]
+    IO(#[from] std::io::Error),
+    #[error("Error parsing key: {0}")]
+    KeyParse(serde_json::Error),
+}
+
+fn read_key(filename: &str) -> Result<Key, ReadKeyError> {
+    let input_file = File::open(filename)?;
+    let input_reader = BufReader::new(input_file);
+    let key: Key = serde_json::from_reader(input_reader).map_err(ReadKeyError::KeyParse)?;
+    Ok(key)
+}
+
+#[derive(Error, Debug)]
+pub enum GenerateDIDDocumentError {
+    #[error("Reading key: {0}")]
+    ReadKey(#[from] ReadKeyError),
+    #[error("Parsing DID URL: {0}")]
+    DIDURLParse(ssi::error::Error),
+}
+
+fn generate_did_doc(did: &str) -> Result<Document, GenerateDIDDocumentError> {
+    let key0 = read_key("data/keys/key-0-ed25519.json")?;
+    let key1 = read_key("data/keys/key-1-secp256k1.json")?;
+    let key2 = read_key("data/keys/key-2-secp256r1.json")?;
+    let key3 = read_key("data/keys/key-3-secp384r1.json")?;
+    let key4 = read_key("data/keys/key-4-rsa2048.json")?;
+    let keys = [key0, key1, key2, key3, key4];
+    let mut vm_urls = Vec::new();
+    let mut vms = Vec::new();
+    for key in keys {
+        let vm_url = DIDURL::from_str(&key.id).map_err(GenerateDIDDocumentError::DIDURLParse)?;
+        let vm = VerificationMethod::Map(VerificationMethodMap {
+            id: key.id.to_string(),
+            type_: key.type_.to_string(),
+            controller: did.to_string(),
+            public_key_jwk: Some(key.public_key_jwk.clone()),
+            ..Default::default()
+        });
+        vms.push(vm);
+        vm_urls.push(VerificationMethod::DIDURL(vm_url));
+    }
+    let doc = Document {
+        context: Contexts::Many(vec![
+            Context::URI(DEFAULT_CONTEXT.to_string()),
+            Context::URI(ssi::jsonld::W3ID_JWS2020_V1_CONTEXT.to_string()),
+        ]),
+        id: did.to_string(),
+        verification_method: Some(vms),
+        assertion_method: Some(vm_urls.clone()),
+        authentication: Some(vm_urls),
+        ..Default::default()
+    };
+    Ok(doc)
+}
+
 #[cfg_attr(target_arch = "wasm32", async_trait(?Send))]
 #[cfg_attr(not(target_arch = "wasm32"), async_trait)]
 impl DIDResolver for DIDExampleStatic {
@@ -98,12 +161,12 @@ impl DIDResolver for DIDExampleStatic {
     ) {
         match did {
             "did:example:123" => {
-                let doc: Document = match serde_json::from_str(include_str!("../did.json")) {
+                let doc: Document = match generate_did_doc(did) {
                     Ok(doc) => doc,
                     Err(e) => {
                         return (
                             ResolutionMetadata::from_error(&format!(
-                                "Unable to parse DID document: {:?}",
+                                "Unable to generate DID document: {}",
                                 e
                             )),
                             None,
