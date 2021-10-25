@@ -84,6 +84,9 @@ const addTable = (name, data, impName) => {
     <td>
     ${row.secp384r1 || ""}
     </td>
+    <td>
+    ${row.rsa2048 || ""}
+    </td>
   </tr>`;
     });
 
