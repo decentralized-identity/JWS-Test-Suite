@@ -9,18 +9,6 @@
     "VerifiablePresentation",
     "PresentationSubmission"
   ],
-  "holder": "did:example:123",
-  "presentation_submission": {
-    "id": "a30e3b91-fb77-4d22-95fa-871689c322e2",
-    "definition_id": "32f54163-7166-48f1-93d8-ff217bdb0653",
-    "descriptor_map": [
-      {
-        "id": "example_input_1",
-        "format": "ldp_vc",
-        "path": "$.verifiableCredential[0]"
-      }
-    ]
-  },
   "verifiableCredential": [
     {
       "@context": [
@@ -30,17 +18,29 @@
       "type": [
         "VerifiableCredential"
       ],
+      "credentialSubject": {},
       "issuer": "did:example:123",
-      "issuanceDate": "2021-01-01T19:23:24Z",
-      "credentialSubject": {}
+      "issuanceDate": "2021-01-01T19:23:24Z"
     }
   ],
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2021-10-25T16:20:02Z",
-    "verificationMethod": "did:example:123#key-2",
     "proofPurpose": "authentication",
     "challenge": "123",
-    "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..q1-16ORkSO4QDdibUEryceicOkdVm0gUxJyV544cxgv0mpAQITlsHxP8AmNwvOgzqiu0HcPmBAjNXw5mmu_OCQ"
+    "verificationMethod": "did:example:123#key-1",
+    "created": "2021-10-25T16:18:53.591Z",
+    "jws": "eyJhbGciOiJFUzI1NksiLCJjcml0IjpbImI2NCJdLCJiNjQiOmZhbHNlfQ..1wsdYqvKW9-4f3QOW2JLraD0emnHxKfTrYLmavvbFpclXq94ITEheCOQWPXzWuuWfZcliQHJWKMkS4RReQ7QIA"
+  },
+  "holder": "did:example:123",
+  "presentation_submission": {
+    "definition_id": "32f54163-7166-48f1-93d8-ff217bdb0653",
+    "descriptor_map": [
+      {
+        "format": "ldp_vc",
+        "id": "example_input_1",
+        "path": "$.verifiableCredential[0]"
+      }
+    ],
+    "id": "a30e3b91-fb77-4d22-95fa-871689c322e2"
   }
 }

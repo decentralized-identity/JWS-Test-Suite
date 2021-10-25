@@ -6,13 +6,12 @@
   "type": [
     "VerifiablePresentation"
   ],
-  "holder": "did:example:123",
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2021-10-25T16:19:41Z",
-    "verificationMethod": "did:example:123#key-1",
     "proofPurpose": "authentication",
     "challenge": "123",
-    "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..0C6MFnn30sQO4R5ImhliY9jBtJXrcHfWvc1hq-6ghNRBdhIcjOkzYyrrFbNakj5OOnBFmIIl4rxHsEg1qkgazQ"
+    "verificationMethod": "did:example:123#key-1",
+    "created": "2021-10-25T16:18:50.051Z",
+    "jws": "eyJhbGciOiJFUzI1NksiLCJjcml0IjpbImI2NCJdLCJiNjQiOmZhbHNlfQ..yY3RlGphu7lNcVGAWuCaMPfTjUY9KdSbyWSoMOHVM2VUz6CQbaRUL51yWuuGWjZIOft71Pqs2KhyWVRi6w5dog"
   }
 }
