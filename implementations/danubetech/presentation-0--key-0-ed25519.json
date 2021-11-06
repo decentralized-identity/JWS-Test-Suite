@@ -3,10 +3,10 @@
   "type" : [ "VerifiablePresentation" ],
   "proof" : {
     "type" : "JsonWebSignature2020",
-    "created" : "2021-10-25T16:17:34Z",
+    "created" : "2021-11-06T15:58:43Z",
     "challenge" : "123",
     "proofPurpose" : "authentication",
     "verificationMethod" : "did:example:123#key-0",
-    "jws" : "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..RrSboorF4mMLGenmwVnMhDcqZSmD9c4Oh6n2rJ-ItSHv5GR3kGA6Jk5_Ro57Dx0I0HB44IctC1exRAnm_deZAg"
+    "jws" : "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..p6E_zDB18MIWKncyWSeFNZJWHCWRfgm-ouPLEdN1n1utXgpuytGMq-5ybvfbi4sm5YaGvld7R0FrW0kCFGf6AQ"
   }
 }

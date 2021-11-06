@@ -37,20 +37,20 @@
           "type": [
             "DocumentVerification"
           ],
-          "documentPresence": "Physical",
-          "verifier": "https://example.edu/issuers/14",
           "evidenceDocument": "DriversLicense",
-          "subjectPresence": "Physical"
+          "subjectPresence": "Physical",
+          "documentPresence": "Physical",
+          "verifier": "https://example.edu/issuers/14"
         },
         {
           "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192dxyzab",
           "type": [
             "SupportingActivity"
           ],
-          "subjectPresence": "Digital",
-          "verifier": "https://example.edu/issuers/14",
+          "documentPresence": "Digital",
           "evidenceDocument": "Fluid Dynamics Focus",
-          "documentPresence": "Digital"
+          "verifier": "https://example.edu/issuers/14",
+          "subjectPresence": "Digital"
         }
       ]
     }
@@ -59,9 +59,9 @@
     "type": "JsonWebSignature2020",
     "proofPurpose": "authentication",
     "challenge": "123",
-    "verificationMethod": "did:example:123#key-0",
-    "created": "2021-11-06T15:59:45.671Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..2jtSCvygz3xd6fcnvoMsFg3D8YF7LMqgZv7TltfU0tsWzVUSzt6oJ58gNPsJAcPSwZV5LEzqQZLHxZWeyrBsAw"
+    "verificationMethod": "did:example:123#key-4",
+    "created": "2021-11-06T16:00:20.424Z",
+    "jws": "eyJhbGciOiJQUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..fVcnXhwpo9FOk36JBCf-zjtpZOCgx6x8F9kwQveU-FJyfVmpjBzAF5ZtIZMcBi0DlG8B20cX_pytVEnwIX162yIXQG8YYUeuX3kWOrZbPWWV62lWvKzNVdYLaWWjfeToYiWFlU1vtdR6HLFCoZ2Po6Nzj6wwFE3d2N1LPehecOuRz_HT-WiAUkqzaFB8_rxC-ka-2VUwWULLzbyjY2ngwDuzgXA4nsMeKr7xF56EGMAY0ISMmOvcVPga2EaUsLvrw6cOWTs5Yr7CZfwPrU0gI7qDLAF0fP9i7DHwIRmXRl8xO_wh5yOeJibAOEs24UOKOwcSEYIvPCGrX-QUL-qhdQ"
   },
   "holder": "did:example:123"
 }
