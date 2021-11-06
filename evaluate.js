@@ -57,10 +57,31 @@ const extendIndexWithEvaluations = async (index) => {
   for (const implementation of implementations) {
     const vectors = Object.keys(index[implementation]);
     for (const vector of vectors) {
-      const vectorContent = index[implementation][vector];
-      const format = vector.includes("credential") ? "vc" : "vp";
+      let format;
+      let vectorContent;
+      if (vector.includes("credential")) {
+        format = vector.includes("vc-jwt") ? "vc-jwt" : "vc";
+        if (!format.includes("jwt")) {
+          vectorContent = index[implementation][vector];
+        } else {
+          vectorContent = index[implementation][vector].jwt;
+        }
+      } else {
+        format = vector.includes("vp-jwt") ? "vp-jwt" : "vp";
+        if (!format.includes("jwt")) {
+          vectorContent = index[implementation][vector];
+        } else {
+          vectorContent = index[implementation][vector].jwt;
+        }
+      }
+
       const verification = await verify(vectorContent, format);
-      index[implementation][vector] = { vector: vectorContent, verification };
+
+      index[implementation][vector] = {
+        vector: format,
+        vectorContent,
+        verification,
+      };
     }
   }
   return index;

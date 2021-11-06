@@ -27,7 +27,14 @@
       "type": ["VerifiableCredential"],
       "issuer": "did:example:123",
       "issuanceDate": "2021-01-01T19:23:24Z",
-      "credentialSubject": {}
+      "credentialSubject": {},
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2021-11-06T16:49:50Z",
+        "verificationMethod": "did:example:123#key-0",
+        "proofPurpose": "assertionMethod",
+        "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..-OM7P_1AXTqC2p8b5bejObwP7rc-pIFH5vbBJCUzLXAqSXtT_mPW0wJIEgyEP4AII_BygxefoA__eztwJu4fDw"
+      }
     }
   ]
 }

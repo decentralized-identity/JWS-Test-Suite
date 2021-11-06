@@ -37,7 +37,11 @@ const createVerifiableCredential = async ({ input, output, key, format }) => {
     documentLoader,
     format: [format],
   });
-  fs.writeFileSync(output, JSON.stringify(verifiableCredential, null, 2));
+  let outputJson = verifiableCredential;
+  if (format.includes("jwt")) {
+    outputJson = { jwt: verifiableCredential };
+  }
+  fs.writeFileSync(output, JSON.stringify(outputJson, null, 2));
 };
 
 const createVerifiablePresentation = async ({ input, output, key, format }) => {
@@ -65,13 +69,17 @@ const createVerifiablePresentation = async ({ input, output, key, format }) => {
     documentLoader,
     format: [format],
   });
-  fs.writeFileSync(output, JSON.stringify(verifiablePresentation, null, 2));
+  let outputJson = verifiablePresentation;
+  if (format.includes("jwt")) {
+    outputJson = { jwt: verifiablePresentation };
+  }
+  fs.writeFileSync(output, JSON.stringify(outputJson, null, 2));
 };
 
 const verify = async (data, format) => {
   let result = { verified: false };
   try {
-    if (format === "vc") {
+    if (format === "vc" || format === "vc-jwt") {
       result = await verifiable.credential.verify({
         credential: data,
         suite: new JsonWebSignature(),
@@ -79,13 +87,23 @@ const verify = async (data, format) => {
         format: [format],
       });
     }
-    if (format === "vp") {
+    if (format === "vp" || format === "vp-jwt") {
+      let domain, challenge;
+      if (format === "vp") {
+        ({ domain, challenge } = data.proof);
+      }
+      if (format === "vp-jwt") {
+        const [_1, _2, _3] = data.split(".");
+        const payload = JSON.parse(Buffer.from(_2, "base64").toString());
+        domain = payload.aud;
+        challenge = payload.nonce;
+      }
       result = await verifiable.presentation.verify({
         presentation: data,
         suite: new JsonWebSignature(),
         // normally you would want to make sure you trusted these...
-        domain: data.proof.domain,
-        challenge: data.proof.challenge,
+        domain: domain,
+        challenge: challenge,
         documentLoader,
         format: [format],
       });
@@ -94,13 +112,8 @@ const verify = async (data, format) => {
     // hide errors.
     //
     // console.error(e);
+    // console.log(format, e);
   }
-
-  // console.log(result);
-
-  // if (!result.verified) {
-  //   console.error(JSON.stringify({ data, result }, null, 2));
-  // }
 
   return result;
 };

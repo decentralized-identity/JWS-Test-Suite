@@ -19,53 +19,79 @@ const keys = fs.readdirSync(keysPath);
 const credentials = fs.readdirSync(credentialsPath);
 const presentations = fs.readdirSync(presentationsPath);
 
-implementations.forEach((imp) => {
-  keys.forEach((k) => {
-    credentials.forEach((c) => {
-      const credentialName = c.split(".json")[0];
-      const keyName = k.split(".json")[0];
+const credentialFormats = ["vc", "vc-jwt"];
+const presentationFormats = ["vp", "vp-jwt"];
 
-      const command = `
+const focusedImplementations = implementations.filter((imp) => {
+  // test one...
+  // return imp === "transmute";
+  // test all...
+  return true;
+});
+
+const generateCredentials = (imp, k, f) => {
+  credentials.forEach((c) => {
+    const credentialName = c.split(".json")[0];
+    const keyName = k.split(".json")[0];
+
+    const command = `
 IMPLEMENTATION=${imp}
 INPUT=/data/credentials/${c}
 KEY=/data/keys/${k}
-OUTPUT=/data/implementations/$IMPLEMENTATION/${credentialName}--${keyName}.json
+FORMAT=${f}
+OUTPUT=/data/implementations/$IMPLEMENTATION/${credentialName}--${keyName}.${f}.json
 
 docker-compose run -d $IMPLEMENTATION \
 credential create \
 --input $INPUT \
 --output $OUTPUT \
---key $KEY
+--key $KEY \
+--format $FORMAT
 `;
 
-      console.log(`${command}`);
-      const { code, stdout } = shell.exec(command, { silent: true });
-      if (code !== 0) {
-        console.warn(stdout);
-      }
-    });
+    console.log(`${command}`);
+    const { code, stdout } = shell.exec(command, { silent: true });
+    if (code !== 0) {
+      console.warn(stdout);
+    }
+  });
+};
 
-    presentations.forEach((p) => {
-      const presentationName = p.split(".json")[0];
-      const keyName = k.split(".json")[0];
+const generatePresentations = (imp, k, f) => {
+  presentations.forEach((p) => {
+    const presentationName = p.split(".json")[0];
+    const keyName = k.split(".json")[0];
 
-      const command = `
+    const command = `
 IMPLEMENTATION=${imp}
 INPUT=/data/presentations/${p}
 KEY=/data/keys/${k}
-OUTPUT=/data/implementations/$IMPLEMENTATION/${presentationName}--${keyName}.json
+FORMAT=${f}
+OUTPUT=/data/implementations/$IMPLEMENTATION/${presentationName}--${keyName}.${f}.json
 
 docker-compose run -d $IMPLEMENTATION \
 presentation create \
 --input $INPUT \
 --output $OUTPUT \
---key $KEY
+--key $KEY \
+--format $FORMAT
 `;
-      console.log(`${command}`);
-      const { code, stdout } = shell.exec(command, { silent: true });
-      if (code !== 0) {
-        console.warn(stdout);
-      }
+    console.log(`${command}`);
+    const { code, stdout } = shell.exec(command, { silent: true });
+    if (code !== 0) {
+      console.warn(stdout);
+    }
+  });
+};
+
+focusedImplementations.forEach((imp) => {
+  keys.forEach((key) => {
+    credentialFormats.forEach((format) => {
+      generateCredentials(imp, key, format);
+    });
+
+    presentationFormats.forEach((format) => {
+      generatePresentations(imp, key, format);
     });
   });
 });
