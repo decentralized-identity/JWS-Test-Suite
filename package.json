@@ -6,7 +6,7 @@
   "scripts": {
     "postinstall": "cd ./implementations/transmute && npm i",
     "build": "docker-compose build",
-    "report:clean": "rm -rf ./data/implementations/transmute/*.json ./data/implementations/danubetech/*.json",
+    "report:clean": "rm -rf ./data/implementations/*/*.json",
     "report:generate": "node ./generate.js",
     "report:evaluate": "node ./evaluate.js"
   },
