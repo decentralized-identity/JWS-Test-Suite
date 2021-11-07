@@ -63,9 +63,6 @@ const buildLinkToImplementation = (imp, label) => {
 };
 
 const addTable = (name, data, impName) => {
-  if (!data) {
-    return "";
-  }
   const rows = Object.keys(data)
     .map((vectorName) => {
       return { name: vectorName, ...data[vectorName] };
@@ -95,7 +92,7 @@ const addTable = (name, data, impName) => {
 
   return `
   <section>
-  <h4 id="${impName}-${name.replace(" ", "-").toLowerCase()}">${name}</h4>
+  <h4 id="${impName}-${name.toLowerCase()}">${name}</h4>
   <table class="simple" style="width: 100%;">
   <thead>
   <tr>
@@ -122,57 +119,38 @@ const addImplementation = (imp) => {
   const vectorTables = {};
   vectors.map((v) => {
     const name = v.split("--")[0].split(".json")[0];
-    const key = v.split(".")[0].split("-").pop();
-    let type, format;
-
-    if (v.includes("credential")) {
-      type = "vc";
-      format = v.includes("jwt") ? "vc-jwt" : "vc";
-    }
-
-    if (!v.includes("credential")) {
-      type = "vp";
-      format = v.includes("jwt") ? "vp-jwt" : "vp";
-    }
-
+    const key = v.split("-").pop().split(".json")[0];
+    const type = v.includes("credential") ? "vc" : "vp";
     let result = imp.vectors[v].verification.verified ? pass : fail;
 
     result = buildLinkToImplementationResultForVector(imp.name, v, result);
-    vectorTables[format] = vectorTables[format] || {};
-    vectorTables[format][name] = vectorTables[format][name] || {};
-    vectorTables[format][name] = {
-      ...vectorTables[format][name],
+    vectorTables[type] = vectorTables[type] || {};
+    vectorTables[type][name] = vectorTables[type][name] || {};
+    vectorTables[type][name] = {
+      ...vectorTables[type][name],
       [key]: result,
     };
   });
 
-  if (Object.keys(vectorTables).length) {
-    console.log(vectorTables);
-    const section = `
-    <section>
-  
-    <h3>${imp.name}</h3>
-  
-    <p>
-    ${buildLinkToImplementation(imp, "🔍 View source.")}
-    </p>
-  
-    ${addTable("Credentials", vectorTables.vc, imp.name)}
+  const section = `
+  <section>
 
-    ${addTable("Credentials JWT", vectorTables["vc-jwt"], imp.name)}
-  
+  <h3>${imp.name}</h3>
 
-    ${addTable("Presentations", vectorTables.vp, imp.name)}
+  <p>
+  ${buildLinkToImplementation(imp, "🔍 View source.")}
+  </p>
 
-    ${addTable("Presentations JWT", vectorTables["vp-jwt"], imp.name)}
-  
-    </section>
-    `;
+  ${addTable("Credentials", vectorTables.vc, imp.name)}
 
-    document
-      .getElementById(impContainer)
-      .insertAdjacentHTML("beforeend", section);
-  }
+  ${addTable("Presentations", vectorTables.vp, imp.name)}
+
+  </section>
+  `;
+
+  document
+    .getElementById(impContainer)
+    .insertAdjacentHTML("beforeend", section);
 };
 
 var generateImplementations = async () => {
