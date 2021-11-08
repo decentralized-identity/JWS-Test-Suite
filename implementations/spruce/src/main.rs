@@ -1,8 +1,9 @@
 use async_trait::async_trait;
-use serde::Deserialize;
+use serde::{Deserialize, Serialize};
 use ssi::jwk::JWK;
 use ssi::ldp::{JsonWebSignature2020, ProofSuite};
 use ssi::vc::{Credential, LinkedDataProofOptions, Presentation, ProofPurpose};
+use std::fmt;
 use std::fs::{File, OpenOptions};
 use std::io::{BufReader, BufWriter};
 use std::path::PathBuf;
@@ -22,7 +23,9 @@ use ssi::did_resolve::{
 #[derive(Debug)]
 pub enum Format {
     VP,
+    VpJwt,
     VC,
+    VcJwt,
 }
 
 impl FromStr for Format {
@@ -30,8 +33,21 @@ impl FromStr for Format {
     fn from_str(s: &str) -> Result<Self, Self::Err> {
         match s {
             "vp" => Ok(Self::VP),
+            "vp-jwt" => Ok(Self::VpJwt),
             "vc" => Ok(Self::VC),
+            "vc-jwt" => Ok(Self::VcJwt),
             _ => Err(format!("Unknown format: {}", s)),
+        }
+    }
+}
+
+impl fmt::Display for Format {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+        match self {
+            Self::VP => write!(f, "vp"),
+            Self::VpJwt => write!(f, "vp-jwt"),
+            Self::VC => write!(f, "vc"),
+            Self::VcJwt => write!(f, "vc-jwt"),
         }
     }
 }
@@ -58,6 +74,7 @@ pub enum VCSubcommand {
         input: PathBuf,
         #[structopt(short, long, parse(from_os_str))]
         output: PathBuf,
+        #[structopt(short, long)]
         format: Option<Format>,
     },
     Verify {
@@ -65,6 +82,7 @@ pub enum VCSubcommand {
         input: PathBuf,
         #[structopt(short, long, parse(from_os_str))]
         output: PathBuf,
+        #[structopt(short, long)]
         format: Option<Format>,
     },
 }
@@ -73,6 +91,11 @@ pub enum VCSubcommand {
 pub enum SSIJWS {
     Credential(VCSubcommand),
     Presentation(VCSubcommand),
+}
+
+#[derive(Deserialize, Serialize, Debug)]
+pub struct JWT {
+    jwt: String,
 }
 
 pub struct DIDExample;
@@ -195,10 +218,11 @@ async fn main() -> Result<(), std::io::Error> {
             output,
             format,
         }) => {
-            match format {
-                Some(Format::VC) | None => {}
-                Some(Format::VP) => panic!("Unexpected format VP for credential create"),
-            }
+            let jwt = match format.unwrap_or(Format::VC) {
+                Format::VC => false,
+                Format::VcJwt => true,
+                f => panic!("Unexpected format {} for credential create", f),
+            };
             let key_file = File::open(key)?;
             let key_reader = BufReader::new(key_file);
             let key: Key = serde_json::from_reader(key_reader)?;
@@ -208,39 +232,56 @@ async fn main() -> Result<(), std::io::Error> {
             let mut credential: Credential = serde_json::from_reader(input_reader)?;
 
             let private_key_jwk = key.private_key_jwk.clone();
-            let options = LinkedDataProofOptions {
+            let mut options = LinkedDataProofOptions {
                 verification_method: Some(ssi::vc::URI::String(key.id.to_string())),
                 proof_purpose: Some(ProofPurpose::AssertionMethod),
+                checks: None,
                 ..Default::default()
             };
             let resolver = DIDExample;
-            let proof = JsonWebSignature2020
-                .sign(&credential, &options, &resolver, &private_key_jwk, None)
-                .await
-                .unwrap();
-            credential.add_proof(proof);
-            let vc = credential;
             let output_file = OpenOptions::new()
                 .write(true)
                 .create_new(true)
                 .open(output)?;
             let output_writer = BufWriter::new(output_file);
-            serde_json::to_writer_pretty(output_writer, &vc)?;
+            if jwt {
+                options.created = None;
+                let jwt = credential
+                    .generate_jwt(Some(&private_key_jwk), &options, &resolver)
+                    .await
+                    .unwrap();
+                let jwt_obj = JWT { jwt };
+                serde_json::to_writer_pretty(output_writer, &jwt_obj)?;
+            } else {
+                let proof = JsonWebSignature2020
+                    .sign(&credential, &options, &resolver, &private_key_jwk, None)
+                    .await
+                    .unwrap();
+                credential.add_proof(proof);
+                let vc = credential;
+                serde_json::to_writer_pretty(output_writer, &vc)?;
+            }
         }
         SSIJWS::Credential(VCSubcommand::Verify {
             input,
             output,
             format,
         }) => {
-            match format {
-                Some(Format::VC) | None => {}
-                Some(Format::VP) => panic!("Unexpected format VP for credential verify"),
-            }
+            let jwt = match format.unwrap_or(Format::VC) {
+                Format::VC => false,
+                Format::VcJwt => true,
+                f => panic!("Unexpected format {} for credential verify", f),
+            };
             let input_file = File::open(input)?;
             let input_reader = BufReader::new(input_file);
-            let vc: Credential = serde_json::from_reader(input_reader)?;
             let resolver = DIDExample;
-            let result = vc.verify(None, &resolver).await;
+            let result = if jwt {
+                let jwt: JWT = serde_json::from_reader(input_reader)?;
+                Credential::verify_jwt(&jwt.jwt, None, &resolver).await
+            } else {
+                let vc: Credential = serde_json::from_reader(input_reader)?;
+                vc.verify(None, &resolver).await
+            };
             let output_file = OpenOptions::new()
                 .write(true)
                 .create_new(true)
@@ -254,10 +295,11 @@ async fn main() -> Result<(), std::io::Error> {
             output,
             format,
         }) => {
-            match format {
-                Some(Format::VC) | None => {}
-                Some(Format::VP) => panic!("Unexpected format VC for presentation create"),
-            }
+            let jwt = match format.unwrap_or(Format::VP) {
+                Format::VP => false,
+                Format::VpJwt => true,
+                f => panic!("Unexpected format {} for presentation create", f),
+            };
             let key_file = File::open(key)?;
             let key_reader = BufReader::new(key_file);
             let key: Key = serde_json::from_reader(key_reader)?;
@@ -267,40 +309,57 @@ async fn main() -> Result<(), std::io::Error> {
             let mut presentation: Presentation = serde_json::from_reader(input_reader)?;
 
             let private_key_jwk = key.private_key_jwk.clone();
-            let options = LinkedDataProofOptions {
+            let mut options = LinkedDataProofOptions {
                 verification_method: Some(ssi::vc::URI::String(key.id.to_string())),
                 proof_purpose: Some(ProofPurpose::Authentication),
                 challenge: Some("123".to_string()),
+                checks: None,
                 ..Default::default()
             };
             let resolver = DIDExample;
-            let proof = JsonWebSignature2020
-                .sign(&presentation, &options, &resolver, &private_key_jwk, None)
-                .await
-                .unwrap();
-            presentation.add_proof(proof);
-            let vp = presentation;
             let output_file = OpenOptions::new()
                 .write(true)
                 .create_new(true)
                 .open(output)?;
             let output_writer = BufWriter::new(output_file);
-            serde_json::to_writer_pretty(output_writer, &vp)?;
+            if jwt {
+                options.created = None;
+                let jwt = presentation
+                    .generate_jwt(Some(&private_key_jwk), &options, &resolver)
+                    .await
+                    .unwrap();
+                let jwt_obj = JWT { jwt };
+                serde_json::to_writer_pretty(output_writer, &jwt_obj)?;
+            } else {
+                let proof = JsonWebSignature2020
+                    .sign(&presentation, &options, &resolver, &private_key_jwk, None)
+                    .await
+                    .unwrap();
+                presentation.add_proof(proof);
+                let vp = presentation;
+                serde_json::to_writer_pretty(output_writer, &vp)?;
+            }
         }
         SSIJWS::Presentation(VCSubcommand::Verify {
             input,
             output,
             format,
         }) => {
-            match format {
-                Some(Format::VP) | None => {}
-                Some(Format::VC) => panic!("Unexpected format VC for presentation verify"),
-            }
+            let jwt = match format.unwrap_or(Format::VP) {
+                Format::VP => false,
+                Format::VpJwt => true,
+                f => panic!("Unexpected format {} for presentation create", f),
+            };
             let input_file = File::open(input)?;
             let input_reader = BufReader::new(input_file);
-            let vp: Presentation = serde_json::from_reader(input_reader)?;
             let resolver = DIDExample;
-            let result = vp.verify(None, &resolver).await;
+            let result = if jwt {
+                let jwt: JWT = serde_json::from_reader(input_reader)?;
+                Presentation::verify_jwt(&jwt.jwt, None, &resolver).await
+            } else {
+                let vp: Presentation = serde_json::from_reader(input_reader)?;
+                vp.verify(None, &resolver).await
+            };
             let output_file = OpenOptions::new()
                 .write(true)
                 .create_new(true)
