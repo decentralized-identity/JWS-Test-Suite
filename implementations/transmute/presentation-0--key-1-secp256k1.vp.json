@@ -1,0 +1,18 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "type": [
+    "VerifiablePresentation"
+  ],
+  "holder": "did:example:123",
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2021-11-09T20:21:23Z",
+    "verificationMethod": "did:example:123#key-1",
+    "proofPurpose": "authentication",
+    "challenge": "123",
+    "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..e9ytwNfyTBQLYWxryQYdCek7zM_yX-N-YrwQj62QuL1eiyaHnX-apzJPzq7NsVUpSSjkX-1YuNXJlcuIZmVYXA"
+  }
+}

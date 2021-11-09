@@ -5,7 +5,10 @@
     "https://identity.foundation/presentation-exchange/submission/v1"
   ],
   "id": "urn:uuid:789",
-  "type": ["VerifiablePresentation", "PresentationSubmission"],
+  "type": [
+    "VerifiablePresentation",
+    "PresentationSubmission"
+  ],
   "holder": "did:example:123",
   "presentation_submission": {
     "id": "a30e3b91-fb77-4d22-95fa-871689c322e2",
@@ -24,7 +27,9 @@
         "https://www.w3.org/2018/credentials/v1",
         "https://w3id.org/security/suites/jws-2020/v1"
       ],
-      "type": ["VerifiableCredential"],
+      "type": [
+        "VerifiableCredential"
+      ],
       "issuer": "did:example:123",
       "issuanceDate": "2021-01-01T19:23:24Z",
       "credentialSubject": {},
@@ -36,5 +41,13 @@
         "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..-OM7P_1AXTqC2p8b5bejObwP7rc-pIFH5vbBJCUzLXAqSXtT_mPW0wJIEgyEP4AII_BygxefoA__eztwJu4fDw"
       }
     }
-  ]
+  ],
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2021-11-09T20:21:28Z",
+    "verificationMethod": "did:example:123#key-1",
+    "proofPurpose": "authentication",
+    "challenge": "123",
+    "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..WKrDtFGFbkUGzzpnkDm8fNTPrY_xr71nJtb9DlTbb_NLgihq8Uxu7jxVtE9Z6Iz4dsC65Pz0GuhPPJOyycu9Dw"
+  }
 }
