@@ -7,13 +7,15 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./data:/data
-  danubetech:
-    image: danubetech/ldsignatures-test-jws
-    build:
-      context: ./implementations/danubetech
-      dockerfile: Dockerfile
-    volumes:
-      - ./data:/data
+  # Commenting out, due to:
+  # https://github.com/decentralized-identity/JWS-Test-Suite/runs/4157120036?check_suite_focus=true#step:5:788
+  # danubetech:
+  #   image: danubetech/ldsignatures-test-jws
+  #   build:
+  #     context: ./implementations/danubetech
+  #     dockerfile: Dockerfile
+  #   volumes:
+  #     - ./data:/data
   spruce:
     image: spruce/jws-test-suite-cli
     build:
