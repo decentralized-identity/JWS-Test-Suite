@@ -1,7 +1,14 @@
 {
   "danubetech": {
-    "credential-0--key-0-ed25519.json": {
-      "vector": {
+    "credential-0--key-0-ed25519.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "verification": {
+        "verified": false
+      }
+    },
+    "credential-0--key-0-ed25519.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1"
@@ -14,18 +21,26 @@
         "credentialSubject": {},
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:02:07Z",
+          "created": "2021-11-06T17:35:44Z",
+          "challenge": "123",
           "proofPurpose": "assertionMethod",
           "verificationMethod": "did:example:123#key-0",
-          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..4SWnrst4YEMyfzPcakKNg4a-s6wXhVUHPwvy6WqxXeb6WyQ1gZUU4ETeQIi7pa3Jf1uNz0ENF_f4A5oEnaI2CQ"
+          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..kXrbWm-4OzANXx0QSisFWT-TvN7ZvGk_LPs0k7h722ukqOHRfVcqFs2oFvwi52R5CqeZolobvcyWAwpS0apgDA"
         }
       },
       "verification": {
         "verified": true
       }
     },
-    "credential-0--key-1-secp256k1.json": {
-      "vector": {
+    "credential-0--key-1-secp256k1.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "verification": {
+        "verified": false
+      }
+    },
+    "credential-0--key-1-secp256k1.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1"
@@ -38,18 +53,26 @@
         "credentialSubject": {},
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:02:16Z",
+          "created": "2021-11-06T17:36:04Z",
+          "challenge": "123",
           "proofPurpose": "assertionMethod",
           "verificationMethod": "did:example:123#key-1",
-          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..CB0_BMlOKLgil54w5Nxcx49_QDKDxAgedNuhC-47VrZ3qYrY_V0vAe8MaHSv8q3DMV5jEYsiYgCE5nAxnG-QdQ"
+          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..FTH3DhwcZ0PVdoAgRBX57Jc0jvLLek3wE0mNmgDKFs1nWn1ty-fnoFq3-kr62ZAepSQ3fHSoScwKXw4T4lM-Rw"
         }
       },
       "verification": {
         "verified": true
       }
     },
-    "credential-1--key-0-ed25519.json": {
-      "vector": {
+    "credential-1--key-0-ed25519.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "verification": {
+        "verified": false
+      }
+    },
+    "credential-1--key-0-ed25519.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1",
@@ -69,18 +92,26 @@
         },
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:02:08Z",
+          "created": "2021-11-06T17:35:45Z",
+          "challenge": "123",
           "proofPurpose": "assertionMethod",
           "verificationMethod": "did:example:123#key-0",
-          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9.._GQ7muhlawQUw0E7oIxEXHbNCI1O29-8nScVs1EcJDlTFTs_XLZrMiqfcDYvfrTR1VCqoFBqpaGrf5vh89CzBA"
+          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..CapegDT4iNS9CRxa6oRY72p1v4gOSI77dVy7R4Mjnghdc3W3IG3ehHtwZXFj5iskMzpiPtTobVwr88KVlXNDCA"
         }
       },
       "verification": {
         "verified": true
       }
     },
-    "credential-1--key-1-secp256k1.json": {
-      "vector": {
+    "credential-1--key-1-secp256k1.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "verification": {
+        "verified": false
+      }
+    },
+    "credential-1--key-1-secp256k1.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1",
@@ -100,18 +131,26 @@
         },
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:02:18Z",
+          "created": "2021-11-06T17:36:06Z",
+          "challenge": "123",
           "proofPurpose": "assertionMethod",
           "verificationMethod": "did:example:123#key-1",
-          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..HWtprywV9G4e1xz_a69g90gVOdaJdKNJ3dcnv_Se5sh6qNEIqYw6pdhf_hackdhqOHq9-Sq6nw8Am3StNt-gfA"
+          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..knn_y4qezupp91M2_D0c5RAAso9hpCuzFYqrF_2noFNd2uPx0VewebclqCrPOo095lpRStcqzIwy-5y18p6yhg"
         }
       },
       "verification": {
         "verified": true
       }
     },
-    "credential-2--key-0-ed25519.json": {
-      "vector": {
+    "credential-2--key-0-ed25519.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "verification": {
+        "verified": false
+      }
+    },
+    "credential-2--key-0-ed25519.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1",
@@ -151,18 +190,26 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:02:09Z",
+          "created": "2021-11-06T17:35:47Z",
+          "challenge": "123",
           "proofPurpose": "assertionMethod",
           "verificationMethod": "did:example:123#key-0",
-          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..BIAQ3bNLbZQEy7w1505ECFdM28Gc3h6WZjpaf6ZaTCPKhdfYuQT8Uaf__xv0z4h8sfRFBzHEEAwhFzLUSDJQAQ"
+          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..I7kzh8v9W2whBRYA1rqQTzmXweYCuT8MN1qePDwF5I0D5MgtBFIWpFHvj8qTeGIfLo_LvVy88hxjr8_-eeXHAA"
         }
       },
       "verification": {
         "verified": true
       }
     },
-    "credential-2--key-1-secp256k1.json": {
-      "vector": {
+    "credential-2--key-1-secp256k1.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "verification": {
+        "verified": false
+      }
+    },
+    "credential-2--key-1-secp256k1.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1",
@@ -202,18 +249,26 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:02:19Z",
+          "created": "2021-11-06T17:36:08Z",
+          "challenge": "123",
           "proofPurpose": "assertionMethod",
           "verificationMethod": "did:example:123#key-1",
-          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..OgkefDQo8wtMdkuSZvuU7Xwp150_r7wIufo5mT_Qc3cH_Le-VgA4QIEY3gpxEywAn47l9tm6qo10aTYLsC2MHw"
+          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..oZvkMQuxjpOrgCmiXXqxPGTagHIVklsmnqXd_W6GlZ5OCNI8RDJsDrLtrG59bG2RiZHIL3APtPScmAb6YDMmPw"
         }
       },
       "verification": {
         "verified": true
       }
     },
-    "presentation-0--key-0-ed25519.json": {
-      "vector": {
+    "presentation-0--key-0-ed25519.vp-jwt.json": {
+      "vector": "vp-jwt",
+      "verification": {
+        "verified": false
+      }
+    },
+    "presentation-0--key-0-ed25519.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1"
@@ -223,18 +278,125 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:02:11Z",
-          "proofPurpose": "assertionMethod",
+          "created": "2021-11-06T17:35:53Z",
+          "challenge": "123",
+          "proofPurpose": "authentication",
           "verificationMethod": "did:example:123#key-0",
-          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..2zlHgIq1nAT3GrFNnI5WS1a-OEDtBmvjADF6N8RuG-ZoH08rUQFEpIgxipwQMwkpxi-nHZnjY71hOwiECMPdAA"
+          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..A4gr6_5d6NalzuWpnZDvCFryOLUNdrzWvkpooMSHtGclJllS3bXuge1EEgZ0o3rNwtLBVbM-2F51YLUC64hICg"
         }
       },
+      "verification": {
+        "verified": true,
+        "presentation": {
+          "verified": true,
+          "results": [
+            {
+              "proof": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1",
+                  "https://w3id.org/security/suites/jws-2020/v1"
+                ],
+                "type": "JsonWebSignature2020",
+                "created": "2021-11-06T17:35:53Z",
+                "challenge": "123",
+                "proofPurpose": "authentication",
+                "verificationMethod": "did:example:123#key-0",
+                "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..A4gr6_5d6NalzuWpnZDvCFryOLUNdrzWvkpooMSHtGclJllS3bXuge1EEgZ0o3rNwtLBVbM-2F51YLUC64hICg"
+              },
+              "verified": true,
+              "purposeResult": {
+                "valid": true,
+                "controller": {
+                  "@context": [
+                    "https://www.w3.org/ns/did/v1",
+                    "https://w3id.org/security/suites/jws-2020/v1"
+                  ],
+                  "id": "did:example:123",
+                  "verificationMethod": [
+                    {
+                      "id": "did:example:123#key-0",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "OKP",
+                        "crv": "Ed25519",
+                        "x": "JYCAGl6C7gcDeKbNqtXBfpGzH0f5elifj7L6zYNj_Is"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-1",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "secp256k1",
+                        "x": "BuzCc8bUShI3GfVz-WLISZDGq7wnVB4h_nvNQcWn7Jw",
+                        "y": "dLrbspB9PZvZF0dr42nCmF38192dQKglvB52IZBM-vs"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-2",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-256",
+                        "x": "40TexHWb6XTyuShaqhiazvmfxyK5zibbtOBXsQFKJg8",
+                        "y": "SGIGDSRHOOYJntO1lIapw_vR1FP7SPBlmA_2aM9HoFU"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-3",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-384",
+                        "x": "BiU_mGfa3uWMKrC4Q6EFvM5D5Qiz2orm7ABlIaC1iJWOuapQC9U_fbqrKwRFRepf",
+                        "y": "_23qoYv94V-PSWzqQMnUqq1nu_MdE4fEIaAhCCYplAwlp4c3LKZDtkgQaPdF4kIT"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-4",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "RSA",
+                        "n": "oF_3bdq-pORqmzx2zROkrhVzAPQQ9JmDh1tjKvKgFh-1M5gywClzn0LoWkIiqqIiLOWXkfGRsqvi4VLbHQ_9WZza54EgIo_cyrZnXaIJCEFGQfwDK5-HqDqrgPCw3DFths04LY59LJ2aNxwgbu5otkQ2Vp8bU-U3_Hr5qz_U9xZjOev3OyD7kfBELAFXYHqnSfSJBJ-YxFjo-Plicjfha14U6C-hMeJlDu-Nwj-hCEHdDGK01_go9vIzA745xwAFfeyUZVhTpu6WLSn4RN9vRroLRjO5gvmHUZUquGh-sR4KNLebOeWcyxS5QEAbsYR82YsEWucLTdpFSdu1RVu8nw",
+                        "e": "AQAB"
+                      }
+                    }
+                  ],
+                  "assertionMethod": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ],
+                  "authentication": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "presentation-0--key-1-secp256k1.vp-jwt.json": {
+      "vector": "vp-jwt",
       "verification": {
         "verified": false
       }
     },
-    "presentation-0--key-1-secp256k1.json": {
-      "vector": {
+    "presentation-0--key-1-secp256k1.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1"
@@ -244,18 +406,125 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:02:21Z",
-          "proofPurpose": "assertionMethod",
+          "created": "2021-11-06T17:36:15Z",
+          "challenge": "123",
+          "proofPurpose": "authentication",
           "verificationMethod": "did:example:123#key-1",
-          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..rA04CSCMVE-m_k-hoptlnkDHvvLRnQd503zyn1QCplszXOCqpt-WyiqV82jE7U7jP4aLKphifa_Z6PoHdhb6JA"
+          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..9549Hi24VbNAxcYCZaN8C5XOZp72V9tw4Co2dzHIK8FCrw09Q7BI3lGdMxRKQQBjPP9f0v-OZec5glShGz5KwA"
         }
       },
+      "verification": {
+        "verified": true,
+        "presentation": {
+          "verified": true,
+          "results": [
+            {
+              "proof": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1",
+                  "https://w3id.org/security/suites/jws-2020/v1"
+                ],
+                "type": "JsonWebSignature2020",
+                "created": "2021-11-06T17:36:15Z",
+                "challenge": "123",
+                "proofPurpose": "authentication",
+                "verificationMethod": "did:example:123#key-1",
+                "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..9549Hi24VbNAxcYCZaN8C5XOZp72V9tw4Co2dzHIK8FCrw09Q7BI3lGdMxRKQQBjPP9f0v-OZec5glShGz5KwA"
+              },
+              "verified": true,
+              "purposeResult": {
+                "valid": true,
+                "controller": {
+                  "@context": [
+                    "https://www.w3.org/ns/did/v1",
+                    "https://w3id.org/security/suites/jws-2020/v1"
+                  ],
+                  "id": "did:example:123",
+                  "verificationMethod": [
+                    {
+                      "id": "did:example:123#key-0",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "OKP",
+                        "crv": "Ed25519",
+                        "x": "JYCAGl6C7gcDeKbNqtXBfpGzH0f5elifj7L6zYNj_Is"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-1",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "secp256k1",
+                        "x": "BuzCc8bUShI3GfVz-WLISZDGq7wnVB4h_nvNQcWn7Jw",
+                        "y": "dLrbspB9PZvZF0dr42nCmF38192dQKglvB52IZBM-vs"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-2",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-256",
+                        "x": "40TexHWb6XTyuShaqhiazvmfxyK5zibbtOBXsQFKJg8",
+                        "y": "SGIGDSRHOOYJntO1lIapw_vR1FP7SPBlmA_2aM9HoFU"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-3",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-384",
+                        "x": "BiU_mGfa3uWMKrC4Q6EFvM5D5Qiz2orm7ABlIaC1iJWOuapQC9U_fbqrKwRFRepf",
+                        "y": "_23qoYv94V-PSWzqQMnUqq1nu_MdE4fEIaAhCCYplAwlp4c3LKZDtkgQaPdF4kIT"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-4",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "RSA",
+                        "n": "oF_3bdq-pORqmzx2zROkrhVzAPQQ9JmDh1tjKvKgFh-1M5gywClzn0LoWkIiqqIiLOWXkfGRsqvi4VLbHQ_9WZza54EgIo_cyrZnXaIJCEFGQfwDK5-HqDqrgPCw3DFths04LY59LJ2aNxwgbu5otkQ2Vp8bU-U3_Hr5qz_U9xZjOev3OyD7kfBELAFXYHqnSfSJBJ-YxFjo-Plicjfha14U6C-hMeJlDu-Nwj-hCEHdDGK01_go9vIzA745xwAFfeyUZVhTpu6WLSn4RN9vRroLRjO5gvmHUZUquGh-sR4KNLebOeWcyxS5QEAbsYR82YsEWucLTdpFSdu1RVu8nw",
+                        "e": "AQAB"
+                      }
+                    }
+                  ],
+                  "assertionMethod": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ],
+                  "authentication": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "presentation-1--key-0-ed25519.vp-jwt.json": {
+      "vector": "vp-jwt",
       "verification": {
         "verified": false
       }
     },
-    "presentation-1--key-0-ed25519.json": {
-      "vector": {
+    "presentation-1--key-0-ed25519.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1"
@@ -315,18 +584,155 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:02:12Z",
-          "proofPurpose": "assertionMethod",
+          "created": "2021-11-06T17:35:55Z",
+          "challenge": "123",
+          "proofPurpose": "authentication",
           "verificationMethod": "did:example:123#key-0",
-          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..UrzED7VKr946j3AW3YQ9vpg8gDvWZB8NDXjVGYdUyYw6yWFjGoAlHdolZtWQPZ95hUG04i_OCIWAkNQBHd9OBQ"
+          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..LkmKiJ1-1O15-WVvOWVFnmerSHUw1aC5IVanEZBXObqm6_t122Aaf8Jx6jp9ZKLsdqU2_Nqm15pKqnOPq-FEDA"
         }
       },
+      "verification": {
+        "verified": true,
+        "credentials": {
+          "verified": true,
+          "results": [
+            {
+              "verified": true,
+              "results": [
+                {
+                  "proof": {
+                    "@context": [
+                      "https://www.w3.org/2018/credentials/v1",
+                      "https://w3id.org/security/suites/jws-2020/v1",
+                      {
+                        "@vocab": "https://example.com/#"
+                      }
+                    ],
+                    "type": "JsonWebSignature2020",
+                    "created": "2021-10-02T17:58:00Z",
+                    "proofPurpose": "assertionMethod",
+                    "verificationMethod": "did:example:123#key-0",
+                    "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..VA8VQqAerUT6AIVdHc8W8Q2aj12LOQjV_VZ1e134NU9Q20eBsNySPjNdmTWp2HkdquCnbRhBHxIbNeFEIOOhAg"
+                  },
+                  "verified": true,
+                  "purposeResult": {
+                    "valid": true
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "presentation": {
+          "verified": true,
+          "results": [
+            {
+              "proof": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1",
+                  "https://w3id.org/security/suites/jws-2020/v1"
+                ],
+                "type": "JsonWebSignature2020",
+                "created": "2021-11-06T17:35:55Z",
+                "challenge": "123",
+                "proofPurpose": "authentication",
+                "verificationMethod": "did:example:123#key-0",
+                "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..LkmKiJ1-1O15-WVvOWVFnmerSHUw1aC5IVanEZBXObqm6_t122Aaf8Jx6jp9ZKLsdqU2_Nqm15pKqnOPq-FEDA"
+              },
+              "verified": true,
+              "purposeResult": {
+                "valid": true,
+                "controller": {
+                  "@context": [
+                    "https://www.w3.org/ns/did/v1",
+                    "https://w3id.org/security/suites/jws-2020/v1"
+                  ],
+                  "id": "did:example:123",
+                  "verificationMethod": [
+                    {
+                      "id": "did:example:123#key-0",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "OKP",
+                        "crv": "Ed25519",
+                        "x": "JYCAGl6C7gcDeKbNqtXBfpGzH0f5elifj7L6zYNj_Is"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-1",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "secp256k1",
+                        "x": "BuzCc8bUShI3GfVz-WLISZDGq7wnVB4h_nvNQcWn7Jw",
+                        "y": "dLrbspB9PZvZF0dr42nCmF38192dQKglvB52IZBM-vs"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-2",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-256",
+                        "x": "40TexHWb6XTyuShaqhiazvmfxyK5zibbtOBXsQFKJg8",
+                        "y": "SGIGDSRHOOYJntO1lIapw_vR1FP7SPBlmA_2aM9HoFU"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-3",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-384",
+                        "x": "BiU_mGfa3uWMKrC4Q6EFvM5D5Qiz2orm7ABlIaC1iJWOuapQC9U_fbqrKwRFRepf",
+                        "y": "_23qoYv94V-PSWzqQMnUqq1nu_MdE4fEIaAhCCYplAwlp4c3LKZDtkgQaPdF4kIT"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-4",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "RSA",
+                        "n": "oF_3bdq-pORqmzx2zROkrhVzAPQQ9JmDh1tjKvKgFh-1M5gywClzn0LoWkIiqqIiLOWXkfGRsqvi4VLbHQ_9WZza54EgIo_cyrZnXaIJCEFGQfwDK5-HqDqrgPCw3DFths04LY59LJ2aNxwgbu5otkQ2Vp8bU-U3_Hr5qz_U9xZjOev3OyD7kfBELAFXYHqnSfSJBJ-YxFjo-Plicjfha14U6C-hMeJlDu-Nwj-hCEHdDGK01_go9vIzA745xwAFfeyUZVhTpu6WLSn4RN9vRroLRjO5gvmHUZUquGh-sR4KNLebOeWcyxS5QEAbsYR82YsEWucLTdpFSdu1RVu8nw",
+                        "e": "AQAB"
+                      }
+                    }
+                  ],
+                  "assertionMethod": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ],
+                  "authentication": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "presentation-1--key-1-secp256k1.vp-jwt.json": {
+      "vector": "vp-jwt",
       "verification": {
         "verified": false
       }
     },
-    "presentation-1--key-1-secp256k1.json": {
-      "vector": {
+    "presentation-1--key-1-secp256k1.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1"
@@ -386,18 +792,155 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:02:22Z",
-          "proofPurpose": "assertionMethod",
+          "created": "2021-11-06T17:36:17Z",
+          "challenge": "123",
+          "proofPurpose": "authentication",
           "verificationMethod": "did:example:123#key-1",
-          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..S-7nHwjKFVBD3k8SRws-A63gvJMym4vWmdAz-9CKuDI_mUEs0xyyj7BLViNU0fhCmcq3eckepd-zLCoey0ZfmA"
+          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..Ipn95f8glfSaNYIT213tA-knbspTqybn0YpvQnBYn5ZBICQITZMA1Mt8FOvsUJHVwRug5LsWvzOzu1OdLhFZ4g"
         }
       },
+      "verification": {
+        "verified": true,
+        "credentials": {
+          "verified": true,
+          "results": [
+            {
+              "verified": true,
+              "results": [
+                {
+                  "proof": {
+                    "@context": [
+                      "https://www.w3.org/2018/credentials/v1",
+                      "https://w3id.org/security/suites/jws-2020/v1",
+                      {
+                        "@vocab": "https://example.com/#"
+                      }
+                    ],
+                    "type": "JsonWebSignature2020",
+                    "created": "2021-10-02T17:58:00Z",
+                    "proofPurpose": "assertionMethod",
+                    "verificationMethod": "did:example:123#key-0",
+                    "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..VA8VQqAerUT6AIVdHc8W8Q2aj12LOQjV_VZ1e134NU9Q20eBsNySPjNdmTWp2HkdquCnbRhBHxIbNeFEIOOhAg"
+                  },
+                  "verified": true,
+                  "purposeResult": {
+                    "valid": true
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "presentation": {
+          "verified": true,
+          "results": [
+            {
+              "proof": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1",
+                  "https://w3id.org/security/suites/jws-2020/v1"
+                ],
+                "type": "JsonWebSignature2020",
+                "created": "2021-11-06T17:36:17Z",
+                "challenge": "123",
+                "proofPurpose": "authentication",
+                "verificationMethod": "did:example:123#key-1",
+                "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..Ipn95f8glfSaNYIT213tA-knbspTqybn0YpvQnBYn5ZBICQITZMA1Mt8FOvsUJHVwRug5LsWvzOzu1OdLhFZ4g"
+              },
+              "verified": true,
+              "purposeResult": {
+                "valid": true,
+                "controller": {
+                  "@context": [
+                    "https://www.w3.org/ns/did/v1",
+                    "https://w3id.org/security/suites/jws-2020/v1"
+                  ],
+                  "id": "did:example:123",
+                  "verificationMethod": [
+                    {
+                      "id": "did:example:123#key-0",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "OKP",
+                        "crv": "Ed25519",
+                        "x": "JYCAGl6C7gcDeKbNqtXBfpGzH0f5elifj7L6zYNj_Is"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-1",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "secp256k1",
+                        "x": "BuzCc8bUShI3GfVz-WLISZDGq7wnVB4h_nvNQcWn7Jw",
+                        "y": "dLrbspB9PZvZF0dr42nCmF38192dQKglvB52IZBM-vs"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-2",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-256",
+                        "x": "40TexHWb6XTyuShaqhiazvmfxyK5zibbtOBXsQFKJg8",
+                        "y": "SGIGDSRHOOYJntO1lIapw_vR1FP7SPBlmA_2aM9HoFU"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-3",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-384",
+                        "x": "BiU_mGfa3uWMKrC4Q6EFvM5D5Qiz2orm7ABlIaC1iJWOuapQC9U_fbqrKwRFRepf",
+                        "y": "_23qoYv94V-PSWzqQMnUqq1nu_MdE4fEIaAhCCYplAwlp4c3LKZDtkgQaPdF4kIT"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-4",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "RSA",
+                        "n": "oF_3bdq-pORqmzx2zROkrhVzAPQQ9JmDh1tjKvKgFh-1M5gywClzn0LoWkIiqqIiLOWXkfGRsqvi4VLbHQ_9WZza54EgIo_cyrZnXaIJCEFGQfwDK5-HqDqrgPCw3DFths04LY59LJ2aNxwgbu5otkQ2Vp8bU-U3_Hr5qz_U9xZjOev3OyD7kfBELAFXYHqnSfSJBJ-YxFjo-Plicjfha14U6C-hMeJlDu-Nwj-hCEHdDGK01_go9vIzA745xwAFfeyUZVhTpu6WLSn4RN9vRroLRjO5gvmHUZUquGh-sR4KNLebOeWcyxS5QEAbsYR82YsEWucLTdpFSdu1RVu8nw",
+                        "e": "AQAB"
+                      }
+                    }
+                  ],
+                  "assertionMethod": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ],
+                  "authentication": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "presentation-2--key-0-ed25519.vp-jwt.json": {
+      "vector": "vp-jwt",
       "verification": {
         "verified": false
       }
     },
-    "presentation-2--key-0-ed25519.json": {
-      "vector": {
+    "presentation-2--key-0-ed25519.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1",
@@ -431,23 +974,165 @@
             ],
             "issuer": "did:example:123",
             "issuanceDate": "2021-01-01T19:23:24Z",
-            "credentialSubject": {}
+            "credentialSubject": {},
+            "proof": {
+              "type": "JsonWebSignature2020",
+              "created": "2021-11-06T16:49:50Z",
+              "verificationMethod": "did:example:123#key-0",
+              "proofPurpose": "assertionMethod",
+              "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..-OM7P_1AXTqC2p8b5bejObwP7rc-pIFH5vbBJCUzLXAqSXtT_mPW0wJIEgyEP4AII_BygxefoA__eztwJu4fDw"
+            }
           }
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:02:14Z",
-          "proofPurpose": "assertionMethod",
+          "created": "2021-11-06T17:35:57Z",
+          "challenge": "123",
+          "proofPurpose": "authentication",
           "verificationMethod": "did:example:123#key-0",
-          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..0ZVtkpejv2EMsIaYGNoxasq7gigweKWgsTX3yOwFNiCKAwFJKJ4wVe5aCLj_aGiwb3N_QUqjDif7cvQpqTrSAQ"
+          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..iejtr9Lntq4NlNGN1pl1tR3XN-0ah8EJLJ8FqMnrwHVsPxsA4ArZOnf0HEMEXWSfOVhaCOed6kSn_Izb6AdTAw"
         }
       },
+      "verification": {
+        "verified": true,
+        "credentials": {
+          "verified": true,
+          "results": [
+            {
+              "verified": true,
+              "results": [
+                {
+                  "proof": {
+                    "@context": [
+                      "https://www.w3.org/2018/credentials/v1",
+                      "https://w3id.org/security/suites/jws-2020/v1"
+                    ],
+                    "type": "JsonWebSignature2020",
+                    "created": "2021-11-06T16:49:50Z",
+                    "verificationMethod": "did:example:123#key-0",
+                    "proofPurpose": "assertionMethod",
+                    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..-OM7P_1AXTqC2p8b5bejObwP7rc-pIFH5vbBJCUzLXAqSXtT_mPW0wJIEgyEP4AII_BygxefoA__eztwJu4fDw"
+                  },
+                  "verified": true,
+                  "purposeResult": {
+                    "valid": true
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "presentation": {
+          "verified": true,
+          "results": [
+            {
+              "proof": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1",
+                  "https://w3id.org/security/suites/jws-2020/v1",
+                  "https://identity.foundation/presentation-exchange/submission/v1"
+                ],
+                "type": "JsonWebSignature2020",
+                "created": "2021-11-06T17:35:57Z",
+                "challenge": "123",
+                "proofPurpose": "authentication",
+                "verificationMethod": "did:example:123#key-0",
+                "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..iejtr9Lntq4NlNGN1pl1tR3XN-0ah8EJLJ8FqMnrwHVsPxsA4ArZOnf0HEMEXWSfOVhaCOed6kSn_Izb6AdTAw"
+              },
+              "verified": true,
+              "purposeResult": {
+                "valid": true,
+                "controller": {
+                  "@context": [
+                    "https://www.w3.org/ns/did/v1",
+                    "https://w3id.org/security/suites/jws-2020/v1"
+                  ],
+                  "id": "did:example:123",
+                  "verificationMethod": [
+                    {
+                      "id": "did:example:123#key-0",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "OKP",
+                        "crv": "Ed25519",
+                        "x": "JYCAGl6C7gcDeKbNqtXBfpGzH0f5elifj7L6zYNj_Is"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-1",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "secp256k1",
+                        "x": "BuzCc8bUShI3GfVz-WLISZDGq7wnVB4h_nvNQcWn7Jw",
+                        "y": "dLrbspB9PZvZF0dr42nCmF38192dQKglvB52IZBM-vs"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-2",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-256",
+                        "x": "40TexHWb6XTyuShaqhiazvmfxyK5zibbtOBXsQFKJg8",
+                        "y": "SGIGDSRHOOYJntO1lIapw_vR1FP7SPBlmA_2aM9HoFU"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-3",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-384",
+                        "x": "BiU_mGfa3uWMKrC4Q6EFvM5D5Qiz2orm7ABlIaC1iJWOuapQC9U_fbqrKwRFRepf",
+                        "y": "_23qoYv94V-PSWzqQMnUqq1nu_MdE4fEIaAhCCYplAwlp4c3LKZDtkgQaPdF4kIT"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-4",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "RSA",
+                        "n": "oF_3bdq-pORqmzx2zROkrhVzAPQQ9JmDh1tjKvKgFh-1M5gywClzn0LoWkIiqqIiLOWXkfGRsqvi4VLbHQ_9WZza54EgIo_cyrZnXaIJCEFGQfwDK5-HqDqrgPCw3DFths04LY59LJ2aNxwgbu5otkQ2Vp8bU-U3_Hr5qz_U9xZjOev3OyD7kfBELAFXYHqnSfSJBJ-YxFjo-Plicjfha14U6C-hMeJlDu-Nwj-hCEHdDGK01_go9vIzA745xwAFfeyUZVhTpu6WLSn4RN9vRroLRjO5gvmHUZUquGh-sR4KNLebOeWcyxS5QEAbsYR82YsEWucLTdpFSdu1RVu8nw",
+                        "e": "AQAB"
+                      }
+                    }
+                  ],
+                  "assertionMethod": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ],
+                  "authentication": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "presentation-2--key-1-secp256k1.vp-jwt.json": {
+      "vector": "vp-jwt",
       "verification": {
         "verified": false
       }
     },
-    "presentation-2--key-1-secp256k1.json": {
-      "vector": {
+    "presentation-2--key-1-secp256k1.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1",
@@ -481,25 +1166,169 @@
             ],
             "issuer": "did:example:123",
             "issuanceDate": "2021-01-01T19:23:24Z",
-            "credentialSubject": {}
+            "credentialSubject": {},
+            "proof": {
+              "type": "JsonWebSignature2020",
+              "created": "2021-11-06T16:49:50Z",
+              "verificationMethod": "did:example:123#key-0",
+              "proofPurpose": "assertionMethod",
+              "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..-OM7P_1AXTqC2p8b5bejObwP7rc-pIFH5vbBJCUzLXAqSXtT_mPW0wJIEgyEP4AII_BygxefoA__eztwJu4fDw"
+            }
           }
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:02:24Z",
-          "proofPurpose": "assertionMethod",
+          "created": "2021-11-06T17:36:18Z",
+          "challenge": "123",
+          "proofPurpose": "authentication",
           "verificationMethod": "did:example:123#key-1",
-          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..M6Y9dY3mqgh--3uRp1cMDyOAFdr0FSSOMb7GTrilmolVdHgsBkbvunpbt8RJ4xnEg3nJkVh5Df3R29nvluVGww"
+          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..TYNXEWrwQHIL2zUkU8e4PxPngHFaajKOXKf2fxipwxYr1t1Y5i6JXSf3K4O9QLQuYD3Zqfc4NG_tQ-YaST70tA"
         }
       },
       "verification": {
-        "verified": false
+        "verified": true,
+        "credentials": {
+          "verified": true,
+          "results": [
+            {
+              "verified": true,
+              "results": [
+                {
+                  "proof": {
+                    "@context": [
+                      "https://www.w3.org/2018/credentials/v1",
+                      "https://w3id.org/security/suites/jws-2020/v1"
+                    ],
+                    "type": "JsonWebSignature2020",
+                    "created": "2021-11-06T16:49:50Z",
+                    "verificationMethod": "did:example:123#key-0",
+                    "proofPurpose": "assertionMethod",
+                    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..-OM7P_1AXTqC2p8b5bejObwP7rc-pIFH5vbBJCUzLXAqSXtT_mPW0wJIEgyEP4AII_BygxefoA__eztwJu4fDw"
+                  },
+                  "verified": true,
+                  "purposeResult": {
+                    "valid": true
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "presentation": {
+          "verified": true,
+          "results": [
+            {
+              "proof": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1",
+                  "https://w3id.org/security/suites/jws-2020/v1",
+                  "https://identity.foundation/presentation-exchange/submission/v1"
+                ],
+                "type": "JsonWebSignature2020",
+                "created": "2021-11-06T17:36:18Z",
+                "challenge": "123",
+                "proofPurpose": "authentication",
+                "verificationMethod": "did:example:123#key-1",
+                "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..TYNXEWrwQHIL2zUkU8e4PxPngHFaajKOXKf2fxipwxYr1t1Y5i6JXSf3K4O9QLQuYD3Zqfc4NG_tQ-YaST70tA"
+              },
+              "verified": true,
+              "purposeResult": {
+                "valid": true,
+                "controller": {
+                  "@context": [
+                    "https://www.w3.org/ns/did/v1",
+                    "https://w3id.org/security/suites/jws-2020/v1"
+                  ],
+                  "id": "did:example:123",
+                  "verificationMethod": [
+                    {
+                      "id": "did:example:123#key-0",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "OKP",
+                        "crv": "Ed25519",
+                        "x": "JYCAGl6C7gcDeKbNqtXBfpGzH0f5elifj7L6zYNj_Is"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-1",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "secp256k1",
+                        "x": "BuzCc8bUShI3GfVz-WLISZDGq7wnVB4h_nvNQcWn7Jw",
+                        "y": "dLrbspB9PZvZF0dr42nCmF38192dQKglvB52IZBM-vs"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-2",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-256",
+                        "x": "40TexHWb6XTyuShaqhiazvmfxyK5zibbtOBXsQFKJg8",
+                        "y": "SGIGDSRHOOYJntO1lIapw_vR1FP7SPBlmA_2aM9HoFU"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-3",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-384",
+                        "x": "BiU_mGfa3uWMKrC4Q6EFvM5D5Qiz2orm7ABlIaC1iJWOuapQC9U_fbqrKwRFRepf",
+                        "y": "_23qoYv94V-PSWzqQMnUqq1nu_MdE4fEIaAhCCYplAwlp4c3LKZDtkgQaPdF4kIT"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-4",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "RSA",
+                        "n": "oF_3bdq-pORqmzx2zROkrhVzAPQQ9JmDh1tjKvKgFh-1M5gywClzn0LoWkIiqqIiLOWXkfGRsqvi4VLbHQ_9WZza54EgIo_cyrZnXaIJCEFGQfwDK5-HqDqrgPCw3DFths04LY59LJ2aNxwgbu5otkQ2Vp8bU-U3_Hr5qz_U9xZjOev3OyD7kfBELAFXYHqnSfSJBJ-YxFjo-Plicjfha14U6C-hMeJlDu-Nwj-hCEHdDGK01_go9vIzA745xwAFfeyUZVhTpu6WLSn4RN9vRroLRjO5gvmHUZUquGh-sR4KNLebOeWcyxS5QEAbsYR82YsEWucLTdpFSdu1RVu8nw",
+                        "e": "AQAB"
+                      }
+                    }
+                  ],
+                  "assertionMethod": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ],
+                  "authentication": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ]
+                }
+              }
+            }
+          ]
+        }
       }
     }
   },
+  "spruce": {},
   "transmute": {
-    "credential-0--key-0-ed25519.json": {
-      "vector": {
+    "credential-0--key-0-ed25519.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "vectorContent": "eyJhbGciOiJFZERTQSIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOnt9LCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXSwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwiaXNzdWFuY2VEYXRlIjoiMjAyMS0wMS0wMVQxOToyMzoyNFoiLCJjcmVkZW50aWFsU3ViamVjdCI6e319LCJuYmYiOjE2MDk1MjkwMDR9.ZXlKaGJHY2lPaUpGWkVSVFFTSXNJbUkyTkNJNlptRnNjMlVzSW1OeWFYUWlPbHNpWWpZMElsMTkuLnhEZFdQcWFpOVFKQTlZY1N2WVU3aks0LVJ0WUpOOXdWTHdmYV9CLTFIX0I1S1licDJaN0pNdWFsVGR5SG0xazB3UWxVa3ZrbXM3bzFmUk92X1RMWkRn",
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-0--key-0-ed25519.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1"
@@ -512,18 +1341,26 @@
         "credentialSubject": {},
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:02:40Z",
+          "created": "2021-11-06T17:39:05Z",
           "verificationMethod": "did:example:123#key-0",
           "proofPurpose": "assertionMethod",
-          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..1XF-AscNboWtlgg8mNBOIAH1cZUvRd9YUZAOfWpWef38-0xYndta4EBrLyVxf7QJkrDECJQSz2k7u2yk8bh6Cw"
+          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..xN7O9urWjPT8g3Yj3KLgwI74foAdnGAfe81qot2wa3rcPZuv7jaKeRbHOuZzwFeFAmf8yCT95RUrT_27-Q6xAw"
         }
       },
       "verification": {
         "verified": true
       }
     },
-    "credential-0--key-1-secp256k1.json": {
-      "vector": {
+    "credential-0--key-1-secp256k1.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "vectorContent": "eyJhbGciOiJFUzI1NksiLCJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTEifQ.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOnt9LCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXSwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwiaXNzdWFuY2VEYXRlIjoiMjAyMS0wMS0wMVQxOToyMzoyNFoiLCJjcmVkZW50aWFsU3ViamVjdCI6e319LCJuYmYiOjE2MDk1MjkwMDR9.ZXlKaGJHY2lPaUpGVXpJMU5rc2lMQ0ppTmpRaU9tWmhiSE5sTENKamNtbDBJanBiSW1JMk5DSmRmUS4ualVhLTZkSnJTU0VYaURBeWU2UGFUZThaNG9WY0xrUXRHUnRrZl8zeWhiUkhzaWJINnJ1WVdTTkZlWjFFWU5LSE9Ndk1YSTBpRjBaa3F3NWRzUUVTUVE",
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-0--key-1-secp256k1.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1"
@@ -536,18 +1373,26 @@
         "credentialSubject": {},
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:02:47Z",
+          "created": "2021-11-06T17:39:22Z",
           "verificationMethod": "did:example:123#key-1",
           "proofPurpose": "assertionMethod",
-          "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..dPgV7u6_XDPtps4SUjwHmDpebBagiNlarUWuyB-DQaQFckYJLxUPX78_G3QBiI6NJsdC3mherg0usQ2RX3LgxQ"
+          "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..q3-f6-13wvXjBCZGrJNYbXb3kRHsTTwz7Xo3XEEK_fhxCt2w1EiDJE6mrkAO4bhNAcwhw3XELC9LZ7rnZC8fPQ"
         }
       },
       "verification": {
         "verified": true
       }
     },
-    "credential-0--key-2-secp256r1.json": {
-      "vector": {
+    "credential-0--key-2-secp256r1.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "vectorContent": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMiJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOnt9LCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXSwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwiaXNzdWFuY2VEYXRlIjoiMjAyMS0wMS0wMVQxOToyMzoyNFoiLCJjcmVkZW50aWFsU3ViamVjdCI6e319LCJuYmYiOjE2MDk1MjkwMDR9.ZXlKaGJHY2lPaUpGVXpJMU5pSXNJbUkyTkNJNlptRnNjMlVzSW1OeWFYUWlPbHNpWWpZMElsMTkuLlpwUUVCSVRFV2ppbmhkSl9IcDVtNUFRWllpaXhDbEdNZEYwMHdhVjlFeDFjSHlJdnR4d1NaR1FoTXR4TXFKSzd1bXVuNjBkWDZjTE9MNjZiLW5ZWGhR",
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-0--key-2-secp256r1.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1"
@@ -560,18 +1405,26 @@
         "credentialSubject": {},
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:02:55Z",
+          "created": "2021-11-06T17:39:39Z",
           "verificationMethod": "did:example:123#key-2",
           "proofPurpose": "assertionMethod",
-          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..VpivWPBCXV3ZPJIcs3dp1vF6LMi1qmuO8AASDMqt80A_nHULRgx5kZVa3_cs6oJ5vmqt3AZvIxpdkazSmcS35Q"
+          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..UABj2YYNhwQiJK4mw_xtGZ6Vv156Xw_BnkA5LIAnw6y6RURQ46yE7LO-lnCOkVPqCLzNQam9APHuWeIioLWTnA"
         }
       },
       "verification": {
         "verified": true
       }
     },
-    "credential-0--key-3-secp384r1.json": {
-      "vector": {
+    "credential-0--key-3-secp384r1.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "vectorContent": "eyJhbGciOiJFUzM4NCIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMyJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOnt9LCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXSwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwiaXNzdWFuY2VEYXRlIjoiMjAyMS0wMS0wMVQxOToyMzoyNFoiLCJjcmVkZW50aWFsU3ViamVjdCI6e319LCJuYmYiOjE2MDk1MjkwMDR9.ZXlKaGJHY2lPaUpGVXpNNE5DSXNJbUkyTkNJNlptRnNjMlVzSW1OeWFYUWlPbHNpWWpZMElsMTkuLmtKY1JINU0xQWZoVXAxNGVwRTJFSFBnZFpqa1AzV0p3NENzSmRSZm00RFFqT1lFbXB1NVU1RGlOa20tRTVJX1NXaTJnTGFEOFlBMU00QlVnMzZrWDZDdHlIa0NIMUVZR1BET1E2ZGFZbHZOT0EtczhhZVJWRGU5dzFaM2JVSWlM",
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-0--key-3-secp384r1.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1"
@@ -584,18 +1437,26 @@
         "credentialSubject": {},
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:03:02Z",
+          "created": "2021-11-06T17:39:58Z",
           "verificationMethod": "did:example:123#key-3",
           "proofPurpose": "assertionMethod",
-          "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..JDzS8PsM-sKaPBJ-OsPO1x7kbpX8J4UYrf9OYpgRrTzuJKW8lsJb5Kw9V-f8t6huWWl4ff0HPMdjB9uo4rQaQNAyFeNM6m75IiP66Y_O4Nx_04NU_axjcymwCxjVl_2X"
+          "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..6R5YI7tcKartoAfT1_6x0aYQSAr_0O35HPh9O4EhaIGJlLJV1DNenNHmxZD3fM9PrmzPj4ps4a2VIBiCpWzqST0CAp2mHpluHkpuiI4jwfu6zDFc1SaWL-lKMzGlX2lg"
         }
       },
       "verification": {
         "verified": true
       }
     },
-    "credential-1--key-0-ed25519.json": {
-      "vector": {
+    "credential-1--key-0-ed25519.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "vectorContent": "eyJhbGciOiJFZERTQSIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZTo0NTYiLCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImV4cGlyYXRpb25EYXRlIjoiMjAzMS0wMS0wMVQxOToyMzoyNFoiLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZCI6ImRpZDpleGFtcGxlOjQ1NiIsInR5cGUiOiJQZXJzb24ifX0sIm5iZiI6MTYwOTUyOTAwNCwiZXhwIjoxOTI1MDYxODA0fQ.ZXlKaGJHY2lPaUpGWkVSVFFTSXNJbUkyTkNJNlptRnNjMlVzSW1OeWFYUWlPbHNpWWpZMElsMTkuLkJwWTNMbXVmaC04Q1BYSV96amhxdGhDb3VQdHgzLXB0dVA5SFQ3RnFhWG1QNFBKeEtOWGJKZDVRRFdXZFhFUGZWRE5Sb2hhd3kwLUY1Z0xKVFJHQkJ3",
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-1--key-0-ed25519.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1",
@@ -615,18 +1476,26 @@
         },
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:02:41Z",
+          "created": "2021-11-06T17:39:06Z",
           "verificationMethod": "did:example:123#key-0",
           "proofPurpose": "assertionMethod",
-          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..zuHVgGQeQttGhrQ7AdrKm-jDfgMhoxqvo_MaWNVUqmeBkyiFlDYjNyB0CjKfNMqcf1zNW8THvoHtibjxCBH6BQ"
+          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19.._B7k-sEojsSW9V86IaXhPtpNNKcDh7q9zYnDM0IoN1veWR-kZYErst-DrKrFdE0xVuDJ51JyL7LOCO8tZejxAA"
         }
       },
       "verification": {
         "verified": true
       }
     },
-    "credential-1--key-1-secp256k1.json": {
-      "vector": {
+    "credential-1--key-1-secp256k1.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "vectorContent": "eyJhbGciOiJFUzI1NksiLCJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTEifQ.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZTo0NTYiLCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImV4cGlyYXRpb25EYXRlIjoiMjAzMS0wMS0wMVQxOToyMzoyNFoiLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZCI6ImRpZDpleGFtcGxlOjQ1NiIsInR5cGUiOiJQZXJzb24ifX0sIm5iZiI6MTYwOTUyOTAwNCwiZXhwIjoxOTI1MDYxODA0fQ.ZXlKaGJHY2lPaUpGVXpJMU5rc2lMQ0ppTmpRaU9tWmhiSE5sTENKamNtbDBJanBiSW1JMk5DSmRmUS4uV0xMcnh6bHhwSmliU1ByQ0pWUU5udnNzMFFIbzRzZlNuZEdocUJ2NDNDVnJKQ3l1U3I3bER2Y184ZVhnbEV3dnp2QTR2c0ZGR3hSWU5tbmdkb0pzWGc",
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-1--key-1-secp256k1.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1",
@@ -646,18 +1515,26 @@
         },
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:02:49Z",
+          "created": "2021-11-06T17:39:23Z",
           "verificationMethod": "did:example:123#key-1",
           "proofPurpose": "assertionMethod",
-          "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..f6tko1Ct1h5IvLfchie5L3H6wY5Ywne3X5Pha3fqAjQsR7fwXYolDhBRQsh4t90BgcyoLMbPGiEZpb-bVHmihQ"
+          "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..mKabts-uq4b5XPvvHG4MWRPa-ucdpFjR_sB5vc8OK_FVb169RyR01mQfDMt-hI3oFynRSEBKg1SDTinxABd8-Q"
         }
       },
       "verification": {
         "verified": true
       }
     },
-    "credential-1--key-2-secp256r1.json": {
-      "vector": {
+    "credential-1--key-2-secp256r1.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "vectorContent": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMiJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZTo0NTYiLCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImV4cGlyYXRpb25EYXRlIjoiMjAzMS0wMS0wMVQxOToyMzoyNFoiLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZCI6ImRpZDpleGFtcGxlOjQ1NiIsInR5cGUiOiJQZXJzb24ifX0sIm5iZiI6MTYwOTUyOTAwNCwiZXhwIjoxOTI1MDYxODA0fQ.ZXlKaGJHY2lPaUpGVXpJMU5pSXNJbUkyTkNJNlptRnNjMlVzSW1OeWFYUWlPbHNpWWpZMElsMTkuLnlqX3k0aUtGWXc1bzBNSVR0TFEyLURXRE52NWdBclIwWUtoS0VKSUhEYW1JUktVN21sNk9CdHBmdU1Zcy1ramM5Ml9FMnNtendUNHgwb1hCNHdZR3N3",
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-1--key-2-secp256r1.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1",
@@ -677,18 +1554,26 @@
         },
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:02:56Z",
+          "created": "2021-11-06T17:39:41Z",
           "verificationMethod": "did:example:123#key-2",
           "proofPurpose": "assertionMethod",
-          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..YYrjnczOBd__xmRqnpdlON_aL7rwfbKL9LbXdeyhcQDb3a3eh96uLIEWgUaler4HgrNU3VvR3rwMS4Yg-7yGnA"
+          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..0XnoineyjAkZkw-y5yxpsrHe7fGtPvTD0wZaQ1GpMnrP-2et-KUHn_Dl1MMgD6pcyBAoNqY3HAVHYC8G2TDMYA"
         }
       },
       "verification": {
         "verified": true
       }
     },
-    "credential-1--key-3-secp384r1.json": {
-      "vector": {
+    "credential-1--key-3-secp384r1.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "vectorContent": "eyJhbGciOiJFUzM4NCIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMyJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZTo0NTYiLCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImV4cGlyYXRpb25EYXRlIjoiMjAzMS0wMS0wMVQxOToyMzoyNFoiLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZCI6ImRpZDpleGFtcGxlOjQ1NiIsInR5cGUiOiJQZXJzb24ifX0sIm5iZiI6MTYwOTUyOTAwNCwiZXhwIjoxOTI1MDYxODA0fQ.ZXlKaGJHY2lPaUpGVXpNNE5DSXNJbUkyTkNJNlptRnNjMlVzSW1OeWFYUWlPbHNpWWpZMElsMTkuLlU2WnV4RlZuYU1iTGxxRGFaYTlDLWNjOGhkdGhPTDdQZXNMNkxzY25LclotSlNfcU1kUVpsZTJENzZZTnVPd3N5NWxzWU5aUTlHbDdnZEx1d3BYQXBjVXlPQXhhVGtscElndHY3Rjd1VEkyMGxCOFowZDlkeGoxSmUzamhENEVE",
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-1--key-3-secp384r1.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1",
@@ -708,18 +1593,26 @@
         },
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:03:03Z",
+          "created": "2021-11-06T17:40:00Z",
           "verificationMethod": "did:example:123#key-3",
           "proofPurpose": "assertionMethod",
-          "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..sV2tbE_UHFsx8AMS6mZ5j2oTr2hC1cF3cQEo-LYp1M0_ZrtgPVW0YQl30IXNDV_3AaaLrpuir3bJOmGSYKd4rP0jA-2PGnO48nXtoFAPm-El-lQcjSbhUz7JvKTWTcO4"
+          "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..7dxtOg4QgqBgBxGy1w0mry1-r56I6q_hFucMqbUVh4vCpb5k5mHYIu7iYWxx721M_6dTF63f-O4aFRG0JOc8MDaxzbXoUY87-S2-SLPJ0ZltgbcKdFJ-Qg1qppAJVeEy"
         }
       },
       "verification": {
         "verified": true
       }
     },
-    "credential-2--key-0-ed25519.json": {
-      "vector": {
+    "credential-2--key-0-ed25519.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "vectorContent": "eyJhbGciOiJFZERTQSIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZTo0NTYiLCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImlkIjoiZGlkOmV4YW1wbGU6NDU2In0sImV2aWRlbmNlIjpbeyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmQ0MjMxIiwidHlwZSI6WyJEb2N1bWVudFZlcmlmaWNhdGlvbiJdLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCIsImV2aWRlbmNlRG9jdW1lbnQiOiJEcml2ZXJzTGljZW5zZSIsInN1YmplY3RQcmVzZW5jZSI6IlBoeXNpY2FsIiwiZG9jdW1lbnRQcmVzZW5jZSI6IlBoeXNpY2FsIn0seyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmR4eXphYiIsInR5cGUiOlsiU3VwcG9ydGluZ0FjdGl2aXR5Il0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0IiwiZXZpZGVuY2VEb2N1bWVudCI6IkZsdWlkIER5bmFtaWNzIEZvY3VzIiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCIsImRvY3VtZW50UHJlc2VuY2UiOiJEaWdpdGFsIn1dfSwibmJmIjoxNjA5NTI5MDA0fQ.ZXlKaGJHY2lPaUpGWkVSVFFTSXNJbUkyTkNJNlptRnNjMlVzSW1OeWFYUWlPbHNpWWpZMElsMTkuLnkzWVc2T0pYX1FXeTVpcU9mb3h6QUpiek11dXdrUlI3Nl9OMGZDdTNXZTRnUjA0T1V6UlZPS0JKTGoyZWRNVTdWei1rVXF2ZzQtVG8tVUM5VWxvbENR",
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-2--key-0-ed25519.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1",
@@ -759,18 +1652,26 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:02:42Z",
+          "created": "2021-11-06T17:39:07Z",
           "verificationMethod": "did:example:123#key-0",
           "proofPurpose": "assertionMethod",
-          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..xH7tAWd8sGaCAqeKFCWGU9-5FLH7FoTLD7whbeWDOT2c2lGclp9GxJPIfdLG5X2wuSXEpFXrEBAfSmwy4jMfDg"
+          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..M5oaTSHnDUsqTttl46xBS3NzHQyiW-VNjWhkwHMwUGCUaUBHekcujk7jivD45YOZbDBiXv78yIs4Ff5iSbQiCg"
         }
       },
       "verification": {
         "verified": true
       }
     },
-    "credential-2--key-1-secp256k1.json": {
-      "vector": {
+    "credential-2--key-1-secp256k1.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "vectorContent": "eyJhbGciOiJFUzI1NksiLCJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTEifQ.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZTo0NTYiLCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImlkIjoiZGlkOmV4YW1wbGU6NDU2In0sImV2aWRlbmNlIjpbeyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmQ0MjMxIiwidHlwZSI6WyJEb2N1bWVudFZlcmlmaWNhdGlvbiJdLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCIsImV2aWRlbmNlRG9jdW1lbnQiOiJEcml2ZXJzTGljZW5zZSIsInN1YmplY3RQcmVzZW5jZSI6IlBoeXNpY2FsIiwiZG9jdW1lbnRQcmVzZW5jZSI6IlBoeXNpY2FsIn0seyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmR4eXphYiIsInR5cGUiOlsiU3VwcG9ydGluZ0FjdGl2aXR5Il0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0IiwiZXZpZGVuY2VEb2N1bWVudCI6IkZsdWlkIER5bmFtaWNzIEZvY3VzIiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCIsImRvY3VtZW50UHJlc2VuY2UiOiJEaWdpdGFsIn1dfSwibmJmIjoxNjA5NTI5MDA0fQ.ZXlKaGJHY2lPaUpGVXpJMU5rc2lMQ0ppTmpRaU9tWmhiSE5sTENKamNtbDBJanBiSW1JMk5DSmRmUS4uTUE4TENOUXdVWFJMWDdkQW1LVlFIVGR1SGxxalZhbnB2OWxpR0E1VDdDVTN2RGw2WVhra0NsZDJ0dFdvSGpWYWd4T2lSUHdUYmdmNUljRnY3SVpELVE",
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-2--key-1-secp256k1.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1",
@@ -810,18 +1711,26 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:02:50Z",
+          "created": "2021-11-06T17:39:25Z",
           "verificationMethod": "did:example:123#key-1",
           "proofPurpose": "assertionMethod",
-          "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..Bnn9DJdS0X6QKHSYIQKpxn8ATbw4EE8xj0AuAsR9HR4V2eRRfFWKRvZyil6XOdcJ6fBfJF2T1YWOjk0wagISuQ"
+          "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..0LOpjtxubRtMU0KXq-vlRKJc-dBQKADlpFdsZe8Uzbw2uKw4FO8CEs7oJVQAAfSGMa20LKOAF5TSEQ5Tw2vo6w"
         }
       },
       "verification": {
         "verified": true
       }
     },
-    "credential-2--key-2-secp256r1.json": {
-      "vector": {
+    "credential-2--key-2-secp256r1.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "vectorContent": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMiJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZTo0NTYiLCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImlkIjoiZGlkOmV4YW1wbGU6NDU2In0sImV2aWRlbmNlIjpbeyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmQ0MjMxIiwidHlwZSI6WyJEb2N1bWVudFZlcmlmaWNhdGlvbiJdLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCIsImV2aWRlbmNlRG9jdW1lbnQiOiJEcml2ZXJzTGljZW5zZSIsInN1YmplY3RQcmVzZW5jZSI6IlBoeXNpY2FsIiwiZG9jdW1lbnRQcmVzZW5jZSI6IlBoeXNpY2FsIn0seyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmR4eXphYiIsInR5cGUiOlsiU3VwcG9ydGluZ0FjdGl2aXR5Il0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0IiwiZXZpZGVuY2VEb2N1bWVudCI6IkZsdWlkIER5bmFtaWNzIEZvY3VzIiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCIsImRvY3VtZW50UHJlc2VuY2UiOiJEaWdpdGFsIn1dfSwibmJmIjoxNjA5NTI5MDA0fQ.ZXlKaGJHY2lPaUpGVXpJMU5pSXNJbUkyTkNJNlptRnNjMlVzSW1OeWFYUWlPbHNpWWpZMElsMTkuLnZvRHVVbkRpTF9sVWF3LVN4Y25WTlVYeVB4U2F6SGFnY085OUlyUEprN0gtTll0RFltQzNBM0drN1E1bS1XMUJoSjVtWGVSVi1nckJtU2lXamxzb2Fn",
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-2--key-2-secp256r1.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1",
@@ -861,18 +1770,26 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:02:57Z",
+          "created": "2021-11-06T17:39:42Z",
           "verificationMethod": "did:example:123#key-2",
           "proofPurpose": "assertionMethod",
-          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..r80OtFEzd1Vji08oOKS3PIqDcVnBB8WhHAOV75mOkN1IEduJXAYBbEfilfRf9WK4sme88vkWfBoiLUdnughjrw"
+          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19.._KJ5JKKNTEOwyl9mDwc-AZp2tmKg5minvLzrlXoao8xsAG19lY3Gy9tK-MgIO1q31bHrOK0niG7mUOgce1ZgEg"
         }
       },
       "verification": {
         "verified": true
       }
     },
-    "credential-2--key-3-secp384r1.json": {
-      "vector": {
+    "credential-2--key-3-secp384r1.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "vectorContent": "eyJhbGciOiJFUzM4NCIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMyJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZTo0NTYiLCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImlkIjoiZGlkOmV4YW1wbGU6NDU2In0sImV2aWRlbmNlIjpbeyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmQ0MjMxIiwidHlwZSI6WyJEb2N1bWVudFZlcmlmaWNhdGlvbiJdLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCIsImV2aWRlbmNlRG9jdW1lbnQiOiJEcml2ZXJzTGljZW5zZSIsInN1YmplY3RQcmVzZW5jZSI6IlBoeXNpY2FsIiwiZG9jdW1lbnRQcmVzZW5jZSI6IlBoeXNpY2FsIn0seyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmR4eXphYiIsInR5cGUiOlsiU3VwcG9ydGluZ0FjdGl2aXR5Il0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0IiwiZXZpZGVuY2VEb2N1bWVudCI6IkZsdWlkIER5bmFtaWNzIEZvY3VzIiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCIsImRvY3VtZW50UHJlc2VuY2UiOiJEaWdpdGFsIn1dfSwibmJmIjoxNjA5NTI5MDA0fQ.ZXlKaGJHY2lPaUpGVXpNNE5DSXNJbUkyTkNJNlptRnNjMlVzSW1OeWFYUWlPbHNpWWpZMElsMTkuLlZ0RTdsRUlnM1Nsd2owUEJYYzVLZmM4NGF2UnN0bEtOT1NvQzY4YWpSVmdKTXhEOGxSLWw3UDRvRnJob1A4TW1rd2Fja1dkOTA4RU5fZ2NGYVVDSkl3NVhqbHBsWThqaVEzaXdZTnZkaHF4ZzFMQ0o4M3BRaVVsYTNNckdRTHBj",
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-2--key-3-secp384r1.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1",
@@ -912,18 +1829,33 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:03:05Z",
+          "created": "2021-11-06T17:40:01Z",
           "verificationMethod": "did:example:123#key-3",
           "proofPurpose": "assertionMethod",
-          "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..P1wXCGR9ZXk3dD_jNP6h5yC4NwhdsSAYF8lRxoLxG1TB4kEgmOb_35MKpgBhaAOlfaOgQIdcT5hYoGmrpDuWFY3ooDEzXNZITFXyZN640ToCt9Ntd2yFRp5Eaomu2opa"
+          "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..4rIcK1lMn-dzedO9o-TYlb9Z-ySdcDf-4ir2L7e4XoOmnli0jFZM970S3k_NJJYJnJ--eZXoKcyZlXrejvdqe6N9Vi5GwCncJWA1UmxAhFzUb0n_j63u3iAjyTkNCRm9"
         }
       },
       "verification": {
         "verified": true
       }
     },
-    "presentation-0--key-0-ed25519.json": {
-      "vector": {
+    "presentation-0--key-0-ed25519.vc-jwt.json": {
+      "vector": "vp",
+      "vectorContent": {},
+      "verification": {
+        "verified": false
+      }
+    },
+    "presentation-0--key-0-ed25519.vp-jwt.json": {
+      "vector": "vp-jwt",
+      "vectorContent": "eyJhbGciOiJFZERTQSIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZVByZXNlbnRhdGlvbiJdLCJob2xkZXIiOiJkaWQ6ZXhhbXBsZToxMjMifSwibm9uY2UiOiIxMjMifQ.ZXlKaGJHY2lPaUpGWkVSVFFTSXNJbUkyTkNJNlptRnNjMlVzSW1OeWFYUWlPbHNpWWpZMElsMTkuLkFPY2Z2Zi1GdlUza3hzZ0pydmVJS1BObWVIb0h6NEo3cXZOWmFjZmZhSWxNckJ2SVk2N01vSElVVWtaU1ROMEExVmJmT3lPS0xoVk4zb3c5NXk0NkRR",
+      "verification": {
+        "verified": true
+      }
+    },
+    "presentation-0--key-0-ed25519.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1"
@@ -934,19 +1866,133 @@
         "holder": "did:example:123",
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:02:44Z",
+          "created": "2021-11-06T17:39:13Z",
           "verificationMethod": "did:example:123#key-0",
           "proofPurpose": "authentication",
           "challenge": "123",
-          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Cxkp2tMVFltMiNSNlAXvGBzTwgIL2FGJyv9OTZkJ6Ux9S7oUPqVreYOvOZwpoqx_-fILbBw3DafWcgHV1PeHDw"
+          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..0Uc5tIC9xyU5mbCUrxZMR3-mXKjcKZ1CXCKQcOoFTWfI2fHC1hmQ_DV0UosFw9EOWwl92UHXwhcaV0ZBrF6hAA"
         }
       },
+      "verification": {
+        "verified": true,
+        "presentation": {
+          "verified": true,
+          "results": [
+            {
+              "proof": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1",
+                  "https://w3id.org/security/suites/jws-2020/v1"
+                ],
+                "type": "JsonWebSignature2020",
+                "created": "2021-11-06T17:39:13Z",
+                "verificationMethod": "did:example:123#key-0",
+                "proofPurpose": "authentication",
+                "challenge": "123",
+                "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..0Uc5tIC9xyU5mbCUrxZMR3-mXKjcKZ1CXCKQcOoFTWfI2fHC1hmQ_DV0UosFw9EOWwl92UHXwhcaV0ZBrF6hAA"
+              },
+              "verified": true,
+              "purposeResult": {
+                "valid": true,
+                "controller": {
+                  "@context": [
+                    "https://www.w3.org/ns/did/v1",
+                    "https://w3id.org/security/suites/jws-2020/v1"
+                  ],
+                  "id": "did:example:123",
+                  "verificationMethod": [
+                    {
+                      "id": "did:example:123#key-0",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "OKP",
+                        "crv": "Ed25519",
+                        "x": "JYCAGl6C7gcDeKbNqtXBfpGzH0f5elifj7L6zYNj_Is"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-1",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "secp256k1",
+                        "x": "BuzCc8bUShI3GfVz-WLISZDGq7wnVB4h_nvNQcWn7Jw",
+                        "y": "dLrbspB9PZvZF0dr42nCmF38192dQKglvB52IZBM-vs"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-2",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-256",
+                        "x": "40TexHWb6XTyuShaqhiazvmfxyK5zibbtOBXsQFKJg8",
+                        "y": "SGIGDSRHOOYJntO1lIapw_vR1FP7SPBlmA_2aM9HoFU"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-3",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-384",
+                        "x": "BiU_mGfa3uWMKrC4Q6EFvM5D5Qiz2orm7ABlIaC1iJWOuapQC9U_fbqrKwRFRepf",
+                        "y": "_23qoYv94V-PSWzqQMnUqq1nu_MdE4fEIaAhCCYplAwlp4c3LKZDtkgQaPdF4kIT"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-4",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "RSA",
+                        "n": "oF_3bdq-pORqmzx2zROkrhVzAPQQ9JmDh1tjKvKgFh-1M5gywClzn0LoWkIiqqIiLOWXkfGRsqvi4VLbHQ_9WZza54EgIo_cyrZnXaIJCEFGQfwDK5-HqDqrgPCw3DFths04LY59LJ2aNxwgbu5otkQ2Vp8bU-U3_Hr5qz_U9xZjOev3OyD7kfBELAFXYHqnSfSJBJ-YxFjo-Plicjfha14U6C-hMeJlDu-Nwj-hCEHdDGK01_go9vIzA745xwAFfeyUZVhTpu6WLSn4RN9vRroLRjO5gvmHUZUquGh-sR4KNLebOeWcyxS5QEAbsYR82YsEWucLTdpFSdu1RVu8nw",
+                        "e": "AQAB"
+                      }
+                    }
+                  ],
+                  "assertionMethod": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ],
+                  "authentication": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "presentation-0--key-1-secp256k1.vc-jwt.json": {
+      "vector": "vp",
+      "vectorContent": {},
+      "verification": {
+        "verified": false
+      }
+    },
+    "presentation-0--key-1-secp256k1.vp-jwt.json": {
+      "vector": "vp-jwt",
+      "vectorContent": "eyJhbGciOiJFUzI1NksiLCJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTEifQ.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZVByZXNlbnRhdGlvbiJdLCJob2xkZXIiOiJkaWQ6ZXhhbXBsZToxMjMifSwibm9uY2UiOiIxMjMifQ.ZXlKaGJHY2lPaUpGVXpJMU5rc2lMQ0ppTmpRaU9tWmhiSE5sTENKamNtbDBJanBiSW1JMk5DSmRmUS4uMDdvYlR1X3laaFhwMl9SbXl2ZjVXT1ltQ1RpM2hJbEd2djJmbTNkSnp6RUloMnVEcl9WRTl5b0NqZWRLUnZpQldHU05VUVpDbHJmZGtzM2lDbGItaVE",
       "verification": {
         "verified": true
       }
     },
-    "presentation-0--key-1-secp256k1.json": {
-      "vector": {
+    "presentation-0--key-1-secp256k1.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1"
@@ -957,19 +2003,133 @@
         "holder": "did:example:123",
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:02:51Z",
+          "created": "2021-11-06T17:39:31Z",
           "verificationMethod": "did:example:123#key-1",
           "proofPurpose": "authentication",
           "challenge": "123",
-          "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..ozPLPvTTY1EFCIIPLtzUnrzLlKJhuvP9a4dKhWaEUbN4krdW9bIiv-R2EhFOIAJi6YvIR2pykJky1I2IrdxQyQ"
+          "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..79pD042eFBiJDqN-gTLoae8kMiZ3iSyGKtXzmiFrSPdb0bSDh4gLke-AvnrPJk3MsQpyuWKLcfVGzd1Y4VJyjg"
         }
       },
+      "verification": {
+        "verified": true,
+        "presentation": {
+          "verified": true,
+          "results": [
+            {
+              "proof": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1",
+                  "https://w3id.org/security/suites/jws-2020/v1"
+                ],
+                "type": "JsonWebSignature2020",
+                "created": "2021-11-06T17:39:31Z",
+                "verificationMethod": "did:example:123#key-1",
+                "proofPurpose": "authentication",
+                "challenge": "123",
+                "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..79pD042eFBiJDqN-gTLoae8kMiZ3iSyGKtXzmiFrSPdb0bSDh4gLke-AvnrPJk3MsQpyuWKLcfVGzd1Y4VJyjg"
+              },
+              "verified": true,
+              "purposeResult": {
+                "valid": true,
+                "controller": {
+                  "@context": [
+                    "https://www.w3.org/ns/did/v1",
+                    "https://w3id.org/security/suites/jws-2020/v1"
+                  ],
+                  "id": "did:example:123",
+                  "verificationMethod": [
+                    {
+                      "id": "did:example:123#key-0",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "OKP",
+                        "crv": "Ed25519",
+                        "x": "JYCAGl6C7gcDeKbNqtXBfpGzH0f5elifj7L6zYNj_Is"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-1",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "secp256k1",
+                        "x": "BuzCc8bUShI3GfVz-WLISZDGq7wnVB4h_nvNQcWn7Jw",
+                        "y": "dLrbspB9PZvZF0dr42nCmF38192dQKglvB52IZBM-vs"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-2",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-256",
+                        "x": "40TexHWb6XTyuShaqhiazvmfxyK5zibbtOBXsQFKJg8",
+                        "y": "SGIGDSRHOOYJntO1lIapw_vR1FP7SPBlmA_2aM9HoFU"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-3",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-384",
+                        "x": "BiU_mGfa3uWMKrC4Q6EFvM5D5Qiz2orm7ABlIaC1iJWOuapQC9U_fbqrKwRFRepf",
+                        "y": "_23qoYv94V-PSWzqQMnUqq1nu_MdE4fEIaAhCCYplAwlp4c3LKZDtkgQaPdF4kIT"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-4",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "RSA",
+                        "n": "oF_3bdq-pORqmzx2zROkrhVzAPQQ9JmDh1tjKvKgFh-1M5gywClzn0LoWkIiqqIiLOWXkfGRsqvi4VLbHQ_9WZza54EgIo_cyrZnXaIJCEFGQfwDK5-HqDqrgPCw3DFths04LY59LJ2aNxwgbu5otkQ2Vp8bU-U3_Hr5qz_U9xZjOev3OyD7kfBELAFXYHqnSfSJBJ-YxFjo-Plicjfha14U6C-hMeJlDu-Nwj-hCEHdDGK01_go9vIzA745xwAFfeyUZVhTpu6WLSn4RN9vRroLRjO5gvmHUZUquGh-sR4KNLebOeWcyxS5QEAbsYR82YsEWucLTdpFSdu1RVu8nw",
+                        "e": "AQAB"
+                      }
+                    }
+                  ],
+                  "assertionMethod": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ],
+                  "authentication": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "presentation-0--key-2-secp256r1.vc-jwt.json": {
+      "vector": "vp",
+      "vectorContent": {},
+      "verification": {
+        "verified": false
+      }
+    },
+    "presentation-0--key-2-secp256r1.vp-jwt.json": {
+      "vector": "vp-jwt",
+      "vectorContent": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMiJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZVByZXNlbnRhdGlvbiJdLCJob2xkZXIiOiJkaWQ6ZXhhbXBsZToxMjMifSwibm9uY2UiOiIxMjMifQ.ZXlKaGJHY2lPaUpGVXpJMU5pSXNJbUkyTkNJNlptRnNjMlVzSW1OeWFYUWlPbHNpWWpZMElsMTkuLjJVel9rNG9nVzluTDRNSkdkWEJ2MThtb29xSVUxV2NMNDJzRUJpU2c5RERRZ25JTGZmQ0JnekN0TmJJUnk4cGhWMWt6VUd5TVdoZ2dQR1RocEFOaUVn",
       "verification": {
         "verified": true
       }
     },
-    "presentation-0--key-2-secp256r1.json": {
-      "vector": {
+    "presentation-0--key-2-secp256r1.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1"
@@ -980,19 +2140,133 @@
         "holder": "did:example:123",
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:02:58Z",
+          "created": "2021-11-06T17:39:48Z",
           "verificationMethod": "did:example:123#key-2",
           "proofPurpose": "authentication",
           "challenge": "123",
-          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..QIWBnXh3I5E7vrBthqGE2hDO0lc5oUwW5zIcbBy6LvxePRqVPem3ldfxJPuohqTzM_RonEyJ3VWN92hxLWXi7w"
+          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..gRsp_J_KGCiZ63iLasmf0qAEcQXgx65mOtvcfYcOEP56wFYTKhqg14rueh7Hv8ux9E5hbGmiPzH09hRexLqvOg"
         }
       },
+      "verification": {
+        "verified": true,
+        "presentation": {
+          "verified": true,
+          "results": [
+            {
+              "proof": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1",
+                  "https://w3id.org/security/suites/jws-2020/v1"
+                ],
+                "type": "JsonWebSignature2020",
+                "created": "2021-11-06T17:39:48Z",
+                "verificationMethod": "did:example:123#key-2",
+                "proofPurpose": "authentication",
+                "challenge": "123",
+                "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..gRsp_J_KGCiZ63iLasmf0qAEcQXgx65mOtvcfYcOEP56wFYTKhqg14rueh7Hv8ux9E5hbGmiPzH09hRexLqvOg"
+              },
+              "verified": true,
+              "purposeResult": {
+                "valid": true,
+                "controller": {
+                  "@context": [
+                    "https://www.w3.org/ns/did/v1",
+                    "https://w3id.org/security/suites/jws-2020/v1"
+                  ],
+                  "id": "did:example:123",
+                  "verificationMethod": [
+                    {
+                      "id": "did:example:123#key-0",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "OKP",
+                        "crv": "Ed25519",
+                        "x": "JYCAGl6C7gcDeKbNqtXBfpGzH0f5elifj7L6zYNj_Is"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-1",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "secp256k1",
+                        "x": "BuzCc8bUShI3GfVz-WLISZDGq7wnVB4h_nvNQcWn7Jw",
+                        "y": "dLrbspB9PZvZF0dr42nCmF38192dQKglvB52IZBM-vs"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-2",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-256",
+                        "x": "40TexHWb6XTyuShaqhiazvmfxyK5zibbtOBXsQFKJg8",
+                        "y": "SGIGDSRHOOYJntO1lIapw_vR1FP7SPBlmA_2aM9HoFU"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-3",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-384",
+                        "x": "BiU_mGfa3uWMKrC4Q6EFvM5D5Qiz2orm7ABlIaC1iJWOuapQC9U_fbqrKwRFRepf",
+                        "y": "_23qoYv94V-PSWzqQMnUqq1nu_MdE4fEIaAhCCYplAwlp4c3LKZDtkgQaPdF4kIT"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-4",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "RSA",
+                        "n": "oF_3bdq-pORqmzx2zROkrhVzAPQQ9JmDh1tjKvKgFh-1M5gywClzn0LoWkIiqqIiLOWXkfGRsqvi4VLbHQ_9WZza54EgIo_cyrZnXaIJCEFGQfwDK5-HqDqrgPCw3DFths04LY59LJ2aNxwgbu5otkQ2Vp8bU-U3_Hr5qz_U9xZjOev3OyD7kfBELAFXYHqnSfSJBJ-YxFjo-Plicjfha14U6C-hMeJlDu-Nwj-hCEHdDGK01_go9vIzA745xwAFfeyUZVhTpu6WLSn4RN9vRroLRjO5gvmHUZUquGh-sR4KNLebOeWcyxS5QEAbsYR82YsEWucLTdpFSdu1RVu8nw",
+                        "e": "AQAB"
+                      }
+                    }
+                  ],
+                  "assertionMethod": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ],
+                  "authentication": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "presentation-0--key-3-secp384r1.vc-jwt.json": {
+      "vector": "vp",
+      "vectorContent": {},
+      "verification": {
+        "verified": false
+      }
+    },
+    "presentation-0--key-3-secp384r1.vp-jwt.json": {
+      "vector": "vp-jwt",
+      "vectorContent": "eyJhbGciOiJFUzM4NCIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMyJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZVByZXNlbnRhdGlvbiJdLCJob2xkZXIiOiJkaWQ6ZXhhbXBsZToxMjMifSwibm9uY2UiOiIxMjMifQ.ZXlKaGJHY2lPaUpGVXpNNE5DSXNJbUkyTkNJNlptRnNjMlVzSW1OeWFYUWlPbHNpWWpZMElsMTkuLlFjV0U5UV9kcHliQ29wdkZJck1vOHhMZjFMRVpIWXpSYmNfT1ludDIxdlBrSmZ5bmNmTmRZV3V5OVRLYW9TQWpMVmVQcklMSmdRdTVLY2F0SENuZGNTQWlSelQwZWx4SEJOWFNoeW5qQzRualE3UExNY1NLX2FjNHkwSEc4XzA4",
       "verification": {
         "verified": true
       }
     },
-    "presentation-0--key-3-secp384r1.json": {
-      "vector": {
+    "presentation-0--key-3-secp384r1.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1"
@@ -1003,19 +2277,133 @@
         "holder": "did:example:123",
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:03:06Z",
+          "created": "2021-11-06T17:40:07Z",
           "verificationMethod": "did:example:123#key-3",
           "proofPurpose": "authentication",
           "challenge": "123",
-          "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..9ppp3be-pnbdO85ShhkH5SWNv1AvYUYyuVEdP7BbA0k4LV1qEym9rjurf9zFuQ0EB6X2TeFKOBuCNJAJJJ5xnq3Tya9bcCa-ZumHbzkApUhSuIfxKD_j0T05cCF5Jui3"
+          "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..d4HzPra4jX6RMBE4mQ_BS2MakAleexLsE2MPySwm3-QSt_CZDAsJ3uVu8KDLgxkChHAfSnhvn9daP8EiCS9CTACXipnPV-RbkK0BI-DCR0faze63opsjsPvWt6zqmO2i"
         }
       },
+      "verification": {
+        "verified": true,
+        "presentation": {
+          "verified": true,
+          "results": [
+            {
+              "proof": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1",
+                  "https://w3id.org/security/suites/jws-2020/v1"
+                ],
+                "type": "JsonWebSignature2020",
+                "created": "2021-11-06T17:40:07Z",
+                "verificationMethod": "did:example:123#key-3",
+                "proofPurpose": "authentication",
+                "challenge": "123",
+                "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..d4HzPra4jX6RMBE4mQ_BS2MakAleexLsE2MPySwm3-QSt_CZDAsJ3uVu8KDLgxkChHAfSnhvn9daP8EiCS9CTACXipnPV-RbkK0BI-DCR0faze63opsjsPvWt6zqmO2i"
+              },
+              "verified": true,
+              "purposeResult": {
+                "valid": true,
+                "controller": {
+                  "@context": [
+                    "https://www.w3.org/ns/did/v1",
+                    "https://w3id.org/security/suites/jws-2020/v1"
+                  ],
+                  "id": "did:example:123",
+                  "verificationMethod": [
+                    {
+                      "id": "did:example:123#key-0",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "OKP",
+                        "crv": "Ed25519",
+                        "x": "JYCAGl6C7gcDeKbNqtXBfpGzH0f5elifj7L6zYNj_Is"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-1",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "secp256k1",
+                        "x": "BuzCc8bUShI3GfVz-WLISZDGq7wnVB4h_nvNQcWn7Jw",
+                        "y": "dLrbspB9PZvZF0dr42nCmF38192dQKglvB52IZBM-vs"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-2",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-256",
+                        "x": "40TexHWb6XTyuShaqhiazvmfxyK5zibbtOBXsQFKJg8",
+                        "y": "SGIGDSRHOOYJntO1lIapw_vR1FP7SPBlmA_2aM9HoFU"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-3",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-384",
+                        "x": "BiU_mGfa3uWMKrC4Q6EFvM5D5Qiz2orm7ABlIaC1iJWOuapQC9U_fbqrKwRFRepf",
+                        "y": "_23qoYv94V-PSWzqQMnUqq1nu_MdE4fEIaAhCCYplAwlp4c3LKZDtkgQaPdF4kIT"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-4",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "RSA",
+                        "n": "oF_3bdq-pORqmzx2zROkrhVzAPQQ9JmDh1tjKvKgFh-1M5gywClzn0LoWkIiqqIiLOWXkfGRsqvi4VLbHQ_9WZza54EgIo_cyrZnXaIJCEFGQfwDK5-HqDqrgPCw3DFths04LY59LJ2aNxwgbu5otkQ2Vp8bU-U3_Hr5qz_U9xZjOev3OyD7kfBELAFXYHqnSfSJBJ-YxFjo-Plicjfha14U6C-hMeJlDu-Nwj-hCEHdDGK01_go9vIzA745xwAFfeyUZVhTpu6WLSn4RN9vRroLRjO5gvmHUZUquGh-sR4KNLebOeWcyxS5QEAbsYR82YsEWucLTdpFSdu1RVu8nw",
+                        "e": "AQAB"
+                      }
+                    }
+                  ],
+                  "assertionMethod": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ],
+                  "authentication": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "presentation-1--key-0-ed25519.vc-jwt.json": {
+      "vector": "vp",
+      "vectorContent": {},
+      "verification": {
+        "verified": false
+      }
+    },
+    "presentation-1--key-0-ed25519.vp-jwt.json": {
+      "vector": "vp-jwt",
+      "vectorContent": "eyJhbGciOiJFZERTQSIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sImlkIjoidXJuOnV1aWQ6Nzg5IiwidHlwZSI6WyJWZXJpZmlhYmxlUHJlc2VudGF0aW9uIl0sImhvbGRlciI6ImRpZDpleGFtcGxlOjEyMyIsInZlcmlmaWFibGVDcmVkZW50aWFsIjpbeyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImlkIjoiZGlkOmV4YW1wbGU6NDU2In0sImV2aWRlbmNlIjpbeyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmQ0MjMxIiwidHlwZSI6WyJEb2N1bWVudFZlcmlmaWNhdGlvbiJdLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCIsImV2aWRlbmNlRG9jdW1lbnQiOiJEcml2ZXJzTGljZW5zZSIsInN1YmplY3RQcmVzZW5jZSI6IlBoeXNpY2FsIiwiZG9jdW1lbnRQcmVzZW5jZSI6IlBoeXNpY2FsIn0seyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmR4eXphYiIsInR5cGUiOlsiU3VwcG9ydGluZ0FjdGl2aXR5Il0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0IiwiZXZpZGVuY2VEb2N1bWVudCI6IkZsdWlkIER5bmFtaWNzIEZvY3VzIiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCIsImRvY3VtZW50UHJlc2VuY2UiOiJEaWdpdGFsIn1dLCJwcm9vZiI6eyJ0eXBlIjoiSnNvbldlYlNpZ25hdHVyZTIwMjAiLCJjcmVhdGVkIjoiMjAyMS0xMC0wMlQxNzo1ODowMFoiLCJwcm9vZlB1cnBvc2UiOiJhc3NlcnRpb25NZXRob2QiLCJ2ZXJpZmljYXRpb25NZXRob2QiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTAiLCJqd3MiOiJleUppTmpRaU9tWmhiSE5sTENKamNtbDBJanBiSW1JMk5DSmRMQ0poYkdjaU9pSkZaRVJUUVNKOS4uVkE4VlFxQWVyVVQ2QUlWZEhjOFc4UTJhajEyTE9RalZfVloxZTEzNE5VOVEyMGVCc055U1BqTmRtVFdwMkhrZHF1Q25iUmhCSHhJYk5lRkVJT09oQWcifX1dfSwibm9uY2UiOiIxMjMifQ.ZXlKaGJHY2lPaUpGWkVSVFFTSXNJbUkyTkNJNlptRnNjMlVzSW1OeWFYUWlPbHNpWWpZMElsMTkuLlpNUm03WXZQdnRmMjI0blBMaHItNGtWd09LWTJDMFZlSTUyR29lSjRaWGNXUXNHNDEzUzcyLXdaTlltT3dHbUxnVG1OemllWlNxYWNkYTQ2TEJSYkFB",
       "verification": {
         "verified": true
       }
     },
-    "presentation-1--key-0-ed25519.json": {
-      "vector": {
+    "presentation-1--key-0-ed25519.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1"
@@ -1075,19 +2463,163 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:02:45Z",
+          "created": "2021-11-06T17:39:14Z",
           "verificationMethod": "did:example:123#key-0",
           "proofPurpose": "authentication",
           "challenge": "123",
-          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..5CN-4uYFrQSI6OKWmjyCniE9-a8vFjx8FUJdmG2_iSa69qRHjVp-lT-WuS-Arq20PvD6eF_YrzWt87iliYq8Ag"
+          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..a7uYO0XtmTMhfk7ZlfEbLy1YkWD1E-ALRg0sHgz8iwgjyayL7x_nJeK_xHlKBIPUYrtjb8XBhPpTQRimAeOGBg"
         }
       },
+      "verification": {
+        "verified": true,
+        "credentials": {
+          "verified": true,
+          "results": [
+            {
+              "verified": true,
+              "results": [
+                {
+                  "proof": {
+                    "@context": [
+                      "https://www.w3.org/2018/credentials/v1",
+                      "https://w3id.org/security/suites/jws-2020/v1",
+                      {
+                        "@vocab": "https://example.com/#"
+                      }
+                    ],
+                    "type": "JsonWebSignature2020",
+                    "created": "2021-10-02T17:58:00Z",
+                    "proofPurpose": "assertionMethod",
+                    "verificationMethod": "did:example:123#key-0",
+                    "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..VA8VQqAerUT6AIVdHc8W8Q2aj12LOQjV_VZ1e134NU9Q20eBsNySPjNdmTWp2HkdquCnbRhBHxIbNeFEIOOhAg"
+                  },
+                  "verified": true,
+                  "purposeResult": {
+                    "valid": true
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "presentation": {
+          "verified": true,
+          "results": [
+            {
+              "proof": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1",
+                  "https://w3id.org/security/suites/jws-2020/v1"
+                ],
+                "type": "JsonWebSignature2020",
+                "created": "2021-11-06T17:39:14Z",
+                "verificationMethod": "did:example:123#key-0",
+                "proofPurpose": "authentication",
+                "challenge": "123",
+                "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..a7uYO0XtmTMhfk7ZlfEbLy1YkWD1E-ALRg0sHgz8iwgjyayL7x_nJeK_xHlKBIPUYrtjb8XBhPpTQRimAeOGBg"
+              },
+              "verified": true,
+              "purposeResult": {
+                "valid": true,
+                "controller": {
+                  "@context": [
+                    "https://www.w3.org/ns/did/v1",
+                    "https://w3id.org/security/suites/jws-2020/v1"
+                  ],
+                  "id": "did:example:123",
+                  "verificationMethod": [
+                    {
+                      "id": "did:example:123#key-0",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "OKP",
+                        "crv": "Ed25519",
+                        "x": "JYCAGl6C7gcDeKbNqtXBfpGzH0f5elifj7L6zYNj_Is"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-1",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "secp256k1",
+                        "x": "BuzCc8bUShI3GfVz-WLISZDGq7wnVB4h_nvNQcWn7Jw",
+                        "y": "dLrbspB9PZvZF0dr42nCmF38192dQKglvB52IZBM-vs"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-2",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-256",
+                        "x": "40TexHWb6XTyuShaqhiazvmfxyK5zibbtOBXsQFKJg8",
+                        "y": "SGIGDSRHOOYJntO1lIapw_vR1FP7SPBlmA_2aM9HoFU"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-3",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-384",
+                        "x": "BiU_mGfa3uWMKrC4Q6EFvM5D5Qiz2orm7ABlIaC1iJWOuapQC9U_fbqrKwRFRepf",
+                        "y": "_23qoYv94V-PSWzqQMnUqq1nu_MdE4fEIaAhCCYplAwlp4c3LKZDtkgQaPdF4kIT"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-4",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "RSA",
+                        "n": "oF_3bdq-pORqmzx2zROkrhVzAPQQ9JmDh1tjKvKgFh-1M5gywClzn0LoWkIiqqIiLOWXkfGRsqvi4VLbHQ_9WZza54EgIo_cyrZnXaIJCEFGQfwDK5-HqDqrgPCw3DFths04LY59LJ2aNxwgbu5otkQ2Vp8bU-U3_Hr5qz_U9xZjOev3OyD7kfBELAFXYHqnSfSJBJ-YxFjo-Plicjfha14U6C-hMeJlDu-Nwj-hCEHdDGK01_go9vIzA745xwAFfeyUZVhTpu6WLSn4RN9vRroLRjO5gvmHUZUquGh-sR4KNLebOeWcyxS5QEAbsYR82YsEWucLTdpFSdu1RVu8nw",
+                        "e": "AQAB"
+                      }
+                    }
+                  ],
+                  "assertionMethod": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ],
+                  "authentication": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "presentation-1--key-1-secp256k1.vc-jwt.json": {
+      "vector": "vp",
+      "vectorContent": {},
+      "verification": {
+        "verified": false
+      }
+    },
+    "presentation-1--key-1-secp256k1.vp-jwt.json": {
+      "vector": "vp-jwt",
+      "vectorContent": "eyJhbGciOiJFUzI1NksiLCJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTEifQ.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sImlkIjoidXJuOnV1aWQ6Nzg5IiwidHlwZSI6WyJWZXJpZmlhYmxlUHJlc2VudGF0aW9uIl0sImhvbGRlciI6ImRpZDpleGFtcGxlOjEyMyIsInZlcmlmaWFibGVDcmVkZW50aWFsIjpbeyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImlkIjoiZGlkOmV4YW1wbGU6NDU2In0sImV2aWRlbmNlIjpbeyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmQ0MjMxIiwidHlwZSI6WyJEb2N1bWVudFZlcmlmaWNhdGlvbiJdLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCIsImV2aWRlbmNlRG9jdW1lbnQiOiJEcml2ZXJzTGljZW5zZSIsInN1YmplY3RQcmVzZW5jZSI6IlBoeXNpY2FsIiwiZG9jdW1lbnRQcmVzZW5jZSI6IlBoeXNpY2FsIn0seyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmR4eXphYiIsInR5cGUiOlsiU3VwcG9ydGluZ0FjdGl2aXR5Il0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0IiwiZXZpZGVuY2VEb2N1bWVudCI6IkZsdWlkIER5bmFtaWNzIEZvY3VzIiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCIsImRvY3VtZW50UHJlc2VuY2UiOiJEaWdpdGFsIn1dLCJwcm9vZiI6eyJ0eXBlIjoiSnNvbldlYlNpZ25hdHVyZTIwMjAiLCJjcmVhdGVkIjoiMjAyMS0xMC0wMlQxNzo1ODowMFoiLCJwcm9vZlB1cnBvc2UiOiJhc3NlcnRpb25NZXRob2QiLCJ2ZXJpZmljYXRpb25NZXRob2QiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTAiLCJqd3MiOiJleUppTmpRaU9tWmhiSE5sTENKamNtbDBJanBiSW1JMk5DSmRMQ0poYkdjaU9pSkZaRVJUUVNKOS4uVkE4VlFxQWVyVVQ2QUlWZEhjOFc4UTJhajEyTE9RalZfVloxZTEzNE5VOVEyMGVCc055U1BqTmRtVFdwMkhrZHF1Q25iUmhCSHhJYk5lRkVJT09oQWcifX1dfSwibm9uY2UiOiIxMjMifQ.ZXlKaGJHY2lPaUpGVXpJMU5rc2lMQ0ppTmpRaU9tWmhiSE5sTENKamNtbDBJanBiSW1JMk5DSmRmUS4uZmVWNXdOdDFCdTR6MWRLTjhLdzRqVUNSMHE3bmMwZnRxOFRlMGhwU3Zwa0I5MXRHM3k5NTlCWHFfNUlQamFkWVFBOVltQloxUEtNOVVxSEo0ZzhxSkE",
       "verification": {
         "verified": true
       }
     },
-    "presentation-1--key-1-secp256k1.json": {
-      "vector": {
+    "presentation-1--key-1-secp256k1.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1"
@@ -1147,19 +2679,163 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:02:52Z",
+          "created": "2021-11-06T17:39:32Z",
           "verificationMethod": "did:example:123#key-1",
           "proofPurpose": "authentication",
           "challenge": "123",
-          "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..t_Mqjjfusld90RzadWqFLhbbRCuJdOpT0rNLjHkLkJc01MLPLU8Cm_PxS7garT33LkW-Tjbh3H_PrLoxztltKw"
+          "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..7gskwAPdyksebexVfADuwBYM6vbtouEnrO2eyxstqkN8HSJ3sa7yHx2yN_81gQ7XUZXmzQLOZlHn5oIi9h0NTA"
         }
       },
+      "verification": {
+        "verified": true,
+        "credentials": {
+          "verified": true,
+          "results": [
+            {
+              "verified": true,
+              "results": [
+                {
+                  "proof": {
+                    "@context": [
+                      "https://www.w3.org/2018/credentials/v1",
+                      "https://w3id.org/security/suites/jws-2020/v1",
+                      {
+                        "@vocab": "https://example.com/#"
+                      }
+                    ],
+                    "type": "JsonWebSignature2020",
+                    "created": "2021-10-02T17:58:00Z",
+                    "proofPurpose": "assertionMethod",
+                    "verificationMethod": "did:example:123#key-0",
+                    "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..VA8VQqAerUT6AIVdHc8W8Q2aj12LOQjV_VZ1e134NU9Q20eBsNySPjNdmTWp2HkdquCnbRhBHxIbNeFEIOOhAg"
+                  },
+                  "verified": true,
+                  "purposeResult": {
+                    "valid": true
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "presentation": {
+          "verified": true,
+          "results": [
+            {
+              "proof": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1",
+                  "https://w3id.org/security/suites/jws-2020/v1"
+                ],
+                "type": "JsonWebSignature2020",
+                "created": "2021-11-06T17:39:32Z",
+                "verificationMethod": "did:example:123#key-1",
+                "proofPurpose": "authentication",
+                "challenge": "123",
+                "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..7gskwAPdyksebexVfADuwBYM6vbtouEnrO2eyxstqkN8HSJ3sa7yHx2yN_81gQ7XUZXmzQLOZlHn5oIi9h0NTA"
+              },
+              "verified": true,
+              "purposeResult": {
+                "valid": true,
+                "controller": {
+                  "@context": [
+                    "https://www.w3.org/ns/did/v1",
+                    "https://w3id.org/security/suites/jws-2020/v1"
+                  ],
+                  "id": "did:example:123",
+                  "verificationMethod": [
+                    {
+                      "id": "did:example:123#key-0",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "OKP",
+                        "crv": "Ed25519",
+                        "x": "JYCAGl6C7gcDeKbNqtXBfpGzH0f5elifj7L6zYNj_Is"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-1",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "secp256k1",
+                        "x": "BuzCc8bUShI3GfVz-WLISZDGq7wnVB4h_nvNQcWn7Jw",
+                        "y": "dLrbspB9PZvZF0dr42nCmF38192dQKglvB52IZBM-vs"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-2",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-256",
+                        "x": "40TexHWb6XTyuShaqhiazvmfxyK5zibbtOBXsQFKJg8",
+                        "y": "SGIGDSRHOOYJntO1lIapw_vR1FP7SPBlmA_2aM9HoFU"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-3",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-384",
+                        "x": "BiU_mGfa3uWMKrC4Q6EFvM5D5Qiz2orm7ABlIaC1iJWOuapQC9U_fbqrKwRFRepf",
+                        "y": "_23qoYv94V-PSWzqQMnUqq1nu_MdE4fEIaAhCCYplAwlp4c3LKZDtkgQaPdF4kIT"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-4",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "RSA",
+                        "n": "oF_3bdq-pORqmzx2zROkrhVzAPQQ9JmDh1tjKvKgFh-1M5gywClzn0LoWkIiqqIiLOWXkfGRsqvi4VLbHQ_9WZza54EgIo_cyrZnXaIJCEFGQfwDK5-HqDqrgPCw3DFths04LY59LJ2aNxwgbu5otkQ2Vp8bU-U3_Hr5qz_U9xZjOev3OyD7kfBELAFXYHqnSfSJBJ-YxFjo-Plicjfha14U6C-hMeJlDu-Nwj-hCEHdDGK01_go9vIzA745xwAFfeyUZVhTpu6WLSn4RN9vRroLRjO5gvmHUZUquGh-sR4KNLebOeWcyxS5QEAbsYR82YsEWucLTdpFSdu1RVu8nw",
+                        "e": "AQAB"
+                      }
+                    }
+                  ],
+                  "assertionMethod": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ],
+                  "authentication": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "presentation-1--key-2-secp256r1.vc-jwt.json": {
+      "vector": "vp",
+      "vectorContent": {},
+      "verification": {
+        "verified": false
+      }
+    },
+    "presentation-1--key-2-secp256r1.vp-jwt.json": {
+      "vector": "vp-jwt",
+      "vectorContent": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMiJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sImlkIjoidXJuOnV1aWQ6Nzg5IiwidHlwZSI6WyJWZXJpZmlhYmxlUHJlc2VudGF0aW9uIl0sImhvbGRlciI6ImRpZDpleGFtcGxlOjEyMyIsInZlcmlmaWFibGVDcmVkZW50aWFsIjpbeyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImlkIjoiZGlkOmV4YW1wbGU6NDU2In0sImV2aWRlbmNlIjpbeyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmQ0MjMxIiwidHlwZSI6WyJEb2N1bWVudFZlcmlmaWNhdGlvbiJdLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCIsImV2aWRlbmNlRG9jdW1lbnQiOiJEcml2ZXJzTGljZW5zZSIsInN1YmplY3RQcmVzZW5jZSI6IlBoeXNpY2FsIiwiZG9jdW1lbnRQcmVzZW5jZSI6IlBoeXNpY2FsIn0seyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmR4eXphYiIsInR5cGUiOlsiU3VwcG9ydGluZ0FjdGl2aXR5Il0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0IiwiZXZpZGVuY2VEb2N1bWVudCI6IkZsdWlkIER5bmFtaWNzIEZvY3VzIiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCIsImRvY3VtZW50UHJlc2VuY2UiOiJEaWdpdGFsIn1dLCJwcm9vZiI6eyJ0eXBlIjoiSnNvbldlYlNpZ25hdHVyZTIwMjAiLCJjcmVhdGVkIjoiMjAyMS0xMC0wMlQxNzo1ODowMFoiLCJwcm9vZlB1cnBvc2UiOiJhc3NlcnRpb25NZXRob2QiLCJ2ZXJpZmljYXRpb25NZXRob2QiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTAiLCJqd3MiOiJleUppTmpRaU9tWmhiSE5sTENKamNtbDBJanBiSW1JMk5DSmRMQ0poYkdjaU9pSkZaRVJUUVNKOS4uVkE4VlFxQWVyVVQ2QUlWZEhjOFc4UTJhajEyTE9RalZfVloxZTEzNE5VOVEyMGVCc055U1BqTmRtVFdwMkhrZHF1Q25iUmhCSHhJYk5lRkVJT09oQWcifX1dfSwibm9uY2UiOiIxMjMifQ.ZXlKaGJHY2lPaUpGVXpJMU5pSXNJbUkyTkNJNlptRnNjMlVzSW1OeWFYUWlPbHNpWWpZMElsMTkuLjRnbXBzRE1nTXY2SDBKVDJBR2FXcHo1OFZuUV9QUHZQWFNMMUlhODY4Ym5PRlQ3OEc3U2FCYWE4Qy0xU0RGSUhIRGtnNm45cGdidmd6eEJNOGJMVTBn",
       "verification": {
         "verified": true
       }
     },
-    "presentation-1--key-2-secp256r1.json": {
-      "vector": {
+    "presentation-1--key-2-secp256r1.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1"
@@ -1219,19 +2895,163 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:03:00Z",
+          "created": "2021-11-06T17:39:50Z",
           "verificationMethod": "did:example:123#key-2",
           "proofPurpose": "authentication",
           "challenge": "123",
-          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..GIEcmM3gQW8SEpmn1ElBt5Aox2p8IpaNuI7rzJrDPOF7uJJKbGL6IFLOPtHG2kbNvz3Uw9RXFLQhtb-MdQROlw"
+          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..b3_kRR3MSMOBAbwqUFmS2NdhHFbGUrc0rlBE5ENcU_mOU1nxam8Dgzt66P3I_Jb2Rr7qZQHcyfpJiMqxOxwPxQ"
         }
       },
+      "verification": {
+        "verified": true,
+        "credentials": {
+          "verified": true,
+          "results": [
+            {
+              "verified": true,
+              "results": [
+                {
+                  "proof": {
+                    "@context": [
+                      "https://www.w3.org/2018/credentials/v1",
+                      "https://w3id.org/security/suites/jws-2020/v1",
+                      {
+                        "@vocab": "https://example.com/#"
+                      }
+                    ],
+                    "type": "JsonWebSignature2020",
+                    "created": "2021-10-02T17:58:00Z",
+                    "proofPurpose": "assertionMethod",
+                    "verificationMethod": "did:example:123#key-0",
+                    "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..VA8VQqAerUT6AIVdHc8W8Q2aj12LOQjV_VZ1e134NU9Q20eBsNySPjNdmTWp2HkdquCnbRhBHxIbNeFEIOOhAg"
+                  },
+                  "verified": true,
+                  "purposeResult": {
+                    "valid": true
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "presentation": {
+          "verified": true,
+          "results": [
+            {
+              "proof": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1",
+                  "https://w3id.org/security/suites/jws-2020/v1"
+                ],
+                "type": "JsonWebSignature2020",
+                "created": "2021-11-06T17:39:50Z",
+                "verificationMethod": "did:example:123#key-2",
+                "proofPurpose": "authentication",
+                "challenge": "123",
+                "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..b3_kRR3MSMOBAbwqUFmS2NdhHFbGUrc0rlBE5ENcU_mOU1nxam8Dgzt66P3I_Jb2Rr7qZQHcyfpJiMqxOxwPxQ"
+              },
+              "verified": true,
+              "purposeResult": {
+                "valid": true,
+                "controller": {
+                  "@context": [
+                    "https://www.w3.org/ns/did/v1",
+                    "https://w3id.org/security/suites/jws-2020/v1"
+                  ],
+                  "id": "did:example:123",
+                  "verificationMethod": [
+                    {
+                      "id": "did:example:123#key-0",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "OKP",
+                        "crv": "Ed25519",
+                        "x": "JYCAGl6C7gcDeKbNqtXBfpGzH0f5elifj7L6zYNj_Is"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-1",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "secp256k1",
+                        "x": "BuzCc8bUShI3GfVz-WLISZDGq7wnVB4h_nvNQcWn7Jw",
+                        "y": "dLrbspB9PZvZF0dr42nCmF38192dQKglvB52IZBM-vs"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-2",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-256",
+                        "x": "40TexHWb6XTyuShaqhiazvmfxyK5zibbtOBXsQFKJg8",
+                        "y": "SGIGDSRHOOYJntO1lIapw_vR1FP7SPBlmA_2aM9HoFU"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-3",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-384",
+                        "x": "BiU_mGfa3uWMKrC4Q6EFvM5D5Qiz2orm7ABlIaC1iJWOuapQC9U_fbqrKwRFRepf",
+                        "y": "_23qoYv94V-PSWzqQMnUqq1nu_MdE4fEIaAhCCYplAwlp4c3LKZDtkgQaPdF4kIT"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-4",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "RSA",
+                        "n": "oF_3bdq-pORqmzx2zROkrhVzAPQQ9JmDh1tjKvKgFh-1M5gywClzn0LoWkIiqqIiLOWXkfGRsqvi4VLbHQ_9WZza54EgIo_cyrZnXaIJCEFGQfwDK5-HqDqrgPCw3DFths04LY59LJ2aNxwgbu5otkQ2Vp8bU-U3_Hr5qz_U9xZjOev3OyD7kfBELAFXYHqnSfSJBJ-YxFjo-Plicjfha14U6C-hMeJlDu-Nwj-hCEHdDGK01_go9vIzA745xwAFfeyUZVhTpu6WLSn4RN9vRroLRjO5gvmHUZUquGh-sR4KNLebOeWcyxS5QEAbsYR82YsEWucLTdpFSdu1RVu8nw",
+                        "e": "AQAB"
+                      }
+                    }
+                  ],
+                  "assertionMethod": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ],
+                  "authentication": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "presentation-1--key-3-secp384r1.vc-jwt.json": {
+      "vector": "vp",
+      "vectorContent": {},
+      "verification": {
+        "verified": false
+      }
+    },
+    "presentation-1--key-3-secp384r1.vp-jwt.json": {
+      "vector": "vp-jwt",
+      "vectorContent": "eyJhbGciOiJFUzM4NCIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMyJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sImlkIjoidXJuOnV1aWQ6Nzg5IiwidHlwZSI6WyJWZXJpZmlhYmxlUHJlc2VudGF0aW9uIl0sImhvbGRlciI6ImRpZDpleGFtcGxlOjEyMyIsInZlcmlmaWFibGVDcmVkZW50aWFsIjpbeyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImlkIjoiZGlkOmV4YW1wbGU6NDU2In0sImV2aWRlbmNlIjpbeyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmQ0MjMxIiwidHlwZSI6WyJEb2N1bWVudFZlcmlmaWNhdGlvbiJdLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCIsImV2aWRlbmNlRG9jdW1lbnQiOiJEcml2ZXJzTGljZW5zZSIsInN1YmplY3RQcmVzZW5jZSI6IlBoeXNpY2FsIiwiZG9jdW1lbnRQcmVzZW5jZSI6IlBoeXNpY2FsIn0seyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmR4eXphYiIsInR5cGUiOlsiU3VwcG9ydGluZ0FjdGl2aXR5Il0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0IiwiZXZpZGVuY2VEb2N1bWVudCI6IkZsdWlkIER5bmFtaWNzIEZvY3VzIiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCIsImRvY3VtZW50UHJlc2VuY2UiOiJEaWdpdGFsIn1dLCJwcm9vZiI6eyJ0eXBlIjoiSnNvbldlYlNpZ25hdHVyZTIwMjAiLCJjcmVhdGVkIjoiMjAyMS0xMC0wMlQxNzo1ODowMFoiLCJwcm9vZlB1cnBvc2UiOiJhc3NlcnRpb25NZXRob2QiLCJ2ZXJpZmljYXRpb25NZXRob2QiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTAiLCJqd3MiOiJleUppTmpRaU9tWmhiSE5sTENKamNtbDBJanBiSW1JMk5DSmRMQ0poYkdjaU9pSkZaRVJUUVNKOS4uVkE4VlFxQWVyVVQ2QUlWZEhjOFc4UTJhajEyTE9RalZfVloxZTEzNE5VOVEyMGVCc055U1BqTmRtVFdwMkhrZHF1Q25iUmhCSHhJYk5lRkVJT09oQWcifX1dfSwibm9uY2UiOiIxMjMifQ.ZXlKaGJHY2lPaUpGVXpNNE5DSXNJbUkyTkNJNlptRnNjMlVzSW1OeWFYUWlPbHNpWWpZMElsMTkuLlo0ekh6X0FpQi1PdUtINGd2T3FFSDVlUlZoVU55enZoajRpSWdfSEM0aFd1MmdvVHU5MDVxelBCNVA2U3BfclJXRDZCRDNjZWQ1a0Y3RnAxcTZSNi01MVB5VjN2bVNnRWVpdWdYaV9EaS1uZGtIQXpxbDRFS2RPMWVLN0F6dEh3",
       "verification": {
         "verified": true
       }
     },
-    "presentation-1--key-3-secp384r1.json": {
-      "vector": {
+    "presentation-1--key-3-secp384r1.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1"
@@ -1291,19 +3111,163 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:03:07Z",
+          "created": "2021-11-06T17:40:09Z",
           "verificationMethod": "did:example:123#key-3",
           "proofPurpose": "authentication",
           "challenge": "123",
-          "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..wgAzbJnSGPtW_u0EvwdL1mqPYl_YZ-1TzGOZIFl4EAzUXAOUa3rXcJe0TO3TrkJiw6IcpZ8tNAksfv_fixg8t1WQ5XVFFeJ9s43Ov19hHD8UxJmuNF18rveuS1RlMVu4"
+          "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Uy0CBHH1KLKzzkJSL8YoU4lPxX6RSRXKU5zZZhUdTzBR1m9k0D3pz4YVQzxuSg7LB5JGPOtkY2IqGGLlXrU_6EGhA2pag65lcjaE3314rXEoDFhZ9dvSbvfucn9zyoil"
         }
       },
+      "verification": {
+        "verified": true,
+        "credentials": {
+          "verified": true,
+          "results": [
+            {
+              "verified": true,
+              "results": [
+                {
+                  "proof": {
+                    "@context": [
+                      "https://www.w3.org/2018/credentials/v1",
+                      "https://w3id.org/security/suites/jws-2020/v1",
+                      {
+                        "@vocab": "https://example.com/#"
+                      }
+                    ],
+                    "type": "JsonWebSignature2020",
+                    "created": "2021-10-02T17:58:00Z",
+                    "proofPurpose": "assertionMethod",
+                    "verificationMethod": "did:example:123#key-0",
+                    "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..VA8VQqAerUT6AIVdHc8W8Q2aj12LOQjV_VZ1e134NU9Q20eBsNySPjNdmTWp2HkdquCnbRhBHxIbNeFEIOOhAg"
+                  },
+                  "verified": true,
+                  "purposeResult": {
+                    "valid": true
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "presentation": {
+          "verified": true,
+          "results": [
+            {
+              "proof": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1",
+                  "https://w3id.org/security/suites/jws-2020/v1"
+                ],
+                "type": "JsonWebSignature2020",
+                "created": "2021-11-06T17:40:09Z",
+                "verificationMethod": "did:example:123#key-3",
+                "proofPurpose": "authentication",
+                "challenge": "123",
+                "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Uy0CBHH1KLKzzkJSL8YoU4lPxX6RSRXKU5zZZhUdTzBR1m9k0D3pz4YVQzxuSg7LB5JGPOtkY2IqGGLlXrU_6EGhA2pag65lcjaE3314rXEoDFhZ9dvSbvfucn9zyoil"
+              },
+              "verified": true,
+              "purposeResult": {
+                "valid": true,
+                "controller": {
+                  "@context": [
+                    "https://www.w3.org/ns/did/v1",
+                    "https://w3id.org/security/suites/jws-2020/v1"
+                  ],
+                  "id": "did:example:123",
+                  "verificationMethod": [
+                    {
+                      "id": "did:example:123#key-0",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "OKP",
+                        "crv": "Ed25519",
+                        "x": "JYCAGl6C7gcDeKbNqtXBfpGzH0f5elifj7L6zYNj_Is"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-1",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "secp256k1",
+                        "x": "BuzCc8bUShI3GfVz-WLISZDGq7wnVB4h_nvNQcWn7Jw",
+                        "y": "dLrbspB9PZvZF0dr42nCmF38192dQKglvB52IZBM-vs"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-2",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-256",
+                        "x": "40TexHWb6XTyuShaqhiazvmfxyK5zibbtOBXsQFKJg8",
+                        "y": "SGIGDSRHOOYJntO1lIapw_vR1FP7SPBlmA_2aM9HoFU"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-3",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-384",
+                        "x": "BiU_mGfa3uWMKrC4Q6EFvM5D5Qiz2orm7ABlIaC1iJWOuapQC9U_fbqrKwRFRepf",
+                        "y": "_23qoYv94V-PSWzqQMnUqq1nu_MdE4fEIaAhCCYplAwlp4c3LKZDtkgQaPdF4kIT"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-4",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "RSA",
+                        "n": "oF_3bdq-pORqmzx2zROkrhVzAPQQ9JmDh1tjKvKgFh-1M5gywClzn0LoWkIiqqIiLOWXkfGRsqvi4VLbHQ_9WZza54EgIo_cyrZnXaIJCEFGQfwDK5-HqDqrgPCw3DFths04LY59LJ2aNxwgbu5otkQ2Vp8bU-U3_Hr5qz_U9xZjOev3OyD7kfBELAFXYHqnSfSJBJ-YxFjo-Plicjfha14U6C-hMeJlDu-Nwj-hCEHdDGK01_go9vIzA745xwAFfeyUZVhTpu6WLSn4RN9vRroLRjO5gvmHUZUquGh-sR4KNLebOeWcyxS5QEAbsYR82YsEWucLTdpFSdu1RVu8nw",
+                        "e": "AQAB"
+                      }
+                    }
+                  ],
+                  "assertionMethod": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ],
+                  "authentication": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "presentation-2--key-0-ed25519.vc-jwt.json": {
+      "vector": "vp",
+      "vectorContent": {},
+      "verification": {
+        "verified": false
+      }
+    },
+    "presentation-2--key-0-ed25519.vp-jwt.json": {
+      "vector": "vp-jwt",
+      "vectorContent": "eyJhbGciOiJFZERTQSIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIiwiaHR0cHM6Ly9pZGVudGl0eS5mb3VuZGF0aW9uL3ByZXNlbnRhdGlvbi1leGNoYW5nZS9zdWJtaXNzaW9uL3YxIl0sImlkIjoidXJuOnV1aWQ6Nzg5IiwidHlwZSI6WyJWZXJpZmlhYmxlUHJlc2VudGF0aW9uIiwiUHJlc2VudGF0aW9uU3VibWlzc2lvbiJdLCJob2xkZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJwcmVzZW50YXRpb25fc3VibWlzc2lvbiI6eyJpZCI6ImEzMGUzYjkxLWZiNzctNGQyMi05NWZhLTg3MTY4OWMzMjJlMiIsImRlZmluaXRpb25faWQiOiIzMmY1NDE2My03MTY2LTQ4ZjEtOTNkOC1mZjIxN2JkYjA2NTMiLCJkZXNjcmlwdG9yX21hcCI6W3siaWQiOiJleGFtcGxlX2lucHV0XzEiLCJmb3JtYXQiOiJsZHBfdmMiLCJwYXRoIjoiJC52ZXJpZmlhYmxlQ3JlZGVudGlhbFswXSJ9XX0sInZlcmlmaWFibGVDcmVkZW50aWFsIjpbeyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXSwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwiaXNzdWFuY2VEYXRlIjoiMjAyMS0wMS0wMVQxOToyMzoyNFoiLCJjcmVkZW50aWFsU3ViamVjdCI6e30sInByb29mIjp7InR5cGUiOiJKc29uV2ViU2lnbmF0dXJlMjAyMCIsImNyZWF0ZWQiOiIyMDIxLTExLTA2VDE2OjQ5OjUwWiIsInZlcmlmaWNhdGlvbk1ldGhvZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCIsInByb29mUHVycG9zZSI6ImFzc2VydGlvbk1ldGhvZCIsImp3cyI6ImV5SmhiR2NpT2lKRlpFUlRRU0lzSW1JMk5DSTZabUZzYzJVc0ltTnlhWFFpT2xzaVlqWTBJbDE5Li4tT003UF8xQVhUcUMycDhiNWJlak9id1A3cmMtcElGSDV2YkJKQ1V6TFhBcVNYdFRfbVBXMHdKSUVneUVQNEFJSV9CeWd4ZWZvQV9fZXp0d0p1NGZEdyJ9fV19LCJub25jZSI6IjEyMyJ9.ZXlKaGJHY2lPaUpGWkVSVFFTSXNJbUkyTkNJNlptRnNjMlVzSW1OeWFYUWlPbHNpWWpZMElsMTkuLi1LbHRsdGVwTnd6VzJHbHQweWkyR3ZadGQ3SHEzeGxsMGRDYm1MYkpMejlOaFYwZVlKSUZ2b0xzUF9uMmRvQ1F3MGxtamRZZ0VGR0o5WEU1Y1p3Z0JR",
       "verification": {
         "verified": true
       }
     },
-    "presentation-2--key-0-ed25519.json": {
-      "vector": {
+    "presentation-2--key-0-ed25519.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1",
@@ -1337,24 +3301,173 @@
             ],
             "issuer": "did:example:123",
             "issuanceDate": "2021-01-01T19:23:24Z",
-            "credentialSubject": {}
+            "credentialSubject": {},
+            "proof": {
+              "type": "JsonWebSignature2020",
+              "created": "2021-11-06T16:49:50Z",
+              "verificationMethod": "did:example:123#key-0",
+              "proofPurpose": "assertionMethod",
+              "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..-OM7P_1AXTqC2p8b5bejObwP7rc-pIFH5vbBJCUzLXAqSXtT_mPW0wJIEgyEP4AII_BygxefoA__eztwJu4fDw"
+            }
           }
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:02:46Z",
+          "created": "2021-11-06T17:39:16Z",
           "verificationMethod": "did:example:123#key-0",
           "proofPurpose": "authentication",
           "challenge": "123",
-          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..VvX7IxIpFtbqSQqC6yzPCzsPuXE_Y62f0_j6O-z5suO0l2ZVzw6ROXT0hzqz3jH1EH_XjOIzEspMIAorFvveBA"
+          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..z93Zd06z1i2-ZngxxVrb2ORUXpG3TrduHv_ohPpCOdjPAbLt0gJRgURZSONQ5a5sZm_Xf8kirRQrbMBrs0fSCA"
         }
       },
+      "verification": {
+        "verified": true,
+        "credentials": {
+          "verified": true,
+          "results": [
+            {
+              "verified": true,
+              "results": [
+                {
+                  "proof": {
+                    "@context": [
+                      "https://www.w3.org/2018/credentials/v1",
+                      "https://w3id.org/security/suites/jws-2020/v1"
+                    ],
+                    "type": "JsonWebSignature2020",
+                    "created": "2021-11-06T16:49:50Z",
+                    "verificationMethod": "did:example:123#key-0",
+                    "proofPurpose": "assertionMethod",
+                    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..-OM7P_1AXTqC2p8b5bejObwP7rc-pIFH5vbBJCUzLXAqSXtT_mPW0wJIEgyEP4AII_BygxefoA__eztwJu4fDw"
+                  },
+                  "verified": true,
+                  "purposeResult": {
+                    "valid": true
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "presentation": {
+          "verified": true,
+          "results": [
+            {
+              "proof": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1",
+                  "https://w3id.org/security/suites/jws-2020/v1",
+                  "https://identity.foundation/presentation-exchange/submission/v1"
+                ],
+                "type": "JsonWebSignature2020",
+                "created": "2021-11-06T17:39:16Z",
+                "verificationMethod": "did:example:123#key-0",
+                "proofPurpose": "authentication",
+                "challenge": "123",
+                "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..z93Zd06z1i2-ZngxxVrb2ORUXpG3TrduHv_ohPpCOdjPAbLt0gJRgURZSONQ5a5sZm_Xf8kirRQrbMBrs0fSCA"
+              },
+              "verified": true,
+              "purposeResult": {
+                "valid": true,
+                "controller": {
+                  "@context": [
+                    "https://www.w3.org/ns/did/v1",
+                    "https://w3id.org/security/suites/jws-2020/v1"
+                  ],
+                  "id": "did:example:123",
+                  "verificationMethod": [
+                    {
+                      "id": "did:example:123#key-0",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "OKP",
+                        "crv": "Ed25519",
+                        "x": "JYCAGl6C7gcDeKbNqtXBfpGzH0f5elifj7L6zYNj_Is"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-1",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "secp256k1",
+                        "x": "BuzCc8bUShI3GfVz-WLISZDGq7wnVB4h_nvNQcWn7Jw",
+                        "y": "dLrbspB9PZvZF0dr42nCmF38192dQKglvB52IZBM-vs"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-2",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-256",
+                        "x": "40TexHWb6XTyuShaqhiazvmfxyK5zibbtOBXsQFKJg8",
+                        "y": "SGIGDSRHOOYJntO1lIapw_vR1FP7SPBlmA_2aM9HoFU"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-3",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-384",
+                        "x": "BiU_mGfa3uWMKrC4Q6EFvM5D5Qiz2orm7ABlIaC1iJWOuapQC9U_fbqrKwRFRepf",
+                        "y": "_23qoYv94V-PSWzqQMnUqq1nu_MdE4fEIaAhCCYplAwlp4c3LKZDtkgQaPdF4kIT"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-4",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "RSA",
+                        "n": "oF_3bdq-pORqmzx2zROkrhVzAPQQ9JmDh1tjKvKgFh-1M5gywClzn0LoWkIiqqIiLOWXkfGRsqvi4VLbHQ_9WZza54EgIo_cyrZnXaIJCEFGQfwDK5-HqDqrgPCw3DFths04LY59LJ2aNxwgbu5otkQ2Vp8bU-U3_Hr5qz_U9xZjOev3OyD7kfBELAFXYHqnSfSJBJ-YxFjo-Plicjfha14U6C-hMeJlDu-Nwj-hCEHdDGK01_go9vIzA745xwAFfeyUZVhTpu6WLSn4RN9vRroLRjO5gvmHUZUquGh-sR4KNLebOeWcyxS5QEAbsYR82YsEWucLTdpFSdu1RVu8nw",
+                        "e": "AQAB"
+                      }
+                    }
+                  ],
+                  "assertionMethod": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ],
+                  "authentication": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "presentation-2--key-1-secp256k1.vc-jwt.json": {
+      "vector": "vp",
+      "vectorContent": {},
+      "verification": {
+        "verified": false
+      }
+    },
+    "presentation-2--key-1-secp256k1.vp-jwt.json": {
+      "vector": "vp-jwt",
+      "vectorContent": "eyJhbGciOiJFUzI1NksiLCJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTEifQ.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIiwiaHR0cHM6Ly9pZGVudGl0eS5mb3VuZGF0aW9uL3ByZXNlbnRhdGlvbi1leGNoYW5nZS9zdWJtaXNzaW9uL3YxIl0sImlkIjoidXJuOnV1aWQ6Nzg5IiwidHlwZSI6WyJWZXJpZmlhYmxlUHJlc2VudGF0aW9uIiwiUHJlc2VudGF0aW9uU3VibWlzc2lvbiJdLCJob2xkZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJwcmVzZW50YXRpb25fc3VibWlzc2lvbiI6eyJpZCI6ImEzMGUzYjkxLWZiNzctNGQyMi05NWZhLTg3MTY4OWMzMjJlMiIsImRlZmluaXRpb25faWQiOiIzMmY1NDE2My03MTY2LTQ4ZjEtOTNkOC1mZjIxN2JkYjA2NTMiLCJkZXNjcmlwdG9yX21hcCI6W3siaWQiOiJleGFtcGxlX2lucHV0XzEiLCJmb3JtYXQiOiJsZHBfdmMiLCJwYXRoIjoiJC52ZXJpZmlhYmxlQ3JlZGVudGlhbFswXSJ9XX0sInZlcmlmaWFibGVDcmVkZW50aWFsIjpbeyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXSwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwiaXNzdWFuY2VEYXRlIjoiMjAyMS0wMS0wMVQxOToyMzoyNFoiLCJjcmVkZW50aWFsU3ViamVjdCI6e30sInByb29mIjp7InR5cGUiOiJKc29uV2ViU2lnbmF0dXJlMjAyMCIsImNyZWF0ZWQiOiIyMDIxLTExLTA2VDE2OjQ5OjUwWiIsInZlcmlmaWNhdGlvbk1ldGhvZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCIsInByb29mUHVycG9zZSI6ImFzc2VydGlvbk1ldGhvZCIsImp3cyI6ImV5SmhiR2NpT2lKRlpFUlRRU0lzSW1JMk5DSTZabUZzYzJVc0ltTnlhWFFpT2xzaVlqWTBJbDE5Li4tT003UF8xQVhUcUMycDhiNWJlak9id1A3cmMtcElGSDV2YkJKQ1V6TFhBcVNYdFRfbVBXMHdKSUVneUVQNEFJSV9CeWd4ZWZvQV9fZXp0d0p1NGZEdyJ9fV19LCJub25jZSI6IjEyMyJ9.ZXlKaGJHY2lPaUpGVXpJMU5rc2lMQ0ppTmpRaU9tWmhiSE5sTENKamNtbDBJanBiSW1JMk5DSmRmUS4uZ3NUWGN1UmQ2OGJLNENLMHNpeng1UkkyVXQ5TmVCb0p1LVNjVThORDZpa0czQzN1Q0V3cVhOSHNmRU14U2txcTR5M3RYcFlmSVE5MjhyYTFlOW5lSnc",
       "verification": {
         "verified": true
       }
     },
-    "presentation-2--key-1-secp256k1.json": {
-      "vector": {
+    "presentation-2--key-1-secp256k1.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1",
@@ -1388,24 +3501,173 @@
             ],
             "issuer": "did:example:123",
             "issuanceDate": "2021-01-01T19:23:24Z",
-            "credentialSubject": {}
+            "credentialSubject": {},
+            "proof": {
+              "type": "JsonWebSignature2020",
+              "created": "2021-11-06T16:49:50Z",
+              "verificationMethod": "did:example:123#key-0",
+              "proofPurpose": "assertionMethod",
+              "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..-OM7P_1AXTqC2p8b5bejObwP7rc-pIFH5vbBJCUzLXAqSXtT_mPW0wJIEgyEP4AII_BygxefoA__eztwJu4fDw"
+            }
           }
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:02:53Z",
+          "created": "2021-11-06T17:39:34Z",
           "verificationMethod": "did:example:123#key-1",
           "proofPurpose": "authentication",
           "challenge": "123",
-          "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..2eIuj7AzlxEVwhAZe-_syUBd-0uig6z32Gp1JIw0ylUCmJrLfqyGtPEY2dyiZAp3-qEMDZ4S4rgTzWJPIytd6w"
+          "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..Ku-LFYIAeJ0VyaSR3Yv-40tJUIWxwUwl5p1AyMvy4ZI_ti_gOzX9lGVLt-ysd1CZXzzuc9Bs5eiTp5zauIuOfA"
         }
       },
+      "verification": {
+        "verified": true,
+        "credentials": {
+          "verified": true,
+          "results": [
+            {
+              "verified": true,
+              "results": [
+                {
+                  "proof": {
+                    "@context": [
+                      "https://www.w3.org/2018/credentials/v1",
+                      "https://w3id.org/security/suites/jws-2020/v1"
+                    ],
+                    "type": "JsonWebSignature2020",
+                    "created": "2021-11-06T16:49:50Z",
+                    "verificationMethod": "did:example:123#key-0",
+                    "proofPurpose": "assertionMethod",
+                    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..-OM7P_1AXTqC2p8b5bejObwP7rc-pIFH5vbBJCUzLXAqSXtT_mPW0wJIEgyEP4AII_BygxefoA__eztwJu4fDw"
+                  },
+                  "verified": true,
+                  "purposeResult": {
+                    "valid": true
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "presentation": {
+          "verified": true,
+          "results": [
+            {
+              "proof": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1",
+                  "https://w3id.org/security/suites/jws-2020/v1",
+                  "https://identity.foundation/presentation-exchange/submission/v1"
+                ],
+                "type": "JsonWebSignature2020",
+                "created": "2021-11-06T17:39:34Z",
+                "verificationMethod": "did:example:123#key-1",
+                "proofPurpose": "authentication",
+                "challenge": "123",
+                "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..Ku-LFYIAeJ0VyaSR3Yv-40tJUIWxwUwl5p1AyMvy4ZI_ti_gOzX9lGVLt-ysd1CZXzzuc9Bs5eiTp5zauIuOfA"
+              },
+              "verified": true,
+              "purposeResult": {
+                "valid": true,
+                "controller": {
+                  "@context": [
+                    "https://www.w3.org/ns/did/v1",
+                    "https://w3id.org/security/suites/jws-2020/v1"
+                  ],
+                  "id": "did:example:123",
+                  "verificationMethod": [
+                    {
+                      "id": "did:example:123#key-0",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "OKP",
+                        "crv": "Ed25519",
+                        "x": "JYCAGl6C7gcDeKbNqtXBfpGzH0f5elifj7L6zYNj_Is"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-1",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "secp256k1",
+                        "x": "BuzCc8bUShI3GfVz-WLISZDGq7wnVB4h_nvNQcWn7Jw",
+                        "y": "dLrbspB9PZvZF0dr42nCmF38192dQKglvB52IZBM-vs"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-2",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-256",
+                        "x": "40TexHWb6XTyuShaqhiazvmfxyK5zibbtOBXsQFKJg8",
+                        "y": "SGIGDSRHOOYJntO1lIapw_vR1FP7SPBlmA_2aM9HoFU"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-3",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-384",
+                        "x": "BiU_mGfa3uWMKrC4Q6EFvM5D5Qiz2orm7ABlIaC1iJWOuapQC9U_fbqrKwRFRepf",
+                        "y": "_23qoYv94V-PSWzqQMnUqq1nu_MdE4fEIaAhCCYplAwlp4c3LKZDtkgQaPdF4kIT"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-4",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "RSA",
+                        "n": "oF_3bdq-pORqmzx2zROkrhVzAPQQ9JmDh1tjKvKgFh-1M5gywClzn0LoWkIiqqIiLOWXkfGRsqvi4VLbHQ_9WZza54EgIo_cyrZnXaIJCEFGQfwDK5-HqDqrgPCw3DFths04LY59LJ2aNxwgbu5otkQ2Vp8bU-U3_Hr5qz_U9xZjOev3OyD7kfBELAFXYHqnSfSJBJ-YxFjo-Plicjfha14U6C-hMeJlDu-Nwj-hCEHdDGK01_go9vIzA745xwAFfeyUZVhTpu6WLSn4RN9vRroLRjO5gvmHUZUquGh-sR4KNLebOeWcyxS5QEAbsYR82YsEWucLTdpFSdu1RVu8nw",
+                        "e": "AQAB"
+                      }
+                    }
+                  ],
+                  "assertionMethod": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ],
+                  "authentication": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "presentation-2--key-2-secp256r1.vc-jwt.json": {
+      "vector": "vp",
+      "vectorContent": {},
+      "verification": {
+        "verified": false
+      }
+    },
+    "presentation-2--key-2-secp256r1.vp-jwt.json": {
+      "vector": "vp-jwt",
+      "vectorContent": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMiJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIiwiaHR0cHM6Ly9pZGVudGl0eS5mb3VuZGF0aW9uL3ByZXNlbnRhdGlvbi1leGNoYW5nZS9zdWJtaXNzaW9uL3YxIl0sImlkIjoidXJuOnV1aWQ6Nzg5IiwidHlwZSI6WyJWZXJpZmlhYmxlUHJlc2VudGF0aW9uIiwiUHJlc2VudGF0aW9uU3VibWlzc2lvbiJdLCJob2xkZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJwcmVzZW50YXRpb25fc3VibWlzc2lvbiI6eyJpZCI6ImEzMGUzYjkxLWZiNzctNGQyMi05NWZhLTg3MTY4OWMzMjJlMiIsImRlZmluaXRpb25faWQiOiIzMmY1NDE2My03MTY2LTQ4ZjEtOTNkOC1mZjIxN2JkYjA2NTMiLCJkZXNjcmlwdG9yX21hcCI6W3siaWQiOiJleGFtcGxlX2lucHV0XzEiLCJmb3JtYXQiOiJsZHBfdmMiLCJwYXRoIjoiJC52ZXJpZmlhYmxlQ3JlZGVudGlhbFswXSJ9XX0sInZlcmlmaWFibGVDcmVkZW50aWFsIjpbeyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXSwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwiaXNzdWFuY2VEYXRlIjoiMjAyMS0wMS0wMVQxOToyMzoyNFoiLCJjcmVkZW50aWFsU3ViamVjdCI6e30sInByb29mIjp7InR5cGUiOiJKc29uV2ViU2lnbmF0dXJlMjAyMCIsImNyZWF0ZWQiOiIyMDIxLTExLTA2VDE2OjQ5OjUwWiIsInZlcmlmaWNhdGlvbk1ldGhvZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCIsInByb29mUHVycG9zZSI6ImFzc2VydGlvbk1ldGhvZCIsImp3cyI6ImV5SmhiR2NpT2lKRlpFUlRRU0lzSW1JMk5DSTZabUZzYzJVc0ltTnlhWFFpT2xzaVlqWTBJbDE5Li4tT003UF8xQVhUcUMycDhiNWJlak9id1A3cmMtcElGSDV2YkJKQ1V6TFhBcVNYdFRfbVBXMHdKSUVneUVQNEFJSV9CeWd4ZWZvQV9fZXp0d0p1NGZEdyJ9fV19LCJub25jZSI6IjEyMyJ9.ZXlKaGJHY2lPaUpGVXpJMU5pSXNJbUkyTkNJNlptRnNjMlVzSW1OeWFYUWlPbHNpWWpZMElsMTkuLkRadmw3SE1qSUNzYUcxZ2piT3o0YklTZjMzc3hCT3VKVVNibklfVUNhMEYxM0l6NXhVdlBNdHdua3g3S09vbW5IRWZBNWVkUTVHTXBsWFNqdjEzNmV3",
       "verification": {
         "verified": true
       }
     },
-    "presentation-2--key-2-secp256r1.json": {
-      "vector": {
+    "presentation-2--key-2-secp256r1.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1",
@@ -1439,24 +3701,173 @@
             ],
             "issuer": "did:example:123",
             "issuanceDate": "2021-01-01T19:23:24Z",
-            "credentialSubject": {}
+            "credentialSubject": {},
+            "proof": {
+              "type": "JsonWebSignature2020",
+              "created": "2021-11-06T16:49:50Z",
+              "verificationMethod": "did:example:123#key-0",
+              "proofPurpose": "assertionMethod",
+              "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..-OM7P_1AXTqC2p8b5bejObwP7rc-pIFH5vbBJCUzLXAqSXtT_mPW0wJIEgyEP4AII_BygxefoA__eztwJu4fDw"
+            }
           }
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:03:01Z",
+          "created": "2021-11-06T17:39:51Z",
           "verificationMethod": "did:example:123#key-2",
           "proofPurpose": "authentication",
           "challenge": "123",
-          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..L_gbr_DuU-N1krIxMEMTLTR1k_ZF9X4wNdjslx6h0WQN0MiC7w6vgXw1lwzEat3E6h0vWWHUe3zey6qv9Dv1cw"
+          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Rlb14MjnzCbtCpl2gqOhcMRXq3aja67uE9gPvBFefHoKPBlCP0N71MhQQ8KwhKF6eb7kZfKsGcVnAqkzSsPkxQ"
         }
       },
+      "verification": {
+        "verified": true,
+        "credentials": {
+          "verified": true,
+          "results": [
+            {
+              "verified": true,
+              "results": [
+                {
+                  "proof": {
+                    "@context": [
+                      "https://www.w3.org/2018/credentials/v1",
+                      "https://w3id.org/security/suites/jws-2020/v1"
+                    ],
+                    "type": "JsonWebSignature2020",
+                    "created": "2021-11-06T16:49:50Z",
+                    "verificationMethod": "did:example:123#key-0",
+                    "proofPurpose": "assertionMethod",
+                    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..-OM7P_1AXTqC2p8b5bejObwP7rc-pIFH5vbBJCUzLXAqSXtT_mPW0wJIEgyEP4AII_BygxefoA__eztwJu4fDw"
+                  },
+                  "verified": true,
+                  "purposeResult": {
+                    "valid": true
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "presentation": {
+          "verified": true,
+          "results": [
+            {
+              "proof": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1",
+                  "https://w3id.org/security/suites/jws-2020/v1",
+                  "https://identity.foundation/presentation-exchange/submission/v1"
+                ],
+                "type": "JsonWebSignature2020",
+                "created": "2021-11-06T17:39:51Z",
+                "verificationMethod": "did:example:123#key-2",
+                "proofPurpose": "authentication",
+                "challenge": "123",
+                "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Rlb14MjnzCbtCpl2gqOhcMRXq3aja67uE9gPvBFefHoKPBlCP0N71MhQQ8KwhKF6eb7kZfKsGcVnAqkzSsPkxQ"
+              },
+              "verified": true,
+              "purposeResult": {
+                "valid": true,
+                "controller": {
+                  "@context": [
+                    "https://www.w3.org/ns/did/v1",
+                    "https://w3id.org/security/suites/jws-2020/v1"
+                  ],
+                  "id": "did:example:123",
+                  "verificationMethod": [
+                    {
+                      "id": "did:example:123#key-0",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "OKP",
+                        "crv": "Ed25519",
+                        "x": "JYCAGl6C7gcDeKbNqtXBfpGzH0f5elifj7L6zYNj_Is"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-1",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "secp256k1",
+                        "x": "BuzCc8bUShI3GfVz-WLISZDGq7wnVB4h_nvNQcWn7Jw",
+                        "y": "dLrbspB9PZvZF0dr42nCmF38192dQKglvB52IZBM-vs"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-2",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-256",
+                        "x": "40TexHWb6XTyuShaqhiazvmfxyK5zibbtOBXsQFKJg8",
+                        "y": "SGIGDSRHOOYJntO1lIapw_vR1FP7SPBlmA_2aM9HoFU"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-3",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-384",
+                        "x": "BiU_mGfa3uWMKrC4Q6EFvM5D5Qiz2orm7ABlIaC1iJWOuapQC9U_fbqrKwRFRepf",
+                        "y": "_23qoYv94V-PSWzqQMnUqq1nu_MdE4fEIaAhCCYplAwlp4c3LKZDtkgQaPdF4kIT"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-4",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "RSA",
+                        "n": "oF_3bdq-pORqmzx2zROkrhVzAPQQ9JmDh1tjKvKgFh-1M5gywClzn0LoWkIiqqIiLOWXkfGRsqvi4VLbHQ_9WZza54EgIo_cyrZnXaIJCEFGQfwDK5-HqDqrgPCw3DFths04LY59LJ2aNxwgbu5otkQ2Vp8bU-U3_Hr5qz_U9xZjOev3OyD7kfBELAFXYHqnSfSJBJ-YxFjo-Plicjfha14U6C-hMeJlDu-Nwj-hCEHdDGK01_go9vIzA745xwAFfeyUZVhTpu6WLSn4RN9vRroLRjO5gvmHUZUquGh-sR4KNLebOeWcyxS5QEAbsYR82YsEWucLTdpFSdu1RVu8nw",
+                        "e": "AQAB"
+                      }
+                    }
+                  ],
+                  "assertionMethod": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ],
+                  "authentication": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "presentation-2--key-3-secp384r1.vc-jwt.json": {
+      "vector": "vp",
+      "vectorContent": {},
+      "verification": {
+        "verified": false
+      }
+    },
+    "presentation-2--key-3-secp384r1.vp-jwt.json": {
+      "vector": "vp-jwt",
+      "vectorContent": "eyJhbGciOiJFUzM4NCIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMyJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIiwiaHR0cHM6Ly9pZGVudGl0eS5mb3VuZGF0aW9uL3ByZXNlbnRhdGlvbi1leGNoYW5nZS9zdWJtaXNzaW9uL3YxIl0sImlkIjoidXJuOnV1aWQ6Nzg5IiwidHlwZSI6WyJWZXJpZmlhYmxlUHJlc2VudGF0aW9uIiwiUHJlc2VudGF0aW9uU3VibWlzc2lvbiJdLCJob2xkZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJwcmVzZW50YXRpb25fc3VibWlzc2lvbiI6eyJpZCI6ImEzMGUzYjkxLWZiNzctNGQyMi05NWZhLTg3MTY4OWMzMjJlMiIsImRlZmluaXRpb25faWQiOiIzMmY1NDE2My03MTY2LTQ4ZjEtOTNkOC1mZjIxN2JkYjA2NTMiLCJkZXNjcmlwdG9yX21hcCI6W3siaWQiOiJleGFtcGxlX2lucHV0XzEiLCJmb3JtYXQiOiJsZHBfdmMiLCJwYXRoIjoiJC52ZXJpZmlhYmxlQ3JlZGVudGlhbFswXSJ9XX0sInZlcmlmaWFibGVDcmVkZW50aWFsIjpbeyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXSwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwiaXNzdWFuY2VEYXRlIjoiMjAyMS0wMS0wMVQxOToyMzoyNFoiLCJjcmVkZW50aWFsU3ViamVjdCI6e30sInByb29mIjp7InR5cGUiOiJKc29uV2ViU2lnbmF0dXJlMjAyMCIsImNyZWF0ZWQiOiIyMDIxLTExLTA2VDE2OjQ5OjUwWiIsInZlcmlmaWNhdGlvbk1ldGhvZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCIsInByb29mUHVycG9zZSI6ImFzc2VydGlvbk1ldGhvZCIsImp3cyI6ImV5SmhiR2NpT2lKRlpFUlRRU0lzSW1JMk5DSTZabUZzYzJVc0ltTnlhWFFpT2xzaVlqWTBJbDE5Li4tT003UF8xQVhUcUMycDhiNWJlak9id1A3cmMtcElGSDV2YkJKQ1V6TFhBcVNYdFRfbVBXMHdKSUVneUVQNEFJSV9CeWd4ZWZvQV9fZXp0d0p1NGZEdyJ9fV19LCJub25jZSI6IjEyMyJ9.ZXlKaGJHY2lPaUpGVXpNNE5DSXNJbUkyTkNJNlptRnNjMlVzSW1OeWFYUWlPbHNpWWpZMElsMTkuLlhMckszX0dIZDU3ZHhQN0tnbGdIaGRvcWowYnJZdURJeGpNcjd3Rndnd0pnTGVwamMwVE5BMlVTQ2pFZjdOU2tpVTE2U1ZCRTZTMjlOUGZ1QXI1NGw1aTlSTnFxbE1XaDRQMjV1SjhvdUJmanpCRG1DbUVmdnRtMFZaZTFwa1l6",
       "verification": {
         "verified": true
       }
     },
-    "presentation-2--key-3-secp384r1.json": {
-      "vector": {
+    "presentation-2--key-3-secp384r1.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1",
@@ -1490,20 +3901,154 @@
             ],
             "issuer": "did:example:123",
             "issuanceDate": "2021-01-01T19:23:24Z",
-            "credentialSubject": {}
+            "credentialSubject": {},
+            "proof": {
+              "type": "JsonWebSignature2020",
+              "created": "2021-11-06T16:49:50Z",
+              "verificationMethod": "did:example:123#key-0",
+              "proofPurpose": "assertionMethod",
+              "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..-OM7P_1AXTqC2p8b5bejObwP7rc-pIFH5vbBJCUzLXAqSXtT_mPW0wJIEgyEP4AII_BygxefoA__eztwJu4fDw"
+            }
           }
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-10-02T18:03:09Z",
+          "created": "2021-11-06T17:40:10Z",
           "verificationMethod": "did:example:123#key-3",
           "proofPurpose": "authentication",
           "challenge": "123",
-          "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..mxNW4J2ksJxUfARPqAyNh5VeHo6OtXE_PB_-LFQPO8fBgALSnmm1Zrno4nRGi0yhqjbtr5RpVrfAIXTlHDZj09SpQd1rf-eNBMoDNfscBUdFpVzqPrSPaQ_5s2SsgFMR"
+          "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..AmDBhRsY63hdl4MyHnKQ1WY2m7hoT94q-YZ_bu6w2FKni4RCgHpVCjAqka16wCAHiN7HSDhYv8Hc7Y-a4VbQ0Zjif2s74HjmE_jGdbZLEGeNubaTkQbeMIeV0tiJaAjL"
         }
       },
       "verification": {
-        "verified": true
+        "verified": true,
+        "credentials": {
+          "verified": true,
+          "results": [
+            {
+              "verified": true,
+              "results": [
+                {
+                  "proof": {
+                    "@context": [
+                      "https://www.w3.org/2018/credentials/v1",
+                      "https://w3id.org/security/suites/jws-2020/v1"
+                    ],
+                    "type": "JsonWebSignature2020",
+                    "created": "2021-11-06T16:49:50Z",
+                    "verificationMethod": "did:example:123#key-0",
+                    "proofPurpose": "assertionMethod",
+                    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..-OM7P_1AXTqC2p8b5bejObwP7rc-pIFH5vbBJCUzLXAqSXtT_mPW0wJIEgyEP4AII_BygxefoA__eztwJu4fDw"
+                  },
+                  "verified": true,
+                  "purposeResult": {
+                    "valid": true
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "presentation": {
+          "verified": true,
+          "results": [
+            {
+              "proof": {
+                "@context": [
+                  "https://www.w3.org/2018/credentials/v1",
+                  "https://w3id.org/security/suites/jws-2020/v1",
+                  "https://identity.foundation/presentation-exchange/submission/v1"
+                ],
+                "type": "JsonWebSignature2020",
+                "created": "2021-11-06T17:40:10Z",
+                "verificationMethod": "did:example:123#key-3",
+                "proofPurpose": "authentication",
+                "challenge": "123",
+                "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..AmDBhRsY63hdl4MyHnKQ1WY2m7hoT94q-YZ_bu6w2FKni4RCgHpVCjAqka16wCAHiN7HSDhYv8Hc7Y-a4VbQ0Zjif2s74HjmE_jGdbZLEGeNubaTkQbeMIeV0tiJaAjL"
+              },
+              "verified": true,
+              "purposeResult": {
+                "valid": true,
+                "controller": {
+                  "@context": [
+                    "https://www.w3.org/ns/did/v1",
+                    "https://w3id.org/security/suites/jws-2020/v1"
+                  ],
+                  "id": "did:example:123",
+                  "verificationMethod": [
+                    {
+                      "id": "did:example:123#key-0",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "OKP",
+                        "crv": "Ed25519",
+                        "x": "JYCAGl6C7gcDeKbNqtXBfpGzH0f5elifj7L6zYNj_Is"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-1",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "secp256k1",
+                        "x": "BuzCc8bUShI3GfVz-WLISZDGq7wnVB4h_nvNQcWn7Jw",
+                        "y": "dLrbspB9PZvZF0dr42nCmF38192dQKglvB52IZBM-vs"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-2",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-256",
+                        "x": "40TexHWb6XTyuShaqhiazvmfxyK5zibbtOBXsQFKJg8",
+                        "y": "SGIGDSRHOOYJntO1lIapw_vR1FP7SPBlmA_2aM9HoFU"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-3",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "EC",
+                        "crv": "P-384",
+                        "x": "BiU_mGfa3uWMKrC4Q6EFvM5D5Qiz2orm7ABlIaC1iJWOuapQC9U_fbqrKwRFRepf",
+                        "y": "_23qoYv94V-PSWzqQMnUqq1nu_MdE4fEIaAhCCYplAwlp4c3LKZDtkgQaPdF4kIT"
+                      }
+                    },
+                    {
+                      "id": "did:example:123#key-4",
+                      "type": "JsonWebKey2020",
+                      "controller": "did:example:123",
+                      "publicKeyJwk": {
+                        "kty": "RSA",
+                        "n": "oF_3bdq-pORqmzx2zROkrhVzAPQQ9JmDh1tjKvKgFh-1M5gywClzn0LoWkIiqqIiLOWXkfGRsqvi4VLbHQ_9WZza54EgIo_cyrZnXaIJCEFGQfwDK5-HqDqrgPCw3DFths04LY59LJ2aNxwgbu5otkQ2Vp8bU-U3_Hr5qz_U9xZjOev3OyD7kfBELAFXYHqnSfSJBJ-YxFjo-Plicjfha14U6C-hMeJlDu-Nwj-hCEHdDGK01_go9vIzA745xwAFfeyUZVhTpu6WLSn4RN9vRroLRjO5gvmHUZUquGh-sR4KNLebOeWcyxS5QEAbsYR82YsEWucLTdpFSdu1RVu8nw",
+                        "e": "AQAB"
+                      }
+                    }
+                  ],
+                  "assertionMethod": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ],
+                  "authentication": [
+                    "did:example:123#key-0",
+                    "did:example:123#key-1",
+                    "did:example:123#key-2",
+                    "did:example:123#key-3",
+                    "did:example:123#key-4"
+                  ]
+                }
+              }
+            }
+          ]
+        }
       }
     }
   }

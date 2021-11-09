@@ -15,8 +15,8 @@
     "jest": "^27.2.2"
   },
   "dependencies": {
-    "@transmute/json-web-signature": "^0.7.0-unstable.8",
-    "@transmute/vc.js": "^0.7.0-unstable.8",
+    "@transmute/json-web-signature": "^0.7.0-unstable.26",
+    "@transmute/vc.js": "^0.7.0-unstable.26",
     "yargs": "^17.2.1"
   }
 }
