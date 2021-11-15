@@ -110,4 +110,7 @@ const extendIndexWithEvaluations = async (index) => {
     indexOutputPath,
     JSON.stringify(implementationResults, null, 2)
   );
-})();
+})().catch((e) => {
+  console.error(e)
+  process.exit(1)
+});
