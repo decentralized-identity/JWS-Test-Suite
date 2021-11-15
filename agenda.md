@@ -6,6 +6,14 @@
 
 { [Meeting Recordings](https://docs.google.com/spreadsheets/d/1wgccmMvIImx30qVE9GhRKWWv3vmL2ZyUauuKx3IfRmA/edit#gid=1791597999) }
 
+## 10/8
+
+1. Discussion of vc-jwt strawman and test vectors
+2. Detailed discussion of s-curve versus S-curve issue
+    - [other projects](https://github.com/PointyCastle/pointycastle/issues/215) have already run into the problem
+    - This test suite/repo is not the place to propose a solution or a norm, much less dictate where/who normalizes to it
+    - Action item: Orie will outline/freewrite the core of a blog post about the upstream ambiguity and what would fix it, Juan will edit it to DIF blog post status to help get eyes/pressure on the problem and direct both to the appropriate venue(s)
+
 ## 9/27
 
 1. codewalk of suite repo, how to use, current state of design issues to date
