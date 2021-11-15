@@ -99,6 +99,13 @@ const extendIndexWithEvaluations = async (index) => {
     "./data/implementations/index.json"
   );
 
+  for (const imp in implementationResults) {
+    for (const k in implementationResults[imp]) {
+      delete implementationResults[imp][k].verification.error
+      delete implementationResults[imp][k].verification.credentials
+      delete implementationResults[imp][k].verification.presentation
+    }
+  }
   fs.writeFileSync(
     indexOutputPath,
     JSON.stringify(implementationResults, null, 2)
