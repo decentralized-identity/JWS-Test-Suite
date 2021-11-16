@@ -47,10 +47,10 @@
           "type": [
             "SupportingActivity"
           ],
-          "verifier": "https://example.edu/issuers/14",
+          "evidenceDocument": "Fluid Dynamics Focus",
           "documentPresence": "Digital",
-          "subjectPresence": "Digital",
-          "evidenceDocument": "Fluid Dynamics Focus"
+          "verifier": "https://example.edu/issuers/14",
+          "subjectPresence": "Digital"
         }
       ]
     }
@@ -60,8 +60,8 @@
     "proofPurpose": "authentication",
     "challenge": "123",
     "verificationMethod": "did:example:123#key-2",
-    "created": "2021-11-15T22:27:11.360Z",
-    "jws": "eyJhbGciOiJFUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..WvfEOldcj1GRlU5vJyYS7GcMX1Z3wGNdBsTzwABdMq6LnNPeNCU6YVWq8vvsEsVLz0c_vStrtHfSOWTRHHU5-A"
+    "created": "2021-11-16T15:18:58.326Z",
+    "jws": "eyJhbGciOiJFUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..9tzC5Uj_4sMEBZbZCnJaecIEPasDSjndzmCRYy20Qn_Zlazl6EO485DRt-2nEu6Ye48aakfjgiYkCl0_ODuvcA"
   },
   "holder": "did:example:123"
 }
