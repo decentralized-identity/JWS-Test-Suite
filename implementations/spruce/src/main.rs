@@ -307,6 +307,12 @@ async fn main() -> Result<(), std::io::Error> {
             let input_file = File::open(input)?;
             let input_reader = BufReader::new(input_file);
             let mut presentation: Presentation = serde_json::from_reader(input_reader)?;
+            if let Some(existing_holder) = presentation.holder {
+                if existing_holder.to_string() != key.controller {
+                    panic!("Presentation already has different holder");
+                }
+            }
+            presentation.holder = Some(ssi::vc::URI::String(key.controller.to_string()));
 
             let private_key_jwk = key.private_key_jwk.clone();
             let mut options = LinkedDataProofOptions {
