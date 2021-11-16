@@ -1,11 +1,12 @@
 use async_trait::async_trait;
+use atty::Stream;
 use serde::{Deserialize, Serialize};
 use ssi::jwk::JWK;
 use ssi::ldp::{JsonWebSignature2020, ProofSuite};
 use ssi::vc::{Credential, LinkedDataProofOptions, Presentation, ProofPurpose};
 use std::fmt;
-use std::fs::{File, OpenOptions};
-use std::io::{BufReader, BufWriter};
+use std::fs::File;
+use std::io::{stdin, stdout, BufReader, BufWriter, Read, Write};
 use std::path::PathBuf;
 use std::str::FromStr;
 use structopt::StructOpt;
@@ -19,6 +20,23 @@ use ssi::did::{
 use ssi::did_resolve::{
     DIDResolver, DocumentMetadata, ResolutionInputMetadata, ResolutionMetadata, ERROR_NOT_FOUND,
 };
+
+fn file_or_stdin(path_buf_opt: Option<PathBuf>) -> Result<Box<dyn Read>, std::io::Error> {
+    if let Some(path_buf) = path_buf_opt {
+        return Ok(Box::new(File::open(path_buf)?));
+    }
+    if atty::is(Stream::Stdin) {
+        eprintln!("TTY detected. Enter input data and then press Control-D.");
+    }
+    Ok(Box::new(stdin()))
+}
+
+fn file_or_stdout(path_buf_opt: Option<PathBuf>) -> Result<Box<dyn Write>, std::io::Error> {
+    match path_buf_opt {
+        Some(path_buf) => Ok(Box::new(File::create(path_buf)?)),
+        None => Ok(Box::new(stdout())),
+    }
+}
 
 #[derive(Debug)]
 pub enum Format {
@@ -71,17 +89,21 @@ pub enum VCSubcommand {
         #[structopt(short, long, parse(from_os_str))]
         key: PathBuf,
         #[structopt(short, long, parse(from_os_str))]
-        input: PathBuf,
+        /// Input filename. If omitted, standard input is used.
+        input: Option<PathBuf>,
         #[structopt(short, long, parse(from_os_str))]
-        output: PathBuf,
+        /// Output filename. If omitted, standard output is used.
+        output: Option<PathBuf>,
         #[structopt(short, long)]
         format: Option<Format>,
     },
     Verify {
         #[structopt(short, long, parse(from_os_str))]
-        input: PathBuf,
+        /// Input filename. If omitted, standard input is used.
+        input: Option<PathBuf>,
         #[structopt(short, long, parse(from_os_str))]
-        output: PathBuf,
+        /// Output filename. If omitted, standard output is used.
+        output: Option<PathBuf>,
         #[structopt(short, long)]
         format: Option<Format>,
     },
@@ -227,7 +249,7 @@ async fn main() -> Result<(), std::io::Error> {
             let key_reader = BufReader::new(key_file);
             let key: Key = serde_json::from_reader(key_reader)?;
 
-            let input_file = File::open(input)?;
+            let input_file = file_or_stdin(input)?;
             let input_reader = BufReader::new(input_file);
             let mut credential: Credential = serde_json::from_reader(input_reader)?;
 
@@ -239,10 +261,7 @@ async fn main() -> Result<(), std::io::Error> {
                 ..Default::default()
             };
             let resolver = DIDExample;
-            let output_file = OpenOptions::new()
-                .write(true)
-                .create_new(true)
-                .open(output)?;
+            let output_file = file_or_stdout(output)?;
             let output_writer = BufWriter::new(output_file);
             if jwt {
                 options.created = None;
@@ -272,7 +291,7 @@ async fn main() -> Result<(), std::io::Error> {
                 Format::VcJwt => true,
                 f => panic!("Unexpected format {} for credential verify", f),
             };
-            let input_file = File::open(input)?;
+            let input_file = file_or_stdin(input)?;
             let input_reader = BufReader::new(input_file);
             let resolver = DIDExample;
             let result = if jwt {
@@ -282,10 +301,7 @@ async fn main() -> Result<(), std::io::Error> {
                 let vc: Credential = serde_json::from_reader(input_reader)?;
                 vc.verify(None, &resolver).await
             };
-            let output_file = OpenOptions::new()
-                .write(true)
-                .create_new(true)
-                .open(output)?;
+            let output_file = file_or_stdout(output)?;
             let output_writer = BufWriter::new(output_file);
             serde_json::to_writer_pretty(output_writer, &result)?;
         }
@@ -304,7 +320,7 @@ async fn main() -> Result<(), std::io::Error> {
             let key_reader = BufReader::new(key_file);
             let key: Key = serde_json::from_reader(key_reader)?;
 
-            let input_file = File::open(input)?;
+            let input_file = file_or_stdin(input)?;
             let input_reader = BufReader::new(input_file);
             let mut presentation: Presentation = serde_json::from_reader(input_reader)?;
             if let Some(existing_holder) = presentation.holder {
@@ -323,10 +339,7 @@ async fn main() -> Result<(), std::io::Error> {
                 ..Default::default()
             };
             let resolver = DIDExample;
-            let output_file = OpenOptions::new()
-                .write(true)
-                .create_new(true)
-                .open(output)?;
+            let output_file = file_or_stdout(output)?;
             let output_writer = BufWriter::new(output_file);
             if jwt {
                 options.created = None;
@@ -356,7 +369,7 @@ async fn main() -> Result<(), std::io::Error> {
                 Format::VpJwt => true,
                 f => panic!("Unexpected format {} for presentation create", f),
             };
-            let input_file = File::open(input)?;
+            let input_file = file_or_stdin(input)?;
             let input_reader = BufReader::new(input_file);
             let resolver = DIDExample;
             let result = if jwt {
@@ -366,10 +379,7 @@ async fn main() -> Result<(), std::io::Error> {
                 let vp: Presentation = serde_json::from_reader(input_reader)?;
                 vp.verify(None, &resolver).await
             };
-            let output_file = OpenOptions::new()
-                .write(true)
-                .create_new(true)
-                .open(output)?;
+            let output_file = file_or_stdout(output)?;
             let output_writer = BufWriter::new(output_file);
             serde_json::to_writer_pretty(output_writer, &result)?;
         }
