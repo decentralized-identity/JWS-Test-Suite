@@ -3,7 +3,7 @@ use atty::Stream;
 use serde::{Deserialize, Serialize};
 use ssi::jwk::JWK;
 use ssi::ldp::{JsonWebSignature2020, ProofSuite};
-use ssi::vc::{Credential, LinkedDataProofOptions, Presentation, ProofPurpose};
+use ssi::vc::{Credential, LinkedDataProofOptions, Presentation, ProofPurpose, VerificationResult};
 use std::fmt;
 use std::fs::File;
 use std::io::{stdin, stdout, BufReader, BufWriter, Read, Write};
@@ -120,7 +120,24 @@ pub struct JWT {
     jwt: String,
 }
 
+#[derive(Deserialize, Serialize, Debug)]
+pub struct JWSTestSuiteVerificationResult {
+    verified: bool,
+    // Uncomment to pass through verification result.
+    // #[serde(flatten)]
+    // ssi_result: VerificationResult,
+}
+
 pub struct DIDExample;
+
+impl From<VerificationResult> for JWSTestSuiteVerificationResult {
+    fn from(res: VerificationResult) -> Self {
+        Self {
+            verified: res.errors.is_empty() && !res.checks.is_empty(),
+            // ssi_result: res,
+        }
+    }
+}
 
 #[cfg_attr(target_arch = "wasm32", async_trait(?Send))]
 #[cfg_attr(not(target_arch = "wasm32"), async_trait)]
@@ -303,6 +320,7 @@ async fn main() -> Result<(), std::io::Error> {
             };
             let output_file = file_or_stdout(output)?;
             let output_writer = BufWriter::new(output_file);
+            let result = JWSTestSuiteVerificationResult::from(result);
             serde_json::to_writer_pretty(output_writer, &result)?;
         }
         SSIJWS::Presentation(VCSubcommand::Create {
@@ -379,6 +397,7 @@ async fn main() -> Result<(), std::io::Error> {
                 let vp: Presentation = serde_json::from_reader(input_reader)?;
                 vp.verify(None, &resolver).await
             };
+            let result = JWSTestSuiteVerificationResult::from(result);
             let output_file = file_or_stdout(output)?;
             let output_writer = BufWriter::new(output_file);
             serde_json::to_writer_pretty(output_writer, &result)?;
