@@ -99,6 +99,8 @@ const extendIndexWithEvaluations = async (index) => {
     "./data/implementations/index.json"
   );
 
+  // Sanitize results for stringification.
+  // https://github.com/transmute-industries/verifiable-data/issues/120
   for (const imp in implementationResults) {
     for (const k in implementationResults[imp]) {
       delete implementationResults[imp][k].verification.error
@@ -106,6 +108,7 @@ const extendIndexWithEvaluations = async (index) => {
       delete implementationResults[imp][k].verification.presentation
     }
   }
+
   fs.writeFileSync(
     indexOutputPath,
     JSON.stringify(implementationResults, null, 2)
