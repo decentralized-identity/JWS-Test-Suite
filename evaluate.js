@@ -3,6 +3,7 @@ console.log("\n🔎 Preparing evaluation report...\n");
 const path = require("path");
 const fs = require("fs");
 const { verify } = require("./implementations/transmute/cli");
+const verifyRSA = require("./implementations/spruce/verify");
 const implementationsReport = path.join(__dirname, "./data/implementations");
 
 const buildImplementationsIndex = () => {
@@ -75,7 +76,10 @@ const extendIndexWithEvaluations = async (index) => {
         }
       }
 
-      const verification = await verify(vectorContent, format);
+      const isRSA =/-rsa\d/.test(vector);
+      const verification = isRSA
+        ? await verifyRSA(vectorContent, format)
+        : await verify(vectorContent, format);
 
       index[implementation][vector] = {
         vector: format,
@@ -99,6 +103,8 @@ const extendIndexWithEvaluations = async (index) => {
     "./data/implementations/index.json"
   );
 
+  // Sanitize results for stringification.
+  // https://github.com/transmute-industries/verifiable-data/issues/120
   for (const imp in implementationResults) {
     for (const k in implementationResults[imp]) {
       delete implementationResults[imp][k].verification.error
@@ -106,6 +112,7 @@ const extendIndexWithEvaluations = async (index) => {
       delete implementationResults[imp][k].verification.presentation
     }
   }
+
   fs.writeFileSync(
     indexOutputPath,
     JSON.stringify(implementationResults, null, 2)
