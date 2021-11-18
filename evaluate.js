@@ -3,6 +3,7 @@ console.log("\n🔎 Preparing evaluation report...\n");
 const path = require("path");
 const fs = require("fs");
 const { verify } = require("./implementations/transmute/cli");
+const verifyRSA = require("./implementations/spruce/verify");
 const implementationsReport = path.join(__dirname, "./data/implementations");
 
 const buildImplementationsIndex = () => {
@@ -75,7 +76,10 @@ const extendIndexWithEvaluations = async (index) => {
         }
       }
 
-      const verification = await verify(vectorContent, format);
+      const isRSA =/-rsa\d/.test(vector);
+      const verification = isRSA
+        ? await verifyRSA(vectorContent, format)
+        : await verify(vectorContent, format);
 
       index[implementation][vector] = {
         vector: format,
