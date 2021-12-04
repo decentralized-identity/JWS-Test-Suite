@@ -1,0 +1,19 @@
+{
+  "name": "microsoft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Orie Steele",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.4.3"
+  },
+  "dependencies": {
+    "moment": "^2.29.1",
+    "verifiablecredentials-crypto-sdk-typescript": "^1.1.11",
+    "yargs": "^17.3.0"
+  }
+}
