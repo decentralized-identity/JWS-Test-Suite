@@ -4,6 +4,7 @@ const { createVcJwt } = require("./createVcJwt");
 describe("createVcJwt", () => {
   it("can create a simple jwt", async () => {
     const jwt = await createVcJwt(credential, rawKeyJson);
-    console.log(jwt);
+    // console.log(jwt);
+    expect(jwt).toBeDefined();
   });
 });

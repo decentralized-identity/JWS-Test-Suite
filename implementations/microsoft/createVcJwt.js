@@ -26,12 +26,12 @@ const createVcJwt = async (credential, key) => {
   }
   if (credential.issuanceDate) {
     // nbf MUST represent issuanceDate, encoded as a UNIX timestamp (NumericDate).
-    options.nbf = moment(credential.issuanceDate).unix();
+    options.nbf = moment.utc(credential.issuanceDate).unix();
   }
 
   if (credential.expirationDate) {
     // exp MUST represent the expirationDate property, encoded as a UNIX timestamp (NumericDate).
-    options.exp = moment(credential.expirationDate).unix();
+    options.exp = moment.utc(credential.expirationDate).unix();
   }
   const joseSigner = new JoseBuilder(crypto).useJwtProtocol(options).build();
 
