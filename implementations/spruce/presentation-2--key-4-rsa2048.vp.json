@@ -35,8 +35,8 @@
     "proofPurpose": "authentication",
     "challenge": "123",
     "verificationMethod": "did:example:123#key-4",
-    "created": "2021-12-04T07:13:56.403Z",
-    "jws": "eyJhbGciOiJQUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..XEIOnnljU5Z1xFH5p6yIXaBvylATsGvMAsr5aeTteCOGi5PPb_3eztbnSLLNHHFFHfbRAlCXs4tVfwUOStt527K7vjdewl4ZLZIK2BxGykoilolNGWCX0EIvQ8CO_h_vRxRuEM4CQlllSX19M5iKeFMrs7BwY7NVvRHtAEUeL9DfiKkuLXzOAL5jFFieBDwY0gIInv2Ymy-TFRsm8POLqCLZeqb1IQJqOF1FleKArGKQz_YOFDVHSOkkEBLrTx8reO0Fcsofuba8cm5iikCndLsuq5Z4PK9rwcOtQ8Zl2HKCGPR6XDfYkww9i5mTXKhpu22eanXUJT8l8TesXf6ccA"
+    "created": "2021-12-04T07:22:31.074Z",
+    "jws": "eyJhbGciOiJQUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..l8WWuo9RIXCRvRoNS5gHN8GMeMb5MLASI2HX_gFDdB8UfhJERXJFy0vJ2rkkCfQO0d7RPXR3igDnIN_UEz21gpQUSuN_9PpPcv6DIx-iRw3cYVC0AEKTvac7GZmfTxAa3RzCB62-EpaKN52lgmKd1Bj1HLZtvcPCwgUmEjivXshqx58gpoJfv8ETxHu8KWtIG2EVxBQxooXUmBLH8jpNXTss9NoKj3Fp2JUiG5dMrZ8PCDK6tno1pKGIFeuOJsZoWqh5dv6g6WrbEs8ObgL1nOqjmVRz6VitRBCigArD5nXk-7pVP8xhquIW7a84c4kCNjtTsks9Af_2EfIbe_Tghw"
   },
   "holder": "did:example:123",
   "presentation_submission": {
