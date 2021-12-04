@@ -18,10 +18,12 @@ const doc = {
 };
 
 keys.forEach((key) => {
-  delete key.privateKeyJwk;
-  doc.verificationMethod.push(key);
-  doc.assertionMethod.push(key.id);
-  doc.authentication.push(key.id);
+  // prevent mutation
+  const clone = JSON.parse(JSON.stringify(key));
+  delete clone.privateKeyJwk;
+  doc.verificationMethod.push(clone);
+  doc.assertionMethod.push(clone.id);
+  doc.authentication.push(clone.id);
 });
 
 const dids = {
