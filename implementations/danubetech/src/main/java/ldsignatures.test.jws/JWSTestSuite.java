@@ -61,7 +61,7 @@ public class JWSTestSuite {
         else if (JWSAlgorithm.ES256K.equals(byteSigner.getAlgorithm()))
             jwtString = jwtObject.sign_secp256k1_ES256K(byteSigner, verificationMethod.toString(), false);
         else if (JWSAlgorithm.PS256.equals(byteSigner.getAlgorithm()))
-            jwtString = jwtObject.sign_RSA_RS256(byteSigner, verificationMethod.toString(), false);
+            jwtString = jwtObject.sign_RSA_PS256(byteSigner, verificationMethod.toString(), false);
         else
             throw new IllegalArgumentException("Unsupported algorithm: " + byteSigner.getAlgorithm());
         String output = "{\"jwt\":\"" + jwtString + "\"}";
