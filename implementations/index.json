@@ -2,8 +2,9 @@
   "danubetech": {
     "credential-0--key-0-ed25519.vc-jwt.json": {
       "vector": "vc-jwt",
+      "vectorContent": "eyJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTAiLCJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSJ9.eyJuYmYiOjE2MDk1MjkwMDQsImlzcyI6ImRpZDpleGFtcGxlOjEyMyIsInZjIjp7IkBjb250ZXh0IjpbImh0dHBzOi8vd3d3LnczLm9yZy8yMDE4L2NyZWRlbnRpYWxzL3YxIiwiaHR0cHM6Ly93M2lkLm9yZy9zZWN1cml0eS9zdWl0ZXMvandzLTIwMjAvdjEiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJjcmVkZW50aWFsU3ViamVjdCI6e319fQ.bMw6xAIrtGyxVGuGGAy0ZnYf_CgnVtK3NGkzO4MZdBMF7CSxV8xDJCEUr9_7WOnnmwpzVFvl6e_YKc0_N4wYAw",
       "verification": {
-        "verified": false
+        "verified": true
       }
     },
     "credential-0--key-0-ed25519.vc.json": {
@@ -21,11 +22,11 @@
         "credentialSubject": {},
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:36:28Z",
+          "created": "2021-12-13T17:11:06Z",
           "challenge": "123",
           "proofPurpose": "assertionMethod",
           "verificationMethod": "did:example:123#key-0",
-          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..0PwE7AAgaz5qxSlR0-Znc6_UPbTLfGcFED35E8oAu264VPbPGpzKyu9ecaPpLLbLy_-TMYdDs2NokRUVPPCpAQ"
+          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..k8mk_KsWuxUf67oz6hKDx2FVjvXfqJlQtSXTfBItVWCmb5EH774adk7ZDWG8PSZhg58varA7up30KS8UY9C3DA"
         }
       },
       "verification": {
@@ -34,8 +35,9 @@
     },
     "credential-0--key-1-secp256k1.vc-jwt.json": {
       "vector": "vc-jwt",
+      "vectorContent": "eyJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTEiLCJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NksifQ.eyJuYmYiOjE2MDk1MjkwMDQsImlzcyI6ImRpZDpleGFtcGxlOjEyMyIsInZjIjp7IkBjb250ZXh0IjpbImh0dHBzOi8vd3d3LnczLm9yZy8yMDE4L2NyZWRlbnRpYWxzL3YxIiwiaHR0cHM6Ly93M2lkLm9yZy9zZWN1cml0eS9zdWl0ZXMvandzLTIwMjAvdjEiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJjcmVkZW50aWFsU3ViamVjdCI6e319fQ.k5pjnFgwaBYhBXMmlRqQrz8zl_0lFVaxRgifEDUnpnVEJig_16TPCRR1Ni4_CNIfHr72mn422ul_wKa4Sbpjyw",
       "verification": {
-        "verified": false
+        "verified": true
       }
     },
     "credential-0--key-1-secp256k1.vc.json": {
@@ -53,11 +55,11 @@
         "credentialSubject": {},
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:37:06Z",
+          "created": "2021-12-13T17:11:26Z",
           "challenge": "123",
           "proofPurpose": "assertionMethod",
           "verificationMethod": "did:example:123#key-1",
-          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..eKf-g2_5I2UrbYKo5Gk-c8ZhCXpIHN-Bc0B6j_gapGYbThCV6kiDz2I30vk_9UwM2AjbY6bFMJVeNlFzuzmc6Q"
+          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..nisIfHVnVpDfngde-OWldFszGFW3EUDB_gbZyPnewSBlSf2LwduHWOdHZQ1si2X6269083pZqUTHGf3FrXrAGQ"
         }
       },
       "verification": {
@@ -66,8 +68,9 @@
     },
     "credential-1--key-0-ed25519.vc-jwt.json": {
       "vector": "vc-jwt",
+      "vectorContent": "eyJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTAiLCJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSJ9.eyJzdWIiOiJkaWQ6ZXhhbXBsZTo0NTYiLCJuYmYiOjE2MDk1MjkwMDQsImlzcyI6ImRpZDpleGFtcGxlOjEyMyIsImV4cCI6MTkyNTA2MTgwNCwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsidHlwZSI6IlBlcnNvbiJ9fX0.bC1LwHWmf51Wn6U-ltUzAH1nq6t9-RiUnyP-QLKEZDiThTUwSJd76V2iCMIULQ01WC3FLVz5YjQbxDR-vAi1Aw",
       "verification": {
-        "verified": false
+        "verified": true
       }
     },
     "credential-1--key-0-ed25519.vc.json": {
@@ -92,11 +95,11 @@
         },
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:36:29Z",
+          "created": "2021-12-13T17:11:08Z",
           "challenge": "123",
           "proofPurpose": "assertionMethod",
           "verificationMethod": "did:example:123#key-0",
-          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..7hWdDyrsa72ApyGOpFswlkyQW8Y0xu5ekScIYFbS5TC_gsE-TZ1md4GiuZR7P1zhiqUeKkWgzh9zSr6j9cv2Dg"
+          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..a0XzyGMnU8y3m-_etxAtls-UQzv0dk84qJaMFTQTfNkseKhfzmp_jwZc7p9cdPMllLZ8yEzc-zqNUPCZ93crBQ"
         }
       },
       "verification": {
@@ -105,8 +108,9 @@
     },
     "credential-1--key-1-secp256k1.vc-jwt.json": {
       "vector": "vc-jwt",
+      "vectorContent": "eyJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTEiLCJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NksifQ.eyJzdWIiOiJkaWQ6ZXhhbXBsZTo0NTYiLCJuYmYiOjE2MDk1MjkwMDQsImlzcyI6ImRpZDpleGFtcGxlOjEyMyIsImV4cCI6MTkyNTA2MTgwNCwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsidHlwZSI6IlBlcnNvbiJ9fX0.hLoHQ0lDAJmYyBOqe79g09Z93QumgfZiVH5HSX5ch9gudLHzWrQogv4fWy2By6B4n7IEXbEFwNtJa1Rh2vEdgQ",
       "verification": {
-        "verified": false
+        "verified": true
       }
     },
     "credential-1--key-1-secp256k1.vc.json": {
@@ -131,11 +135,11 @@
         },
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:37:08Z",
+          "created": "2021-12-13T17:11:28Z",
           "challenge": "123",
           "proofPurpose": "assertionMethod",
           "verificationMethod": "did:example:123#key-1",
-          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..MEUovqYzKsaSkVVsqi2PGA_-RDwICqw9ywRqpsC7934SaUPaOM5rROmeI2tRG0HjauiKW17XMZUnxJY0yU6CvA"
+          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..0hIO66U0DARVZ_hO1jP_E0UVJ9g0sBPXh9v_opnJ_DgDmHz3jcUR17x4VcK5s4pR2wwGZFJl6dzTsIAsKoCS4g"
         }
       },
       "verification": {
@@ -144,8 +148,9 @@
     },
     "credential-2--key-0-ed25519.vc-jwt.json": {
       "vector": "vc-jwt",
+      "vectorContent": "eyJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTAiLCJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSJ9.eyJzdWIiOiJkaWQ6ZXhhbXBsZTo0NTYiLCJuYmYiOjE2MDk1MjkwMDQsImlzcyI6ImRpZDpleGFtcGxlOjEyMyIsInZjIjp7IkBjb250ZXh0IjpbImh0dHBzOi8vd3d3LnczLm9yZy8yMDE4L2NyZWRlbnRpYWxzL3YxIiwiaHR0cHM6Ly93M2lkLm9yZy9zZWN1cml0eS9zdWl0ZXMvandzLTIwMjAvdjEiLHsiQHZvY2FiIjoiaHR0cHM6Ly9leGFtcGxlLmNvbS8jIn1dLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIl0sImV2aWRlbmNlIjpbeyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmQ0MjMxIiwidHlwZSI6WyJEb2N1bWVudFZlcmlmaWNhdGlvbiJdLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCIsImV2aWRlbmNlRG9jdW1lbnQiOiJEcml2ZXJzTGljZW5zZSIsInN1YmplY3RQcmVzZW5jZSI6IlBoeXNpY2FsIiwiZG9jdW1lbnRQcmVzZW5jZSI6IlBoeXNpY2FsIn0seyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmR4eXphYiIsInR5cGUiOlsiU3VwcG9ydGluZ0FjdGl2aXR5Il0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0IiwiZXZpZGVuY2VEb2N1bWVudCI6IkZsdWlkIER5bmFtaWNzIEZvY3VzIiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCIsImRvY3VtZW50UHJlc2VuY2UiOiJEaWdpdGFsIn1dLCJjcmVkZW50aWFsU3ViamVjdCI6e319fQ.TneJxI8lU4zMyfKqyJH3_gXp-U7X_S8SG1hWid15FkCd7FRzztegC-abcsK6MarGnS3ylxTHTqmhTqsWT_lgAA",
       "verification": {
-        "verified": false
+        "verified": true
       }
     },
     "credential-2--key-0-ed25519.vc.json": {
@@ -190,11 +195,11 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:36:31Z",
+          "created": "2021-12-13T17:11:10Z",
           "challenge": "123",
           "proofPurpose": "assertionMethod",
           "verificationMethod": "did:example:123#key-0",
-          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..Rv0RPsViq2QcUvk6NdnA_WVkTFnOvBg_AKnE0zRRD1hMQiPeJJgTFQww8kPMmYPvrd568PZcjQNRoCgwI8BnDA"
+          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..YhrLzq4Dobv6DUGS8rIz0625-Hd6NqnMqWPyNfIxYH2m-LEF2Y18RGHcrd3wcORhS6q6lCMMXTkiurtASNZLCw"
         }
       },
       "verification": {
@@ -203,8 +208,9 @@
     },
     "credential-2--key-1-secp256k1.vc-jwt.json": {
       "vector": "vc-jwt",
+      "vectorContent": "eyJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTEiLCJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NksifQ.eyJzdWIiOiJkaWQ6ZXhhbXBsZTo0NTYiLCJuYmYiOjE2MDk1MjkwMDQsImlzcyI6ImRpZDpleGFtcGxlOjEyMyIsInZjIjp7IkBjb250ZXh0IjpbImh0dHBzOi8vd3d3LnczLm9yZy8yMDE4L2NyZWRlbnRpYWxzL3YxIiwiaHR0cHM6Ly93M2lkLm9yZy9zZWN1cml0eS9zdWl0ZXMvandzLTIwMjAvdjEiLHsiQHZvY2FiIjoiaHR0cHM6Ly9leGFtcGxlLmNvbS8jIn1dLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIl0sImV2aWRlbmNlIjpbeyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmQ0MjMxIiwidHlwZSI6WyJEb2N1bWVudFZlcmlmaWNhdGlvbiJdLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCIsImV2aWRlbmNlRG9jdW1lbnQiOiJEcml2ZXJzTGljZW5zZSIsInN1YmplY3RQcmVzZW5jZSI6IlBoeXNpY2FsIiwiZG9jdW1lbnRQcmVzZW5jZSI6IlBoeXNpY2FsIn0seyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmR4eXphYiIsInR5cGUiOlsiU3VwcG9ydGluZ0FjdGl2aXR5Il0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0IiwiZXZpZGVuY2VEb2N1bWVudCI6IkZsdWlkIER5bmFtaWNzIEZvY3VzIiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCIsImRvY3VtZW50UHJlc2VuY2UiOiJEaWdpdGFsIn1dLCJjcmVkZW50aWFsU3ViamVjdCI6e319fQ.JgWm3ux54OFyzTvjGBKe2rVSZhlc9QtxTi8iVi3avHw-JLmsSKTwz1bVFQQQGS96m51DSvveX8b-OwcI-Mtz9w",
       "verification": {
-        "verified": false
+        "verified": true
       }
     },
     "credential-2--key-1-secp256k1.vc.json": {
@@ -249,147 +255,11 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:37:10Z",
+          "created": "2021-12-13T17:11:30Z",
           "challenge": "123",
           "proofPurpose": "assertionMethod",
           "verificationMethod": "did:example:123#key-1",
-          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..jeMjuz7n_iv8W-_y6ujo5DDvnMBiPD4I5H4DQ6vdffYCcHkTLsflpzuff2pV9QN_T5uD8SESIbd-oW-Ml9WH4g"
-        }
-      },
-      "verification": {
-        "verified": true
-      }
-    },
-    "credential-3--key-0-ed25519.vc-jwt.json": {
-      "vector": "vc-jwt",
-      "verification": {
-        "verified": false
-      }
-    },
-    "credential-3--key-0-ed25519.vc.json": {
-      "vector": "vc",
-      "vectorContent": {
-        "@context": [
-          "https://www.w3.org/2018/credentials/v1",
-          "https://w3id.org/security/suites/jws-2020/v1",
-          {
-            "@vocab": "https://example.com/#"
-          }
-        ],
-        "id": "https://example.com/credential/123456",
-        "type": [
-          "VerifiableCredential",
-          "VerifiableBusinessCard"
-        ],
-        "name": "Verifiable Business Card",
-        "relatedLink": [
-          {
-            "type": "LinkRole",
-            "target": "https://example.com/organizations/example-org/presentations/available",
-            "linkRelationship": "OrganizationPresentationEndpoint"
-          }
-        ],
-        "issuanceDate": "2016-12-31T23:59:60Z",
-        "expirationDate": "2038-01-19T03:14:08Z",
-        "issuer": {
-          "id": "did:example:123",
-          "type": "Organization",
-          "name": "Grady, Purdy and Pacocha",
-          "description": "Secured 24/7 neural-net",
-          "address": {
-            "type": "PostalAddress",
-            "streetAddress": "0516 Kendrick Heights",
-            "addressLocality": "Port Reba",
-            "addressRegion": "South Carolina",
-            "postalCode": "53062-7356",
-            "addressCountry": "Austria"
-          },
-          "email": "Cora31@example.net",
-          "phoneNumber": "555-158-2528",
-          "faxNumber": "555-577-3567"
-        },
-        "credentialSubject": {
-          "type": [
-            "Organization"
-          ],
-          "name": "Steel Manufacturer Org",
-          "url": "https://www.example.com/"
-        },
-        "proof": {
-          "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:36:33Z",
-          "challenge": "123",
-          "proofPurpose": "assertionMethod",
-          "verificationMethod": "did:example:123#key-0",
-          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..a-yzoAI2UKn-PqqLPcRZfJnCgONlrHffMsFthxBmvviYoNtWrx9xy_9XE99qJpFFpccqqwihOg6AHMEfjVWUCw"
-        }
-      },
-      "verification": {
-        "verified": true
-      }
-    },
-    "credential-3--key-1-secp256k1.vc-jwt.json": {
-      "vector": "vc-jwt",
-      "verification": {
-        "verified": false
-      }
-    },
-    "credential-3--key-1-secp256k1.vc.json": {
-      "vector": "vc",
-      "vectorContent": {
-        "@context": [
-          "https://www.w3.org/2018/credentials/v1",
-          "https://w3id.org/security/suites/jws-2020/v1",
-          {
-            "@vocab": "https://example.com/#"
-          }
-        ],
-        "id": "https://example.com/credential/123456",
-        "type": [
-          "VerifiableCredential",
-          "VerifiableBusinessCard"
-        ],
-        "name": "Verifiable Business Card",
-        "relatedLink": [
-          {
-            "type": "LinkRole",
-            "target": "https://example.com/organizations/example-org/presentations/available",
-            "linkRelationship": "OrganizationPresentationEndpoint"
-          }
-        ],
-        "issuanceDate": "2016-12-31T23:59:60Z",
-        "expirationDate": "2038-01-19T03:14:08Z",
-        "issuer": {
-          "id": "did:example:123",
-          "type": "Organization",
-          "name": "Grady, Purdy and Pacocha",
-          "description": "Secured 24/7 neural-net",
-          "address": {
-            "type": "PostalAddress",
-            "streetAddress": "0516 Kendrick Heights",
-            "addressLocality": "Port Reba",
-            "addressRegion": "South Carolina",
-            "postalCode": "53062-7356",
-            "addressCountry": "Austria"
-          },
-          "email": "Cora31@example.net",
-          "phoneNumber": "555-158-2528",
-          "faxNumber": "555-577-3567"
-        },
-        "credentialSubject": {
-          "type": [
-            "Organization"
-          ],
-          "name": "Steel Manufacturer Org",
-          "url": "https://www.example.com/"
-        },
-        "proof": {
-          "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:37:12Z",
-          "challenge": "123",
-          "proofPurpose": "assertionMethod",
-          "verificationMethod": "did:example:123#key-1",
-          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..JlTBp7ru-JQ50S5ueArBGQCNxMjbn4isoeX-QRXlRmgiT7ZWZ3tHen6EMoSBWXI8Op5t5HWlnyxnXkKpxJ2KCQ"
+          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..sD8M7giF9QEiMpc2yZzfLwaRr_O1mhKua5NTz0SqyytppLtfkp6xcrRNuPcnl3AWh55b6R1MF39YUwZ4Y6Nknw"
         }
       },
       "verification": {
@@ -398,8 +268,9 @@
     },
     "presentation-0--key-0-ed25519.vp-jwt.json": {
       "vector": "vp-jwt",
+      "vectorContent": "eyJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTAiLCJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSJ9.eyJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZVByZXNlbnRhdGlvbiJdfX0.tPvl7a6cqZrAUeWKrkeZjIbsKQTkNo-pwqgJQyQgh3OSNgxNEkWyCXszSSvzfNLS7TJRqYwO4PwoI9DIJa8dDA",
       "verification": {
-        "verified": false
+        "verified": true
       }
     },
     "presentation-0--key-0-ed25519.vp.json": {
@@ -414,11 +285,11 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:36:43Z",
+          "created": "2021-12-13T17:11:15Z",
           "challenge": "123",
           "proofPurpose": "authentication",
           "verificationMethod": "did:example:123#key-0",
-          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..r1wQwpw-yfNcE0a1hgppRe1nsiPsZmV29AIeqMQsduiwZNijBk8vYgF4Er4r8VeQXOrlXbVhu5GQFjbTvRX4DA"
+          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..VOmN2hbMkL_WhdLMvTex19BvACiTc-la4nNwQ9VBE7s9vNndkiVCqoXvPYtPfRgT00HmdyB8z1zw8-1d5IIhAw"
         }
       },
       "verification": {
@@ -427,8 +298,9 @@
     },
     "presentation-0--key-1-secp256k1.vp-jwt.json": {
       "vector": "vp-jwt",
+      "vectorContent": "eyJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTEiLCJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NksifQ.eyJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZVByZXNlbnRhdGlvbiJdfX0.qXKTk2t8gWYXPk4y9IMeflKgafF0EHAXIZgl6QK9kol_N7vbZiXjwB-IkGgBSxLG_6VfZNPHCFZecjpwOr9WKQ",
       "verification": {
-        "verified": false
+        "verified": true
       }
     },
     "presentation-0--key-1-secp256k1.vp.json": {
@@ -443,11 +315,11 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:37:27Z",
+          "created": "2021-12-13T17:11:37Z",
           "challenge": "123",
           "proofPurpose": "authentication",
           "verificationMethod": "did:example:123#key-1",
-          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..YZDbDKAttHFzfzzmW1xljTAaLMhDICsPJnciLOwf7aEbNowuVVpVtQMEZrXhxSNdq7MqDUSSs2-BUCFxUTMmPA"
+          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..DhClkjf79CgMafH1yW5bZt4CbwnrpE-x48XuwWrm1tsX2Xg6NPPTe_S_ichsRokJTqjESCRRLMuxip3UPNsE2w"
         }
       },
       "verification": {
@@ -456,8 +328,9 @@
     },
     "presentation-1--key-0-ed25519.vp-jwt.json": {
       "vector": "vp-jwt",
+      "vectorContent": "eyJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTAiLCJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSJ9.eyJzdWIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZVByZXNlbnRhdGlvbiJdLCJ2ZXJpZmlhYmxlQ3JlZGVudGlhbCI6W3siQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXSwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwiaXNzdWFuY2VEYXRlIjoiMjAyMS0wMS0wMVQxOToyMzoyNFoiLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZCI6ImRpZDpleGFtcGxlOjQ1NiJ9LCJldmlkZW5jZSI6W3siaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkNDIzMSIsInR5cGUiOlsiRG9jdW1lbnRWZXJpZmljYXRpb24iXSwidmVyaWZpZXIiOiJodHRwczovL2V4YW1wbGUuZWR1L2lzc3VlcnMvMTQiLCJldmlkZW5jZURvY3VtZW50IjoiRHJpdmVyc0xpY2Vuc2UiLCJzdWJqZWN0UHJlc2VuY2UiOiJQaHlzaWNhbCIsImRvY3VtZW50UHJlc2VuY2UiOiJQaHlzaWNhbCJ9LHsiaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkeHl6YWIiLCJ0eXBlIjpbIlN1cHBvcnRpbmdBY3Rpdml0eSJdLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCIsImV2aWRlbmNlRG9jdW1lbnQiOiJGbHVpZCBEeW5hbWljcyBGb2N1cyIsInN1YmplY3RQcmVzZW5jZSI6IkRpZ2l0YWwiLCJkb2N1bWVudFByZXNlbmNlIjoiRGlnaXRhbCJ9XSwicHJvb2YiOnsidHlwZSI6Ikpzb25XZWJTaWduYXR1cmUyMDIwIiwiY3JlYXRlZCI6IjIwMjEtMTAtMDJUMTc6NTg6MDBaIiwicHJvb2ZQdXJwb3NlIjoiYXNzZXJ0aW9uTWV0aG9kIiwidmVyaWZpY2F0aW9uTWV0aG9kIjoiZGlkOmV4YW1wbGU6MTIzI2tleS0wIiwiandzIjoiZXlKaU5qUWlPbVpoYkhObExDSmpjbWwwSWpwYkltSTJOQ0pkTENKaGJHY2lPaUpGWkVSVFFTSjkuLlZBOFZRcUFlclVUNkFJVmRIYzhXOFEyYWoxMkxPUWpWX1ZaMWUxMzROVTlRMjBlQnNOeVNQak5kbVRXcDJIa2RxdUNuYlJoQkh4SWJOZUZFSU9PaEFnIn19XX0sImp0aSI6InVybjp1dWlkOjc4OSJ9.2kJSQymuSpcXdpMGHVoBBLow4ATSrbkLBhMkKdycNWHd7q3zxLe_m4aDUSXnzYnXGYb2gSKEre8J_PVqdK-TAg",
       "verification": {
-        "verified": false
+        "verified": true
       }
     },
     "presentation-1--key-0-ed25519.vp.json": {
@@ -522,11 +395,11 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:36:45Z",
+          "created": "2021-12-13T17:11:17Z",
           "challenge": "123",
           "proofPurpose": "authentication",
           "verificationMethod": "did:example:123#key-0",
-          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..WHp_WMJHeELqOrnMPsY38e00K6MzVQo8l218fazh_eHzdRt5-JcQf7R66-_tzNorVKokKcUZtLvT-uJHIMnTBg"
+          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..HVMmP4luuR3weLWEPB-WPBeEHyGSqApq9QSIb4q7b1CzGF6fai48kyTNjuCKpNbMJ3Te5LVVUJFJOHMYWkQgAA"
         }
       },
       "verification": {
@@ -535,8 +408,9 @@
     },
     "presentation-1--key-1-secp256k1.vp-jwt.json": {
       "vector": "vp-jwt",
+      "vectorContent": "eyJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTEiLCJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NksifQ.eyJzdWIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZVByZXNlbnRhdGlvbiJdLCJ2ZXJpZmlhYmxlQ3JlZGVudGlhbCI6W3siQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXSwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwiaXNzdWFuY2VEYXRlIjoiMjAyMS0wMS0wMVQxOToyMzoyNFoiLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZCI6ImRpZDpleGFtcGxlOjQ1NiJ9LCJldmlkZW5jZSI6W3siaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkNDIzMSIsInR5cGUiOlsiRG9jdW1lbnRWZXJpZmljYXRpb24iXSwidmVyaWZpZXIiOiJodHRwczovL2V4YW1wbGUuZWR1L2lzc3VlcnMvMTQiLCJldmlkZW5jZURvY3VtZW50IjoiRHJpdmVyc0xpY2Vuc2UiLCJzdWJqZWN0UHJlc2VuY2UiOiJQaHlzaWNhbCIsImRvY3VtZW50UHJlc2VuY2UiOiJQaHlzaWNhbCJ9LHsiaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkeHl6YWIiLCJ0eXBlIjpbIlN1cHBvcnRpbmdBY3Rpdml0eSJdLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCIsImV2aWRlbmNlRG9jdW1lbnQiOiJGbHVpZCBEeW5hbWljcyBGb2N1cyIsInN1YmplY3RQcmVzZW5jZSI6IkRpZ2l0YWwiLCJkb2N1bWVudFByZXNlbmNlIjoiRGlnaXRhbCJ9XSwicHJvb2YiOnsidHlwZSI6Ikpzb25XZWJTaWduYXR1cmUyMDIwIiwiY3JlYXRlZCI6IjIwMjEtMTAtMDJUMTc6NTg6MDBaIiwicHJvb2ZQdXJwb3NlIjoiYXNzZXJ0aW9uTWV0aG9kIiwidmVyaWZpY2F0aW9uTWV0aG9kIjoiZGlkOmV4YW1wbGU6MTIzI2tleS0wIiwiandzIjoiZXlKaU5qUWlPbVpoYkhObExDSmpjbWwwSWpwYkltSTJOQ0pkTENKaGJHY2lPaUpGWkVSVFFTSjkuLlZBOFZRcUFlclVUNkFJVmRIYzhXOFEyYWoxMkxPUWpWX1ZaMWUxMzROVTlRMjBlQnNOeVNQak5kbVRXcDJIa2RxdUNuYlJoQkh4SWJOZUZFSU9PaEFnIn19XX0sImp0aSI6InVybjp1dWlkOjc4OSJ9.VXW_VktF20cvDKaBhpd-q8AOLuM5LHdrMQZD3Ao7By9OFFuvNPZbJAnDjjKUc04svCwegrAYfrTphn__R4WdBA",
       "verification": {
-        "verified": false
+        "verified": true
       }
     },
     "presentation-1--key-1-secp256k1.vp.json": {
@@ -601,11 +475,11 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:37:29Z",
+          "created": "2021-12-13T17:11:40Z",
           "challenge": "123",
           "proofPurpose": "authentication",
           "verificationMethod": "did:example:123#key-1",
-          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..dqmy6CG7iMWHxEZM7SuZLZIkifDxD1P7V1XirxuwgahWUGqqlxuyNujzcqlZHCVVGs4CIT1WRCix9Ya-C41iWw"
+          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..vLsVE9zgetV1FlNeoUPr0akn3PNxRF69Pg9ZybbcYK9tee92YhTirKnxtOB0Q7UeG_tffpNmaBFzZnHnxy9ssw"
         }
       },
       "verification": {
@@ -614,8 +488,9 @@
     },
     "presentation-2--key-0-ed25519.vp-jwt.json": {
       "vector": "vp-jwt",
+      "vectorContent": "eyJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTAiLCJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSJ9.eyJzdWIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIiwiaHR0cHM6Ly9pZGVudGl0eS5mb3VuZGF0aW9uL3ByZXNlbnRhdGlvbi1leGNoYW5nZS9zdWJtaXNzaW9uL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZVByZXNlbnRhdGlvbiIsIlByZXNlbnRhdGlvblN1Ym1pc3Npb24iXSwicHJlc2VudGF0aW9uX3N1Ym1pc3Npb24iOnsiaWQiOiJhMzBlM2I5MS1mYjc3LTRkMjItOTVmYS04NzE2ODljMzIyZTIiLCJkZWZpbml0aW9uX2lkIjoiMzJmNTQxNjMtNzE2Ni00OGYxLTkzZDgtZmYyMTdiZGIwNjUzIiwiZGVzY3JpcHRvcl9tYXAiOlt7ImlkIjoiZXhhbXBsZV9pbnB1dF8xIiwiZm9ybWF0IjoibGRwX3ZjIiwicGF0aCI6IiQudmVyaWZpYWJsZUNyZWRlbnRpYWxbMF0ifV19LCJ2ZXJpZmlhYmxlQ3JlZGVudGlhbCI6W3siQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIl0sImlzc3VlciI6ImRpZDpleGFtcGxlOjEyMyIsImlzc3VhbmNlRGF0ZSI6IjIwMjEtMDEtMDFUMTk6MjM6MjRaIiwiY3JlZGVudGlhbFN1YmplY3QiOnt9LCJwcm9vZiI6eyJ0eXBlIjoiSnNvbldlYlNpZ25hdHVyZTIwMjAiLCJjcmVhdGVkIjoiMjAyMS0xMS0wNlQxNjo0OTo1MFoiLCJ2ZXJpZmljYXRpb25NZXRob2QiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTAiLCJwcm9vZlB1cnBvc2UiOiJhc3NlcnRpb25NZXRob2QiLCJqd3MiOiJleUpoYkdjaU9pSkZaRVJUUVNJc0ltSTJOQ0k2Wm1Gc2MyVXNJbU55YVhRaU9sc2lZalkwSWwxOS4uLU9NN1BfMUFYVHFDMnA4YjViZWpPYndQN3JjLXBJRkg1dmJCSkNVekxYQXFTWHRUX21QVzB3SklFZ3lFUDRBSUlfQnlneGVmb0FfX2V6dHdKdTRmRHcifX1dfSwianRpIjoidXJuOnV1aWQ6Nzg5In0.Lqbw8D0qLYLUTBTs8IAp-bNqYy6qViWo4SZeVjTfjznRvQil2kqzBxOVbPQINH1rwS5KXcX1YBY_gBe3z91VBw",
       "verification": {
-        "verified": false
+        "verified": true
       }
     },
     "presentation-2--key-0-ed25519.vp.json": {
@@ -666,11 +541,11 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:36:46Z",
+          "created": "2021-12-13T17:11:19Z",
           "challenge": "123",
           "proofPurpose": "authentication",
           "verificationMethod": "did:example:123#key-0",
-          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..qW0JOE_RCHzeVsGG4XPHtySR_oQrL1U2NwYZZR75qWPmrfYQ69LCiZwrLCVKU5fbpOaWV7gCDEiML_5AylwdCw"
+          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..7zJuWqCLTYEDMMpE07_DFJPjanSIFCOExWUbYpEIV_hD0uqmXwZMLiT5sACgZp6SXBaQbhQ6aHOI__S0ZjWiCg"
         }
       },
       "verification": {
@@ -679,8 +554,9 @@
     },
     "presentation-2--key-1-secp256k1.vp-jwt.json": {
       "vector": "vp-jwt",
+      "vectorContent": "eyJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTEiLCJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NksifQ.eyJzdWIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIiwiaHR0cHM6Ly9pZGVudGl0eS5mb3VuZGF0aW9uL3ByZXNlbnRhdGlvbi1leGNoYW5nZS9zdWJtaXNzaW9uL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZVByZXNlbnRhdGlvbiIsIlByZXNlbnRhdGlvblN1Ym1pc3Npb24iXSwicHJlc2VudGF0aW9uX3N1Ym1pc3Npb24iOnsiaWQiOiJhMzBlM2I5MS1mYjc3LTRkMjItOTVmYS04NzE2ODljMzIyZTIiLCJkZWZpbml0aW9uX2lkIjoiMzJmNTQxNjMtNzE2Ni00OGYxLTkzZDgtZmYyMTdiZGIwNjUzIiwiZGVzY3JpcHRvcl9tYXAiOlt7ImlkIjoiZXhhbXBsZV9pbnB1dF8xIiwiZm9ybWF0IjoibGRwX3ZjIiwicGF0aCI6IiQudmVyaWZpYWJsZUNyZWRlbnRpYWxbMF0ifV19LCJ2ZXJpZmlhYmxlQ3JlZGVudGlhbCI6W3siQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIl0sImlzc3VlciI6ImRpZDpleGFtcGxlOjEyMyIsImlzc3VhbmNlRGF0ZSI6IjIwMjEtMDEtMDFUMTk6MjM6MjRaIiwiY3JlZGVudGlhbFN1YmplY3QiOnt9LCJwcm9vZiI6eyJ0eXBlIjoiSnNvbldlYlNpZ25hdHVyZTIwMjAiLCJjcmVhdGVkIjoiMjAyMS0xMS0wNlQxNjo0OTo1MFoiLCJ2ZXJpZmljYXRpb25NZXRob2QiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTAiLCJwcm9vZlB1cnBvc2UiOiJhc3NlcnRpb25NZXRob2QiLCJqd3MiOiJleUpoYkdjaU9pSkZaRVJUUVNJc0ltSTJOQ0k2Wm1Gc2MyVXNJbU55YVhRaU9sc2lZalkwSWwxOS4uLU9NN1BfMUFYVHFDMnA4YjViZWpPYndQN3JjLXBJRkg1dmJCSkNVekxYQXFTWHRUX21QVzB3SklFZ3lFUDRBSUlfQnlneGVmb0FfX2V6dHdKdTRmRHcifX1dfSwianRpIjoidXJuOnV1aWQ6Nzg5In0.WP_ar-fZEaAqb7lr9jsv4wNFpb8iAjY0fkE-7bItkrcXzrAp7bi_WbfPlwzfwrS2g-sq38x5Qgc0TZH7NYucHA",
       "verification": {
-        "verified": false
+        "verified": true
       }
     },
     "presentation-2--key-1-secp256k1.vp.json": {
@@ -731,11 +607,11 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:37:31Z",
+          "created": "2021-12-13T17:11:41Z",
           "challenge": "123",
           "proofPurpose": "authentication",
           "verificationMethod": "did:example:123#key-1",
-          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..fF_dtXMBQAeOpDP1ZZGEJN6JGezvOK5-IS2Ttpu_oOZvr-aZZ4Kp9D17FnqLFrWtBX6ToIljNjig7Em9Fsuj5g"
+          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..uZcxYPK1LE7_QlK5GL3iN3DkRbOIg0TgHj2iigM5gWwqWmx0MILVp6zRV6_auxWUsFfZrCbaSiZI1OAOk7JspA"
         }
       },
       "verification": {
@@ -768,8 +644,8 @@
           "type": "JsonWebSignature2020",
           "proofPurpose": "assertionMethod",
           "verificationMethod": "did:example:123#key-0",
-          "created": "2021-12-07T00:39:42.549Z",
-          "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..CUsrN3mdblkpKIBRaEvRz10HRe-RDKo2rBVWcXoBwtoICN1hwyrgXEMoABJ8mEXJhzwx-F__TouOnNlelhy0Bg"
+          "created": "2021-12-13T17:12:23.643Z",
+          "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..VxQdA2gG1WHQjkW29CmhmndZSI7XYD51AU0BiQxeJ25PV1dXev8Aq9luNcsBvT0V2jqaLMtxj4tquzf6JbgBBQ"
         }
       },
       "verification": {
@@ -800,8 +676,8 @@
           "type": "JsonWebSignature2020",
           "proofPurpose": "assertionMethod",
           "verificationMethod": "did:example:123#key-1",
-          "created": "2021-12-07T00:39:58.853Z",
-          "jws": "eyJhbGciOiJFUzI1NksiLCJjcml0IjpbImI2NCJdLCJiNjQiOmZhbHNlfQ..ESven673JRVQcsZXczCa1wxZdKx9OebjC8bMsAJw96cq1F657tC41GUQHZ0ePizIxjjCyC-B8QRtQVbjRXbIOg"
+          "created": "2021-12-13T17:12:37.281Z",
+          "jws": "eyJhbGciOiJFUzI1NksiLCJjcml0IjpbImI2NCJdLCJiNjQiOmZhbHNlfQ..Hw0Dakeul0kzXd7nRYy8uU4tjU4Y7fkgLrkxut6czX4ECzCGBWTBk_FzNEsXZ-pM5FnycGpfITK_-F2n5yOxKA"
         }
       },
       "verification": {
@@ -832,8 +708,8 @@
           "type": "JsonWebSignature2020",
           "proofPurpose": "assertionMethod",
           "verificationMethod": "did:example:123#key-2",
-          "created": "2021-12-07T00:40:15.197Z",
-          "jws": "eyJhbGciOiJFUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..6qEl6ae4YGFsaE-e99evJm_EkSnjKRF2hYJqUjQ-XHsTro70EjbsCvm80uuUQqp8St1sarkbSUuZWdFA2chKtQ"
+          "created": "2021-12-13T17:12:50.843Z",
+          "jws": "eyJhbGciOiJFUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..C5_ATgt_WOzguLo8WR3JfD63lLJ-9mSLfrY4iFOM2KUf8C4DW9W5rF5sIVp_-Llz8oPRiiTDZ2QcJrhUE_qbWA"
         }
       },
       "verification": {
@@ -842,7 +718,7 @@
     },
     "credential-0--key-4-rsa2048.vc-jwt.json": {
       "vector": "vc-jwt",
-      "vectorContent": "eyJhbGciOiJQUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktNCJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJuYmYiOjE2MDk1MjkwMDQuMCwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7fSwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwiaXNzdWFuY2VEYXRlIjoiMjAyMS0wMS0wMVQxOToyMzoyNFoifX0.dp2f43tbtl0wRmd2YJTf9AUgAhWTQAjscERfuOhZ8rpocXU9NdF62GitJ5j2Tf6bkDF5zU8H32DHHHAvN4nC2T5LBCTQxEGzJzlENWD_oGowLgsBOSfJQupR5156h8F77OWWBgVrRUXrMCKtQdBKNtj4QvL_NZnxhAqi2-c-3N2Zli7aGovBJr5J5oABzyH6zB8skd4-2yOkerT75dbya6qbGswYmUcdjWFT1Fy-ruJwsy3adqjmBH0oxSgQyTaMOl13-TjVI0UjfOk99XBXmCI6DiudQJO5kOKqVeBI4pAA2EuxAwEnZvwSf_V43I3B3buc2QJXpb0rvlugJrOwbg",
+      "vectorContent": "eyJhbGciOiJQUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktNCJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJuYmYiOjE2MDk1MjkwMDQuMCwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7fSwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwiaXNzdWFuY2VEYXRlIjoiMjAyMS0wMS0wMVQxOToyMzoyNFoifX0.JSNPeRfAmL2-u23QBeLm_mASGGFRmYvU2ky3Xmb8npYzQWlXuquI8Q_dmYz0LKnxVZaqZG2J_hmH5NIbXSu1Eyx7uoMUewZWwKqwedWIwxNvL1G-aKjo9pt7_t1lHm9fjr7r7HxECp7YytP8hWzwWxnbTQvm2q-Ouw0ovhRsRRjtEmFP_YjjaAkdOqcKmKI2VG8FzT3XKbSJvmR1f_0LuT_qyuidCBZCEVypkfUBuMGJ_LTXbXZBK1Na1qY6WJfigrPMIwb5ktaxEEAJNvpf0u6f0EOZH2_4p_q865S2jW08JYwTYmvQWJHXRUzSLaW-AiOnWRB9j54by8B_bhDPuQ",
       "verification": {
         "verified": true
       }
@@ -864,8 +740,8 @@
           "type": "JsonWebSignature2020",
           "proofPurpose": "assertionMethod",
           "verificationMethod": "did:example:123#key-4",
-          "created": "2021-12-07T00:40:48.067Z",
-          "jws": "eyJhbGciOiJQUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..LT5kvn8kdhxltl4zcEnYxGXhLh0PqTIz9Pt1kH6OeBhpBN1bZxIqfyc2gRwz8uSD7FNW3WkLN-f_QHFVLoznhFREdBbNsSc_HncwJBOdmjaFohKgwDdq59Y3_kAg0hHoZirx1RJt7XBGtaDRWr3B4Xp9hOCotLNgu3_g-ULrhQNGrsVF7nBKtlA6CMYDBa8aVuv0U8HXl985o8ICjwQTdrj4mvY3CH-i7Ycdoz9JQ6FYJV8EqytxsAf3w0ALcVUVZPdjW21Ma72Kit_Zh1PRnlVurKOGcDCxp44401EEutmC89YSRFU_PdY9rC5Kp5L_mitrHvflmPWlu-GS_wVkpQ"
+          "created": "2021-12-13T17:13:18Z",
+          "jws": "eyJhbGciOiJQUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..Y-0jrF2smf_v6rGq4eA2KcYvMpRLr3Hrhr9TS9Yk9Yb5t7F_81CEicfpM8T4r1zCS6PFLfTnF2fHENMcIQ-ZF3fVulNdo0rWlnPt_7XmV6-9p1REd8iGKE0P6YOq6t3QqILVCUaYJoJ3NOo1qrnkOVx9is5vSVcjxTzcrWVO4bMcxUDITp9CsBNoGg0kGDjqMehrW-CEc5peasvKJUFZMCjGMNgHUc9fMGKdPVlXGt7j2WeQ9rD3hasssYLVfqAR0KV45PiNVTzn1RqsrMOGJAV5rMnu9Y2jUF3PnBruDnhla-DG6QWK7avnlMKBU6jVc2P3X96bUPbIcUkulecDHw"
         }
       },
       "verification": {
@@ -902,8 +778,8 @@
           "type": "JsonWebSignature2020",
           "proofPurpose": "assertionMethod",
           "verificationMethod": "did:example:123#key-0",
-          "created": "2021-12-07T00:39:43.747Z",
-          "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..tHB3_IbBaAPyP1wFrrzj1gdff4mWAQ1DWLjumpT4U0xtEu9OEDFeFVlZndzvqHCLkh4GlMbTMz1wOuev-LufCQ"
+          "created": "2021-12-13T17:12:24.792Z",
+          "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..3n-IjGR2PuNVtse2aiqP4iMUfEt5RCvHO53o3Y0L4kSPpa64q8Nr8AuBgT_XNQfJibQdCFxEdB8zoVcVjdsyBw"
         },
         "expirationDate": "2031-01-01T19:23:24Z"
       },
@@ -941,8 +817,8 @@
           "type": "JsonWebSignature2020",
           "proofPurpose": "assertionMethod",
           "verificationMethod": "did:example:123#key-1",
-          "created": "2021-12-07T00:40:00.004Z",
-          "jws": "eyJhbGciOiJFUzI1NksiLCJjcml0IjpbImI2NCJdLCJiNjQiOmZhbHNlfQ..t7YaOyP9LU7JPeF23lV_RovuzEznLYqbtknTupjzh2tyuM6_YUGZtjV8OE_ZjmDq6idCXAyi8j-OOPnC-ibjKw"
+          "created": "2021-12-13T17:12:38.423Z",
+          "jws": "eyJhbGciOiJFUzI1NksiLCJjcml0IjpbImI2NCJdLCJiNjQiOmZhbHNlfQ..8eUbO_4rzX5d27oXx8BgbDHhH44zVS6anKJsO351MawLX30u1GCnK_i4VS1-hOmf81b5wCr_vrIbdzXTEdjztw"
         },
         "expirationDate": "2031-01-01T19:23:24Z"
       },
@@ -980,8 +856,8 @@
           "type": "JsonWebSignature2020",
           "proofPurpose": "assertionMethod",
           "verificationMethod": "did:example:123#key-2",
-          "created": "2021-12-07T00:40:16.343Z",
-          "jws": "eyJhbGciOiJFUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..L74cfdZyMIEc0Kql5AfN0N94I5LxShaCs1cUSxjkX8i5NBATKrrALjOg1D4eR1_cVgQR6QEgxvVUzqOPYzFKpQ"
+          "created": "2021-12-13T17:12:51.953Z",
+          "jws": "eyJhbGciOiJFUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..PdV3BAlv2p2xv5UaclUULaQQ5gSjj_Xi-70T2xQDTF3aQC6vMdbSqykUM6YMUd9xfBMhOG05MbBZklSuAea1sw"
         },
         "expirationDate": "2031-01-01T19:23:24Z"
       },
@@ -991,7 +867,7 @@
     },
     "credential-1--key-4-rsa2048.vc-jwt.json": {
       "vector": "vc-jwt",
-      "vectorContent": "eyJhbGciOiJQUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktNCJ9.eyJleHAiOjE5MjUwNjE4MDQuMCwiaXNzIjoiZGlkOmV4YW1wbGU6MTIzIiwibmJmIjoxNjA5NTI5MDA0LjAsInN1YiI6ImRpZDpleGFtcGxlOjQ1NiIsInZjIjp7IkBjb250ZXh0IjpbImh0dHBzOi8vd3d3LnczLm9yZy8yMDE4L2NyZWRlbnRpYWxzL3YxIiwiaHR0cHM6Ly93M2lkLm9yZy9zZWN1cml0eS9zdWl0ZXMvandzLTIwMjAvdjEiLHsiQHZvY2FiIjoiaHR0cHM6Ly9leGFtcGxlLmNvbS8jIn1dLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImlkIjoiZGlkOmV4YW1wbGU6NDU2IiwidHlwZSI6IlBlcnNvbiJ9LCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImV4cGlyYXRpb25EYXRlIjoiMjAzMS0wMS0wMVQxOToyMzoyNFoifX0.RspqahN1cEbrYAD5uXzy8xUYXdsPcsYJM9p96kWOyatEVDzFJrB65j5Zd_uj2hblZbZljs4_LH3Nnsa5a0sC87hPTkmmZ_-u7r0mBjVPO3U3XsfXxQAlXGipExb9aLT_ck5CKAJhUrE-mInGqYABx-ZNlSN71iDSJEluUor1aae_b3P9h6Ri87sfeZ5a3EU3y4xHeBlmjGbEZViZpY3S2nXIcfLctXMJFoq1QHoOKi3YRkmeV2jlp_vD_QLaDMzijZbfHnMx0h7ZLrIoDJ5Wcn2o4V6juyw-uk7TCt625snB6A-JESSW07NFqLp3YVpdoqjwTuo0LtZDdaQ5cbP_Qg",
+      "vectorContent": "eyJhbGciOiJQUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktNCJ9.eyJleHAiOjE5MjUwNjE4MDQuMCwiaXNzIjoiZGlkOmV4YW1wbGU6MTIzIiwibmJmIjoxNjA5NTI5MDA0LjAsInN1YiI6ImRpZDpleGFtcGxlOjQ1NiIsInZjIjp7IkBjb250ZXh0IjpbImh0dHBzOi8vd3d3LnczLm9yZy8yMDE4L2NyZWRlbnRpYWxzL3YxIiwiaHR0cHM6Ly93M2lkLm9yZy9zZWN1cml0eS9zdWl0ZXMvandzLTIwMjAvdjEiLHsiQHZvY2FiIjoiaHR0cHM6Ly9leGFtcGxlLmNvbS8jIn1dLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImlkIjoiZGlkOmV4YW1wbGU6NDU2IiwidHlwZSI6IlBlcnNvbiJ9LCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImV4cGlyYXRpb25EYXRlIjoiMjAzMS0wMS0wMVQxOToyMzoyNFoifX0.Q5VnqW3oyEdndj31Vp7qe8Gq2lNTaEmu_iy1fiEDR3dFKdCpiBdk6oziVHPJiYH0Bi_BJf0y1x2Xo2lXq2tSKHtSU6xusfKz8fYAbhQyovsqZZyLUL3L6D8r2q0aFOQ2vtIQzLnz9WQ6N7dm55yj-rtIqidGh0VgZuRU_rxijbQYbb0EiScBvuobzLhmViXuxS8hOa2EgsC4leiZogtgakrbw8qW5gqFRD8LvnKEt9Lx_cYeVk2_VOEmR9f05ujkNjbEEHAPLBiJCFugTrOJ5U_w2vDxIDYKXy1s5HAxHePTwwdrmUoI0gXjh2NsDs6YOf8SvgmlvuqJ7ycCZ_kf2g",
       "verification": {
         "verified": true
       }
@@ -1019,8 +895,8 @@
           "type": "JsonWebSignature2020",
           "proofPurpose": "assertionMethod",
           "verificationMethod": "did:example:123#key-4",
-          "created": "2021-12-07T00:40:49.293Z",
-          "jws": "eyJhbGciOiJQUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..U0NXaSolRAvf-cz0MrvcR4d3GcUvZyO3SkUvqn_BDZRgaCJ3dsS8vEbYGGj2vhynHFGrqe0StpzL5Z5DDwilxVBQxNLJpnCpjE_iSEiSmueDVgtzkZ8z6t-PXQADEbd1IR6xB2_6Xykp9y-26D66Db68p7MZGX9fH8UPQrpshwB7kYd6macD3Mmv0TM5aXxbZlw_gQbQ5MbKBT0nW_b63vK_EalDTUhfc4Kxu7nxf-D2i6JAqPGHf4nY8PVp0JwLY9emSa2Eby945x6jcEhdlV2wAIv5P6hlF6nF5dL1-1Qq5CdJSDNEZ1gynMSQXutGFyda2fp7Xvj3aovsZxww8w"
+          "created": "2021-12-13T17:13:19.157Z",
+          "jws": "eyJhbGciOiJQUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..dgUxlI-wacRdamK4SRpWPrPn2GMsKkhV6CFNqrBW-SPuMa6iFYY1OmMWiE5J6ooiZzT-tQ5IJXCr3SPnu_U6mD5cs6blPMvOCe-0cPg5JGqpgY5bt0uaHJYQSAd6kgE8cXXThksY_pb1rpTbokSGDdpaDRLjWH6J5w4_WwuCBibOV6Qjn-K9SD97fPzLrzo1nhXcjEHUu-ysLFDyoZkoU7A9yBI-nmqUimXuLTvOGoA0pfwGYLk-u-7bbamNgsjxiRWMFPpDJjS4LygCCTp3-9PwqSVI3R7xmZdwEYRUpEKzQr037ZfjRH-JE9KFdGHL8wD1GvWwqI2E8dyLbI7kfg"
         },
         "expirationDate": "2031-01-01T19:23:24Z"
       },
@@ -1030,7 +906,7 @@
     },
     "credential-2--key-0-ed25519.vc-jwt.json": {
       "vector": "vc-jwt",
-      "vectorContent": "eyJhbGciOiJFZERTQSIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJuYmYiOjE2MDk1MjkwMDQuMCwic3ViIjoiZGlkOmV4YW1wbGU6NDU2IiwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsiaWQiOiJkaWQ6ZXhhbXBsZTo0NTYifSwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwiaXNzdWFuY2VEYXRlIjoiMjAyMS0wMS0wMVQxOToyMzoyNFoiLCJldmlkZW5jZSI6W3siaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkNDIzMSIsInR5cGUiOlsiRG9jdW1lbnRWZXJpZmljYXRpb24iXSwic3ViamVjdFByZXNlbmNlIjoiUGh5c2ljYWwiLCJkb2N1bWVudFByZXNlbmNlIjoiUGh5c2ljYWwiLCJldmlkZW5jZURvY3VtZW50IjoiRHJpdmVyc0xpY2Vuc2UiLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCJ9LHsiaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkeHl6YWIiLCJ0eXBlIjpbIlN1cHBvcnRpbmdBY3Rpdml0eSJdLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCIsInN1YmplY3RQcmVzZW5jZSI6IkRpZ2l0YWwiLCJldmlkZW5jZURvY3VtZW50IjoiRmx1aWQgRHluYW1pY3MgRm9jdXMiLCJkb2N1bWVudFByZXNlbmNlIjoiRGlnaXRhbCJ9XX19.FCZYbrxK5V6Q_Y6ClnrGA37Et_kSpJPgSFv5IE0MfRg7JYt9Pfneex_RevyOS3VDUXixdYtcRaCactX3l1PKCA",
+      "vectorContent": "eyJhbGciOiJFZERTQSIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJuYmYiOjE2MDk1MjkwMDQuMCwic3ViIjoiZGlkOmV4YW1wbGU6NDU2IiwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsiaWQiOiJkaWQ6ZXhhbXBsZTo0NTYifSwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwiaXNzdWFuY2VEYXRlIjoiMjAyMS0wMS0wMVQxOToyMzoyNFoiLCJldmlkZW5jZSI6W3siaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkNDIzMSIsInR5cGUiOlsiRG9jdW1lbnRWZXJpZmljYXRpb24iXSwiZXZpZGVuY2VEb2N1bWVudCI6IkRyaXZlcnNMaWNlbnNlIiwic3ViamVjdFByZXNlbmNlIjoiUGh5c2ljYWwiLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCIsImRvY3VtZW50UHJlc2VuY2UiOiJQaHlzaWNhbCJ9LHsiaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkeHl6YWIiLCJ0eXBlIjpbIlN1cHBvcnRpbmdBY3Rpdml0eSJdLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCIsImV2aWRlbmNlRG9jdW1lbnQiOiJGbHVpZCBEeW5hbWljcyBGb2N1cyIsInN1YmplY3RQcmVzZW5jZSI6IkRpZ2l0YWwiLCJkb2N1bWVudFByZXNlbmNlIjoiRGlnaXRhbCJ9XX19.qb1fnaoKCVnwILnK9dkgJLWj3cOL8TzztN8-sz-3jwgUCdz7w6ofeE_duEqkSzYD3uO2qjzVHiPx_-PFiG0xCQ",
       "verification": {
         "verified": true
       }
@@ -1057,8 +933,8 @@
           "type": "JsonWebSignature2020",
           "proofPurpose": "assertionMethod",
           "verificationMethod": "did:example:123#key-0",
-          "created": "2021-12-07T00:39:44.886Z",
-          "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..We_uL-057G0dSh-Hnd-yPTGMyRz2DA1DLCX3MWwrkP5TQSAyrtpeF1Gyu-FSl9CuO-2swes7wOuyQAV1nE9lDw"
+          "created": "2021-12-13T17:12:25.916Z",
+          "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..bXL0a30wQjA5vTkeGnFP0_cUnO87JoOYuOz0uth-HLMhncg7AavfGvNGaO37evjFAFByfWBhJKh6KwmihN05CQ"
         },
         "evidence": [
           {
@@ -1067,8 +943,8 @@
               "DocumentVerification"
             ],
             "verifier": "https://example.edu/issuers/14",
-            "subjectPresence": "Physical",
             "documentPresence": "Physical",
+            "subjectPresence": "Physical",
             "evidenceDocument": "DriversLicense"
           },
           {
@@ -1076,8 +952,8 @@
             "type": [
               "SupportingActivity"
             ],
-            "verifier": "https://example.edu/issuers/14",
             "evidenceDocument": "Fluid Dynamics Focus",
+            "verifier": "https://example.edu/issuers/14",
             "documentPresence": "Digital",
             "subjectPresence": "Digital"
           }
@@ -1089,7 +965,7 @@
     },
     "credential-2--key-1-secp256k1.vc-jwt.json": {
       "vector": "vc-jwt",
-      "vectorContent": "eyJhbGciOiJFUzI1NksiLCJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTEifQ.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJuYmYiOjE2MDk1MjkwMDQuMCwic3ViIjoiZGlkOmV4YW1wbGU6NDU2IiwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsiaWQiOiJkaWQ6ZXhhbXBsZTo0NTYifSwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwiaXNzdWFuY2VEYXRlIjoiMjAyMS0wMS0wMVQxOToyMzoyNFoiLCJldmlkZW5jZSI6W3siaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkNDIzMSIsInR5cGUiOlsiRG9jdW1lbnRWZXJpZmljYXRpb24iXSwic3ViamVjdFByZXNlbmNlIjoiUGh5c2ljYWwiLCJldmlkZW5jZURvY3VtZW50IjoiRHJpdmVyc0xpY2Vuc2UiLCJkb2N1bWVudFByZXNlbmNlIjoiUGh5c2ljYWwiLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCJ9LHsiaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkeHl6YWIiLCJ0eXBlIjpbIlN1cHBvcnRpbmdBY3Rpdml0eSJdLCJldmlkZW5jZURvY3VtZW50IjoiRmx1aWQgRHluYW1pY3MgRm9jdXMiLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCIsImRvY3VtZW50UHJlc2VuY2UiOiJEaWdpdGFsIiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCJ9XX19.BjTAeMrkrD8ZIkmhIRyrcU60blmhszA_Lgu2nDKBT5xcokgPury-6aUINz81_JFG41zj8qhumHwwcn7J3CO-EA",
+      "vectorContent": "eyJhbGciOiJFUzI1NksiLCJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTEifQ.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJuYmYiOjE2MDk1MjkwMDQuMCwic3ViIjoiZGlkOmV4YW1wbGU6NDU2IiwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsiaWQiOiJkaWQ6ZXhhbXBsZTo0NTYifSwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwiaXNzdWFuY2VEYXRlIjoiMjAyMS0wMS0wMVQxOToyMzoyNFoiLCJldmlkZW5jZSI6W3siaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkNDIzMSIsInR5cGUiOlsiRG9jdW1lbnRWZXJpZmljYXRpb24iXSwiZXZpZGVuY2VEb2N1bWVudCI6IkRyaXZlcnNMaWNlbnNlIiwiZG9jdW1lbnRQcmVzZW5jZSI6IlBoeXNpY2FsIiwidmVyaWZpZXIiOiJodHRwczovL2V4YW1wbGUuZWR1L2lzc3VlcnMvMTQiLCJzdWJqZWN0UHJlc2VuY2UiOiJQaHlzaWNhbCJ9LHsiaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkeHl6YWIiLCJ0eXBlIjpbIlN1cHBvcnRpbmdBY3Rpdml0eSJdLCJldmlkZW5jZURvY3VtZW50IjoiRmx1aWQgRHluYW1pY3MgRm9jdXMiLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCIsInN1YmplY3RQcmVzZW5jZSI6IkRpZ2l0YWwiLCJkb2N1bWVudFByZXNlbmNlIjoiRGlnaXRhbCJ9XX19.H6J3dJTrX_VBI07C_6DM8s6qFpqi1cLFaYDDluPLUR1WLCcImHfeRlt495CGRIuPlYNdXGHaVt06azppQy7ipQ",
       "verification": {
         "verified": true
       }
@@ -1116,8 +992,8 @@
           "type": "JsonWebSignature2020",
           "proofPurpose": "assertionMethod",
           "verificationMethod": "did:example:123#key-1",
-          "created": "2021-12-07T00:40:01.136Z",
-          "jws": "eyJhbGciOiJFUzI1NksiLCJjcml0IjpbImI2NCJdLCJiNjQiOmZhbHNlfQ..eRcPBtwkStU5gem8VDwH_t7l0nUUuSZ8v3P0lyUjhRJfuUubThnxIQtlBsW9Wm7ki5iWv3NH4IQCwU-DU6cMEw"
+          "created": "2021-12-13T17:12:39.535Z",
+          "jws": "eyJhbGciOiJFUzI1NksiLCJjcml0IjpbImI2NCJdLCJiNjQiOmZhbHNlfQ..ajLkprudzkv5RyCfwreIWi8DNwjdcjHDJItV22hWZQpTuor4CEDTrOPhrq2B05qahn8vduT4aSpWL61_RZC14Q"
         },
         "evidence": [
           {
@@ -1125,9 +1001,9 @@
             "type": [
               "DocumentVerification"
             ],
-            "evidenceDocument": "DriversLicense",
-            "verifier": "https://example.edu/issuers/14",
             "subjectPresence": "Physical",
+            "verifier": "https://example.edu/issuers/14",
+            "evidenceDocument": "DriversLicense",
             "documentPresence": "Physical"
           },
           {
@@ -1136,8 +1012,8 @@
               "SupportingActivity"
             ],
             "evidenceDocument": "Fluid Dynamics Focus",
-            "documentPresence": "Digital",
             "subjectPresence": "Digital",
+            "documentPresence": "Digital",
             "verifier": "https://example.edu/issuers/14"
           }
         ]
@@ -1148,7 +1024,7 @@
     },
     "credential-2--key-2-secp256r1.vc-jwt.json": {
       "vector": "vc-jwt",
-      "vectorContent": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMiJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJuYmYiOjE2MDk1MjkwMDQuMCwic3ViIjoiZGlkOmV4YW1wbGU6NDU2IiwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsiaWQiOiJkaWQ6ZXhhbXBsZTo0NTYifSwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwiaXNzdWFuY2VEYXRlIjoiMjAyMS0wMS0wMVQxOToyMzoyNFoiLCJldmlkZW5jZSI6W3siaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkNDIzMSIsInR5cGUiOlsiRG9jdW1lbnRWZXJpZmljYXRpb24iXSwidmVyaWZpZXIiOiJodHRwczovL2V4YW1wbGUuZWR1L2lzc3VlcnMvMTQiLCJkb2N1bWVudFByZXNlbmNlIjoiUGh5c2ljYWwiLCJzdWJqZWN0UHJlc2VuY2UiOiJQaHlzaWNhbCIsImV2aWRlbmNlRG9jdW1lbnQiOiJEcml2ZXJzTGljZW5zZSJ9LHsiaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkeHl6YWIiLCJ0eXBlIjpbIlN1cHBvcnRpbmdBY3Rpdml0eSJdLCJkb2N1bWVudFByZXNlbmNlIjoiRGlnaXRhbCIsInN1YmplY3RQcmVzZW5jZSI6IkRpZ2l0YWwiLCJldmlkZW5jZURvY3VtZW50IjoiRmx1aWQgRHluYW1pY3MgRm9jdXMiLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCJ9XX19.lOh2i4yPtZCagjCeffMckfXNpGKNt7gsRrUA5WTZvVwndIbGsrJcD1UC5QZe4gW5Lu-koIAP47p3st-dgoRPwg",
+      "vectorContent": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMiJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJuYmYiOjE2MDk1MjkwMDQuMCwic3ViIjoiZGlkOmV4YW1wbGU6NDU2IiwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsiaWQiOiJkaWQ6ZXhhbXBsZTo0NTYifSwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwiaXNzdWFuY2VEYXRlIjoiMjAyMS0wMS0wMVQxOToyMzoyNFoiLCJldmlkZW5jZSI6W3siaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkNDIzMSIsInR5cGUiOlsiRG9jdW1lbnRWZXJpZmljYXRpb24iXSwiZG9jdW1lbnRQcmVzZW5jZSI6IlBoeXNpY2FsIiwic3ViamVjdFByZXNlbmNlIjoiUGh5c2ljYWwiLCJldmlkZW5jZURvY3VtZW50IjoiRHJpdmVyc0xpY2Vuc2UiLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCJ9LHsiaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkeHl6YWIiLCJ0eXBlIjpbIlN1cHBvcnRpbmdBY3Rpdml0eSJdLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCIsImRvY3VtZW50UHJlc2VuY2UiOiJEaWdpdGFsIiwiZXZpZGVuY2VEb2N1bWVudCI6IkZsdWlkIER5bmFtaWNzIEZvY3VzIiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCJ9XX19.o21Y2WYtQce0tmtR8Bpp68Be9rT7zMRBLuIZPb7Vt3IMZDRJN4bhbC31RjmSLNqKeeNCQc7BYgP4yebr5WnB2w",
       "verification": {
         "verified": true
       }
@@ -1175,8 +1051,8 @@
           "type": "JsonWebSignature2020",
           "proofPurpose": "assertionMethod",
           "verificationMethod": "did:example:123#key-2",
-          "created": "2021-12-07T00:40:17.487Z",
-          "jws": "eyJhbGciOiJFUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..HUlmsh-4HiY6ym0LIxSirdkVjT2RFJCx76D55-we-M5TnCQy5mTrU3AitlCFzZOqr6LpIvKg56e-l2GULJeABQ"
+          "created": "2021-12-13T17:12:53.090Z",
+          "jws": "eyJhbGciOiJFUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..q2hBuJUuXwnBJscPsDEp3bB9HtqPwSDKZmVcEo1FDc0HL9L6-W8b5Eno14IJfZqOteZa2sj6OfDj3VHgS9Igmw"
         },
         "evidence": [
           {
@@ -1184,10 +1060,10 @@
             "type": [
               "DocumentVerification"
             ],
-            "verifier": "https://example.edu/issuers/14",
             "evidenceDocument": "DriversLicense",
             "documentPresence": "Physical",
-            "subjectPresence": "Physical"
+            "subjectPresence": "Physical",
+            "verifier": "https://example.edu/issuers/14"
           },
           {
             "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192dxyzab",
@@ -1195,9 +1071,9 @@
               "SupportingActivity"
             ],
             "documentPresence": "Digital",
-            "subjectPresence": "Digital",
             "verifier": "https://example.edu/issuers/14",
-            "evidenceDocument": "Fluid Dynamics Focus"
+            "evidenceDocument": "Fluid Dynamics Focus",
+            "subjectPresence": "Digital"
           }
         ]
       },
@@ -1207,7 +1083,7 @@
     },
     "credential-2--key-4-rsa2048.vc-jwt.json": {
       "vector": "vc-jwt",
-      "vectorContent": "eyJhbGciOiJQUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktNCJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJuYmYiOjE2MDk1MjkwMDQuMCwic3ViIjoiZGlkOmV4YW1wbGU6NDU2IiwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsiaWQiOiJkaWQ6ZXhhbXBsZTo0NTYifSwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwiaXNzdWFuY2VEYXRlIjoiMjAyMS0wMS0wMVQxOToyMzoyNFoiLCJldmlkZW5jZSI6W3siaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkNDIzMSIsInR5cGUiOlsiRG9jdW1lbnRWZXJpZmljYXRpb24iXSwiZG9jdW1lbnRQcmVzZW5jZSI6IlBoeXNpY2FsIiwiZXZpZGVuY2VEb2N1bWVudCI6IkRyaXZlcnNMaWNlbnNlIiwidmVyaWZpZXIiOiJodHRwczovL2V4YW1wbGUuZWR1L2lzc3VlcnMvMTQiLCJzdWJqZWN0UHJlc2VuY2UiOiJQaHlzaWNhbCJ9LHsiaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkeHl6YWIiLCJ0eXBlIjpbIlN1cHBvcnRpbmdBY3Rpdml0eSJdLCJzdWJqZWN0UHJlc2VuY2UiOiJEaWdpdGFsIiwidmVyaWZpZXIiOiJodHRwczovL2V4YW1wbGUuZWR1L2lzc3VlcnMvMTQiLCJldmlkZW5jZURvY3VtZW50IjoiRmx1aWQgRHluYW1pY3MgRm9jdXMiLCJkb2N1bWVudFByZXNlbmNlIjoiRGlnaXRhbCJ9XX19.gBrNGpp4ISFtskEZUQaJXJN0n31gxKzQxKYaPAtzX7tWxnr_FUT5SzR7_ehrGoGgFyqvXEK2nZNQWgrNCSGqdbt7HEwiVKgdFtAinumSn8gKZ27lVntJXRcSk8rQ5afelymYeuKYgF-CI3qDdjVr3pGLpAr5nxuEnZ-BvOJkc6yTldjD1aaFmBdsfwCD6ZUxj3f8WQUuJHkEzJLBswFW17s4YTKHXFTesEgrzc-_yqe757eKDpIhmzIpYo-d8kREuTkuxaR7pO2sJP_42B2nKIy1fwuoRXVjL7BsDeSzKeBpBUG3b_AjAJsqPbL_1gkEzYHDqQ9v_QVucnbUWIxqng",
+      "vectorContent": "eyJhbGciOiJQUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktNCJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJuYmYiOjE2MDk1MjkwMDQuMCwic3ViIjoiZGlkOmV4YW1wbGU6NDU2IiwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsiaWQiOiJkaWQ6ZXhhbXBsZTo0NTYifSwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwiaXNzdWFuY2VEYXRlIjoiMjAyMS0wMS0wMVQxOToyMzoyNFoiLCJldmlkZW5jZSI6W3siaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkNDIzMSIsInR5cGUiOlsiRG9jdW1lbnRWZXJpZmljYXRpb24iXSwic3ViamVjdFByZXNlbmNlIjoiUGh5c2ljYWwiLCJldmlkZW5jZURvY3VtZW50IjoiRHJpdmVyc0xpY2Vuc2UiLCJkb2N1bWVudFByZXNlbmNlIjoiUGh5c2ljYWwiLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCJ9LHsiaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkeHl6YWIiLCJ0eXBlIjpbIlN1cHBvcnRpbmdBY3Rpdml0eSJdLCJzdWJqZWN0UHJlc2VuY2UiOiJEaWdpdGFsIiwidmVyaWZpZXIiOiJodHRwczovL2V4YW1wbGUuZWR1L2lzc3VlcnMvMTQiLCJkb2N1bWVudFByZXNlbmNlIjoiRGlnaXRhbCIsImV2aWRlbmNlRG9jdW1lbnQiOiJGbHVpZCBEeW5hbWljcyBGb2N1cyJ9XX19.N8esT10JQjONdo1dNJ9PkyiGOee4wJomBPdV4R2tMYcJXuoxg9qkDbAYopLXqw5EtfTfQD8STb7Ifc8B3r1gSJjCTLvVi5fkcaD19ZzxlX2ue4zS5PdUq_RvSPNlspVit7XtLGwX_ICAJdJ5noMuWRtqGRbPtiTLpvMPSBosvPyNtwu3mRjMn22dj15FvziS8KLKub54kfNPaMSPlfoHm7Sc8WI9LV-yw65iOQXh0dj2SJ1DTzC8HO3-0LAPMu46XBl0Xs2sImnB6b-AMCWBZxEXOrPNnApEMJT2DOxPZbuN5c9PNG_xr_mko7Ha6r99-0CvUJqmu4cUVIcXh719KQ",
       "verification": {
         "verified": true
       }
@@ -1234,8 +1110,8 @@
           "type": "JsonWebSignature2020",
           "proofPurpose": "assertionMethod",
           "verificationMethod": "did:example:123#key-4",
-          "created": "2021-12-07T00:40:50.519Z",
-          "jws": "eyJhbGciOiJQUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..RTpHkqXYg_Wr4iBLq4tsoO-6QXouxt9f2DLK0EcnxgLu_ZfCdwVUYrIA_YXZjfHpuxWqORwPqSubyZ8VdAKKXvZlZUBfzRiqqdpgIBRnfrQChB9_4HVI5yzTRPvKoEEhIeFzpERsQ7a5yRiyNjNf843XwwwMDd_dRsoyvKKYbFVeBYewaNRlJpHkvhSasoHEntmvhunCYK5_6PRxeznuox-rscR-sar-tqcNXhz-l4fSoMT5x8ox4JN1-ppUwBzFVhp5bcRkDQlIrfGUXpS8f-e5SH3aIeSoNAf-ZzLslEuoBaAsNRQ0V5VZp_P4Q7fa51s-2o1Z8LLkmNnEPxLpHQ"
+          "created": "2021-12-13T17:13:20.299Z",
+          "jws": "eyJhbGciOiJQUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..bEFvGyTJoHcGpLUzx5tDUvSDMR8f6ar7hwqTf3KCgPJTJ1lhZ3qtPGr8PAc8nH8ppMtRfvCERx2qVF2OUu5yyhI71J37M7669UCcCnc0KWNekcQ_Ok1I2N8PJLGRxWm52bZXQQa6dTJlK9QtpazocJr8aYvUMGn7N-mL_NZH7Q3ep_nJr4tM8bOAMt1IaxzeEIttUW8K6QzQBw_h0zQ91H8Se8DlHQsN8ZfujogoKngV4ZFlZMvJR7r6FHrHWpWI1RG-J4cCfqJO8oThlFacUu1hBkFs2iL_DGgIWGG7GNdvEqtzrkdDr6ImcV_icZqMU8hCFB0IdkmHfXNpo46uMw"
         },
         "evidence": [
           {
@@ -1243,264 +1119,20 @@
             "type": [
               "DocumentVerification"
             ],
-            "documentPresence": "Physical",
+            "evidenceDocument": "DriversLicense",
             "verifier": "https://example.edu/issuers/14",
             "subjectPresence": "Physical",
-            "evidenceDocument": "DriversLicense"
+            "documentPresence": "Physical"
           },
           {
             "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192dxyzab",
             "type": [
               "SupportingActivity"
             ],
-            "evidenceDocument": "Fluid Dynamics Focus",
+            "documentPresence": "Digital",
             "subjectPresence": "Digital",
             "verifier": "https://example.edu/issuers/14",
-            "documentPresence": "Digital"
-          }
-        ]
-      },
-      "verification": {
-        "verified": true
-      }
-    },
-    "credential-3--key-0-ed25519.vc.json": {
-      "vector": "vc",
-      "vectorContent": {
-        "@context": [
-          "https://www.w3.org/2018/credentials/v1",
-          "https://w3id.org/security/suites/jws-2020/v1",
-          {
-            "@vocab": "https://example.com/#"
-          }
-        ],
-        "id": "https://example.com/credential/123456",
-        "type": [
-          "VerifiableCredential",
-          "VerifiableBusinessCard"
-        ],
-        "credentialSubject": {
-          "url": "https://www.example.com/",
-          "type": [
-            "Organization"
-          ],
-          "name": "Steel Manufacturer Org"
-        },
-        "issuer": {
-          "id": "did:example:123",
-          "type": "Organization",
-          "description": "Secured 24/7 neural-net",
-          "name": "Grady, Purdy and Pacocha",
-          "address": {
-            "addressCountry": "Austria",
-            "addressLocality": "Port Reba",
-            "addressRegion": "South Carolina",
-            "postalCode": "53062-7356",
-            "streetAddress": "0516 Kendrick Heights",
-            "type": "PostalAddress"
-          },
-          "email": "Cora31@example.net",
-          "phoneNumber": "555-158-2528",
-          "faxNumber": "555-577-3567"
-        },
-        "issuanceDate": "2016-12-31T23:59:60Z",
-        "proof": {
-          "type": "JsonWebSignature2020",
-          "proofPurpose": "assertionMethod",
-          "verificationMethod": "did:example:123#key-0",
-          "created": "2021-12-07T00:39:46.032Z",
-          "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..zXc_B-ha5gPQ46IoGmUdYVqFaCVM_rcrQJY2d0GXNUkVzTMkazlc5qjiqidFXrsfvKU8qNz1bZ_fd8WBD8edBw"
-        },
-        "expirationDate": "2038-01-19T03:14:08Z",
-        "name": "Verifiable Business Card",
-        "relatedLink": [
-          {
-            "linkRelationship": "OrganizationPresentationEndpoint",
-            "target": "https://example.com/organizations/example-org/presentations/available",
-            "type": "LinkRole"
-          }
-        ]
-      },
-      "verification": {
-        "verified": true
-      }
-    },
-    "credential-3--key-1-secp256k1.vc.json": {
-      "vector": "vc",
-      "vectorContent": {
-        "@context": [
-          "https://www.w3.org/2018/credentials/v1",
-          "https://w3id.org/security/suites/jws-2020/v1",
-          {
-            "@vocab": "https://example.com/#"
-          }
-        ],
-        "id": "https://example.com/credential/123456",
-        "type": [
-          "VerifiableCredential",
-          "VerifiableBusinessCard"
-        ],
-        "credentialSubject": {
-          "name": "Steel Manufacturer Org",
-          "url": "https://www.example.com/",
-          "type": [
-            "Organization"
-          ]
-        },
-        "issuer": {
-          "id": "did:example:123",
-          "address": {
-            "addressCountry": "Austria",
-            "addressLocality": "Port Reba",
-            "addressRegion": "South Carolina",
-            "postalCode": "53062-7356",
-            "streetAddress": "0516 Kendrick Heights",
-            "type": "PostalAddress"
-          },
-          "type": "Organization",
-          "description": "Secured 24/7 neural-net",
-          "email": "Cora31@example.net",
-          "phoneNumber": "555-158-2528",
-          "name": "Grady, Purdy and Pacocha",
-          "faxNumber": "555-577-3567"
-        },
-        "issuanceDate": "2016-12-31T23:59:60Z",
-        "proof": {
-          "type": "JsonWebSignature2020",
-          "proofPurpose": "assertionMethod",
-          "verificationMethod": "did:example:123#key-1",
-          "created": "2021-12-07T00:40:02.298Z",
-          "jws": "eyJhbGciOiJFUzI1NksiLCJjcml0IjpbImI2NCJdLCJiNjQiOmZhbHNlfQ..vRSVSyqxxEhJ0104KjdflRLHBnGQtLBe0Ux8wGWYqgEZ6YRDCc_843L9nSvuWyJX1AeW15Kg7O5mQc6mMSv0XA"
-        },
-        "expirationDate": "2038-01-19T03:14:08Z",
-        "relatedLink": [
-          {
-            "linkRelationship": "OrganizationPresentationEndpoint",
-            "target": "https://example.com/organizations/example-org/presentations/available",
-            "type": "LinkRole"
-          }
-        ],
-        "name": "Verifiable Business Card"
-      },
-      "verification": {
-        "verified": true
-      }
-    },
-    "credential-3--key-2-secp256r1.vc.json": {
-      "vector": "vc",
-      "vectorContent": {
-        "@context": [
-          "https://www.w3.org/2018/credentials/v1",
-          "https://w3id.org/security/suites/jws-2020/v1",
-          {
-            "@vocab": "https://example.com/#"
-          }
-        ],
-        "id": "https://example.com/credential/123456",
-        "type": [
-          "VerifiableCredential",
-          "VerifiableBusinessCard"
-        ],
-        "credentialSubject": {
-          "type": [
-            "Organization"
-          ],
-          "name": "Steel Manufacturer Org",
-          "url": "https://www.example.com/"
-        },
-        "issuer": {
-          "id": "did:example:123",
-          "description": "Secured 24/7 neural-net",
-          "phoneNumber": "555-158-2528",
-          "type": "Organization",
-          "name": "Grady, Purdy and Pacocha",
-          "address": {
-            "addressCountry": "Austria",
-            "addressLocality": "Port Reba",
-            "addressRegion": "South Carolina",
-            "postalCode": "53062-7356",
-            "streetAddress": "0516 Kendrick Heights",
-            "type": "PostalAddress"
-          },
-          "faxNumber": "555-577-3567",
-          "email": "Cora31@example.net"
-        },
-        "issuanceDate": "2016-12-31T23:59:60Z",
-        "proof": {
-          "type": "JsonWebSignature2020",
-          "proofPurpose": "assertionMethod",
-          "verificationMethod": "did:example:123#key-2",
-          "created": "2021-12-07T00:40:18.657Z",
-          "jws": "eyJhbGciOiJFUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..qLrag2G-2oxDonV32v86UoLy_p9s815apuBMrHOGdAS4wTrEjRnVpUKDMy_EH4kxY23ra6ieKgajQCKM3ui7fw"
-        },
-        "expirationDate": "2038-01-19T03:14:08Z",
-        "relatedLink": [
-          {
-            "linkRelationship": "OrganizationPresentationEndpoint",
-            "target": "https://example.com/organizations/example-org/presentations/available",
-            "type": "LinkRole"
-          }
-        ],
-        "name": "Verifiable Business Card"
-      },
-      "verification": {
-        "verified": true
-      }
-    },
-    "credential-3--key-4-rsa2048.vc.json": {
-      "vector": "vc",
-      "vectorContent": {
-        "@context": [
-          "https://www.w3.org/2018/credentials/v1",
-          "https://w3id.org/security/suites/jws-2020/v1",
-          {
-            "@vocab": "https://example.com/#"
-          }
-        ],
-        "id": "https://example.com/credential/123456",
-        "type": [
-          "VerifiableCredential",
-          "VerifiableBusinessCard"
-        ],
-        "credentialSubject": {
-          "url": "https://www.example.com/",
-          "type": [
-            "Organization"
-          ],
-          "name": "Steel Manufacturer Org"
-        },
-        "issuer": {
-          "id": "did:example:123",
-          "description": "Secured 24/7 neural-net",
-          "phoneNumber": "555-158-2528",
-          "address": {
-            "addressCountry": "Austria",
-            "addressLocality": "Port Reba",
-            "addressRegion": "South Carolina",
-            "postalCode": "53062-7356",
-            "streetAddress": "0516 Kendrick Heights",
-            "type": "PostalAddress"
-          },
-          "name": "Grady, Purdy and Pacocha",
-          "email": "Cora31@example.net",
-          "type": "Organization",
-          "faxNumber": "555-577-3567"
-        },
-        "issuanceDate": "2016-12-31T23:59:60Z",
-        "proof": {
-          "type": "JsonWebSignature2020",
-          "proofPurpose": "assertionMethod",
-          "verificationMethod": "did:example:123#key-4",
-          "created": "2021-12-07T00:40:51.706Z",
-          "jws": "eyJhbGciOiJQUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..f8nlulPYQhFO6MEZdfUJMjfuYn3oWr52c1961j3W9zEddA3MQtm3Ds8S04Pfy3wwWKnr5JHFs1cgHLvz8by5EY3T7DxDoDV1O2M5oecpd858s7QIt5Tk6zjjyrTDovLYtMPtnk1WvVOnNGaLNOWuQRNME5b0uWdhUV1C0UGq6-SFpjYUNP5Pd4iZ-BWxdrmRqV-KMfP7d08M3snn1yGZxmiTRxET7IWpkTCGEXH5QzsAsT7oQDlkNnVcDr_MVwGW00m77JOPdk-E50FLZNR9e2rJY4QEP1Z-0qOFSv172j2evzkPzQN2_-g5U7SZFx8fFzA4amzMP68hlIK8Gu38Tg"
-        },
-        "expirationDate": "2038-01-19T03:14:08Z",
-        "name": "Verifiable Business Card",
-        "relatedLink": [
-          {
-            "linkRelationship": "OrganizationPresentationEndpoint",
-            "target": "https://example.com/organizations/example-org/presentations/available",
-            "type": "LinkRole"
+            "evidenceDocument": "Fluid Dynamics Focus"
           }
         ]
       },
@@ -1530,8 +1162,8 @@
           "proofPurpose": "authentication",
           "challenge": "123",
           "verificationMethod": "did:example:123#key-0",
-          "created": "2021-12-07T00:39:51.903Z",
-          "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..HZmBKE4WMALTtbbUxgQCaiyyokHe1BBYrShTMXybRaUVdVGcL4ERB6U4p8T3nNOlsO1yNmcvHjNk-lfkfWW_BQ"
+          "created": "2021-12-13T17:12:30.468Z",
+          "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..PiRkLVtAnNR09VwvVD85hbWsREmsvr_dElBz6tSIyFhzNkgGKUKOK8keEqMKtBmTY_elx57jhRJipXoT2qR_Cw"
         },
         "holder": "did:example:123"
       },
@@ -1561,8 +1193,8 @@
           "proofPurpose": "authentication",
           "challenge": "123",
           "verificationMethod": "did:example:123#key-1",
-          "created": "2021-12-07T00:40:08.175Z",
-          "jws": "eyJhbGciOiJFUzI1NksiLCJjcml0IjpbImI2NCJdLCJiNjQiOmZhbHNlfQ..zKEB52Dd2Qupb5PP4fGUVaEbgicu1PImreurE2Edy4t_8drFHmkZ5NpgbBBr208Uz-bCjMzxU-SOahq3T_MDNA"
+          "created": "2021-12-13T17:12:44Z",
+          "jws": "eyJhbGciOiJFUzI1NksiLCJjcml0IjpbImI2NCJdLCJiNjQiOmZhbHNlfQ..3ew8osA0q0I7b6pbVkWyjFUuaqfU_FITNtKYuePRz6lpQe3l4vl9RO3qJiHTx7pZYZpxEmvcjL6im5kE6Scc8Q"
         },
         "holder": "did:example:123"
       },
@@ -1592,8 +1224,8 @@
           "proofPurpose": "authentication",
           "challenge": "123",
           "verificationMethod": "did:example:123#key-2",
-          "created": "2021-12-07T00:40:24.495Z",
-          "jws": "eyJhbGciOiJFUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..J5ZIYCeDGfWw9v9Gx6NwZu7nKvg3aNrirQ9TLXSuvOmnX3RL8H6Q1DYQyhjRIA7VZysQjkUnVs7-Gb6JVtufXw"
+          "created": "2021-12-13T17:12:57.620Z",
+          "jws": "eyJhbGciOiJFUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..U9oC8YLQcTNcb5fr0JahGSgpgA5QXnUasHiq2D17b6lZ-EeaRx_HPuWBc-Vbbh0T88Pb9IVMPfQhJxsj_FPXhg"
         },
         "holder": "did:example:123"
       },
@@ -1603,7 +1235,7 @@
     },
     "presentation-0--key-4-rsa2048.vp-jwt.json": {
       "vector": "vp-jwt",
-      "vectorContent": "eyJhbGciOiJQUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktNCJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZVByZXNlbnRhdGlvbiJdLCJob2xkZXIiOiJkaWQ6ZXhhbXBsZToxMjMifSwibm9uY2UiOiIxMjMifQ.a-Rf-NOOh6yfCxDIdIiJv-DZoMkyJdOuLTktYanRHfAWJlYgMz94MKDJ17xlSxM_09PWjYnlWP2Jol8HudGc1y1CsqlmiCStz17rs8-HIriiFoftFBhGVElcaqcNb2lRX2lXs1JG632SO_wEwNCQXe9iYC1xl0JP6cBCJtrVwff2o3NLf3fgkLQLPvIb0pGAjKgBlcsfoVQWLCsn5DJqEw_tGH40x2tz8XBPAVoAXYKRbmd6jZxyfEB1RYWBP0qJnBePMQNwmNGaYEELH7sNUR4MU8-DURO6ChhwVDQOdFsWnnukqQIIZDtb4syIXVivKTKJ3Na6DAhz-TMhPHRmWA",
+      "vectorContent": "eyJhbGciOiJQUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktNCJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZVByZXNlbnRhdGlvbiJdLCJob2xkZXIiOiJkaWQ6ZXhhbXBsZToxMjMifSwibm9uY2UiOiIxMjMifQ.KS35Z5e8oZ4tcF41tYnk_1uignXT24EsZFHkxI7ruRKGtlkNIzBSDuqZbW6uh6j3oaDp68Zs45aBv8STXmtG0LCYHQaYqRZNz4hKnE1SEd1Jd23MTBm3WTs59zJwPsNCP6Hiak04MYcmCTgXt7he3RjjSivF6_eu9JgijLTdx2Tr_xJ5tlant5XVzh11p9qkhckGcKxahb-pOZyT_tMzAOWGvSDgMdQfeQUpjCzguKT1EjhX56BCyuQK8In2xsvJ8DyM_L-wkkNhpiFpl92iSAt_TaHaWQ9VDsMrOGgElYiMGdZ0qn7ENLMs5by9_0_-GF1JxMusDBTyOsYr5hghnA",
       "verification": {
         "verified": true
       }
@@ -1623,8 +1255,8 @@
           "proofPurpose": "authentication",
           "challenge": "123",
           "verificationMethod": "did:example:123#key-4",
-          "created": "2021-12-07T00:40:57.707Z",
-          "jws": "eyJhbGciOiJQUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..R8fmzg_K_7KJmHf9sgMpkNS1LhQ9_DjFJjA1th9IcoaCU5i9_a7lSMcLwPeivd90tbeeQBLmRqzhRcNTy3qEKG1knGoDM-_RQz99u-NPcnn1qsNEbiq8rQkScfxNqy_m6U_nDLuJXkGSib1kihcCD1ARx4s-YO46qn1c17jiekvuVnqLTsfmhx0OMWsxhpXr2s9CZPiljxoFlTE9iRyrQ4zmW5gFPpXQZmm-ErpwGMrpGob3XV8N4zpk_uPmH_myN0bR4nSVPg1ivS7l6UEPmo1SSF_E--osETpdSM0dw_j1nIzzGhMG9Rl7Dyu5P6mYxVdPA4PR65m2c-OIKgTx5g"
+          "created": "2021-12-13T17:13:24.891Z",
+          "jws": "eyJhbGciOiJQUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..aZ95DnGPjssWg9WbCwI8Uc1JuKwNvIHPP8z47lEb8og-k2c_NLsQ8pXQw9VO1rFno1dCXSMZL2yL7ctfvknW2fXMYt5VPdxvSoJpD2-OJNVY1ki1pxMW_mvw0-RiygCFkAfqoYionuQpUxcT0s4h3kYLWb3WhYlhm6wYPPooZAU10vT_jemCHZ9lsE_M4xNMKVE_Bg_DadvLeWKdGZQj9OfQHLPI0DVGl2fueDFmXhQNQ7K2SToUzP8Z3bs5xaWWzZWopJ8dOQ8OJzNQzJW7_aZluCijpj7lquqTBhwMKDk4BIBUTA6KELr0j4N0do_prX75yiCbpugf7VjyPbjoKw"
         },
         "holder": "did:example:123"
       },
@@ -1634,7 +1266,7 @@
     },
     "presentation-1--key-0-ed25519.vp-jwt.json": {
       "vector": "vp-jwt",
-      "vectorContent": "eyJhbGciOiJFZERTQSIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJqdGkiOiJ1cm46dXVpZDo3ODkiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sImlkIjoidXJuOnV1aWQ6Nzg5IiwidHlwZSI6WyJWZXJpZmlhYmxlUHJlc2VudGF0aW9uIl0sInZlcmlmaWFibGVDcmVkZW50aWFsIjpbeyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZCI6ImRpZDpleGFtcGxlOjQ1NiJ9LCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsInByb29mIjp7InR5cGUiOiJKc29uV2ViU2lnbmF0dXJlMjAyMCIsInByb29mUHVycG9zZSI6ImFzc2VydGlvbk1ldGhvZCIsInZlcmlmaWNhdGlvbk1ldGhvZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCIsImNyZWF0ZWQiOiIyMDIxLTEwLTAyVDE3OjU4OjAwWiIsImp3cyI6ImV5SmlOalFpT21aaGJITmxMQ0pqY21sMElqcGJJbUkyTkNKZExDSmhiR2NpT2lKRlpFUlRRU0o5Li5WQThWUXFBZXJVVDZBSVZkSGM4VzhRMmFqMTJMT1FqVl9WWjFlMTM0TlU5UTIwZUJzTnlTUGpOZG1UV3AySGtkcXVDbmJSaEJIeEliTmVGRUlPT2hBZyJ9LCJldmlkZW5jZSI6W3siaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkNDIzMSIsInR5cGUiOlsiRG9jdW1lbnRWZXJpZmljYXRpb24iXSwic3ViamVjdFByZXNlbmNlIjoiUGh5c2ljYWwiLCJkb2N1bWVudFByZXNlbmNlIjoiUGh5c2ljYWwiLCJldmlkZW5jZURvY3VtZW50IjoiRHJpdmVyc0xpY2Vuc2UiLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCJ9LHsiaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkeHl6YWIiLCJ0eXBlIjpbIlN1cHBvcnRpbmdBY3Rpdml0eSJdLCJkb2N1bWVudFByZXNlbmNlIjoiRGlnaXRhbCIsInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0IiwiZXZpZGVuY2VEb2N1bWVudCI6IkZsdWlkIER5bmFtaWNzIEZvY3VzIiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCJ9XX1dLCJob2xkZXIiOiJkaWQ6ZXhhbXBsZToxMjMifSwibm9uY2UiOiIxMjMifQ._BGTLEnQQI4tknsUpOtOw3vWnKESIl20UkgStwKmG8yiu1arvYrdjOTesH0VajgEbMCz1UuVnsvGWXjScvpmBA",
+      "vectorContent": "eyJhbGciOiJFZERTQSIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJqdGkiOiJ1cm46dXVpZDo3ODkiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sImlkIjoidXJuOnV1aWQ6Nzg5IiwidHlwZSI6WyJWZXJpZmlhYmxlUHJlc2VudGF0aW9uIl0sInZlcmlmaWFibGVDcmVkZW50aWFsIjpbeyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZCI6ImRpZDpleGFtcGxlOjQ1NiJ9LCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsInByb29mIjp7InR5cGUiOiJKc29uV2ViU2lnbmF0dXJlMjAyMCIsInByb29mUHVycG9zZSI6ImFzc2VydGlvbk1ldGhvZCIsInZlcmlmaWNhdGlvbk1ldGhvZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCIsImNyZWF0ZWQiOiIyMDIxLTEwLTAyVDE3OjU4OjAwWiIsImp3cyI6ImV5SmlOalFpT21aaGJITmxMQ0pqY21sMElqcGJJbUkyTkNKZExDSmhiR2NpT2lKRlpFUlRRU0o5Li5WQThWUXFBZXJVVDZBSVZkSGM4VzhRMmFqMTJMT1FqVl9WWjFlMTM0TlU5UTIwZUJzTnlTUGpOZG1UV3AySGtkcXVDbmJSaEJIeEliTmVGRUlPT2hBZyJ9LCJldmlkZW5jZSI6W3siaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkNDIzMSIsInR5cGUiOlsiRG9jdW1lbnRWZXJpZmljYXRpb24iXSwic3ViamVjdFByZXNlbmNlIjoiUGh5c2ljYWwiLCJkb2N1bWVudFByZXNlbmNlIjoiUGh5c2ljYWwiLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCIsImV2aWRlbmNlRG9jdW1lbnQiOiJEcml2ZXJzTGljZW5zZSJ9LHsiaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkeHl6YWIiLCJ0eXBlIjpbIlN1cHBvcnRpbmdBY3Rpdml0eSJdLCJldmlkZW5jZURvY3VtZW50IjoiRmx1aWQgRHluYW1pY3MgRm9jdXMiLCJkb2N1bWVudFByZXNlbmNlIjoiRGlnaXRhbCIsInN1YmplY3RQcmVzZW5jZSI6IkRpZ2l0YWwiLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCJ9XX1dLCJob2xkZXIiOiJkaWQ6ZXhhbXBsZToxMjMifSwibm9uY2UiOiIxMjMifQ.2nV9ECDE1yqyTaDSTZRAEG7j4Cg4pOGGBfBttfN_cuBhPoBPFNUaT7Nhel_atBqOlcbAVjNFjUzSpmlDtuUnDQ",
       "verification": {
         "verified": true
       }
@@ -1680,20 +1312,20 @@
                 "type": [
                   "DocumentVerification"
                 ],
+                "subjectPresence": "Physical",
                 "evidenceDocument": "DriversLicense",
                 "documentPresence": "Physical",
-                "verifier": "https://example.edu/issuers/14",
-                "subjectPresence": "Physical"
+                "verifier": "https://example.edu/issuers/14"
               },
               {
                 "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192dxyzab",
                 "type": [
                   "SupportingActivity"
                 ],
-                "verifier": "https://example.edu/issuers/14",
+                "documentPresence": "Digital",
                 "evidenceDocument": "Fluid Dynamics Focus",
-                "subjectPresence": "Digital",
-                "documentPresence": "Digital"
+                "verifier": "https://example.edu/issuers/14",
+                "subjectPresence": "Digital"
               }
             ]
           }
@@ -1703,8 +1335,8 @@
           "proofPurpose": "authentication",
           "challenge": "123",
           "verificationMethod": "did:example:123#key-0",
-          "created": "2021-12-07T00:39:53.049Z",
-          "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..DavLLgWjDe4AQezw2GjWROnZO98rJRPra34_X4mAcYzY_m-3nEil-auy98ATcmC_bObpCGVB87xoAty1jNkECQ"
+          "created": "2021-12-13T17:12:31.577Z",
+          "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..qrNEpcXBk7CMOQO8k4csnE-2s3MEEgZQ0qjzm9oH1Bv8J410cskSOhvrDVyO5aRr6WcRfXyL9_C1nJS9vF6dDA"
         },
         "holder": "did:example:123"
       },
@@ -1714,7 +1346,7 @@
     },
     "presentation-1--key-1-secp256k1.vp-jwt.json": {
       "vector": "vp-jwt",
-      "vectorContent": "eyJhbGciOiJFUzI1NksiLCJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTEifQ.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJqdGkiOiJ1cm46dXVpZDo3ODkiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sImlkIjoidXJuOnV1aWQ6Nzg5IiwidHlwZSI6WyJWZXJpZmlhYmxlUHJlc2VudGF0aW9uIl0sInZlcmlmaWFibGVDcmVkZW50aWFsIjpbeyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZCI6ImRpZDpleGFtcGxlOjQ1NiJ9LCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsInByb29mIjp7InR5cGUiOiJKc29uV2ViU2lnbmF0dXJlMjAyMCIsInByb29mUHVycG9zZSI6ImFzc2VydGlvbk1ldGhvZCIsInZlcmlmaWNhdGlvbk1ldGhvZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCIsImNyZWF0ZWQiOiIyMDIxLTEwLTAyVDE3OjU4OjAwWiIsImp3cyI6ImV5SmlOalFpT21aaGJITmxMQ0pqY21sMElqcGJJbUkyTkNKZExDSmhiR2NpT2lKRlpFUlRRU0o5Li5WQThWUXFBZXJVVDZBSVZkSGM4VzhRMmFqMTJMT1FqVl9WWjFlMTM0TlU5UTIwZUJzTnlTUGpOZG1UV3AySGtkcXVDbmJSaEJIeEliTmVGRUlPT2hBZyJ9LCJldmlkZW5jZSI6W3siaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkNDIzMSIsInR5cGUiOlsiRG9jdW1lbnRWZXJpZmljYXRpb24iXSwidmVyaWZpZXIiOiJodHRwczovL2V4YW1wbGUuZWR1L2lzc3VlcnMvMTQiLCJkb2N1bWVudFByZXNlbmNlIjoiUGh5c2ljYWwiLCJzdWJqZWN0UHJlc2VuY2UiOiJQaHlzaWNhbCIsImV2aWRlbmNlRG9jdW1lbnQiOiJEcml2ZXJzTGljZW5zZSJ9LHsiaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkeHl6YWIiLCJ0eXBlIjpbIlN1cHBvcnRpbmdBY3Rpdml0eSJdLCJzdWJqZWN0UHJlc2VuY2UiOiJEaWdpdGFsIiwidmVyaWZpZXIiOiJodHRwczovL2V4YW1wbGUuZWR1L2lzc3VlcnMvMTQiLCJldmlkZW5jZURvY3VtZW50IjoiRmx1aWQgRHluYW1pY3MgRm9jdXMiLCJkb2N1bWVudFByZXNlbmNlIjoiRGlnaXRhbCJ9XX1dLCJob2xkZXIiOiJkaWQ6ZXhhbXBsZToxMjMifSwibm9uY2UiOiIxMjMifQ.Kinub5B2YYT0rdR_9bKbpxZg5W-ucQGbGTIqjbLZj6JFgy4Sb06NcN8gHjJxzSW8cd1HGyA9bj9iV863uEdsFg",
+      "vectorContent": "eyJhbGciOiJFUzI1NksiLCJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTEifQ.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJqdGkiOiJ1cm46dXVpZDo3ODkiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sImlkIjoidXJuOnV1aWQ6Nzg5IiwidHlwZSI6WyJWZXJpZmlhYmxlUHJlc2VudGF0aW9uIl0sInZlcmlmaWFibGVDcmVkZW50aWFsIjpbeyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZCI6ImRpZDpleGFtcGxlOjQ1NiJ9LCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsInByb29mIjp7InR5cGUiOiJKc29uV2ViU2lnbmF0dXJlMjAyMCIsInByb29mUHVycG9zZSI6ImFzc2VydGlvbk1ldGhvZCIsInZlcmlmaWNhdGlvbk1ldGhvZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCIsImNyZWF0ZWQiOiIyMDIxLTEwLTAyVDE3OjU4OjAwWiIsImp3cyI6ImV5SmlOalFpT21aaGJITmxMQ0pqY21sMElqcGJJbUkyTkNKZExDSmhiR2NpT2lKRlpFUlRRU0o5Li5WQThWUXFBZXJVVDZBSVZkSGM4VzhRMmFqMTJMT1FqVl9WWjFlMTM0TlU5UTIwZUJzTnlTUGpOZG1UV3AySGtkcXVDbmJSaEJIeEliTmVGRUlPT2hBZyJ9LCJldmlkZW5jZSI6W3siaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkNDIzMSIsInR5cGUiOlsiRG9jdW1lbnRWZXJpZmljYXRpb24iXSwiZXZpZGVuY2VEb2N1bWVudCI6IkRyaXZlcnNMaWNlbnNlIiwidmVyaWZpZXIiOiJodHRwczovL2V4YW1wbGUuZWR1L2lzc3VlcnMvMTQiLCJzdWJqZWN0UHJlc2VuY2UiOiJQaHlzaWNhbCIsImRvY3VtZW50UHJlc2VuY2UiOiJQaHlzaWNhbCJ9LHsiaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkeHl6YWIiLCJ0eXBlIjpbIlN1cHBvcnRpbmdBY3Rpdml0eSJdLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCIsImV2aWRlbmNlRG9jdW1lbnQiOiJGbHVpZCBEeW5hbWljcyBGb2N1cyIsImRvY3VtZW50UHJlc2VuY2UiOiJEaWdpdGFsIiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCJ9XX1dLCJob2xkZXIiOiJkaWQ6ZXhhbXBsZToxMjMifSwibm9uY2UiOiIxMjMifQ.trCNcKL0o28w6ohLxgBgZRTorG6Hgvh22rjSpRKCIXhOUxzgLBeqL9TWKB0-XlWzyYKqawP898_ZEmUgPI8Efw",
       "verification": {
         "verified": true
       }
@@ -1760,20 +1392,20 @@
                 "type": [
                   "DocumentVerification"
                 ],
+                "verifier": "https://example.edu/issuers/14",
                 "subjectPresence": "Physical",
                 "documentPresence": "Physical",
-                "evidenceDocument": "DriversLicense",
-                "verifier": "https://example.edu/issuers/14"
+                "evidenceDocument": "DriversLicense"
               },
               {
                 "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192dxyzab",
                 "type": [
                   "SupportingActivity"
                 ],
-                "evidenceDocument": "Fluid Dynamics Focus",
-                "subjectPresence": "Digital",
                 "verifier": "https://example.edu/issuers/14",
-                "documentPresence": "Digital"
+                "subjectPresence": "Digital",
+                "documentPresence": "Digital",
+                "evidenceDocument": "Fluid Dynamics Focus"
               }
             ]
           }
@@ -1783,8 +1415,8 @@
           "proofPurpose": "authentication",
           "challenge": "123",
           "verificationMethod": "did:example:123#key-1",
-          "created": "2021-12-07T00:40:09.370Z",
-          "jws": "eyJhbGciOiJFUzI1NksiLCJjcml0IjpbImI2NCJdLCJiNjQiOmZhbHNlfQ..l6qj97khFI49BWRJo-pf0JGR2nRMhJyf4uqwC7k2unkc2uJc0prMWI2fyXgim_7klJYxhFBkKvDJ7tC50SPVrw"
+          "created": "2021-12-13T17:12:45.178Z",
+          "jws": "eyJhbGciOiJFUzI1NksiLCJjcml0IjpbImI2NCJdLCJiNjQiOmZhbHNlfQ..TIOtfB--9RnM_XawRELrKwZ816tZIKJ25zAMD7e0ESkuSIoxYwqb8K0XzmMzg-lp1CwFFkxxVagy1e8LtDSFag"
         },
         "holder": "did:example:123"
       },
@@ -1794,7 +1426,7 @@
     },
     "presentation-1--key-2-secp256r1.vp-jwt.json": {
       "vector": "vp-jwt",
-      "vectorContent": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMiJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJqdGkiOiJ1cm46dXVpZDo3ODkiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sImlkIjoidXJuOnV1aWQ6Nzg5IiwidHlwZSI6WyJWZXJpZmlhYmxlUHJlc2VudGF0aW9uIl0sInZlcmlmaWFibGVDcmVkZW50aWFsIjpbeyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZCI6ImRpZDpleGFtcGxlOjQ1NiJ9LCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsInByb29mIjp7InR5cGUiOiJKc29uV2ViU2lnbmF0dXJlMjAyMCIsInByb29mUHVycG9zZSI6ImFzc2VydGlvbk1ldGhvZCIsInZlcmlmaWNhdGlvbk1ldGhvZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCIsImNyZWF0ZWQiOiIyMDIxLTEwLTAyVDE3OjU4OjAwWiIsImp3cyI6ImV5SmlOalFpT21aaGJITmxMQ0pqY21sMElqcGJJbUkyTkNKZExDSmhiR2NpT2lKRlpFUlRRU0o5Li5WQThWUXFBZXJVVDZBSVZkSGM4VzhRMmFqMTJMT1FqVl9WWjFlMTM0TlU5UTIwZUJzTnlTUGpOZG1UV3AySGtkcXVDbmJSaEJIeEliTmVGRUlPT2hBZyJ9LCJldmlkZW5jZSI6W3siaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkNDIzMSIsInR5cGUiOlsiRG9jdW1lbnRWZXJpZmljYXRpb24iXSwidmVyaWZpZXIiOiJodHRwczovL2V4YW1wbGUuZWR1L2lzc3VlcnMvMTQiLCJldmlkZW5jZURvY3VtZW50IjoiRHJpdmVyc0xpY2Vuc2UiLCJzdWJqZWN0UHJlc2VuY2UiOiJQaHlzaWNhbCIsImRvY3VtZW50UHJlc2VuY2UiOiJQaHlzaWNhbCJ9LHsiaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkeHl6YWIiLCJ0eXBlIjpbIlN1cHBvcnRpbmdBY3Rpdml0eSJdLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCIsInN1YmplY3RQcmVzZW5jZSI6IkRpZ2l0YWwiLCJldmlkZW5jZURvY3VtZW50IjoiRmx1aWQgRHluYW1pY3MgRm9jdXMiLCJkb2N1bWVudFByZXNlbmNlIjoiRGlnaXRhbCJ9XX1dLCJob2xkZXIiOiJkaWQ6ZXhhbXBsZToxMjMifSwibm9uY2UiOiIxMjMifQ.NSqBe9XSAukSdAQpp3lxkyV-mbVWD_7THZqGLGC2MD3qCbI9ZsPlSX7Gn4OklgCRwq9K4EwmLvE0hj8Jmri1kQ",
+      "vectorContent": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMiJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJqdGkiOiJ1cm46dXVpZDo3ODkiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sImlkIjoidXJuOnV1aWQ6Nzg5IiwidHlwZSI6WyJWZXJpZmlhYmxlUHJlc2VudGF0aW9uIl0sInZlcmlmaWFibGVDcmVkZW50aWFsIjpbeyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZCI6ImRpZDpleGFtcGxlOjQ1NiJ9LCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsInByb29mIjp7InR5cGUiOiJKc29uV2ViU2lnbmF0dXJlMjAyMCIsInByb29mUHVycG9zZSI6ImFzc2VydGlvbk1ldGhvZCIsInZlcmlmaWNhdGlvbk1ldGhvZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCIsImNyZWF0ZWQiOiIyMDIxLTEwLTAyVDE3OjU4OjAwWiIsImp3cyI6ImV5SmlOalFpT21aaGJITmxMQ0pqY21sMElqcGJJbUkyTkNKZExDSmhiR2NpT2lKRlpFUlRRU0o5Li5WQThWUXFBZXJVVDZBSVZkSGM4VzhRMmFqMTJMT1FqVl9WWjFlMTM0TlU5UTIwZUJzTnlTUGpOZG1UV3AySGtkcXVDbmJSaEJIeEliTmVGRUlPT2hBZyJ9LCJldmlkZW5jZSI6W3siaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkNDIzMSIsInR5cGUiOlsiRG9jdW1lbnRWZXJpZmljYXRpb24iXSwidmVyaWZpZXIiOiJodHRwczovL2V4YW1wbGUuZWR1L2lzc3VlcnMvMTQiLCJzdWJqZWN0UHJlc2VuY2UiOiJQaHlzaWNhbCIsImRvY3VtZW50UHJlc2VuY2UiOiJQaHlzaWNhbCIsImV2aWRlbmNlRG9jdW1lbnQiOiJEcml2ZXJzTGljZW5zZSJ9LHsiaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkeHl6YWIiLCJ0eXBlIjpbIlN1cHBvcnRpbmdBY3Rpdml0eSJdLCJldmlkZW5jZURvY3VtZW50IjoiRmx1aWQgRHluYW1pY3MgRm9jdXMiLCJkb2N1bWVudFByZXNlbmNlIjoiRGlnaXRhbCIsInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0Iiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCJ9XX1dLCJob2xkZXIiOiJkaWQ6ZXhhbXBsZToxMjMifSwibm9uY2UiOiIxMjMifQ.tfEdFlXnanbCaYgzsYi29bUMmgA38j4KyGUzu7ZF27UUTKVzW0Zdchos9jJK1Dh_6-lO8-QNZ858Wd7AT6iAtg",
       "verification": {
         "verified": true
       }
@@ -1841,19 +1473,19 @@
                   "DocumentVerification"
                 ],
                 "verifier": "https://example.edu/issuers/14",
-                "evidenceDocument": "DriversLicense",
+                "documentPresence": "Physical",
                 "subjectPresence": "Physical",
-                "documentPresence": "Physical"
+                "evidenceDocument": "DriversLicense"
               },
               {
                 "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192dxyzab",
                 "type": [
                   "SupportingActivity"
                 ],
-                "verifier": "https://example.edu/issuers/14",
+                "subjectPresence": "Digital",
                 "evidenceDocument": "Fluid Dynamics Focus",
-                "documentPresence": "Digital",
-                "subjectPresence": "Digital"
+                "verifier": "https://example.edu/issuers/14",
+                "documentPresence": "Digital"
               }
             ]
           }
@@ -1863,8 +1495,8 @@
           "proofPurpose": "authentication",
           "challenge": "123",
           "verificationMethod": "did:example:123#key-2",
-          "created": "2021-12-07T00:40:25.638Z",
-          "jws": "eyJhbGciOiJFUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..pyQ28rzHRAkPctUxO5ck3rdgf913ZRzFj-R6HPzlg740NdQzKDjoMtBGITf3vACl-tHaTCthMfrL8hit5isWVA"
+          "created": "2021-12-13T17:12:58.755Z",
+          "jws": "eyJhbGciOiJFUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..ZC0HtS3SLWZL9mffgOFtZdFAFZsRHtivQyAOd-Lwd_QFCLkzQC3rzMfCUsIdDUnfhy58s9WWo8CxAkoemyuWrA"
         },
         "holder": "did:example:123"
       },
@@ -1874,7 +1506,7 @@
     },
     "presentation-1--key-4-rsa2048.vp-jwt.json": {
       "vector": "vp-jwt",
-      "vectorContent": "eyJhbGciOiJQUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktNCJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJqdGkiOiJ1cm46dXVpZDo3ODkiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sImlkIjoidXJuOnV1aWQ6Nzg5IiwidHlwZSI6WyJWZXJpZmlhYmxlUHJlc2VudGF0aW9uIl0sInZlcmlmaWFibGVDcmVkZW50aWFsIjpbeyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZCI6ImRpZDpleGFtcGxlOjQ1NiJ9LCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsInByb29mIjp7InR5cGUiOiJKc29uV2ViU2lnbmF0dXJlMjAyMCIsInByb29mUHVycG9zZSI6ImFzc2VydGlvbk1ldGhvZCIsInZlcmlmaWNhdGlvbk1ldGhvZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCIsImNyZWF0ZWQiOiIyMDIxLTEwLTAyVDE3OjU4OjAwWiIsImp3cyI6ImV5SmlOalFpT21aaGJITmxMQ0pqY21sMElqcGJJbUkyTkNKZExDSmhiR2NpT2lKRlpFUlRRU0o5Li5WQThWUXFBZXJVVDZBSVZkSGM4VzhRMmFqMTJMT1FqVl9WWjFlMTM0TlU5UTIwZUJzTnlTUGpOZG1UV3AySGtkcXVDbmJSaEJIeEliTmVGRUlPT2hBZyJ9LCJldmlkZW5jZSI6W3siaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkNDIzMSIsInR5cGUiOlsiRG9jdW1lbnRWZXJpZmljYXRpb24iXSwiZG9jdW1lbnRQcmVzZW5jZSI6IlBoeXNpY2FsIiwic3ViamVjdFByZXNlbmNlIjoiUGh5c2ljYWwiLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCIsImV2aWRlbmNlRG9jdW1lbnQiOiJEcml2ZXJzTGljZW5zZSJ9LHsiaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkeHl6YWIiLCJ0eXBlIjpbIlN1cHBvcnRpbmdBY3Rpdml0eSJdLCJldmlkZW5jZURvY3VtZW50IjoiRmx1aWQgRHluYW1pY3MgRm9jdXMiLCJkb2N1bWVudFByZXNlbmNlIjoiRGlnaXRhbCIsInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0Iiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCJ9XX1dLCJob2xkZXIiOiJkaWQ6ZXhhbXBsZToxMjMifSwibm9uY2UiOiIxMjMifQ.Aa_YGnj1jkJ6m9fkc0Mpb_eo6AotjF_-ct_eKP8MfjO-T8LSLjiDvvGSjOm5MsUa4N7s0K488ykTVbCI9YKShSHJ7bzQAS3Wjqe-WWq2f4Ntu3O1Tq7ila8saVk0j2WKHkkuqLjuhLF_qFRZ4eWqRE8l0c1Zxt0KcVpZCG4S2Aafy859LKkND2fRpD5i78ety4qsg43fs-1PkCcqxoNUF1uU2J_vEiTRRLcVar7qxIqpTApAhE9xp0fLyJoLiSOVA7DEA551mfiRk9q0swDfRsWAZodB82cbSYPkbYJv9_JDK4K97Zj5YjCepY1yKuSwTbkjQ6F3JzW75wKczv42Jw",
+      "vectorContent": "eyJhbGciOiJQUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktNCJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJqdGkiOiJ1cm46dXVpZDo3ODkiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sImlkIjoidXJuOnV1aWQ6Nzg5IiwidHlwZSI6WyJWZXJpZmlhYmxlUHJlc2VudGF0aW9uIl0sInZlcmlmaWFibGVDcmVkZW50aWFsIjpbeyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZCI6ImRpZDpleGFtcGxlOjQ1NiJ9LCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsInByb29mIjp7InR5cGUiOiJKc29uV2ViU2lnbmF0dXJlMjAyMCIsInByb29mUHVycG9zZSI6ImFzc2VydGlvbk1ldGhvZCIsInZlcmlmaWNhdGlvbk1ldGhvZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCIsImNyZWF0ZWQiOiIyMDIxLTEwLTAyVDE3OjU4OjAwWiIsImp3cyI6ImV5SmlOalFpT21aaGJITmxMQ0pqY21sMElqcGJJbUkyTkNKZExDSmhiR2NpT2lKRlpFUlRRU0o5Li5WQThWUXFBZXJVVDZBSVZkSGM4VzhRMmFqMTJMT1FqVl9WWjFlMTM0TlU5UTIwZUJzTnlTUGpOZG1UV3AySGtkcXVDbmJSaEJIeEliTmVGRUlPT2hBZyJ9LCJldmlkZW5jZSI6W3siaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkNDIzMSIsInR5cGUiOlsiRG9jdW1lbnRWZXJpZmljYXRpb24iXSwiZG9jdW1lbnRQcmVzZW5jZSI6IlBoeXNpY2FsIiwiZXZpZGVuY2VEb2N1bWVudCI6IkRyaXZlcnNMaWNlbnNlIiwic3ViamVjdFByZXNlbmNlIjoiUGh5c2ljYWwiLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCJ9LHsiaWQiOiJodHRwczovL2V4YW1wbGUuZWR1L2V2aWRlbmNlL2YyYWVlYzk3LWZjMGQtNDJiZi04Y2E3LTA1NDgxOTJkeHl6YWIiLCJ0eXBlIjpbIlN1cHBvcnRpbmdBY3Rpdml0eSJdLCJzdWJqZWN0UHJlc2VuY2UiOiJEaWdpdGFsIiwiZXZpZGVuY2VEb2N1bWVudCI6IkZsdWlkIER5bmFtaWNzIEZvY3VzIiwiZG9jdW1lbnRQcmVzZW5jZSI6IkRpZ2l0YWwiLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCJ9XX1dLCJob2xkZXIiOiJkaWQ6ZXhhbXBsZToxMjMifSwibm9uY2UiOiIxMjMifQ.YaG31KQPjjJ_7jB61qM8T8Ms4cjVOqOLRx7fFtL4RmH7993GMglJ-buWbhW-QCQgs6c887IxEmIaSp4Q03LyuLPsNpYird0u1kWMs0ocrFXT-KCcTzMhrWTrjxv7-GDS3ZrTfe91NKt7iTIMqnlp3IcbwYbN-J7_dLPVwJZd-K0I3ojBvF_lft3PJvEgrUfoEH0mjgWIxbWWjkKOj4_ml9iW7CGeh-ebgVYAMV1yk0L1WIPh4VfbHLC5Ry9aDD9-hMra2H4Btq-JcDaSe2PzK93kxtVRcFkKoMGBLHfTFVqbZyNrWk3OZpL6Jt42xr8YHsvaDvNjd4YB_aFsNxh63w",
       "verification": {
         "verified": true
       }
@@ -1920,20 +1552,20 @@
                 "type": [
                   "DocumentVerification"
                 ],
-                "documentPresence": "Physical",
                 "subjectPresence": "Physical",
-                "verifier": "https://example.edu/issuers/14",
-                "evidenceDocument": "DriversLicense"
+                "documentPresence": "Physical",
+                "evidenceDocument": "DriversLicense",
+                "verifier": "https://example.edu/issuers/14"
               },
               {
                 "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192dxyzab",
                 "type": [
                   "SupportingActivity"
                 ],
-                "subjectPresence": "Digital",
                 "documentPresence": "Digital",
+                "verifier": "https://example.edu/issuers/14",
                 "evidenceDocument": "Fluid Dynamics Focus",
-                "verifier": "https://example.edu/issuers/14"
+                "subjectPresence": "Digital"
               }
             ]
           }
@@ -1943,8 +1575,8 @@
           "proofPurpose": "authentication",
           "challenge": "123",
           "verificationMethod": "did:example:123#key-4",
-          "created": "2021-12-07T00:40:58.890Z",
-          "jws": "eyJhbGciOiJQUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..WMGpAt7HA47ljFyYcjMsRgFWIQUjMnxk6BUZICR2vV1J26vUKBbCatazhi0Ho5NOU9_6JAdxMAMpbQK_JSYDAy3U4TttSBKCXF9mMjROKn5qSiGiwjUVj7io4IrLjvut6xSKvchu62HPJUyGNLshbaQUbm83OmR9SAir3wk3hIFR3gYXRVYppa1BeOP2qCK3UbM125LN25AFY73oNzQfoabW21ipULQcwZq_b5A3DPJeAgflYtLiQCNCZ0z7qtzHZT8Fs-1JgMP3yWCw3i6ZnVkZGxgYnWXdIbI3Bi2NkiEGSzusU6oYVFbccP43Z3uj9oPYT_FSzkzq6g6LMZ_qyA"
+          "created": "2021-12-13T17:13:26.048Z",
+          "jws": "eyJhbGciOiJQUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..LW5ZomWpi-UzwiWVRAN0aPIXSCn1m03VrwrCBFM6Eoryf-st6ytChDgcPW8tLdo7PWGlASFRKvVr4ewmork2EhDZUbmHZjbxG3-eKgZp88cRtMjYJIfOS4DydfEWsBkc81AusXlQkef-uePcB9Xm0Jv0nvp-Jbfk730vC0VVgnZrKOWb_deaOHbrit6dj7Ui2-ry3RbfZ9I0vmwMTMewtLTb4DESELV1ZynjUGAxfPmd8xVcSaaiLWqcqCtFSEI-LYQ-NigG32w5-3Mcyhm-xzVnOVcHa3E0ha0-LysiaeN1fOBHl4O0ygCn2Riknq0Sj6lpMfw6Unse0iItpKneWg"
         },
         "holder": "did:example:123"
       },
@@ -1998,8 +1630,8 @@
           "proofPurpose": "authentication",
           "challenge": "123",
           "verificationMethod": "did:example:123#key-0",
-          "created": "2021-12-07T00:39:54.240Z",
-          "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..wuLD4WXRqOv4qoyxihCjdeexc3dhlvdG-zxwMQld7Y3Nl43CrfyxTYHQQ1-D7c2vjlfvhoTAoQOPA_5wdeKlAw"
+          "created": "2021-12-13T17:12:32.699Z",
+          "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..wqsFwf67HRZOvByAxjY4xMmPOMABdeU4cFJ-qEbijZ68B3Zd5aYbDM0Tok9FgV8ecVoR-qrnaYl7oGpIa4JxBw"
         },
         "holder": "did:example:123",
         "presentation_submission": {
@@ -2064,8 +1696,8 @@
           "proofPurpose": "authentication",
           "challenge": "123",
           "verificationMethod": "did:example:123#key-1",
-          "created": "2021-12-07T00:40:10.490Z",
-          "jws": "eyJhbGciOiJFUzI1NksiLCJjcml0IjpbImI2NCJdLCJiNjQiOmZhbHNlfQ..2Rxf4BOlQgDPe-KnMx1vzXG-A2IF5eoVY6rrV6HeHlpShJqPLoJwjb2dH9ill5zKKk-z0zKPiojoMwHN_TcQ4Q"
+          "created": "2021-12-13T17:12:46.355Z",
+          "jws": "eyJhbGciOiJFUzI1NksiLCJjcml0IjpbImI2NCJdLCJiNjQiOmZhbHNlfQ..VWXGZM32stS24MC5SreZ6TdapVkmkqBi5EMVgeZ7Y1xqVR4_Uy3cpuCwUjeOBRowVlmRMaa1KJUZW0tMKpqAaQ"
         },
         "holder": "did:example:123",
         "presentation_submission": {
@@ -2130,8 +1762,8 @@
           "proofPurpose": "authentication",
           "challenge": "123",
           "verificationMethod": "did:example:123#key-2",
-          "created": "2021-12-07T00:40:26.775Z",
-          "jws": "eyJhbGciOiJFUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..9r81cQtSpxbLAH1BsgMqyqNh2eS25JOim1AcG9tC0AVmDUzX0ckc4-dFAIyUuOxT1auFDjw8ukPiqRFKdu2IFQ"
+          "created": "2021-12-13T17:12:59.912Z",
+          "jws": "eyJhbGciOiJFUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..ePt3SYGx2u3JU-iBCUaL-Wlcmsh7NB9qCMrMbZuLH32crEgOa7dNmYQ4KeuqYylAYyfKe4RDUWx0M2qfOfe5Rg"
         },
         "holder": "did:example:123",
         "presentation_submission": {
@@ -2152,7 +1784,7 @@
     },
     "presentation-2--key-4-rsa2048.vp-jwt.json": {
       "vector": "vp-jwt",
-      "vectorContent": "eyJhbGciOiJQUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktNCJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJqdGkiOiJ1cm46dXVpZDo3ODkiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIiwiaHR0cHM6Ly9pZGVudGl0eS5mb3VuZGF0aW9uL3ByZXNlbnRhdGlvbi1leGNoYW5nZS9zdWJtaXNzaW9uL3YxIl0sImlkIjoidXJuOnV1aWQ6Nzg5IiwidHlwZSI6WyJWZXJpZmlhYmxlUHJlc2VudGF0aW9uIiwiUHJlc2VudGF0aW9uU3VibWlzc2lvbiJdLCJ2ZXJpZmlhYmxlQ3JlZGVudGlhbCI6W3siQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7fSwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwiaXNzdWFuY2VEYXRlIjoiMjAyMS0wMS0wMVQxOToyMzoyNFoiLCJwcm9vZiI6eyJ0eXBlIjoiSnNvbldlYlNpZ25hdHVyZTIwMjAiLCJwcm9vZlB1cnBvc2UiOiJhc3NlcnRpb25NZXRob2QiLCJ2ZXJpZmljYXRpb25NZXRob2QiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTAiLCJjcmVhdGVkIjoiMjAyMS0xMS0wNlQxNjo0OTo1MFoiLCJqd3MiOiJleUpoYkdjaU9pSkZaRVJUUVNJc0ltSTJOQ0k2Wm1Gc2MyVXNJbU55YVhRaU9sc2lZalkwSWwxOS4uLU9NN1BfMUFYVHFDMnA4YjViZWpPYndQN3JjLXBJRkg1dmJCSkNVekxYQXFTWHRUX21QVzB3SklFZ3lFUDRBSUlfQnlneGVmb0FfX2V6dHdKdTRmRHcifX1dLCJob2xkZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJwcmVzZW50YXRpb25fc3VibWlzc2lvbiI6eyJkZWZpbml0aW9uX2lkIjoiMzJmNTQxNjMtNzE2Ni00OGYxLTkzZDgtZmYyMTdiZGIwNjUzIiwiZGVzY3JpcHRvcl9tYXAiOlt7ImZvcm1hdCI6ImxkcF92YyIsImlkIjoiZXhhbXBsZV9pbnB1dF8xIiwicGF0aCI6IiQudmVyaWZpYWJsZUNyZWRlbnRpYWxbMF0ifV0sImlkIjoiYTMwZTNiOTEtZmI3Ny00ZDIyLTk1ZmEtODcxNjg5YzMyMmUyIn19LCJub25jZSI6IjEyMyJ9.MCk1uB7tt91Q53y37jWVF9p0kBYIzBaCA-JsfY4RQPLfwtfTLtMCWiRUY3yhi3uwVY8Rja_omyihO-8dtv5JI9k2Jf-pYKGXlXDpAtT08fvW359ZZHmChivlRJV1R16mC6GUFWj-sPeMDqWz-6JNElE8i3rs3IVxkgLrLC51ZwbncEWcQ212z47eLeuJ7dw4fUWPtR3GX3K6lv21avGeebjesxorzBsJKY2HTAh61SFa0m30HOeoCBWQWK6KfaOPqMKtsysp4u2ZfDAThA7M-sBI-lHSw7R8ZpdRhIhaTzgUxZ8i-saviL0H3uCVZ_GgL8olIWW0wCfXipd-Fd4v0Q",
+      "vectorContent": "eyJhbGciOiJQUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktNCJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJqdGkiOiJ1cm46dXVpZDo3ODkiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIiwiaHR0cHM6Ly9pZGVudGl0eS5mb3VuZGF0aW9uL3ByZXNlbnRhdGlvbi1leGNoYW5nZS9zdWJtaXNzaW9uL3YxIl0sImlkIjoidXJuOnV1aWQ6Nzg5IiwidHlwZSI6WyJWZXJpZmlhYmxlUHJlc2VudGF0aW9uIiwiUHJlc2VudGF0aW9uU3VibWlzc2lvbiJdLCJ2ZXJpZmlhYmxlQ3JlZGVudGlhbCI6W3siQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7fSwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwiaXNzdWFuY2VEYXRlIjoiMjAyMS0wMS0wMVQxOToyMzoyNFoiLCJwcm9vZiI6eyJ0eXBlIjoiSnNvbldlYlNpZ25hdHVyZTIwMjAiLCJwcm9vZlB1cnBvc2UiOiJhc3NlcnRpb25NZXRob2QiLCJ2ZXJpZmljYXRpb25NZXRob2QiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTAiLCJjcmVhdGVkIjoiMjAyMS0xMS0wNlQxNjo0OTo1MFoiLCJqd3MiOiJleUpoYkdjaU9pSkZaRVJUUVNJc0ltSTJOQ0k2Wm1Gc2MyVXNJbU55YVhRaU9sc2lZalkwSWwxOS4uLU9NN1BfMUFYVHFDMnA4YjViZWpPYndQN3JjLXBJRkg1dmJCSkNVekxYQXFTWHRUX21QVzB3SklFZ3lFUDRBSUlfQnlneGVmb0FfX2V6dHdKdTRmRHcifX1dLCJob2xkZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJwcmVzZW50YXRpb25fc3VibWlzc2lvbiI6eyJkZWZpbml0aW9uX2lkIjoiMzJmNTQxNjMtNzE2Ni00OGYxLTkzZDgtZmYyMTdiZGIwNjUzIiwiZGVzY3JpcHRvcl9tYXAiOlt7ImZvcm1hdCI6ImxkcF92YyIsImlkIjoiZXhhbXBsZV9pbnB1dF8xIiwicGF0aCI6IiQudmVyaWZpYWJsZUNyZWRlbnRpYWxbMF0ifV0sImlkIjoiYTMwZTNiOTEtZmI3Ny00ZDIyLTk1ZmEtODcxNjg5YzMyMmUyIn19LCJub25jZSI6IjEyMyJ9.Lvzh-CJ-7cvP48MlknQfQFs3XuzUrArY2xcDtOAg5ehBHiMeZlzgHs9kqhofKRd5XXi-AtRVRgOvTi89PnNpvSTQH_B21W9QZLLLMXE48d6K2gddW-l_UaUKGrJKmsuUn-1ib13ueezfDvfep7vDR_GJnpg-o5N4YobQunKV2ThXBWeXPuyvQ0UdRBnqzHCO0ePsFNuWi7Azcj1Hi8-XHOYSqmnbbXRsfmwWAfyULvOKurgyQQCgW_VNBum3s3N6MKhykH6xKA-AdN9PFo_WixA4Mjk73A0YLQ1k20GlBfb6pN-6cwUO1bUP7EsHSW6pBU_4b-SaKO4npbO_V76seQ",
       "verification": {
         "verified": true
       }
@@ -2196,8 +1828,8 @@
           "proofPurpose": "authentication",
           "challenge": "123",
           "verificationMethod": "did:example:123#key-4",
-          "created": "2021-12-07T00:41:00.079Z",
-          "jws": "eyJhbGciOiJQUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..TZogUYDcVlzgTmcDFM54cVtziJ6Ajhx4SIKSVeyuWh6yN2L_UT_GDO0lvHpAl9ven5Q6K0pDATQ9GbBmFjbP2Z-VsbtqSkMC7V0sTFfouNwsNytSE5m37fsWanHrtPxaj8wT3O0Sue_UCLNGWadOmUBX7HK_ypnmCXKGVHpOFjaI1-MiDBhxRLTrm8qOEt436U5zT85LPYReOc33obSKB3MVPOEpwcatrMz1iDvQQP2GqfZk0kquJ_IL9NdVKdjl5AL2xxWo0SsKy00dw2JZgIkPaL8fLSjj1LV0uuEtU_oebRuxIAwlkQZJJy8Pgs-TGTSML0iBrRClqo8mdsWlaA"
+          "created": "2021-12-13T17:13:27.172Z",
+          "jws": "eyJhbGciOiJQUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..EOm8uykgs3DpfcJUb7rlD_lYfetd4EckK4IvBtZ1a5pXLm8pYOGdMMsfoZ2xp53YY8DpDFIv-2Uu7BxKwBcJ1NxmmXVwl7ifMGXuoZxgcG1uPeZuFj0yn6re4z9Xvetb46u0RimRR47Ysdimvg2PWcBq1Vf2ahbuqz7iZH5hARn7lg1oD4LOxebw-mDkSlMqY5TSiZUR2a-ErXsKPtzpUj5X-s3t59pm1_TO_c2qbpUnQ2u59UotZ5rCnXAunohnpLtTRjw6A775YgM-s92EXX7EKf6xZdLa2r_xMCjJkp_iRc07mlaWYT3KS7uCrUnxolsGBdmFMthMe1aJwz9exA"
         },
         "holder": "did:example:123",
         "presentation_submission": {
@@ -2240,10 +1872,10 @@
         "credentialSubject": {},
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:41:05Z",
+          "created": "2021-12-13T17:13:32Z",
           "verificationMethod": "did:example:123#key-0",
           "proofPurpose": "assertionMethod",
-          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..MtOctn7GkEywiEgbDzlcDnB-d8gB-CVWDFvGnMHNjeVXjgxd88NMT6DH0DzRmEXws1kxXwFjNWndU9Y9XvFDAg"
+          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..J9q_xwg2z5-ehSVVdV13406wYcQ9Choo-Bo6Lk2I14WOayobwRXwQnPDkG-653EaFn7bO8koyKVjKViquLJ8Cw"
         }
       },
       "verification": {
@@ -2272,10 +1904,10 @@
         "credentialSubject": {},
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:41:25Z",
+          "created": "2021-12-13T17:13:48Z",
           "verificationMethod": "did:example:123#key-1",
           "proofPurpose": "assertionMethod",
-          "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..y-44QFM3Aan2BJ_WzzJ6FNvb_Ed38VQdXH2SN2xCeihpXVpeqCfo_mueUc6_L5NfkTAxzeRJiY_qKw87j7Xz1Q"
+          "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ.._FzT-k_uwHO8s2WZbwbqyvEJ-MOBipfIF_MocMaMl5xQ77DXmVocXe_wbKr2Ovtoqqo3-nwUAA2sKcHCqABKuw"
         }
       },
       "verification": {
@@ -2284,7 +1916,7 @@
     },
     "credential-0--key-2-secp256r1.vc-jwt.json": {
       "vector": "vc-jwt",
-      "vectorContent": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMiJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOnt9LCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXSwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwiaXNzdWFuY2VEYXRlIjoiMjAyMS0wMS0wMVQxOToyMzoyNFoiLCJjcmVkZW50aWFsU3ViamVjdCI6e319LCJuYmYiOjE2MDk1MjkwMDR9.7KtddzGqxTnnmW7hN3TuYCw8tV8Dqi2MY1lWzwZPjOh0R2ewM3jk_X-cTGsknv40-feygB7YZEHoVp6OGbu1jg",
+      "vectorContent": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMiJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOnt9LCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXSwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwiaXNzdWFuY2VEYXRlIjoiMjAyMS0wMS0wMVQxOToyMzoyNFoiLCJjcmVkZW50aWFsU3ViamVjdCI6e319LCJuYmYiOjE2MDk1MjkwMDR9.fscEVvl6CChrFAw3i7UbpaFzw-tNT3WsTNGjK_wW8BUwnemwElDGvAgYFNap6LKKtF_Yve1HjwpYP-Ha5XUozQ",
       "verification": {
         "verified": true
       }
@@ -2304,10 +1936,10 @@
         "credentialSubject": {},
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:41:45Z",
+          "created": "2021-12-13T17:14:05Z",
           "verificationMethod": "did:example:123#key-2",
           "proofPurpose": "assertionMethod",
-          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..gEqsPRmXvgBbI1M7pAnb5mVWZc2NPexef7KKYn79ClwYCrnCD7I5_yiXfSaLwFhwJ4ZmNmrxKKnS9NPLRd1m8Q"
+          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Y4XD1gilkGlVR5IEqNLbK5PQNY1L1mEtPLiwlwHgONZt6KjT-WUlTt6U1yUPwyix_q3jW0gX70dTNo8X7QVnAQ"
         }
       },
       "verification": {
@@ -2316,7 +1948,7 @@
     },
     "credential-0--key-3-secp384r1.vc-jwt.json": {
       "vector": "vc-jwt",
-      "vectorContent": "eyJhbGciOiJFUzM4NCIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMyJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOnt9LCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXSwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwiaXNzdWFuY2VEYXRlIjoiMjAyMS0wMS0wMVQxOToyMzoyNFoiLCJjcmVkZW50aWFsU3ViamVjdCI6e319LCJuYmYiOjE2MDk1MjkwMDR9.-mDyItF2kQDh0ySNESJlqV8VJWC7QLsN8fPZxfXIzuH4iKCdsHAk86HXv5jSCvLcmC-Ak2jW6ROWawEvqeLf5sm1lVd0vcnIRrOuVJR-1HkDnlNi6BzpanKTMj47dk7z",
+      "vectorContent": "eyJhbGciOiJFUzM4NCIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMyJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOnt9LCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXSwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwiaXNzdWFuY2VEYXRlIjoiMjAyMS0wMS0wMVQxOToyMzoyNFoiLCJjcmVkZW50aWFsU3ViamVjdCI6e319LCJuYmYiOjE2MDk1MjkwMDR9.2dY4nr1HJpCkASVocm2gJE4BpZD9S5QLjYi7A_X8nDjo4mhzJP5Hp8FQ4gfb_kzo6hGu6iArp0cQJJyea8uQXZv-wKFq0lv5wFbMwxkQ8VXKbd94qZwS1EXigCB4vZw5",
       "verification": {
         "verified": true
       }
@@ -2336,10 +1968,10 @@
         "credentialSubject": {},
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:42:06Z",
+          "created": "2021-12-13T17:14:21Z",
           "verificationMethod": "did:example:123#key-3",
           "proofPurpose": "assertionMethod",
-          "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..SFLUsOL-xSD9Cyo7GgGaI0XMfx5zAVXgtFGUoqhlhd37M_KROglcDkLL-tDsFertSpA02f3b6-8HaSoKop3aOYXiclLrD5WGX4zXL-hy6LktIn0j5gf2qDh_avknALV_"
+          "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..5j_0fNqQeNCQ3iAiRHPc-aotZgFclDxAybiUNxtZCMSOlMiZABe46XmvohtSk6jVJw2zE0DzcVWhhchmRPYQYNBa-5jzF83_Pp9iHhkywfaBZdurSMNx7t1Uz7_FHp34"
         }
       },
       "verification": {
@@ -2375,10 +2007,10 @@
         },
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:41:07Z",
+          "created": "2021-12-13T17:13:34Z",
           "verificationMethod": "did:example:123#key-0",
           "proofPurpose": "assertionMethod",
-          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..a4v-35Mqdxd2o04QWZuWbbXYDeN_F2ZaC1eYckuRt54j5Z-iEI6vwQlOqcR6xWnxIDCOx9Id7DLL75XOcF8pBg"
+          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Itjag7G4QCXPYPRXbV_HaDtDSul1-tJinrg45Y1NduJsB-nGkE8-hc3XSmxps0JOcaGGmMKu06pSCC8STkzADQ"
         }
       },
       "verification": {
@@ -2414,10 +2046,10 @@
         },
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:41:27Z",
+          "created": "2021-12-13T17:13:50Z",
           "verificationMethod": "did:example:123#key-1",
           "proofPurpose": "assertionMethod",
-          "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..N5sMxKsL2LcUXc3hO8_hehzc-Safjw-RbZGnwa0vHQ8qUNu9ez2KsdOLSYKedyF4E4zrWa09E7DlYxJJKIdSXA"
+          "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..7XmEZ53vDVpPvo6-y2vruPHEcdI7b3bPZEIExYcjlUcTaPsm73q8UYM2i2kt_-ON-c2u8QMns1DzM7bwGckOkg"
         }
       },
       "verification": {
@@ -2426,7 +2058,7 @@
     },
     "credential-1--key-2-secp256r1.vc-jwt.json": {
       "vector": "vc-jwt",
-      "vectorContent": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMiJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZTo0NTYiLCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImV4cGlyYXRpb25EYXRlIjoiMjAzMS0wMS0wMVQxOToyMzoyNFoiLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZCI6ImRpZDpleGFtcGxlOjQ1NiIsInR5cGUiOiJQZXJzb24ifX0sIm5iZiI6MTYwOTUyOTAwNCwiZXhwIjoxOTI1MDYxODA0fQ.16TmQ4jhiNxU2CfqUZU5edGJm_n4eNzUe9srDh5OqLNtWjHWm1oP77dm7ALISkl1F4coAX4IFfOCB7qXo9PWPA",
+      "vectorContent": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMiJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZTo0NTYiLCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImV4cGlyYXRpb25EYXRlIjoiMjAzMS0wMS0wMVQxOToyMzoyNFoiLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZCI6ImRpZDpleGFtcGxlOjQ1NiIsInR5cGUiOiJQZXJzb24ifX0sIm5iZiI6MTYwOTUyOTAwNCwiZXhwIjoxOTI1MDYxODA0fQ.r_k5ou9_JhiILLG5tBhthPbmftxygIhp2oga9Hv2aEa4da8XRAlKMSHLhYqfHXF7PE8-ECOK6FhQExJIQmbOxQ",
       "verification": {
         "verified": true
       }
@@ -2453,10 +2085,10 @@
         },
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:41:47Z",
+          "created": "2021-12-13T17:14:06Z",
           "verificationMethod": "did:example:123#key-2",
           "proofPurpose": "assertionMethod",
-          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..bi_HnAtOhVw5_7jLeO9YV62xONT0LIFiVN-KtCAGdJZYsLVcu1zQggCng2qqRrA_-7MZb_loq3Z3a5BomUsfFw"
+          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..QNIeSmCOl6MJDMoIaZuMEWwRXlibCf9hZrKGy0DODLvuAkTw9swMJz-yeK5dD_Fv09iJ-Z1A2F-mSRij5u6-lQ"
         }
       },
       "verification": {
@@ -2465,7 +2097,7 @@
     },
     "credential-1--key-3-secp384r1.vc-jwt.json": {
       "vector": "vc-jwt",
-      "vectorContent": "eyJhbGciOiJFUzM4NCIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMyJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZTo0NTYiLCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImV4cGlyYXRpb25EYXRlIjoiMjAzMS0wMS0wMVQxOToyMzoyNFoiLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZCI6ImRpZDpleGFtcGxlOjQ1NiIsInR5cGUiOiJQZXJzb24ifX0sIm5iZiI6MTYwOTUyOTAwNCwiZXhwIjoxOTI1MDYxODA0fQ.NJrf12aPXfafLBUSZehLxODJixiQgKiCMh_7gJ8kfkUHyocEq4ZoDTJljSO27mKMTdi3BIEQaQCwDKj_NUfyYVXnqRF8Zvo6HCVWW7MgQLY0Cu22o5M_vTjJxIfTvPDb",
+      "vectorContent": "eyJhbGciOiJFUzM4NCIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMyJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZTo0NTYiLCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImV4cGlyYXRpb25EYXRlIjoiMjAzMS0wMS0wMVQxOToyMzoyNFoiLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZCI6ImRpZDpleGFtcGxlOjQ1NiIsInR5cGUiOiJQZXJzb24ifX0sIm5iZiI6MTYwOTUyOTAwNCwiZXhwIjoxOTI1MDYxODA0fQ.xqHJznA7VBZdGurO13O4QPgP4PtBrx7SERXCIZwDDtkRZ9GcRiyAyosm7YfRNVhYTwtKgYQa5HiiwNJwu18VgxI8miKYh3WqXvqJN4_LO_pv-huRWuyBHH7G5fRa7Xpr",
       "verification": {
         "verified": true
       }
@@ -2492,10 +2124,10 @@
         },
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:42:07Z",
+          "created": "2021-12-13T17:14:22Z",
           "verificationMethod": "did:example:123#key-3",
           "proofPurpose": "assertionMethod",
-          "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..BJBxU-wROBLZXXHvbN0LK94nG4obAKJ6Zv6Y9XT1U0d6wAMNz2XYylvwMFHGSJgGHswGM0_9ycS2Qu8FwQZbCsi06UcPqsnEKvHrxdc17fEkKVIpN6GmyBv-M1M-2HjG"
+          "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ijdJpsfp9TkB4GrQAon_jEvfOoBBxj0-PYcguRrzP0YLZyaIEghmyXNXbBpq88N_DErsVtG9eStJ2ch1lvWBdZxT0H3uNm6o2sYfXn_tpVyAAvlJcGQcIQfmrfZdfhFm"
         }
       },
       "verification": {
@@ -2551,10 +2183,10 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:41:08Z",
+          "created": "2021-12-13T17:13:35Z",
           "verificationMethod": "did:example:123#key-0",
           "proofPurpose": "assertionMethod",
-          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..vLRudbsniCw2ov1CK6pb2gKRUvUvcHFAtzvZ7F-nXTwE3-WKwZHMbUjAkKgLBpG1TefO1Rm1o60ulTaytCUyAQ"
+          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..KTNyXQqb3dcE4O2voLTAQNnn6ptugxGvcKlogPzMrJXqMcCLTYm1A1MW36dc4_vkvvUByaAHmOzjdKW3GUBbAA"
         }
       },
       "verification": {
@@ -2610,10 +2242,10 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:41:28Z",
+          "created": "2021-12-13T17:13:51Z",
           "verificationMethod": "did:example:123#key-1",
           "proofPurpose": "assertionMethod",
-          "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..3XLLvXbIH33aAKR3hM6CJZKEtty_nrLuafMW0YzdgKoOW6fgo2kRGBvab9vdJSJQZhJQQ_tL29Xd_bopGfg2Wg"
+          "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..WyFf4XOFmhg4H2vDwpvJQUW8l8doMZrbOUcoIC0xXUkAuMWdqhGJVG-h0h22sFoCcX3CroEtQZq450xeciNqRg"
         }
       },
       "verification": {
@@ -2622,7 +2254,7 @@
     },
     "credential-2--key-2-secp256r1.vc-jwt.json": {
       "vector": "vc-jwt",
-      "vectorContent": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMiJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZTo0NTYiLCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImlkIjoiZGlkOmV4YW1wbGU6NDU2In0sImV2aWRlbmNlIjpbeyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmQ0MjMxIiwidHlwZSI6WyJEb2N1bWVudFZlcmlmaWNhdGlvbiJdLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCIsImV2aWRlbmNlRG9jdW1lbnQiOiJEcml2ZXJzTGljZW5zZSIsInN1YmplY3RQcmVzZW5jZSI6IlBoeXNpY2FsIiwiZG9jdW1lbnRQcmVzZW5jZSI6IlBoeXNpY2FsIn0seyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmR4eXphYiIsInR5cGUiOlsiU3VwcG9ydGluZ0FjdGl2aXR5Il0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0IiwiZXZpZGVuY2VEb2N1bWVudCI6IkZsdWlkIER5bmFtaWNzIEZvY3VzIiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCIsImRvY3VtZW50UHJlc2VuY2UiOiJEaWdpdGFsIn1dfSwibmJmIjoxNjA5NTI5MDA0fQ.noKP2xZENr670Ud0iC3knSQezAKy9u7-YG1B1XLyki6YGuSHd6c4BcFK8NMvpXjimFEFK3HThkVnkaXVTOOhVA",
+      "vectorContent": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMiJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZTo0NTYiLCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImlkIjoiZGlkOmV4YW1wbGU6NDU2In0sImV2aWRlbmNlIjpbeyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmQ0MjMxIiwidHlwZSI6WyJEb2N1bWVudFZlcmlmaWNhdGlvbiJdLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCIsImV2aWRlbmNlRG9jdW1lbnQiOiJEcml2ZXJzTGljZW5zZSIsInN1YmplY3RQcmVzZW5jZSI6IlBoeXNpY2FsIiwiZG9jdW1lbnRQcmVzZW5jZSI6IlBoeXNpY2FsIn0seyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmR4eXphYiIsInR5cGUiOlsiU3VwcG9ydGluZ0FjdGl2aXR5Il0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0IiwiZXZpZGVuY2VEb2N1bWVudCI6IkZsdWlkIER5bmFtaWNzIEZvY3VzIiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCIsImRvY3VtZW50UHJlc2VuY2UiOiJEaWdpdGFsIn1dfSwibmJmIjoxNjA5NTI5MDA0fQ.4lqFDZ_fXhVQPCI1-ggPb7BEHgqxlP6i-ZrWiTj-zZrCIN6UVY2BYF3s9trVQLoduAiWXXpOpeYYSumadsrx1Q",
       "verification": {
         "verified": true
       }
@@ -2669,10 +2301,10 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:41:48Z",
+          "created": "2021-12-13T17:14:07Z",
           "verificationMethod": "did:example:123#key-2",
           "proofPurpose": "assertionMethod",
-          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..FGaqUuLU_-6SwB8YKM4NaG1DVk_4IZx2HSjt-6PhI633xcLEFIH6op6vkfHy9C8w31tG8G4QxCtlK9Wf1U2VOg"
+          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..V4JczaRCBrzpUspYKf3n9k-d0UgiS7u1eO1MxEOFf4ipTD3c_vb3kVhKGQ7wuVOvnVoZysQFBXYC8PAj0WN2wQ"
         }
       },
       "verification": {
@@ -2681,7 +2313,7 @@
     },
     "credential-2--key-3-secp384r1.vc-jwt.json": {
       "vector": "vc-jwt",
-      "vectorContent": "eyJhbGciOiJFUzM4NCIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMyJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZTo0NTYiLCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImlkIjoiZGlkOmV4YW1wbGU6NDU2In0sImV2aWRlbmNlIjpbeyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmQ0MjMxIiwidHlwZSI6WyJEb2N1bWVudFZlcmlmaWNhdGlvbiJdLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCIsImV2aWRlbmNlRG9jdW1lbnQiOiJEcml2ZXJzTGljZW5zZSIsInN1YmplY3RQcmVzZW5jZSI6IlBoeXNpY2FsIiwiZG9jdW1lbnRQcmVzZW5jZSI6IlBoeXNpY2FsIn0seyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmR4eXphYiIsInR5cGUiOlsiU3VwcG9ydGluZ0FjdGl2aXR5Il0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0IiwiZXZpZGVuY2VEb2N1bWVudCI6IkZsdWlkIER5bmFtaWNzIEZvY3VzIiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCIsImRvY3VtZW50UHJlc2VuY2UiOiJEaWdpdGFsIn1dfSwibmJmIjoxNjA5NTI5MDA0fQ.jKp1tQrxfQTvUUHaaIQc5MAkmVC_GVS4D7G-yVPVSSuE5Hlg-ERATMLBLyuh7fyeqHI2NstX40BIn2dMEh19uYP-p51-gd5Wk7hRBNvZ4rCR_OL95_uJAfeFJ3GNtgAG",
+      "vectorContent": "eyJhbGciOiJFUzM4NCIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMyJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZTo0NTYiLCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImlkIjoiZGlkOmV4YW1wbGU6NDU2In0sImV2aWRlbmNlIjpbeyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmQ0MjMxIiwidHlwZSI6WyJEb2N1bWVudFZlcmlmaWNhdGlvbiJdLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCIsImV2aWRlbmNlRG9jdW1lbnQiOiJEcml2ZXJzTGljZW5zZSIsInN1YmplY3RQcmVzZW5jZSI6IlBoeXNpY2FsIiwiZG9jdW1lbnRQcmVzZW5jZSI6IlBoeXNpY2FsIn0seyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmR4eXphYiIsInR5cGUiOlsiU3VwcG9ydGluZ0FjdGl2aXR5Il0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0IiwiZXZpZGVuY2VEb2N1bWVudCI6IkZsdWlkIER5bmFtaWNzIEZvY3VzIiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCIsImRvY3VtZW50UHJlc2VuY2UiOiJEaWdpdGFsIn1dfSwibmJmIjoxNjA5NTI5MDA0fQ.VwXwyktZLRK6yVOU0eKIy3_XcvnH1mowvW2p591H7YuiAHBJbZtz_DqBOkeYUxcdVSUU54sBVX82I1X3V2ZHTzqtkg0k8j4p6cKjd1WZ7wFoe8fiY5RnBEPRXfsYGB0x",
       "verification": {
         "verified": true
       }
@@ -2728,218 +2360,10 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:42:09Z",
+          "created": "2021-12-13T17:14:24Z",
           "verificationMethod": "did:example:123#key-3",
           "proofPurpose": "assertionMethod",
-          "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..bVAxszLuBRVTC3WKA6VS4ECO5gJTgfqD_kZ5hIllOwUy2-job-N5LlGQlF_8Mhq2b0VOyfhjYDpVEs9XvFMW2K2ZUiquKWs15dHD4skmB04VIsskCdqEPzTxMot6FfeG"
-        }
-      },
-      "verification": {
-        "verified": true
-      }
-    },
-    "credential-3--key-0-ed25519.vc-jwt.json": {
-      "vector": "vc-jwt",
-      "vectorContent": "eyJhbGciOiJFZERTQSIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOnsidHlwZSI6WyJPcmdhbml6YXRpb24iXSwibmFtZSI6IlN0ZWVsIE1hbnVmYWN0dXJlciBPcmciLCJ1cmwiOiJodHRwczovL3d3dy5leGFtcGxlLmNvbS8ifSwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sImlkIjoiaHR0cHM6Ly9leGFtcGxlLmNvbS9jcmVkZW50aWFsLzEyMzQ1NiIsInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiLCJWZXJpZmlhYmxlQnVzaW5lc3NDYXJkIl0sIm5hbWUiOiJWZXJpZmlhYmxlIEJ1c2luZXNzIENhcmQiLCJyZWxhdGVkTGluayI6W3sidHlwZSI6IkxpbmtSb2xlIiwidGFyZ2V0IjoiaHR0cHM6Ly9leGFtcGxlLmNvbS9vcmdhbml6YXRpb25zL2V4YW1wbGUtb3JnL3ByZXNlbnRhdGlvbnMvYXZhaWxhYmxlIiwibGlua1JlbGF0aW9uc2hpcCI6Ik9yZ2FuaXphdGlvblByZXNlbnRhdGlvbkVuZHBvaW50In1dLCJpc3N1YW5jZURhdGUiOiIyMDE2LTEyLTMxVDIzOjU5OjYwWiIsImV4cGlyYXRpb25EYXRlIjoiMjAzOC0wMS0xOVQwMzoxNDowOFoiLCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJjcmVkZW50aWFsU3ViamVjdCI6eyJ0eXBlIjpbIk9yZ2FuaXphdGlvbiJdLCJuYW1lIjoiU3RlZWwgTWFudWZhY3R1cmVyIE9yZyIsInVybCI6Imh0dHBzOi8vd3d3LmV4YW1wbGUuY29tLyJ9fSwianRpIjoiaHR0cHM6Ly9leGFtcGxlLmNvbS9jcmVkZW50aWFsLzEyMzQ1NiIsIm5iZiI6bnVsbCwiZXhwIjoyMTQ3NDgzNjQ4fQ.94f08346ua6dZGsu4WcyvcufMhdpnKpyRPdNrPw-Sp9GJ7PmU3WBgiJea1FohZZdw8fKs1_CGOBUVkWz05yUBQ",
-      "verification": {
-        "verified": true
-      }
-    },
-    "credential-3--key-0-ed25519.vc.json": {
-      "vector": "vc",
-      "vectorContent": {
-        "@context": [
-          "https://www.w3.org/2018/credentials/v1",
-          "https://w3id.org/security/suites/jws-2020/v1",
-          {
-            "@vocab": "https://example.com/#"
-          }
-        ],
-        "id": "https://example.com/credential/123456",
-        "type": [
-          "VerifiableCredential",
-          "VerifiableBusinessCard"
-        ],
-        "name": "Verifiable Business Card",
-        "relatedLink": [
-          {
-            "type": "LinkRole",
-            "target": "https://example.com/organizations/example-org/presentations/available",
-            "linkRelationship": "OrganizationPresentationEndpoint"
-          }
-        ],
-        "issuanceDate": "2016-12-31T23:59:60Z",
-        "expirationDate": "2038-01-19T03:14:08Z",
-        "issuer": "did:example:123",
-        "credentialSubject": {
-          "type": [
-            "Organization"
-          ],
-          "name": "Steel Manufacturer Org",
-          "url": "https://www.example.com/"
-        },
-        "proof": {
-          "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:41:09Z",
-          "verificationMethod": "did:example:123#key-0",
-          "proofPurpose": "assertionMethod",
-          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..x3-nH5kCya_ApjVkq2cPl2h26WZlZTtcQuI-mLYMqd1Uu-ckJho4FZ_yT5dgto6AnisXfT0C_e5imq5Iu1cJCw"
-        }
-      },
-      "verification": {
-        "verified": true
-      }
-    },
-    "credential-3--key-1-secp256k1.vc-jwt.json": {
-      "vector": "vc-jwt",
-      "vectorContent": "eyJhbGciOiJFUzI1NksiLCJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTEifQ.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOnsidHlwZSI6WyJPcmdhbml6YXRpb24iXSwibmFtZSI6IlN0ZWVsIE1hbnVmYWN0dXJlciBPcmciLCJ1cmwiOiJodHRwczovL3d3dy5leGFtcGxlLmNvbS8ifSwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sImlkIjoiaHR0cHM6Ly9leGFtcGxlLmNvbS9jcmVkZW50aWFsLzEyMzQ1NiIsInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiLCJWZXJpZmlhYmxlQnVzaW5lc3NDYXJkIl0sIm5hbWUiOiJWZXJpZmlhYmxlIEJ1c2luZXNzIENhcmQiLCJyZWxhdGVkTGluayI6W3sidHlwZSI6IkxpbmtSb2xlIiwidGFyZ2V0IjoiaHR0cHM6Ly9leGFtcGxlLmNvbS9vcmdhbml6YXRpb25zL2V4YW1wbGUtb3JnL3ByZXNlbnRhdGlvbnMvYXZhaWxhYmxlIiwibGlua1JlbGF0aW9uc2hpcCI6Ik9yZ2FuaXphdGlvblByZXNlbnRhdGlvbkVuZHBvaW50In1dLCJpc3N1YW5jZURhdGUiOiIyMDE2LTEyLTMxVDIzOjU5OjYwWiIsImV4cGlyYXRpb25EYXRlIjoiMjAzOC0wMS0xOVQwMzoxNDowOFoiLCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJjcmVkZW50aWFsU3ViamVjdCI6eyJ0eXBlIjpbIk9yZ2FuaXphdGlvbiJdLCJuYW1lIjoiU3RlZWwgTWFudWZhY3R1cmVyIE9yZyIsInVybCI6Imh0dHBzOi8vd3d3LmV4YW1wbGUuY29tLyJ9fSwianRpIjoiaHR0cHM6Ly9leGFtcGxlLmNvbS9jcmVkZW50aWFsLzEyMzQ1NiIsIm5iZiI6bnVsbCwiZXhwIjoyMTQ3NDgzNjQ4fQ.dociFVViOp8sK4NnTAgEQSZpTsS7tEhnP_n-cHD4tS9qhhsU5DhxL0i-HF7_IWOw2g2t9F5nViGwkd6RnO0MNA",
-      "verification": {
-        "verified": true
-      }
-    },
-    "credential-3--key-1-secp256k1.vc.json": {
-      "vector": "vc",
-      "vectorContent": {
-        "@context": [
-          "https://www.w3.org/2018/credentials/v1",
-          "https://w3id.org/security/suites/jws-2020/v1",
-          {
-            "@vocab": "https://example.com/#"
-          }
-        ],
-        "id": "https://example.com/credential/123456",
-        "type": [
-          "VerifiableCredential",
-          "VerifiableBusinessCard"
-        ],
-        "name": "Verifiable Business Card",
-        "relatedLink": [
-          {
-            "type": "LinkRole",
-            "target": "https://example.com/organizations/example-org/presentations/available",
-            "linkRelationship": "OrganizationPresentationEndpoint"
-          }
-        ],
-        "issuanceDate": "2016-12-31T23:59:60Z",
-        "expirationDate": "2038-01-19T03:14:08Z",
-        "issuer": "did:example:123",
-        "credentialSubject": {
-          "type": [
-            "Organization"
-          ],
-          "name": "Steel Manufacturer Org",
-          "url": "https://www.example.com/"
-        },
-        "proof": {
-          "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:41:29Z",
-          "verificationMethod": "did:example:123#key-1",
-          "proofPurpose": "assertionMethod",
-          "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..2snG58wk39f7l6Plftu4RCX3xAVMMrHovBhxFTekFV9ci6jSn7xR9Xw3P9N7Glg84i_BsA8seK2ZazIgLSNXBA"
-        }
-      },
-      "verification": {
-        "verified": true
-      }
-    },
-    "credential-3--key-2-secp256r1.vc-jwt.json": {
-      "vector": "vc-jwt",
-      "vectorContent": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMiJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOnsidHlwZSI6WyJPcmdhbml6YXRpb24iXSwibmFtZSI6IlN0ZWVsIE1hbnVmYWN0dXJlciBPcmciLCJ1cmwiOiJodHRwczovL3d3dy5leGFtcGxlLmNvbS8ifSwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sImlkIjoiaHR0cHM6Ly9leGFtcGxlLmNvbS9jcmVkZW50aWFsLzEyMzQ1NiIsInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiLCJWZXJpZmlhYmxlQnVzaW5lc3NDYXJkIl0sIm5hbWUiOiJWZXJpZmlhYmxlIEJ1c2luZXNzIENhcmQiLCJyZWxhdGVkTGluayI6W3sidHlwZSI6IkxpbmtSb2xlIiwidGFyZ2V0IjoiaHR0cHM6Ly9leGFtcGxlLmNvbS9vcmdhbml6YXRpb25zL2V4YW1wbGUtb3JnL3ByZXNlbnRhdGlvbnMvYXZhaWxhYmxlIiwibGlua1JlbGF0aW9uc2hpcCI6Ik9yZ2FuaXphdGlvblByZXNlbnRhdGlvbkVuZHBvaW50In1dLCJpc3N1YW5jZURhdGUiOiIyMDE2LTEyLTMxVDIzOjU5OjYwWiIsImV4cGlyYXRpb25EYXRlIjoiMjAzOC0wMS0xOVQwMzoxNDowOFoiLCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJjcmVkZW50aWFsU3ViamVjdCI6eyJ0eXBlIjpbIk9yZ2FuaXphdGlvbiJdLCJuYW1lIjoiU3RlZWwgTWFudWZhY3R1cmVyIE9yZyIsInVybCI6Imh0dHBzOi8vd3d3LmV4YW1wbGUuY29tLyJ9fSwianRpIjoiaHR0cHM6Ly9leGFtcGxlLmNvbS9jcmVkZW50aWFsLzEyMzQ1NiIsIm5iZiI6bnVsbCwiZXhwIjoyMTQ3NDgzNjQ4fQ.Fp1R71adZpIyZ-626gJgRQR4x2GOfld3n77yotFP3PWFUw2VWm1S4OFDBYkg9UJBV3PDpoVyyMa0rt9Tb2AJ4Q",
-      "verification": {
-        "verified": true
-      }
-    },
-    "credential-3--key-2-secp256r1.vc.json": {
-      "vector": "vc",
-      "vectorContent": {
-        "@context": [
-          "https://www.w3.org/2018/credentials/v1",
-          "https://w3id.org/security/suites/jws-2020/v1",
-          {
-            "@vocab": "https://example.com/#"
-          }
-        ],
-        "id": "https://example.com/credential/123456",
-        "type": [
-          "VerifiableCredential",
-          "VerifiableBusinessCard"
-        ],
-        "name": "Verifiable Business Card",
-        "relatedLink": [
-          {
-            "type": "LinkRole",
-            "target": "https://example.com/organizations/example-org/presentations/available",
-            "linkRelationship": "OrganizationPresentationEndpoint"
-          }
-        ],
-        "issuanceDate": "2016-12-31T23:59:60Z",
-        "expirationDate": "2038-01-19T03:14:08Z",
-        "issuer": "did:example:123",
-        "credentialSubject": {
-          "type": [
-            "Organization"
-          ],
-          "name": "Steel Manufacturer Org",
-          "url": "https://www.example.com/"
-        },
-        "proof": {
-          "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:41:50Z",
-          "verificationMethod": "did:example:123#key-2",
-          "proofPurpose": "assertionMethod",
-          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..pxcC4AZQLu4MsxQELmonAetsW9bv5jQWxzLBVU1FIoSaV39g8_DVJ1cZMRk1vIaDluWUMfQpRMmKzXjumQVRSg"
-        }
-      },
-      "verification": {
-        "verified": true
-      }
-    },
-    "credential-3--key-3-secp384r1.vc-jwt.json": {
-      "vector": "vc-jwt",
-      "vectorContent": "eyJhbGciOiJFUzM4NCIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMyJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOnsidHlwZSI6WyJPcmdhbml6YXRpb24iXSwibmFtZSI6IlN0ZWVsIE1hbnVmYWN0dXJlciBPcmciLCJ1cmwiOiJodHRwczovL3d3dy5leGFtcGxlLmNvbS8ifSwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sImlkIjoiaHR0cHM6Ly9leGFtcGxlLmNvbS9jcmVkZW50aWFsLzEyMzQ1NiIsInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiLCJWZXJpZmlhYmxlQnVzaW5lc3NDYXJkIl0sIm5hbWUiOiJWZXJpZmlhYmxlIEJ1c2luZXNzIENhcmQiLCJyZWxhdGVkTGluayI6W3sidHlwZSI6IkxpbmtSb2xlIiwidGFyZ2V0IjoiaHR0cHM6Ly9leGFtcGxlLmNvbS9vcmdhbml6YXRpb25zL2V4YW1wbGUtb3JnL3ByZXNlbnRhdGlvbnMvYXZhaWxhYmxlIiwibGlua1JlbGF0aW9uc2hpcCI6Ik9yZ2FuaXphdGlvblByZXNlbnRhdGlvbkVuZHBvaW50In1dLCJpc3N1YW5jZURhdGUiOiIyMDE2LTEyLTMxVDIzOjU5OjYwWiIsImV4cGlyYXRpb25EYXRlIjoiMjAzOC0wMS0xOVQwMzoxNDowOFoiLCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJjcmVkZW50aWFsU3ViamVjdCI6eyJ0eXBlIjpbIk9yZ2FuaXphdGlvbiJdLCJuYW1lIjoiU3RlZWwgTWFudWZhY3R1cmVyIE9yZyIsInVybCI6Imh0dHBzOi8vd3d3LmV4YW1wbGUuY29tLyJ9fSwianRpIjoiaHR0cHM6Ly9leGFtcGxlLmNvbS9jcmVkZW50aWFsLzEyMzQ1NiIsIm5iZiI6bnVsbCwiZXhwIjoyMTQ3NDgzNjQ4fQ.0RehWKlMRtJBMdmQZahSTHni-cYw6vaHXKOedHAIDg4YxaY4hOHoCr0yh8AOwhsjdjAN9D72pjA6MOWMsYmgQo5kRixy9xEDZTFGF2rmpHiRP-kJUNhv2do8YJdZ9rdt",
-      "verification": {
-        "verified": true
-      }
-    },
-    "credential-3--key-3-secp384r1.vc.json": {
-      "vector": "vc",
-      "vectorContent": {
-        "@context": [
-          "https://www.w3.org/2018/credentials/v1",
-          "https://w3id.org/security/suites/jws-2020/v1",
-          {
-            "@vocab": "https://example.com/#"
-          }
-        ],
-        "id": "https://example.com/credential/123456",
-        "type": [
-          "VerifiableCredential",
-          "VerifiableBusinessCard"
-        ],
-        "name": "Verifiable Business Card",
-        "relatedLink": [
-          {
-            "type": "LinkRole",
-            "target": "https://example.com/organizations/example-org/presentations/available",
-            "linkRelationship": "OrganizationPresentationEndpoint"
-          }
-        ],
-        "issuanceDate": "2016-12-31T23:59:60Z",
-        "expirationDate": "2038-01-19T03:14:08Z",
-        "issuer": "did:example:123",
-        "credentialSubject": {
-          "type": [
-            "Organization"
-          ],
-          "name": "Steel Manufacturer Org",
-          "url": "https://www.example.com/"
-        },
-        "proof": {
-          "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:42:10Z",
-          "verificationMethod": "did:example:123#key-3",
-          "proofPurpose": "assertionMethod",
-          "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..b-mIW2pT-IyecV1t53AxdF93AwyLpDIUap-FprJLTdiYxmW13Er52DFU3xLjej2oyfsr-E4Eyg-O9ngkk7e9HtzorTXN8K5Ip5VtG0PjcY8UadOvXAU53E5pJKjuG50W"
+          "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..GQC5I3Shrhxp3V--zGiIQtaCKe2kh1A0rWsmdK2-bKZlP8HkctRaL6_xquekKeoGN7d6ITQlcL62i5hhaQVjRhzu7uQ3DezkyZUtlgtrtw-5j-qcfVb4bF1jgn9ccAIB"
         }
       },
       "verification": {
@@ -2966,11 +2390,11 @@
         "holder": "did:example:123",
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:41:16Z",
+          "created": "2021-12-13T17:13:40Z",
           "verificationMethod": "did:example:123#key-0",
           "proofPurpose": "authentication",
           "challenge": "123",
-          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..mllfkBsEaUyjR1fD_sYMRtKklPU6NEbv7oum21oiyrSsUwSi_RE74mzaKVtd-lk-yXsZHqoMNwz9VyBEA5jqBw"
+          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..xrSLrmYLrou5hiALSkom-VCzRjwiSR1Irr4k9NZ1u4SR95UID4qO6xBB2gAQSubUifQgF2u-prjwG03W9GxTBA"
         }
       },
       "verification": {
@@ -2997,11 +2421,11 @@
         "holder": "did:example:123",
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:41:37Z",
+          "created": "2021-12-13T17:13:56Z",
           "verificationMethod": "did:example:123#key-1",
           "proofPurpose": "authentication",
           "challenge": "123",
-          "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..9O4AS6V8ZN_8Ru02GnQhtIbPewGe5G5Vrr30cu_YCRhfCSNw3be1RNwjnzQyxMGJ7V0tui6W-yOItS_yXgDvEg"
+          "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..vlQJkVzODj0IDqqHkeDcH2Xa9Ex2t5RwQ_dcVStW6Zg47HaTR3wFI9zVB873dV-QjgS9yZGpcscO8KqqVaBfVA"
         }
       },
       "verification": {
@@ -3010,7 +2434,7 @@
     },
     "presentation-0--key-2-secp256r1.vp-jwt.json": {
       "vector": "vp-jwt",
-      "vectorContent": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMiJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZVByZXNlbnRhdGlvbiJdLCJob2xkZXIiOiJkaWQ6ZXhhbXBsZToxMjMifSwibm9uY2UiOiIxMjMifQ.Qti6ulAvvSuA6pllcfG4pMc9dEDo0iQ0BM3RLB1ORGFayjIFGXWmx7m8Qym3bqJH59KXRtIMzkET6ZAz-q0vEw",
+      "vectorContent": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMiJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZVByZXNlbnRhdGlvbiJdLCJob2xkZXIiOiJkaWQ6ZXhhbXBsZToxMjMifSwibm9uY2UiOiIxMjMifQ.iP7tbXl3DOmxu5W76iJ5j8jEfxGiFSTmv0o9ouZNiDG1JqkEOnfhYYZpbzvELc0PRQC8NgTPVU2JObP7QZvJqg",
       "verification": {
         "verified": true
       }
@@ -3028,11 +2452,11 @@
         "holder": "did:example:123",
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:41:57Z",
+          "created": "2021-12-13T17:14:13Z",
           "verificationMethod": "did:example:123#key-2",
           "proofPurpose": "authentication",
           "challenge": "123",
-          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..SNcxF757sKfkLVIwvkr20grhk-c-zN5oy1G0Ez-83PLG3TH4YCFbtwx9SNxghWbhsdKz0JVoVWSrIMW7V7ylNg"
+          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..8QOQt5FtjdsRgdiP8R_Vr4TIeDolywXDWVS6Wrtd1Afsjz7RiJwcNG9-W7I92ifnjLPcqtOPiboxjEqIxego0g"
         }
       },
       "verification": {
@@ -3041,7 +2465,7 @@
     },
     "presentation-0--key-3-secp384r1.vp-jwt.json": {
       "vector": "vp-jwt",
-      "vectorContent": "eyJhbGciOiJFUzM4NCIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMyJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZVByZXNlbnRhdGlvbiJdLCJob2xkZXIiOiJkaWQ6ZXhhbXBsZToxMjMifSwibm9uY2UiOiIxMjMifQ.vMxR3gseExplueDHhAGnWoaPzCbIs8gEH5uru2m0qir-DVaYMyIyXUalVLvlgjt1Y54i1qlu3FuPIpUcrNg7XxHsF4kgHhu2IMrEtYOmZuJNEE-bFSDqZZ-uNiVK1euF",
+      "vectorContent": "eyJhbGciOiJFUzM4NCIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMyJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZVByZXNlbnRhdGlvbiJdLCJob2xkZXIiOiJkaWQ6ZXhhbXBsZToxMjMifSwibm9uY2UiOiIxMjMifQ.AI6_P6L-qlZA_AmImyEmJ6jWH4zB7mQis8H5yquMSpzfeigHg1ISfjs6uISZ9BShZjZLP680wrRAolfeplcCyKUp5V4uknCVViYqqCsVMARwwQuN2zo8eUf8RM5UP6zE",
       "verification": {
         "verified": true
       }
@@ -3059,11 +2483,11 @@
         "holder": "did:example:123",
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:42:17Z",
+          "created": "2021-12-13T17:14:29Z",
           "verificationMethod": "did:example:123#key-3",
           "proofPurpose": "authentication",
           "challenge": "123",
-          "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..8eYtYTGzanLZ0c6giDU6ON7q6BvnzG9N8tmiRRXtcQCvgWN9a49N63e7_gm8o9dKO1L2c6gUKAZAK0Ra44M8dQrJ4UrrBtLiLyi5TkmLupy63ykvwyFehZVNK2gZ_YGo"
+          "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..HvmUSxZF2Ovhn2OORmCoFf1EwtvCYWrPxm6gd35Tt_E1bN_8DNBv5iLiFTyZWpSrJm4uUyLIqYExR2-XjEHQgWiXM6Y_sYbXIajdq8HJj3oy8855i7EYct67v-9Z-peo"
         }
       },
       "verification": {
@@ -3139,11 +2563,11 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:41:18Z",
+          "created": "2021-12-13T17:13:42Z",
           "verificationMethod": "did:example:123#key-0",
           "proofPurpose": "authentication",
           "challenge": "123",
-          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ThAArIGJ5iOZxmKDVOvt0lCPSbPHLtD3oQlYxN4i9p_lp3i_yRaxeITLOYKSNkaJ4yqz-7wcK7aZuQjEJImRDg"
+          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..yTqKXSttdEUpMiFnsaXZ2-F82XpfP24SJorjrpQBzsb8dVJYIL6Am2T-1zbHQLfXpaMQ-RkmtqmBowmqwZwfBg"
         }
       },
       "verification": {
@@ -3219,11 +2643,11 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:41:38Z",
+          "created": "2021-12-13T17:13:58Z",
           "verificationMethod": "did:example:123#key-1",
           "proofPurpose": "authentication",
           "challenge": "123",
-          "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..P1aVXGnhfgeUztSIhAvQv91DZU7vnXhZCymXpEYclKEYJLnI1escStcK1J6PIfCBVWk5tbjUobZxKa5HZW-xFw"
+          "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..nYBJvqwTdHbr8_PePJFw91j5F5dMAWdVBXO_XvTiWwRXj4p7kZBuhDFmS2vD1QnVyKP10Iw0tMSDBHyzHqH-Fw"
         }
       },
       "verification": {
@@ -3232,7 +2656,7 @@
     },
     "presentation-1--key-2-secp256r1.vp-jwt.json": {
       "vector": "vp-jwt",
-      "vectorContent": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMiJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sImlkIjoidXJuOnV1aWQ6Nzg5IiwidHlwZSI6WyJWZXJpZmlhYmxlUHJlc2VudGF0aW9uIl0sImhvbGRlciI6ImRpZDpleGFtcGxlOjEyMyIsInZlcmlmaWFibGVDcmVkZW50aWFsIjpbeyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImlkIjoiZGlkOmV4YW1wbGU6NDU2In0sImV2aWRlbmNlIjpbeyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmQ0MjMxIiwidHlwZSI6WyJEb2N1bWVudFZlcmlmaWNhdGlvbiJdLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCIsImV2aWRlbmNlRG9jdW1lbnQiOiJEcml2ZXJzTGljZW5zZSIsInN1YmplY3RQcmVzZW5jZSI6IlBoeXNpY2FsIiwiZG9jdW1lbnRQcmVzZW5jZSI6IlBoeXNpY2FsIn0seyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmR4eXphYiIsInR5cGUiOlsiU3VwcG9ydGluZ0FjdGl2aXR5Il0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0IiwiZXZpZGVuY2VEb2N1bWVudCI6IkZsdWlkIER5bmFtaWNzIEZvY3VzIiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCIsImRvY3VtZW50UHJlc2VuY2UiOiJEaWdpdGFsIn1dLCJwcm9vZiI6eyJ0eXBlIjoiSnNvbldlYlNpZ25hdHVyZTIwMjAiLCJjcmVhdGVkIjoiMjAyMS0xMC0wMlQxNzo1ODowMFoiLCJwcm9vZlB1cnBvc2UiOiJhc3NlcnRpb25NZXRob2QiLCJ2ZXJpZmljYXRpb25NZXRob2QiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTAiLCJqd3MiOiJleUppTmpRaU9tWmhiSE5sTENKamNtbDBJanBiSW1JMk5DSmRMQ0poYkdjaU9pSkZaRVJUUVNKOS4uVkE4VlFxQWVyVVQ2QUlWZEhjOFc4UTJhajEyTE9RalZfVloxZTEzNE5VOVEyMGVCc055U1BqTmRtVFdwMkhrZHF1Q25iUmhCSHhJYk5lRkVJT09oQWcifX1dfSwibm9uY2UiOiIxMjMifQ.NE2kb_07Ho2wgugsFy5l9X2YQ-xkaLy-GmzA9cB676V5MsZdTc6Q9DscLKSzO887fXzFs8rUrJpjfR2GVR8IMQ",
+      "vectorContent": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMiJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sImlkIjoidXJuOnV1aWQ6Nzg5IiwidHlwZSI6WyJWZXJpZmlhYmxlUHJlc2VudGF0aW9uIl0sImhvbGRlciI6ImRpZDpleGFtcGxlOjEyMyIsInZlcmlmaWFibGVDcmVkZW50aWFsIjpbeyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImlkIjoiZGlkOmV4YW1wbGU6NDU2In0sImV2aWRlbmNlIjpbeyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmQ0MjMxIiwidHlwZSI6WyJEb2N1bWVudFZlcmlmaWNhdGlvbiJdLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCIsImV2aWRlbmNlRG9jdW1lbnQiOiJEcml2ZXJzTGljZW5zZSIsInN1YmplY3RQcmVzZW5jZSI6IlBoeXNpY2FsIiwiZG9jdW1lbnRQcmVzZW5jZSI6IlBoeXNpY2FsIn0seyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmR4eXphYiIsInR5cGUiOlsiU3VwcG9ydGluZ0FjdGl2aXR5Il0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0IiwiZXZpZGVuY2VEb2N1bWVudCI6IkZsdWlkIER5bmFtaWNzIEZvY3VzIiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCIsImRvY3VtZW50UHJlc2VuY2UiOiJEaWdpdGFsIn1dLCJwcm9vZiI6eyJ0eXBlIjoiSnNvbldlYlNpZ25hdHVyZTIwMjAiLCJjcmVhdGVkIjoiMjAyMS0xMC0wMlQxNzo1ODowMFoiLCJwcm9vZlB1cnBvc2UiOiJhc3NlcnRpb25NZXRob2QiLCJ2ZXJpZmljYXRpb25NZXRob2QiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTAiLCJqd3MiOiJleUppTmpRaU9tWmhiSE5sTENKamNtbDBJanBiSW1JMk5DSmRMQ0poYkdjaU9pSkZaRVJUUVNKOS4uVkE4VlFxQWVyVVQ2QUlWZEhjOFc4UTJhajEyTE9RalZfVloxZTEzNE5VOVEyMGVCc055U1BqTmRtVFdwMkhrZHF1Q25iUmhCSHhJYk5lRkVJT09oQWcifX1dfSwibm9uY2UiOiIxMjMifQ.nRrKouDV51ja3GGN8gTqRL_aqefIJ3xBcUnXuUtd_8ZXGg-5aKcuoNKK2AZaFCm_AelKascb_kAremJC5QJJWg",
       "verification": {
         "verified": true
       }
@@ -3299,11 +2723,11 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:41:58Z",
+          "created": "2021-12-13T17:14:14Z",
           "verificationMethod": "did:example:123#key-2",
           "proofPurpose": "authentication",
           "challenge": "123",
-          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..LCFrcS7ESWNKiUXts_Czo2G9tf28xKxjVFV-9awIPGUD4s_sPAWET0LRRq1oVA06bx-FUY0GDxuYr6_3i4PLZw"
+          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..7zg3phlgsS3-WayMxPGRofMn2KMTBvZP55iFc858HDH_XcTzkRlUWaClfQU0lIKLKqdw4ZJL5pDfO_UuuTDMow"
         }
       },
       "verification": {
@@ -3312,7 +2736,7 @@
     },
     "presentation-1--key-3-secp384r1.vp-jwt.json": {
       "vector": "vp-jwt",
-      "vectorContent": "eyJhbGciOiJFUzM4NCIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMyJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sImlkIjoidXJuOnV1aWQ6Nzg5IiwidHlwZSI6WyJWZXJpZmlhYmxlUHJlc2VudGF0aW9uIl0sImhvbGRlciI6ImRpZDpleGFtcGxlOjEyMyIsInZlcmlmaWFibGVDcmVkZW50aWFsIjpbeyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImlkIjoiZGlkOmV4YW1wbGU6NDU2In0sImV2aWRlbmNlIjpbeyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmQ0MjMxIiwidHlwZSI6WyJEb2N1bWVudFZlcmlmaWNhdGlvbiJdLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCIsImV2aWRlbmNlRG9jdW1lbnQiOiJEcml2ZXJzTGljZW5zZSIsInN1YmplY3RQcmVzZW5jZSI6IlBoeXNpY2FsIiwiZG9jdW1lbnRQcmVzZW5jZSI6IlBoeXNpY2FsIn0seyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmR4eXphYiIsInR5cGUiOlsiU3VwcG9ydGluZ0FjdGl2aXR5Il0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0IiwiZXZpZGVuY2VEb2N1bWVudCI6IkZsdWlkIER5bmFtaWNzIEZvY3VzIiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCIsImRvY3VtZW50UHJlc2VuY2UiOiJEaWdpdGFsIn1dLCJwcm9vZiI6eyJ0eXBlIjoiSnNvbldlYlNpZ25hdHVyZTIwMjAiLCJjcmVhdGVkIjoiMjAyMS0xMC0wMlQxNzo1ODowMFoiLCJwcm9vZlB1cnBvc2UiOiJhc3NlcnRpb25NZXRob2QiLCJ2ZXJpZmljYXRpb25NZXRob2QiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTAiLCJqd3MiOiJleUppTmpRaU9tWmhiSE5sTENKamNtbDBJanBiSW1JMk5DSmRMQ0poYkdjaU9pSkZaRVJUUVNKOS4uVkE4VlFxQWVyVVQ2QUlWZEhjOFc4UTJhajEyTE9RalZfVloxZTEzNE5VOVEyMGVCc055U1BqTmRtVFdwMkhrZHF1Q25iUmhCSHhJYk5lRkVJT09oQWcifX1dfSwibm9uY2UiOiIxMjMifQ.ke5t7KVYF4yco7GEWNtG5y9cYsUNe_oVi_ZwSLC9JbgstdMLglbKQW-4rizLCDyFNrT0pMbu2eC9k89yuAFez6Yq3C18f3YpMLAb8FFK6Q8_1xe_RoTHbuZpnRcYCeg_",
+      "vectorContent": "eyJhbGciOiJFUzM4NCIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMyJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sImlkIjoidXJuOnV1aWQ6Nzg5IiwidHlwZSI6WyJWZXJpZmlhYmxlUHJlc2VudGF0aW9uIl0sImhvbGRlciI6ImRpZDpleGFtcGxlOjEyMyIsInZlcmlmaWFibGVDcmVkZW50aWFsIjpbeyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdLCJpc3N1ZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImlkIjoiZGlkOmV4YW1wbGU6NDU2In0sImV2aWRlbmNlIjpbeyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmQ0MjMxIiwidHlwZSI6WyJEb2N1bWVudFZlcmlmaWNhdGlvbiJdLCJ2ZXJpZmllciI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvaXNzdWVycy8xNCIsImV2aWRlbmNlRG9jdW1lbnQiOiJEcml2ZXJzTGljZW5zZSIsInN1YmplY3RQcmVzZW5jZSI6IlBoeXNpY2FsIiwiZG9jdW1lbnRQcmVzZW5jZSI6IlBoeXNpY2FsIn0seyJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmR4eXphYiIsInR5cGUiOlsiU3VwcG9ydGluZ0FjdGl2aXR5Il0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0IiwiZXZpZGVuY2VEb2N1bWVudCI6IkZsdWlkIER5bmFtaWNzIEZvY3VzIiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCIsImRvY3VtZW50UHJlc2VuY2UiOiJEaWdpdGFsIn1dLCJwcm9vZiI6eyJ0eXBlIjoiSnNvbldlYlNpZ25hdHVyZTIwMjAiLCJjcmVhdGVkIjoiMjAyMS0xMC0wMlQxNzo1ODowMFoiLCJwcm9vZlB1cnBvc2UiOiJhc3NlcnRpb25NZXRob2QiLCJ2ZXJpZmljYXRpb25NZXRob2QiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTAiLCJqd3MiOiJleUppTmpRaU9tWmhiSE5sTENKamNtbDBJanBiSW1JMk5DSmRMQ0poYkdjaU9pSkZaRVJUUVNKOS4uVkE4VlFxQWVyVVQ2QUlWZEhjOFc4UTJhajEyTE9RalZfVloxZTEzNE5VOVEyMGVCc055U1BqTmRtVFdwMkhrZHF1Q25iUmhCSHhJYk5lRkVJT09oQWcifX1dfSwibm9uY2UiOiIxMjMifQ.Qfhlu5EPLAHyg8MzvjwdJ6wysLJ0Nat3MOyCgyGeEFE1ZxHI3wbLPDPf1YsM4CbmHnxAFtgujlKf8VINjtPNoZ4B9vrxfIvn2XQYhZOeTq4zweXJgO8polLu_g_q85IZ",
       "verification": {
         "verified": true
       }
@@ -3379,11 +2803,11 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:42:19Z",
+          "created": "2021-12-13T17:14:30Z",
           "verificationMethod": "did:example:123#key-3",
           "proofPurpose": "authentication",
           "challenge": "123",
-          "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..9bGI14tOFK8MAwMmtruQ1mGTj6xmvciW5__44zVSQ8GRCUTpluqzKooo_yCMrOC40gnds4ktcQeFKTuaEV3mcEvudHt6pg5sQYLDmgwxn8dGoOWA4ssOpAaCtktMnYoq"
+          "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..M-NJ2k-gIU7SXaRdREcDVEHid7554vDZPearoZkYyeSUaOIM8O7cC6HzVPqOXocsMknRuTdww-jFeseHwjXb7y0e_XE3Ju99YMsfz80aRyVhcbtAll_NibNpo5tjJjyx"
         }
       },
       "verification": {
@@ -3445,11 +2869,11 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:41:19Z",
+          "created": "2021-12-13T17:13:43Z",
           "verificationMethod": "did:example:123#key-0",
           "proofPurpose": "authentication",
           "challenge": "123",
-          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..txFLrTQjfmk9-LYvYVxggVVXM9uZJsiY6EMHEx44rVnDCcRrbT07fTkJRvluNdxiSgha4wkBG8AKrYK1-0lKCw"
+          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..SxqmfKtE_GcMjks5Swz_atLwar3PR-l58zwBbznIQw7KTyC351GV5VWNgwyOdEsGxG4MQaLmpb8XQLKuEoFbBg"
         }
       },
       "verification": {
@@ -3511,11 +2935,11 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:41:39Z",
+          "created": "2021-12-13T17:13:59Z",
           "verificationMethod": "did:example:123#key-1",
           "proofPurpose": "authentication",
           "challenge": "123",
-          "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..8bvk6Ych_UmKa6mIIpiRaM3YS_qhOdTHkOVg9DxLXDRv9Emwagkmb62L4-JUIUvwzEA_hrCQq-1rqbnafm-POQ"
+          "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..X7R1QMxWH1iRTLpi_n-Oz2KpshzsXvqzhRECgEJj9IZKKrP_Q6iZ5ePKsAUdv0PgwWHWztzJ-cWkRmn9BWAN9w"
         }
       },
       "verification": {
@@ -3524,7 +2948,7 @@
     },
     "presentation-2--key-2-secp256r1.vp-jwt.json": {
       "vector": "vp-jwt",
-      "vectorContent": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMiJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIiwiaHR0cHM6Ly9pZGVudGl0eS5mb3VuZGF0aW9uL3ByZXNlbnRhdGlvbi1leGNoYW5nZS9zdWJtaXNzaW9uL3YxIl0sImlkIjoidXJuOnV1aWQ6Nzg5IiwidHlwZSI6WyJWZXJpZmlhYmxlUHJlc2VudGF0aW9uIiwiUHJlc2VudGF0aW9uU3VibWlzc2lvbiJdLCJob2xkZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJwcmVzZW50YXRpb25fc3VibWlzc2lvbiI6eyJpZCI6ImEzMGUzYjkxLWZiNzctNGQyMi05NWZhLTg3MTY4OWMzMjJlMiIsImRlZmluaXRpb25faWQiOiIzMmY1NDE2My03MTY2LTQ4ZjEtOTNkOC1mZjIxN2JkYjA2NTMiLCJkZXNjcmlwdG9yX21hcCI6W3siaWQiOiJleGFtcGxlX2lucHV0XzEiLCJmb3JtYXQiOiJsZHBfdmMiLCJwYXRoIjoiJC52ZXJpZmlhYmxlQ3JlZGVudGlhbFswXSJ9XX0sInZlcmlmaWFibGVDcmVkZW50aWFsIjpbeyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXSwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwiaXNzdWFuY2VEYXRlIjoiMjAyMS0wMS0wMVQxOToyMzoyNFoiLCJjcmVkZW50aWFsU3ViamVjdCI6e30sInByb29mIjp7InR5cGUiOiJKc29uV2ViU2lnbmF0dXJlMjAyMCIsImNyZWF0ZWQiOiIyMDIxLTExLTA2VDE2OjQ5OjUwWiIsInZlcmlmaWNhdGlvbk1ldGhvZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCIsInByb29mUHVycG9zZSI6ImFzc2VydGlvbk1ldGhvZCIsImp3cyI6ImV5SmhiR2NpT2lKRlpFUlRRU0lzSW1JMk5DSTZabUZzYzJVc0ltTnlhWFFpT2xzaVlqWTBJbDE5Li4tT003UF8xQVhUcUMycDhiNWJlak9id1A3cmMtcElGSDV2YkJKQ1V6TFhBcVNYdFRfbVBXMHdKSUVneUVQNEFJSV9CeWd4ZWZvQV9fZXp0d0p1NGZEdyJ9fV19LCJub25jZSI6IjEyMyJ9.wLL04fWRueFxCQPjDJE2XkYjL5IYsySKaZqNG13tL4HnunJHFhr3G8sX06lZ0lLeN3-yYj0DfFqgoVeMgAoopg",
+      "vectorContent": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMiJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIiwiaHR0cHM6Ly9pZGVudGl0eS5mb3VuZGF0aW9uL3ByZXNlbnRhdGlvbi1leGNoYW5nZS9zdWJtaXNzaW9uL3YxIl0sImlkIjoidXJuOnV1aWQ6Nzg5IiwidHlwZSI6WyJWZXJpZmlhYmxlUHJlc2VudGF0aW9uIiwiUHJlc2VudGF0aW9uU3VibWlzc2lvbiJdLCJob2xkZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJwcmVzZW50YXRpb25fc3VibWlzc2lvbiI6eyJpZCI6ImEzMGUzYjkxLWZiNzctNGQyMi05NWZhLTg3MTY4OWMzMjJlMiIsImRlZmluaXRpb25faWQiOiIzMmY1NDE2My03MTY2LTQ4ZjEtOTNkOC1mZjIxN2JkYjA2NTMiLCJkZXNjcmlwdG9yX21hcCI6W3siaWQiOiJleGFtcGxlX2lucHV0XzEiLCJmb3JtYXQiOiJsZHBfdmMiLCJwYXRoIjoiJC52ZXJpZmlhYmxlQ3JlZGVudGlhbFswXSJ9XX0sInZlcmlmaWFibGVDcmVkZW50aWFsIjpbeyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXSwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwiaXNzdWFuY2VEYXRlIjoiMjAyMS0wMS0wMVQxOToyMzoyNFoiLCJjcmVkZW50aWFsU3ViamVjdCI6e30sInByb29mIjp7InR5cGUiOiJKc29uV2ViU2lnbmF0dXJlMjAyMCIsImNyZWF0ZWQiOiIyMDIxLTExLTA2VDE2OjQ5OjUwWiIsInZlcmlmaWNhdGlvbk1ldGhvZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCIsInByb29mUHVycG9zZSI6ImFzc2VydGlvbk1ldGhvZCIsImp3cyI6ImV5SmhiR2NpT2lKRlpFUlRRU0lzSW1JMk5DSTZabUZzYzJVc0ltTnlhWFFpT2xzaVlqWTBJbDE5Li4tT003UF8xQVhUcUMycDhiNWJlak9id1A3cmMtcElGSDV2YkJKQ1V6TFhBcVNYdFRfbVBXMHdKSUVneUVQNEFJSV9CeWd4ZWZvQV9fZXp0d0p1NGZEdyJ9fV19LCJub25jZSI6IjEyMyJ9.k-RLaLE1ADiJdn-cc0_MhcdJDC9mF92b30qIEj4AfxVaOmh8rh9ZKMWqMZM_WfGV2yGDcYFxsAnLvTj1Qfs7yg",
       "verification": {
         "verified": true
       }
@@ -3577,11 +3001,11 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:42:00Z",
+          "created": "2021-12-13T17:14:15Z",
           "verificationMethod": "did:example:123#key-2",
           "proofPurpose": "authentication",
           "challenge": "123",
-          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Gd-oSdoVZMQTQ9YLjP937MiAJh0jTOEOtlclnvP7NWsTFz_atgCTqOGbBUnqPm90pZN3UMohKj9V83IyiOKvLA"
+          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..voX7xy96OEOFDHiF90uU-dD2joqIw0E8VPFTD1oVHBEt_KelrOfyy9m59RuJFCYsuxPjhy-Vip20wgXowEgeCg"
         }
       },
       "verification": {
@@ -3590,7 +3014,7 @@
     },
     "presentation-2--key-3-secp384r1.vp-jwt.json": {
       "vector": "vp-jwt",
-      "vectorContent": "eyJhbGciOiJFUzM4NCIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMyJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIiwiaHR0cHM6Ly9pZGVudGl0eS5mb3VuZGF0aW9uL3ByZXNlbnRhdGlvbi1leGNoYW5nZS9zdWJtaXNzaW9uL3YxIl0sImlkIjoidXJuOnV1aWQ6Nzg5IiwidHlwZSI6WyJWZXJpZmlhYmxlUHJlc2VudGF0aW9uIiwiUHJlc2VudGF0aW9uU3VibWlzc2lvbiJdLCJob2xkZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJwcmVzZW50YXRpb25fc3VibWlzc2lvbiI6eyJpZCI6ImEzMGUzYjkxLWZiNzctNGQyMi05NWZhLTg3MTY4OWMzMjJlMiIsImRlZmluaXRpb25faWQiOiIzMmY1NDE2My03MTY2LTQ4ZjEtOTNkOC1mZjIxN2JkYjA2NTMiLCJkZXNjcmlwdG9yX21hcCI6W3siaWQiOiJleGFtcGxlX2lucHV0XzEiLCJmb3JtYXQiOiJsZHBfdmMiLCJwYXRoIjoiJC52ZXJpZmlhYmxlQ3JlZGVudGlhbFswXSJ9XX0sInZlcmlmaWFibGVDcmVkZW50aWFsIjpbeyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXSwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwiaXNzdWFuY2VEYXRlIjoiMjAyMS0wMS0wMVQxOToyMzoyNFoiLCJjcmVkZW50aWFsU3ViamVjdCI6e30sInByb29mIjp7InR5cGUiOiJKc29uV2ViU2lnbmF0dXJlMjAyMCIsImNyZWF0ZWQiOiIyMDIxLTExLTA2VDE2OjQ5OjUwWiIsInZlcmlmaWNhdGlvbk1ldGhvZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCIsInByb29mUHVycG9zZSI6ImFzc2VydGlvbk1ldGhvZCIsImp3cyI6ImV5SmhiR2NpT2lKRlpFUlRRU0lzSW1JMk5DSTZabUZzYzJVc0ltTnlhWFFpT2xzaVlqWTBJbDE5Li4tT003UF8xQVhUcUMycDhiNWJlak9id1A3cmMtcElGSDV2YkJKQ1V6TFhBcVNYdFRfbVBXMHdKSUVneUVQNEFJSV9CeWd4ZWZvQV9fZXp0d0p1NGZEdyJ9fV19LCJub25jZSI6IjEyMyJ9.sjCUaZJ49eTK60zgYYGTKgBD7WRBUh_WoXWn5AqoiovE49JGMSiNlyrWn4G6HaBm0KdDnAlH9MN0BcdnnTvhAVPwcENZkYe0cQ4PHeohyXR96-PcOLn6CVjSIbl-OXON",
+      "vectorContent": "eyJhbGciOiJFUzM4NCIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMyJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJzdWIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIiwiaHR0cHM6Ly9pZGVudGl0eS5mb3VuZGF0aW9uL3ByZXNlbnRhdGlvbi1leGNoYW5nZS9zdWJtaXNzaW9uL3YxIl0sImlkIjoidXJuOnV1aWQ6Nzg5IiwidHlwZSI6WyJWZXJpZmlhYmxlUHJlc2VudGF0aW9uIiwiUHJlc2VudGF0aW9uU3VibWlzc2lvbiJdLCJob2xkZXIiOiJkaWQ6ZXhhbXBsZToxMjMiLCJwcmVzZW50YXRpb25fc3VibWlzc2lvbiI6eyJpZCI6ImEzMGUzYjkxLWZiNzctNGQyMi05NWZhLTg3MTY4OWMzMjJlMiIsImRlZmluaXRpb25faWQiOiIzMmY1NDE2My03MTY2LTQ4ZjEtOTNkOC1mZjIxN2JkYjA2NTMiLCJkZXNjcmlwdG9yX21hcCI6W3siaWQiOiJleGFtcGxlX2lucHV0XzEiLCJmb3JtYXQiOiJsZHBfdmMiLCJwYXRoIjoiJC52ZXJpZmlhYmxlQ3JlZGVudGlhbFswXSJ9XX0sInZlcmlmaWFibGVDcmVkZW50aWFsIjpbeyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXSwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwiaXNzdWFuY2VEYXRlIjoiMjAyMS0wMS0wMVQxOToyMzoyNFoiLCJjcmVkZW50aWFsU3ViamVjdCI6e30sInByb29mIjp7InR5cGUiOiJKc29uV2ViU2lnbmF0dXJlMjAyMCIsImNyZWF0ZWQiOiIyMDIxLTExLTA2VDE2OjQ5OjUwWiIsInZlcmlmaWNhdGlvbk1ldGhvZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCIsInByb29mUHVycG9zZSI6ImFzc2VydGlvbk1ldGhvZCIsImp3cyI6ImV5SmhiR2NpT2lKRlpFUlRRU0lzSW1JMk5DSTZabUZzYzJVc0ltTnlhWFFpT2xzaVlqWTBJbDE5Li4tT003UF8xQVhUcUMycDhiNWJlak9id1A3cmMtcElGSDV2YkJKQ1V6TFhBcVNYdFRfbVBXMHdKSUVneUVQNEFJSV9CeWd4ZWZvQV9fZXp0d0p1NGZEdyJ9fV19LCJub25jZSI6IjEyMyJ9.ufgMF6-BEJNbzdMOlNXQL8gfgFQrreaQs-Q3f5AYNdwfWZXdu2yZlcR5YrihvEHJIAed-ttHQumrGEg_bG-JxnIutr_u3u0l7uWSLtB_UFWYj3DnPBNs1VwBN4XCnEu2",
       "verification": {
         "verified": true
       }
@@ -3643,11 +3067,11 @@
         ],
         "proof": {
           "type": "JsonWebSignature2020",
-          "created": "2021-12-07T00:42:20Z",
+          "created": "2021-12-13T17:14:32Z",
           "verificationMethod": "did:example:123#key-3",
           "proofPurpose": "authentication",
           "challenge": "123",
-          "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..kXqLTOAsEAHHMxo68MHDzED-Xc1AUTS-LwNHGcLf2WPtltPu5cD4MLCuTewbstvVlvEE4OuAAOH57Gl7wR52xbNkka6F-AQMZYUsdYRGm00JtFSGlPYCHZfP2lHQ7rIQ"
+          "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..BUo7wWFdj9JUiS4dBxfVhl2-T40-KNQlSgUK0RX8MkyfEEkFg_2oUwVVstiH1Oa4mMJHKWQzD9knH3iHlW8OwfIrMq2tRI6kxo_Qitjbo7tkLC-7XFBNCtbC03m731af"
         }
       },
       "verification": {
