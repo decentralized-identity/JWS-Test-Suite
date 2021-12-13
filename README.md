@@ -1,4 +1,4 @@
-# JsonWebSignature2020 Test Suite
+# JsonWebSignature2020 & VC JWT Test Suite
 
 [![CI](https://github.com/decentralized-identity/JWS-Test-Suite/actions/workflows/ci.yml/badge.svg)](https://github.com/decentralized-identity/JWS-Test-Suite/actions/workflows/ci.yml)
 
