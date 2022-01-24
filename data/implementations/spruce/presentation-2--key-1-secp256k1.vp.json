@@ -1,0 +1,53 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://identity.foundation/presentation-exchange/submission/v1"
+  ],
+  "id": "urn:uuid:789",
+  "type": [
+    "VerifiablePresentation",
+    "PresentationSubmission"
+  ],
+  "verifiableCredential": [
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1"
+      ],
+      "type": [
+        "VerifiableCredential"
+      ],
+      "credentialSubject": {},
+      "issuer": "did:example:123",
+      "issuanceDate": "2021-01-01T19:23:24Z",
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:example:123#key-0",
+        "created": "2021-11-06T16:49:50Z",
+        "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..-OM7P_1AXTqC2p8b5bejObwP7rc-pIFH5vbBJCUzLXAqSXtT_mPW0wJIEgyEP4AII_BygxefoA__eztwJu4fDw"
+      }
+    }
+  ],
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "proofPurpose": "authentication",
+    "challenge": "123",
+    "verificationMethod": "did:example:123#key-1",
+    "created": "2022-01-24T22:30:40.996Z",
+    "jws": "eyJhbGciOiJFUzI1NksiLCJjcml0IjpbImI2NCJdLCJiNjQiOmZhbHNlfQ..1Ic_zk5p1uDebtvB-TAbRpwVyU6q1qO4tYhDX2z9HQF2Z2_LWWldRImO6o5p8Te1X57Gc4md8Wh1YeBrEriMpg"
+  },
+  "holder": "did:example:123",
+  "presentation_submission": {
+    "definition_id": "32f54163-7166-48f1-93d8-ff217bdb0653",
+    "descriptor_map": [
+      {
+        "format": "ldp_vc",
+        "id": "example_input_1",
+        "path": "$.verifiableCredential[0]"
+      }
+    ],
+    "id": "a30e3b91-fb77-4d22-95fa-871689c322e2"
+  }
+}
