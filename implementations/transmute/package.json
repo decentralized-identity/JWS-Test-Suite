@@ -17,6 +17,7 @@
   "dependencies": {
     "@transmute/json-web-signature": "^0.7.0-unstable.39",
     "@transmute/vc.js": "^0.7.0-unstable.39",
+    "jose": "^4.4.0",
     "moment": "^2.29.1",
     "yargs": "^17.2.1"
   }
