@@ -1,1 +1,12 @@
-{"jwt":"eyJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTAiLCJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSJ9.eyJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZVByZXNlbnRhdGlvbiJdfX0.tPvl7a6cqZrAUeWKrkeZjIbsKQTkNo-pwqgJQyQgh3OSNgxNEkWyCXszSSvzfNLS7TJRqYwO4PwoI9DIJa8dDA"}
+{
+  "@context" : [ "https://www.w3.org/2018/credentials/v1", "https://w3id.org/security/suites/jws-2020/v1" ],
+  "type" : [ "VerifiablePresentation" ],
+  "proof" : {
+    "type" : "JsonWebSignature2020",
+    "created" : "2022-01-24T22:46:39Z",
+    "challenge" : "123",
+    "proofPurpose" : "authentication",
+    "verificationMethod" : "did:example:123#key-0",
+    "jws" : "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..x5a8YVtF10sDx-j4LiI2dfRDhHMc8wjyjY1R82C3NTZdqLYtliH4KCQQD2I7FtBJK5DrqQvvC0uJ1LjI_Tc1BQ"
+  }
+}
