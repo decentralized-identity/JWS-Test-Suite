@@ -21,3 +21,10 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./data:/data
+  microsoft:
+    image: microsoft/jws-test-suite-cli
+    build:
+      context: ./implementations/microsoft
+      dockerfile: Dockerfile
+    volumes:
+      - ./data:/data

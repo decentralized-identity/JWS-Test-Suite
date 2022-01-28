@@ -1,0 +1,67 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "urn:uuid:789",
+  "type": [
+    "VerifiablePresentation"
+  ],
+  "verifiableCredential": [
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        {
+          "@vocab": "https://example.com/#"
+        }
+      ],
+      "type": [
+        "VerifiableCredential"
+      ],
+      "credentialSubject": {
+        "id": "did:example:456"
+      },
+      "issuer": "did:example:123",
+      "issuanceDate": "2021-01-01T19:23:24Z",
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:example:123#key-0",
+        "created": "2021-10-02T17:58:00Z",
+        "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..VA8VQqAerUT6AIVdHc8W8Q2aj12LOQjV_VZ1e134NU9Q20eBsNySPjNdmTWp2HkdquCnbRhBHxIbNeFEIOOhAg"
+      },
+      "evidence": [
+        {
+          "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192d4231",
+          "type": [
+            "DocumentVerification"
+          ],
+          "evidenceDocument": "DriversLicense",
+          "subjectPresence": "Physical",
+          "verifier": "https://example.edu/issuers/14",
+          "documentPresence": "Physical"
+        },
+        {
+          "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192dxyzab",
+          "type": [
+            "SupportingActivity"
+          ],
+          "documentPresence": "Digital",
+          "subjectPresence": "Digital",
+          "evidenceDocument": "Fluid Dynamics Focus",
+          "verifier": "https://example.edu/issuers/14"
+        }
+      ]
+    }
+  ],
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "proofPurpose": "authentication",
+    "challenge": "123",
+    "verificationMethod": "did:example:123#key-0",
+    "created": "2022-01-24T23:25:05.907Z",
+    "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..rl4aQXEVWGXlYBXHXHK-3q4JHc6nLc3edHsWZylEQLfLryfkUhcO6QDr4X0wkiBtwUVE9nEKuJAvqeTiPnsNAQ"
+  },
+  "holder": "did:example:123"
+}
