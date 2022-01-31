@@ -6,6 +6,72 @@
 
 { [Meeting Recordings](https://docs.google.com/spreadsheets/d/1wgccmMvIImx30qVE9GhRKWWv3vmL2ZyUauuKx3IfRmA/edit#gid=1791597999) }
 
+## 1/31
+
+Agenda:
+- Tooling nits - CEL is on the job
+- future of the group? Stay in DIF or make a VCWG2.0 note?
+    - Mike: I'd like a broader participation of course
+    - Orie: VCWG test suite v1 didn't even verify signatures; they moved raw crypto verification out of scope (yikes)
+    - Russian doll: this suite lets you assume (and verify) proof types per key type, WHETHER USING JSONLD OR NOT... the VCWG should maybe follow that model?
+    - Mike: Doesn't the draft charter include test suites? Orie: Yes, but W3C doesn't really define that for us... we need to set the bar high...
+- VCWG Scope Issues
+    - [charter#43](https://github.com/w3c/vc-wg-charter/pull/43)
+        - Mike: what API 
+        - Scope of VC-API and VPReq Spec?
+        - Mike: Trust model of verifier<>issuer? What knowledge does this API assume in the issuer?
+        - Orie: In VC-API, issuer flows as currently specified can't handle OIDC-style semi-trusted issuer service use-cases, for example... I've been pushing for a long time
+        - Orie: putting representations on equal footing
+
+## 1/17
+
+Agenda:
+- RSA and P-384?
+- update on addition to/instead of text and vectors
+
+## 1/3 - no meeting, proceed over github
+
+## 12/20
+
+1. Updates
+    - upstream PR on msft implementation opened as discussed last week
+    - [pull #36](https://github.com/decentralized-identity/JWS-Test-Suite/pull/36): finish integrating msft implementation
+    - test vector refinements:
+        - more explicit testing of outputs; define per vector inputs
+        - better vectors
+        - better visualizations - how to mark addition to/instead of choices per property?
+            - counts? charts?
+    - recommendations for VC-JWT (and VC WG 2.0)
+        - spotlighting divergence to roadmap convergence
+    - bookkeeping: sign off on grant?
+    - JWS-LDP test suite
+
+## 12/6
+
+1. Updates
+    - LD/JWT roundtrip test vector added
+    - Microsoft test driver v1 built (and reviewed by CEL)
+2. Microsoft
+    - Driver 
+        - `id` not optional (set by default if not by construction of builder object)
+        -  expiration not optional (set by default if not by construction of builder object)
+    - step by step (or rather, prop by prop) tour of how [MSFT library](https://github.com/decentralized-identity/JWS-Test-Suite/blob/dcb27094f0b61e5b8f3888860c7321d8f1e6cd68/implementations/microsoft/createVcJwt.js) takes in a credential and makes it a VC
+        - default `iss`<`id` is a random UUID (breaks v1.1 conformance)
+        - datetime hijinx
+            - is `issuanceDate` poorly named? there's an [open data model v2 issue](https://github.com/w3c/vc-data-model/issues/844)
+            - `proof.created` date (can be set manually for test vectors) <> `iat` mapping (vc data model issues [809](https://github.com/w3c/vc-data-model/issues/809))
+        - `iss` (must be string) <> issuer (which can be an object, with issuer.id as a string if LD object like all the examples in the spec); use-case of whether to drop issuer.id as redundant after moving to `iss`
+            - negative test vector - redundant fields (iss and issuer.id) are different and the WRONG ONE is used 
+    - uPort/DIF implementation drops redundancies [dropping line here](https://github.com/decentralized-identity/did-jwt-vc/blob/master/src/converters.ts#L80) (good catch, Cel!)
+3. wishlist for vc data model v2
+    - more precise definition of verificationMethods and signature resolution
+    - verification not defined (partic around round-trip/redundant props between payload and JWT envelope)
+        - i.e. negative test vector - redundant fields (iss and issuer.id) are different and the WRONG ONE is used in verification (or, as Orie put it, validate before verify)
+4. next steps
+    - visualize results better (partic normative statements) than red/green
+        - "instead of"
+        - failures 
+
 ## 11/22
 
 1. CI
