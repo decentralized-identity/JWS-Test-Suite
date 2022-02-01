@@ -18,7 +18,7 @@ module.exports = util.promisify(async function (doc, format, cb) {
 	child.stdout.on('data', (buf) => bufs.push(buf));
 	child.on('close', (code) => {
 		if (code !== 0) {
-			return cb(new Error('Failed to verify (' + code + ')'));
+			return cb(null, {verified: false, code})
 		}
 		const data = Buffer.concat(bufs).toString('utf8');
 		cb(null, JSON.parse(data));
