@@ -37,9 +37,9 @@
           "type": [
             "DocumentVerification"
           ],
+          "verifier": "https://example.edu/issuers/14",
           "evidenceDocument": "DriversLicense",
           "subjectPresence": "Physical",
-          "verifier": "https://example.edu/issuers/14",
           "documentPresence": "Physical"
         },
         {
@@ -47,9 +47,9 @@
           "type": [
             "SupportingActivity"
           ],
-          "verifier": "https://example.edu/issuers/14",
           "documentPresence": "Digital",
           "evidenceDocument": "Fluid Dynamics Focus",
+          "verifier": "https://example.edu/issuers/14",
           "subjectPresence": "Digital"
         }
       ]
@@ -60,8 +60,8 @@
     "proofPurpose": "authentication",
     "challenge": "123",
     "verificationMethod": "did:example:123#key-4",
-    "created": "2022-01-24T22:51:36.544Z",
-    "jws": "eyJhbGciOiJQUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..d6fcDSbOf2tn0jlAZWIEMMOg0T4LQn2Z4ueXddkJEz8OKWVM0PL94x7juy_WbzgHqseYxJ6UbOsCeaKIj6ANKZLX4IggVcTPvwIIVyhNwnvK-Kwpc2-TsxtXwy-A-5nTLEXnYhXBOOwSLGwaCVuFdSCYhMSxsWTKAIsZJvI_vh7KbtRonI01LE7fmRYStDDij2t5WC5ceABPtwZRDWNhoJxA8Z-8n2Wv3-y5y80zyqmnt9NSKNL_UniJDjLnTxm2KzJJJ2c2MB3zvBBo3ENd6QjuQWuNUtFr5TpxIMunR_tZN6mCtTc4eJ559MW99G_RIMJf6G8iMnZ3m8KMRiE8qA"
+    "created": "2022-02-01T15:38:15.755Z",
+    "jws": "eyJhbGciOiJQUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..CsjH5TRM7shP6P5Ortvw5egMRBdnjBq181C2QT-2Rk43ZBrqNlrpwkDOU2RbRN_0kPpZpeeaDJ6JDougv-Hw1hnibBcekZEr9K8wuFMGJfHyYPPbEo2BUfz3hAFAdEdtzgWB_B_Lb6JAhb0hxkvWuNu4cQsP8Fnso_KxGbRsYkwnsgUzzAsnGy2p4XO8P36fFt53mGZXZrcyP2pMiv3O-uW6ITBnfxxCnfuujAuWD4p02o6XNUqU8vdWTWO3uBr7o_TqYU2zRVsF1hm3rCbsnXxYsjkLIg4Y_s8FY1jL7VIWXLTcxRAqxWyWhN3OCOkx_1BwMXZxUoC5EmafD2YvFA"
   },
   "holder": "did:example:123"
 }
