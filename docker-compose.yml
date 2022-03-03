@@ -28,3 +28,10 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./data:/data
+  did-jwt-vc:
+    image: did-jwt-vc/jws-test-suite-cli
+    build:
+      context: ./implementations/did-jwt-vc
+      dockerfile: Dockerfile
+    volumes:
+      - ./data:/data
