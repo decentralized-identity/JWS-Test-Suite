@@ -7,7 +7,7 @@ WORKDIR /home/node
 COPY package*.json ./
 COPY --chown=node:node . .
 
-RUN npm ci --only=production
+RUN npm install --production
 
 FROM node:14.15.3-alpine3.10 as cli
 
