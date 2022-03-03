@@ -1,0 +1,29 @@
+{
+  "name": "did-jwt-vc-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cli": "node ./cli.js",
+    "test": "jest"
+  },
+  "author": "Kim Duffy",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.2.2"
+  },
+  "dependencies": {
+    "@trust/keyto": "^1.0.1",
+    "alphabet": "^1.0.0",
+    "base58-universal": "^1.0.0",
+    "base64url": "^3.0.1",
+    "bs58": "^5.0.0",
+    "did-jwt": "^5.12.4",
+    "did-jwt-vc": "^2.1.9",
+    "did-resolver": "^3.1.5",
+    "ethr-did": "^2.2.0",
+    "key-did-resolver": "^1.4.4",
+    "moment": "^2.29.1",
+    "yargs": "^17.2.1"
+  }
+}
