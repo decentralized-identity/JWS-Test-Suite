@@ -35,3 +35,10 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./data:/data
+  tbd:
+    image: tbd/jws-test-suite-cli
+    build:
+      context: ./implementations/tbd
+      dockerfile: Dockerfile
+    volumes:
+      - ./data:/data

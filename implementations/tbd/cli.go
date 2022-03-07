@@ -78,7 +78,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	//fmt.Printf("input: %s, output: %s, key: %s, format: %s\n", input, output, key, format)
+	fmt.Printf("input: %s, output: %s, key: %s, format: %s\n", input, output, key, format)
 }
 
 func IsSupportedInputType(inputType string) bool {
