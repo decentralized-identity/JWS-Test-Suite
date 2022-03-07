@@ -9,10 +9,10 @@
   "holder": "did:example:123",
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2022-03-03T21:45:05Z",
+    "created": "2022-03-07T19:39:59Z",
     "verificationMethod": "did:example:123#key-1",
     "proofPurpose": "authentication",
     "challenge": "123",
-    "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..6a9eHB9-dXGEFF45SP2JKVcuYNuznWGE6JCjyXk8ue1iwAz08bcleBoKDXIV-k3ehE_SHM5xyvmKbwKhJ7xGhA"
+    "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..XDnGEn61MSVjlza8rXGDp0te0bCDznyPqDej1DBKBrZbh0Lt5vqkMLVfOaF7mxr9cy_bkKLZkCznTTmdeZyHBg"
   }
 }
