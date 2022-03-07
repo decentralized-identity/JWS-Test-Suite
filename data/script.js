@@ -31,7 +31,7 @@ var loadIndex = () => {
   });
 };
 
-const impContainer = "content-from-evaluation-index";
+const impContainer = "implementations";
 
 const pass = "✅ pass";
 const fail = "❌ fail";
