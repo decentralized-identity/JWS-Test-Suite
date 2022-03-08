@@ -32,8 +32,8 @@
     ],
     "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2022-03-08T04:45:21Z",
-        "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTEifQ..rjuKEfFvm4O69QMscM0xviyreISsifnD8So6_zmDzdsePL011zgKT0Ts_w2PwPilgefcyItyUtJMz8mIhbXOsw",
+        "created": "2022-03-08T04:46:08Z",
+        "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTEifQ..tg5_aNK6AuabUnMdNtZYZu5O8LtV9_YQ8Fd1_9aOwJTg-cY4aGx8p48CDpOu7riF7uBaLqw6DbPFph9gkjluQQ",
         "proofPurpose": "assertionMethod",
         "verificationMethod": "did:example:123#key-1"
     }
