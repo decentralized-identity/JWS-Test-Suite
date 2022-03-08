@@ -17,7 +17,7 @@ func CreatePresentation(presFilePath, keyFilePath, outFilePath string) error {
 	if err != nil {
 		return err
 	}
-	signer, err := cryptosuite.NewJSONWebKeySigner(key.ID, key.PrivateKeyJWK)
+	signer, err := cryptosuite.NewJSONWebKeySigner(key.ID, key.PrivateKeyJWK, cryptosuite.Authentication)
 	if err != nil {
 		return err
 	}

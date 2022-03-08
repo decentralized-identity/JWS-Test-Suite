@@ -4,6 +4,7 @@
         "https://w3id.org/security/suites/jws-2020/v1"
     ],
     "id": "urn:uuid:789",
+    "holder": "did:example:123",
     "type": [
         "VerifiablePresentation"
     ],
@@ -57,8 +58,8 @@
     ],
     "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2022-03-08T06:47:47Z",
-        "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktNCJ9..MNfQFJ2EemE5uSdNpyRSyOmeHypfhygw9CQlV2-Aujo_fqrAkZIECfHbVswYN5HtH1HaSkIt1sKNCP7on658VRhk4U1xFESkixm-uUAmsp8q1FX1eEbyVpLfTcjUSmed2YIn5gMMtjkop6T5z91Z_2rFKcTIOlibTB2CAFbUWlxukDJHEXF90fN_GoCvKrP0IpnwR0M3RJzcFwfJCo1dLrEvEhp65_CAVNhhqyJFeDLC--5bcCK3P7rTYrDClrcBoKr-GHg9iO8VLIEkDXO_KhCNhGqNq0ceJr8F5QqgcYc76MLAVhz9hWdDHZqRwBuQpth8yndrDMcAPW4z2nrPeA",
+        "created": "2022-03-08T23:22:00Z",
+        "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktNCJ9..A-noP32-KuM_8x3D_KMs5aIzCpH6-kW2k4iUNB7oBOtAfXw-Mhk5iCab6j2kOFjnLVomL_uvkVbMvoZqkmBwlXdbLaeOPgMWDl10camh_yJledoRYE-pRzYQWWTOvVqdK0cPsReIfawqRQuuGsbY_JK9TbG6eO_HzQtM--l0hH3rurAc7UK3lUiymbxG6R_o75FSXN-VIq9IN012HIsHkR0-fooIeBTKFltCym67xEYG9DsCPpLzlqwHanwrzfJD7WfxBT59uqq92Ho3eTkIq_K6tYlPui4Cp-BgDb6rwlo81mlkbtstfX4fzqG6-7FZVknYcv6Dt0EkEjZI9YxRGw",
         "proofPurpose": "assertionMethod",
         "verificationMethod": "did:example:123#key-4"
     }

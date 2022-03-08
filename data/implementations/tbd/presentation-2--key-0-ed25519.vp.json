@@ -5,6 +5,7 @@
         "https://identity.foundation/presentation-exchange/submission/v1"
     ],
     "id": "urn:uuid:789",
+    "holder": "did:example:123",
     "type": [
         "VerifiablePresentation",
         "PresentationSubmission"
@@ -32,8 +33,8 @@
     ],
     "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2022-03-08T06:46:54Z",
-        "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCJ9..xHGZKy0jS9SK7L0jnjJnRhE-0Y9CJ3haTB3pVs3McsN6Qu4b2hCTb8IR_ca5n--DCeagLBOWZg6wh5nFy88aDw",
+        "created": "2022-03-08T23:20:55Z",
+        "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCJ9..I9sgaY1maZ1A5hjNSQ7SGOVTOGSq_sGbqQYQyoQIDzhAYKLGPfnpZVmN78Dhj4ol-7gpbei0m_oqy3f8nSd4Dg",
         "proofPurpose": "assertionMethod",
         "verificationMethod": "did:example:123#key-0"
     }

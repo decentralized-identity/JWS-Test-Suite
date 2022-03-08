@@ -5,6 +5,7 @@
         "https://identity.foundation/presentation-exchange/submission/v1"
     ],
     "id": "urn:uuid:789",
+    "holder": "did:example:123",
     "type": [
         "VerifiablePresentation",
         "PresentationSubmission"
@@ -32,8 +33,8 @@
     ],
     "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2022-03-08T06:47:48Z",
-        "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktNCJ9..f-UeJH3YLRgWhzI_xQ3V9fB-_pvUNfHKCantmDoxynQlt2gHtVWITH1LmjzigVuPcZKjuiE5-zLogotd4TLVU2F4wK8M-Dk3YaTjd0NytYKTJ6gIEhnbv7ihiX84P3yS6x41Kq3HqlRTjLQoOWkds6GZUQn0Xrap2WAHLlC37dtdRX1KMg7g2hL_g23b8il5M_ZS_8jj36x3huR8crdKRWy9gsQltrtWSVyChGl4SwkkN-ULSd3k7A-vpZtf3JKMeoVdIc_xTaOqlhT8Ekvru0M7Kd1Ih6JB5WnCo92clTLAn6C89kk3K6K03VY1KCL0qwMTY8iKqK8Tq-4u8OjpAA",
+        "created": "2022-03-08T23:22:01Z",
+        "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktNCJ9..VQ-yPyzamD-P9N3SZr3vBkVN6pDdyAzw4-dyS7PPp-hDDm-zKf6x0gCPD4nRHTUsrDiesOcyHpCAtDoTO1MW1WU8NBPTUWjq1p9VbH6uyVbJRAMaP4i9aSXlX9q9MOZDA527rc_6wlr8fgDnHfyUd2Xb2CvaB-zeH6qe5_PN6-TP-EaCTv8RGC7nzAxYXlb37LjGOEpA2eP0aG5O1FYA4m_2v6Q8-L1NOskPdGkHCq8znQw3R2Dq0uF7dFkadgVR-zb-deH6xD4b38l7uCMTA4V-3okFwspuNxzIdJTCdWTJTJqBz2_b3CiJA8S3Fk-KEFQbxA-jz0qN6Q1O9MA49Q",
         "proofPurpose": "assertionMethod",
         "verificationMethod": "did:example:123#key-4"
     }
