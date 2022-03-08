@@ -1,3 +1,5 @@
+//go:build jwx_es256k
+
 package main
 
 import (
@@ -9,11 +11,13 @@ import (
 const (
 	// Supported input types
 
-	CredentialInputType string = "credential"
+	CredentialInputType        string = "credential"
+	VerifiablePresentationType string = "presentation"
 
 	// Supported formats
 
-	VerifiableCredentialFormat = "vc"
+	VerifiableCredentialFormat   = "vc"
+	VerifiablePresentationFormat = "vp"
 )
 
 func main() {
@@ -22,7 +26,7 @@ func main() {
 	}
 
 	inputType := os.Args[1]
-	if !IsSupportedInputType(inputType) {
+	if !isSupportedInputType(inputType) {
 		fmt.Printf("unsupported input type: %s\n", inputType)
 		os.Exit(1)
 	}
@@ -45,12 +49,15 @@ func main() {
 			fmt.Printf("error running create: %s\n", err.Error())
 			os.Exit(1)
 		}
-		if key == "" {
-			fmt.Println("no key specified")
-			os.Exit(1)
+		validateCreateFlags(input, output, key, format)
+		var err error
+		if inputType == CredentialInputType {
+			err = CreateCredential(input, key, output)
+		} else {
+			err = CreatePresentation(input, key, output)
 		}
-		if format == "" {
-			fmt.Println("no format specified")
+		if err != nil {
+			fmt.Printf("error creating %s: %s\n", inputType, err.Error())
 			os.Exit(1)
 		}
 	case "verify":
@@ -58,12 +65,45 @@ func main() {
 			fmt.Printf("error running verify: %s\n", err.Error())
 			os.Exit(1)
 		}
+		validateVerifyFlags(input, output)
+		keyPath := buildKeyPath(input)
+		var err error
+		if inputType == CredentialInputType {
+			err = VerifyCredential(input, keyPath, output)
+		} else {
+			err = VerifyPresentation(input, keyPath, output)
+		}
+		if err != nil {
+			fmt.Printf("error verifying %s: %s\n", inputType, err.Error())
+			os.Exit(1)
+		}
 	default:
 		fmt.Println("expected 'create' or 'verify' command")
 		os.Exit(1)
 	}
+}
 
-	// validate shared flag values
+func validateCreateFlags(input, output, key, format string) {
+	validateInputAndOutputFlags(input, output)
+	if key == "" {
+		fmt.Println("no key specified")
+		os.Exit(1)
+	}
+	if format == "" {
+		fmt.Println("no format specified")
+		os.Exit(1)
+	}
+	if !isSupportedFormat(format) {
+		fmt.Printf("unsupported format: %s\n", format)
+		os.Exit(1)
+	}
+}
+
+func validateVerifyFlags(input, output string) {
+	validateInputAndOutputFlags(input, output)
+}
+
+func validateInputAndOutputFlags(input, output string) {
 	if input == "" {
 		fmt.Println("no input file specified")
 		os.Exit(1)
@@ -72,19 +112,12 @@ func main() {
 		fmt.Println("no output file specified")
 		os.Exit(1)
 	}
-
-	if !IsSupportedFormat(format) {
-		fmt.Printf("unsupported format: %s\n", format)
-		os.Exit(1)
-	}
-
-	//fmt.Printf("input: %s, output: %s, key: %s, format: %s\n", input, output, key, format)
 }
 
-func IsSupportedInputType(inputType string) bool {
-	return inputType == CredentialInputType
+func isSupportedInputType(inputType string) bool {
+	return inputType == CredentialInputType || inputType == VerifiablePresentationType
 }
 
-func IsSupportedFormat(format string) bool {
-	return format == VerifiableCredentialFormat
+func isSupportedFormat(format string) bool {
+	return format == VerifiableCredentialFormat || format == VerifiablePresentationFormat
 }

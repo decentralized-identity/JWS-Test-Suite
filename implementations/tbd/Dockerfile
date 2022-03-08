@@ -5,13 +5,13 @@ WORKDIR /app
 
 # Download Go modules
 COPY go.mod .
-#COPY go.sum .
+COPY go.sum .
 RUN go mod download
 
 # Copy the source code
 COPY *.go ./
 
 # Build executable
-RUN go build -o /tbd .
+RUN go build -tags jwx_es256k -o /tbd .
 
 ENTRYPOINT ["/tbd"]
