@@ -1,0 +1,65 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "id": "urn:uuid:789",
+    "type": [
+        "VerifiablePresentation"
+    ],
+    "verifiableCredential": [
+        {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/jws-2020/v1",
+                {
+                    "@vocab": "https://example.com/#"
+                }
+            ],
+            "type": [
+                "VerifiableCredential"
+            ],
+            "issuer": "did:example:123",
+            "issuanceDate": "2021-01-01T19:23:24Z",
+            "credentialSubject": {
+                "id": "did:example:456"
+            },
+            "evidence": [
+                {
+                    "documentPresence": "Physical",
+                    "evidenceDocument": "DriversLicense",
+                    "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192d4231",
+                    "subjectPresence": "Physical",
+                    "type": [
+                        "DocumentVerification"
+                    ],
+                    "verifier": "https://example.edu/issuers/14"
+                },
+                {
+                    "documentPresence": "Digital",
+                    "evidenceDocument": "Fluid Dynamics Focus",
+                    "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192dxyzab",
+                    "subjectPresence": "Digital",
+                    "type": [
+                        "SupportingActivity"
+                    ],
+                    "verifier": "https://example.edu/issuers/14"
+                }
+            ],
+            "proof": {
+                "created": "2021-10-02T17:58:00Z",
+                "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..VA8VQqAerUT6AIVdHc8W8Q2aj12LOQjV_VZ1e134NU9Q20eBsNySPjNdmTWp2HkdquCnbRhBHxIbNeFEIOOhAg",
+                "proofPurpose": "assertionMethod",
+                "type": "JsonWebSignature2020",
+                "verificationMethod": "did:example:123#key-0"
+            }
+        }
+    ],
+    "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2022-03-08T04:34:49Z",
+        "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktNCJ9..kXg0eJqZWePQZ0uxyRcqZccxRrPlJzmJJkOSs7WNRQBaCWvhn2O_GrBBy_8pQ_zZkIfrJucSqjoPt67UrKyupbMgC31Wv4EliIXZ6YWy7LKMBtujVEx2ZrpunBTA7so9TOlyhd0mDeajfzBQw0gHCM5S6D4JjSF5iAnal2KZbLmyUwTJDrXjlkW_XLHtY2Np-VSdgnp1NxlJD3CaPPbLt5XWp88VRANQxYsUNDRQGF3QXit9W7Yl79gLNvTSb1_KqIAxLDVI7VZE9Kst-VbpU_gJiM5ISq3DyNKA7zTQKpoCYyMJidZDoonrLK7zaxwb1Q9bx_fHJ6BWFKMVoWBrCg",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:example:123#key-4"
+    }
+}
