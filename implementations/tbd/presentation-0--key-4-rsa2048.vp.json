@@ -8,8 +8,8 @@
     ],
     "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2022-03-08T04:44:57Z",
-        "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktNCJ9..he1EXGUZ-S7Eu26ot6oTlB9rf5cSICHA9g-0RPyYjBEX_CXeabS16pBbEhvulzwIvojtXlclDCnuESW-4mxxA2OqxqWvtGGda7fVtKY8UlVybhX64DlNzIGUK4p_3itz8ZWj5BknH-WvehY2aNnGcofhk7wSLf992IyQFY2yvaskbZNzr0wphchsN-WOc58rAsc8hPPuJMdXop_bbhGcXJi_e0r7o74fyeMzBcmIUbZzHuk6ZqBhlCfmMXx0Jr7yyFzM67k3e9l-64ixopn4c5-YAVYwyIdMq0AyPqihshR20wmMz21IWrL8_CEEeDK0C5FIA0f-jmc-XZgk6TuU8Q",
+        "created": "2022-03-08T04:46:07Z",
+        "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktNCJ9..TzL2ad7TqaVTVWav6TWljkBDDRKYrtUOFvK3PIois7MZQZbzFpuOjpfTCFr3pileSjCnQZXym7NP2-2jUgOfkKqlwc5ray-blkxmW581acV-zzF5py9BKFQN-zP5Lw-M9o6wdw2LY8awJEieWssve-u81VRwXfDwgLqRC7Z4_zGoENrSVvUEgO5GsLrhN6SNJc3mmF7SCpsJajr22itaSy8lBxo7ALvkUXYt3VJ8qENv85AUgbZ5HE015lolVOoOXb3zglp1ozt9wmwpVie9MufAzzv8L4b1Dq_g_8XNlD9FYC0W3qRgaCNd3mYjaSDLo9rMkLdIA88L6YOQJXCpqQ",
         "proofPurpose": "assertionMethod",
         "verificationMethod": "did:example:123#key-4"
     }
