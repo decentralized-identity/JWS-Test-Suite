@@ -3,7 +3,7 @@ module github.com/decentralized-identity/JWS-Test-Suite/implementations/tbd
 go 1.17
 
 require (
-	github.com/TBD54566975/did-sdk v0.0.0-20220308034647-57ad94f189bf
+	github.com/TBD54566975/did-sdk v0.0.0-20220308064050-2f6da9df35f7
 	github.com/pkg/errors v0.9.1
 )
 
@@ -25,6 +25,7 @@ require (
 	github.com/lestrrat-go/iter v1.0.1 // indirect
 	github.com/lestrrat-go/jwx v1.2.20 // indirect
 	github.com/lestrrat-go/option v1.0.0 // indirect
+	github.com/magefile/mage v1.12.1 // indirect
 	github.com/markbates/errx v1.1.0 // indirect
 	github.com/markbates/oncer v1.0.0 // indirect
 	github.com/markbates/safe v1.0.1 // indirect
