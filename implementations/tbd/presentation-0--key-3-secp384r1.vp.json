@@ -8,8 +8,8 @@
     ],
     "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2022-03-08T04:46:37Z",
-        "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMyJ9..rVTISYvcPXwIcxTmSrL_qD-xJXf1gWFXZXp-W2qfwijqJ18dlXedRb1OfcVd1mkykEpQ8hCF8sz90MCsNqXmL1p05vnO5jzY_PT6FCAe3ywMwds4NHd2yrCogxo7-Lvu",
+        "created": "2022-03-08T05:22:03Z",
+        "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMyJ9..7GHQtQy_J937lxntrW4sHlEChRI7JRkkBJwADJLShg_UcCSLI_aEhx4Cx-Uwc5oIpYqVVmkr9D2g94rVvWHZ-ZcA9xEokMqQECtwmV-GpLw00pbPV8_ddOi7zXCx_e0M",
         "proofPurpose": "assertionMethod",
         "verificationMethod": "did:example:123#key-3"
     }
