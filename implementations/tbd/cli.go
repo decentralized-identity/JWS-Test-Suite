@@ -58,7 +58,8 @@ func main() {
 			os.Exit(1)
 		}
 		validateVerifyFlags(input, output)
-		if err := VerifyCredential(input, key, output); err != nil {
+		keyPath := buildKeyPath(input)
+		if err := VerifyCredential(input, keyPath, output); err != nil {
 			fmt.Printf("error verifying credential: %s\n", err.Error())
 			os.Exit(1)
 		}

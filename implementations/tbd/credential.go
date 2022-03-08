@@ -9,11 +9,11 @@ import (
 )
 
 func CreateCredential(credFilePath, keyFilePath, outFilePath string) error {
-	cred, err := GetCredentialFromFile(credFilePath)
+	cred, err := getCredentialFromFile(credFilePath)
 	if err != nil {
 		return err
 	}
-	key, err := GetKeyFromFile(keyFilePath)
+	key, err := getKeyFromFile(keyFilePath)
 	if err != nil {
 		return err
 	}
@@ -29,15 +29,15 @@ func CreateCredential(credFilePath, keyFilePath, outFilePath string) error {
 	if err != nil {
 		return err
 	}
-	return WriteOutputToFile(signedBytes, outFilePath)
+	return writeOutputToFile(signedBytes, outFilePath)
 }
 
 func VerifyCredential(credFilePath, keyFilePath, outFilePath string) error {
-	cred, err := GetCredentialFromFile(credFilePath)
+	cred, err := getCredentialFromFile(credFilePath)
 	if err != nil {
 		return err
 	}
-	key, err := GetKeyFromFile(keyFilePath)
+	key, err := getKeyFromFile(keyFilePath)
 	if err != nil {
 		return err
 	}
@@ -50,5 +50,5 @@ func VerifyCredential(credFilePath, keyFilePath, outFilePath string) error {
 	if err := suite.Verify(verifier, cred); err != nil {
 		verificationResult = false
 	}
-	return WriteVerificationResult(verificationResult, outFilePath)
+	return writeVerificationResult(verificationResult, outFilePath)
 }
