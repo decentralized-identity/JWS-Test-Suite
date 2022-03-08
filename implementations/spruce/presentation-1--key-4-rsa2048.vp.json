@@ -37,20 +37,20 @@
           "type": [
             "DocumentVerification"
           ],
-          "documentPresence": "Physical",
           "evidenceDocument": "DriversLicense",
-          "subjectPresence": "Physical",
-          "verifier": "https://example.edu/issuers/14"
+          "documentPresence": "Physical",
+          "verifier": "https://example.edu/issuers/14",
+          "subjectPresence": "Physical"
         },
         {
           "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192dxyzab",
           "type": [
             "SupportingActivity"
           ],
-          "evidenceDocument": "Fluid Dynamics Focus",
           "verifier": "https://example.edu/issuers/14",
-          "subjectPresence": "Digital",
-          "documentPresence": "Digital"
+          "evidenceDocument": "Fluid Dynamics Focus",
+          "documentPresence": "Digital",
+          "subjectPresence": "Digital"
         }
       ]
     }
@@ -60,8 +60,8 @@
     "proofPurpose": "authentication",
     "challenge": "123",
     "verificationMethod": "did:example:123#key-4",
-    "created": "2022-03-07T19:39:23.757Z",
-    "jws": "eyJhbGciOiJQUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..GJ1LiJb-ZeMwz_JiAly6r7GiL2byWq8irAIOMtH5c4ZWZvfE5bbH8ouR-rfeFPx-Mym0ly4mjwwgcL-oOFCgZ_6Q4GozpHXD7toVugq_0JoyVS1O9NQyn46StBIovHG_rCGnvm3wpiohsI58IcseyIkz6WkIzalVgrBr6M_jNMciBOiM7E_3oAwG9jU1s5XyU-r6YAuKwbnJo6Jpxm7zvFmnHpVExAHbX-VIRBZaedlMZl7NSXjI4GgmMpdc_WkpLXBWJvnxto1ZGc_zhJI2uc1RLjgph7ijFk2mCGJqoQoTvL0_cH9w9aOJPImgddCEvvDoeB-zIv5uML8zmDISnQ"
+    "created": "2022-03-08T03:51:00.291Z",
+    "jws": "eyJhbGciOiJQUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..ka0a47Y2pbwlDeFt1MpFQcGDhpM2NS0wZOBFDzXxWFZgBmngMhZTt37IBsLnBafRk02JmjwxjzDyOPiIjbkTMQ_2WZSAy1YyF1rWz7IJRqk5NspXtKUytMtPGhrC-nRln6Nm4Rfx3gw4lps-DOhVb1NOTo8XPnifcTaYCgHEsqLqETCHqUMiRYwh-pmpyA61sQOSYB9LGqSgl9P65sBM_RxLM2ec4Zo_gTZs-a-Qt4mD7eAIIQ3EQwnjNyCGWyTnMc_5FOwIZmKbFL8sisnIBz6xivKXsR01mOtjAGSzn6roAzEBCwgN8ky45SZfoF1-dp_jduaven8J2dTm48_5xg"
   },
   "holder": "did:example:123"
 }
