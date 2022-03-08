@@ -25,7 +25,6 @@ require (
 	github.com/lestrrat-go/iter v1.0.1 // indirect
 	github.com/lestrrat-go/jwx v1.2.20 // indirect
 	github.com/lestrrat-go/option v1.0.0 // indirect
-	github.com/magefile/mage v1.12.1 // indirect
 	github.com/markbates/errx v1.1.0 // indirect
 	github.com/markbates/oncer v1.0.0 // indirect
 	github.com/markbates/safe v1.0.1 // indirect
