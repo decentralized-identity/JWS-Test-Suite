@@ -4,6 +4,7 @@
         "https://w3id.org/security/suites/jws-2020/v1"
     ],
     "id": "urn:uuid:789",
+    "holder": "did:example:123",
     "type": [
         "VerifiablePresentation"
     ],
@@ -57,8 +58,8 @@
     ],
     "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2022-03-08T07:08:40Z",
-        "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCJ9..hmc9kz5GZ_xnV0vKII2J6UpT4W1kGdbV3t9QXh6gocUJwj3tJf6UikkuDz36RF_Rdt_vaNL877k_cb_06uvkBg",
+        "created": "2022-03-08T23:37:04Z",
+        "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCJ9..kbRj0I6rfxOEG2uzqG4zJJRoAMQM0082GBPjo1wqVlDrXdXbipgZArKUyT1m94hrS5Fidfkd2vZog1sQHlqACw",
         "proofPurpose": "assertionMethod",
         "verificationMethod": "did:example:123#key-0"
     }
