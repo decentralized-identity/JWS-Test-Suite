@@ -25,7 +25,7 @@ func CreateCredential(credFilePath, keyFilePath, outFilePath string) error {
 	if err := suite.Sign(signer, cred); err != nil {
 		return err
 	}
-	signedBytes, err := json.Marshal(cred)
+	signedBytes, err := json.MarshalIndent(cred, "", "    ")
 	if err != nil {
 		return err
 	}
