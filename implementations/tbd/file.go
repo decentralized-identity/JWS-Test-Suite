@@ -24,6 +24,18 @@ func getCredentialFromFile(filePath string) (*vc.VerifiableCredential, error) {
 	return &cred, nil
 }
 
+func getPresentationFromFile(filePath string) (*vc.VerifiablePresentation, error) {
+	bytes, err := ioutil.ReadFile(filePath)
+	if err != nil {
+		return nil, errors.Wrapf(err, "could not read vp from file: %s", filePath)
+	}
+	var pres vc.VerifiablePresentation
+	if err := json.Unmarshal(bytes, &pres); err != nil {
+		return nil, errors.Wrap(err, "could not unmarshal vp")
+	}
+	return &pres, nil
+}
+
 func getKeyFromFile(filePath string) (*cryptosuite.JSONWebKey2020, error) {
 	bytes, err := ioutil.ReadFile(filePath)
 	if err != nil {

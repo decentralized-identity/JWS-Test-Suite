@@ -11,11 +11,13 @@ import (
 const (
 	// Supported input types
 
-	CredentialInputType string = "credential"
+	CredentialInputType        string = "credential"
+	VerifiablePresentationType string = "presentation"
 
 	// Supported formats
 
-	VerifiableCredentialFormat = "vc"
+	VerifiableCredentialFormat   = "vc"
+	VerifiablePresentationFormat = "vp"
 )
 
 func main() {
@@ -24,7 +26,7 @@ func main() {
 	}
 
 	inputType := os.Args[1]
-	if !IsSupportedInputType(inputType) {
+	if !isSupportedInputType(inputType) {
 		fmt.Printf("unsupported input type: %s\n", inputType)
 		os.Exit(1)
 	}
@@ -48,8 +50,14 @@ func main() {
 			os.Exit(1)
 		}
 		validateCreateFlags(input, output, key, format)
-		if err := CreateCredential(input, key, output); err != nil {
-			fmt.Printf("error creating credential: %s\n", err.Error())
+		var err error
+		if inputType == CredentialInputType {
+			err = CreateCredential(input, key, output)
+		} else {
+			err = CreatePresentation(input, key, output)
+		}
+		if err != nil {
+			fmt.Printf("error creating %s: %s\n", inputType, err.Error())
 			os.Exit(1)
 		}
 	case "verify":
@@ -59,8 +67,14 @@ func main() {
 		}
 		validateVerifyFlags(input, output)
 		keyPath := buildKeyPath(input)
-		if err := VerifyCredential(input, keyPath, output); err != nil {
-			fmt.Printf("error verifying credential: %s\n", err.Error())
+		var err error
+		if inputType == CredentialInputType {
+			err = VerifyCredential(input, keyPath, output)
+		} else {
+			err = VerifyPresentation(input, keyPath, output)
+		}
+		if err != nil {
+			fmt.Printf("error verifying %s: %s\n", inputType, err.Error())
 			os.Exit(1)
 		}
 	default:
@@ -100,10 +114,10 @@ func validateInputAndOutputFlags(input, output string) {
 	}
 }
 
-func IsSupportedInputType(inputType string) bool {
-	return inputType == CredentialInputType
+func isSupportedInputType(inputType string) bool {
+	return inputType == CredentialInputType || inputType == VerifiablePresentationType
 }
 
 func isSupportedFormat(format string) bool {
-	return format == VerifiableCredentialFormat
+	return format == VerifiableCredentialFormat || format == VerifiablePresentationFormat
 }
