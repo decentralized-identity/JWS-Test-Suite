@@ -45,12 +45,9 @@ func main() {
 			fmt.Printf("error running create: %s\n", err.Error())
 			os.Exit(1)
 		}
-		if key == "" {
-			fmt.Println("no key specified")
-			os.Exit(1)
-		}
-		if format == "" {
-			fmt.Println("no format specified")
+		validateCreateFlags(input, output, key, format)
+		if err := CreateCredential(input, key, output); err != nil {
+			fmt.Printf("error creating credential: %s\n", err.Error())
 			os.Exit(1)
 		}
 	case "verify":
@@ -58,12 +55,38 @@ func main() {
 			fmt.Printf("error running verify: %s\n", err.Error())
 			os.Exit(1)
 		}
+		validateVerifyFlags(input, output)
+		if err := VerifyCredential(input, key, output); err != nil {
+			fmt.Printf("error verifying credential: %s\n", err.Error())
+			os.Exit(1)
+		}
 	default:
 		fmt.Println("expected 'create' or 'verify' command")
 		os.Exit(1)
 	}
+}
 
-	// validate shared flag values
+func validateCreateFlags(input, output, key, format string) {
+	validateInputAndOutputFlags(input, output)
+	if key == "" {
+		fmt.Println("no key specified")
+		os.Exit(1)
+	}
+	if format == "" {
+		fmt.Println("no format specified")
+		os.Exit(1)
+	}
+	if !isSupportedFormat(format) {
+		fmt.Printf("unsupported format: %s\n", format)
+		os.Exit(1)
+	}
+}
+
+func validateVerifyFlags(input, output string) {
+	validateInputAndOutputFlags(input, output)
+}
+
+func validateInputAndOutputFlags(input, output string) {
 	if input == "" {
 		fmt.Println("no input file specified")
 		os.Exit(1)
@@ -72,19 +95,12 @@ func main() {
 		fmt.Println("no output file specified")
 		os.Exit(1)
 	}
-
-	if !IsSupportedFormat(format) {
-		fmt.Printf("unsupported format: %s\n", format)
-		os.Exit(1)
-	}
-
-	fmt.Printf("input: %s, output: %s, key: %s, format: %s\n", input, output, key, format)
 }
 
 func IsSupportedInputType(inputType string) bool {
 	return inputType == CredentialInputType
 }
 
-func IsSupportedFormat(format string) bool {
+func isSupportedFormat(format string) bool {
 	return format == VerifiableCredentialFormat
 }
