@@ -44,10 +44,10 @@
   ],
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2022-03-08T05:23:36Z",
+    "created": "2022-03-08T07:10:57Z",
     "verificationMethod": "did:example:123#key-3",
     "proofPurpose": "authentication",
     "challenge": "123",
-    "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..w7KEdYKBS4lykfuX7LT8Vb2NL8tcj8RztVicbHb1zo-vd67X331a7PSO8xT5DCBuBb-fd04o9Y49irX8aCgxJowveoPrG2tvN2bCWyW1146uyeU_dm4UtfL_-nu_kUp9"
+    "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..P4qJknvF6N9jGr9P3kwNObA5BPRXm3K_VMM9h-CVfWbgPus6daTwHERC-p49Zqnrv9NckwqwiFXbbi9uBM6cAKhRwufidEtJTSs6CFFDjk6xJ1kQ_A1LNXS81GHsPPpv"
   }
 }
