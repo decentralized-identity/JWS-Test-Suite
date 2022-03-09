@@ -111,8 +111,8 @@ const verify = async (data, format) => {
   } catch (e) {
     // hide errors.
     //
-     console.error(e);
-     console.log(format, e);
+    // console.error(e);
+    // console.log(format, e);
   }
 
   return result;
