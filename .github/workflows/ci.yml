@@ -23,6 +23,20 @@ jobs:
     needs: build
     if: "github.ref == 'refs/heads/main'"
     steps:
+      - name: Begin CI...
+        uses: actions/checkout@v2
+
+      - name: Use Node 14
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+
+      - name: Install
+        run: npm i
+
+      - name: Build Implementations
+        run: npm run build
+
       - name: Clean Report
         run: npm run report:clean
 
