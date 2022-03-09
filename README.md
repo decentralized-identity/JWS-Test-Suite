@@ -83,8 +83,8 @@ IMPLEMENTATION=transmute
 INPUT=/data/implementations/$IMPLEMENTATION/presentation-0--key-0-ed25519.json
 OUTPUT=/data/implementations/$IMPLEMENTATION/presentation-0--key-0-ed25519.test.verification.json
 
-docker-compose run spruce \
+docker-compose run $IMPLEMENTATION \
 presentation verify \
---input ../../data/implementations/tbd/presentation-2--key-0-ed25519.vp.json \
---output ../../data/implementations/tbd/presentation-2--key-0-ed25519.test.verification.json
+--input $INPUT \
+--output $OUTPUT
 ```
