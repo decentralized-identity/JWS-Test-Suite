@@ -8,10 +8,10 @@
     ],
     "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2022-03-09T01:51:55Z",
-        "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCJ9..uMmW-eRi9IN3PW_-qKi32CFP-OFqHs8oMOSKZoTqHfLHXn4LYp7D5-2pr-0F-B9eFLZmmXOm002mGDPAYp10Bw",
+        "created": "2022-03-09T03:45:54Z",
+        "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCJ9..D6UPQSMU84Vxr-zco-iYIrliql0Nk8-ySKoqJkJHk_KeOzuo-2nPeDtcPZWpLLi8M185FE-tHvD73Db0JbuAAA",
         "proofPurpose": "authentication",
-        "challenge": "bdb6d2d4-205c-4eeb-a3b9-1f4accf36b59",
+        "challenge": "32548098-f1e1-4c4d-80be-b113d02bff48",
         "verificationMethod": "did:example:123#key-0"
     }
 }
