@@ -43,6 +43,8 @@ github.com/TBD54566975/did-sdk v0.0.0-20220308065037-04389dd8253c h1:pZoIsGASFVb
 github.com/TBD54566975/did-sdk v0.0.0-20220308065037-04389dd8253c/go.mod h1:eP3XhZiJ6K3IeKw4uVg8gGb/N+EdzIW36Hr1sN2zOjE=
 github.com/TBD54566975/did-sdk v0.0.0-20220308235500-dc84f08cc53c h1:DyxC8t2OugKcXVENZgfac2zq4v6WL+cJwRcVwGPO3q0=
 github.com/TBD54566975/did-sdk v0.0.0-20220308235500-dc84f08cc53c/go.mod h1:eP3XhZiJ6K3IeKw4uVg8gGb/N+EdzIW36Hr1sN2zOjE=
+github.com/TBD54566975/did-sdk v0.0.0-20220309002704-d06de94dc748 h1:U+ZaT6hWLn08YXNnMR2UIpE4sXeEQL9TlIEC083TnF4=
+github.com/TBD54566975/did-sdk v0.0.0-20220309002704-d06de94dc748/go.mod h1:eP3XhZiJ6K3IeKw4uVg8gGb/N+EdzIW36Hr1sN2zOjE=
 github.com/antihax/optional v1.0.0/go.mod h1:uupD/76wgC+ih3iEmQUL+0Ugr19nfwCT1kdvxnR2qWY=
 github.com/armon/circbuf v0.0.0-20150827004946-bbbad097214e/go.mod h1:3U/XgcO3hCbHZ8TKRvWD2dDTCfh9M9ya+I9JpbB7O8o=
 github.com/armon/go-metrics v0.0.0-20180917152333-f0300d1749da/go.mod h1:Q73ZrmVTwzkszR9V5SSuryQ31EELlFMUz1kKyl939pY=
