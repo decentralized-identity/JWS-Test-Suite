@@ -39,10 +39,10 @@ cloud.google.com/go/storage v1.10.0/go.mod h1:FLPqc6j+Ki4BU591ie1oL6qBQGu2Bl/tZ9
 dmitri.shuralyov.com/gpu/mtl v0.0.0-20190408044501-666a987793e9/go.mod h1:H6x//7gZCb22OMCxBHrMx7a5I7Hp++hsVxbQ4BYO7hU=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802/go.mod h1:IVnqGOEym/WlBOVXweHU+Q+/VP0lqqI8lqeDx9IjBqo=
-github.com/TBD54566975/did-sdk v0.0.0-20220308064050-2f6da9df35f7 h1:gD3BSU0wy1JabnkygIoYuU7a6gil7Shq6fQWZFUgbZw=
-github.com/TBD54566975/did-sdk v0.0.0-20220308064050-2f6da9df35f7/go.mod h1:eP3XhZiJ6K3IeKw4uVg8gGb/N+EdzIW36Hr1sN2zOjE=
-github.com/TBD54566975/did-sdk v0.0.0-20220308231531-64d044e3b134 h1:V2KAgrlD3sTjf+yDsrzRYgI7jV//KUoeQZUwMwwMY/k=
-github.com/TBD54566975/did-sdk v0.0.0-20220308231531-64d044e3b134/go.mod h1:eP3XhZiJ6K3IeKw4uVg8gGb/N+EdzIW36Hr1sN2zOjE=
+github.com/TBD54566975/did-sdk v0.0.0-20220308065037-04389dd8253c h1:pZoIsGASFVbnhmmc/lB09XVjLAmdh4oTIR43ovtSAV8=
+github.com/TBD54566975/did-sdk v0.0.0-20220308065037-04389dd8253c/go.mod h1:eP3XhZiJ6K3IeKw4uVg8gGb/N+EdzIW36Hr1sN2zOjE=
+github.com/TBD54566975/did-sdk v0.0.0-20220308235500-dc84f08cc53c h1:DyxC8t2OugKcXVENZgfac2zq4v6WL+cJwRcVwGPO3q0=
+github.com/TBD54566975/did-sdk v0.0.0-20220308235500-dc84f08cc53c/go.mod h1:eP3XhZiJ6K3IeKw4uVg8gGb/N+EdzIW36Hr1sN2zOjE=
 github.com/antihax/optional v1.0.0/go.mod h1:uupD/76wgC+ih3iEmQUL+0Ugr19nfwCT1kdvxnR2qWY=
 github.com/armon/circbuf v0.0.0-20150827004946-bbbad097214e/go.mod h1:3U/XgcO3hCbHZ8TKRvWD2dDTCfh9M9ya+I9JpbB7O8o=
 github.com/armon/go-metrics v0.0.0-20180917152333-f0300d1749da/go.mod h1:Q73ZrmVTwzkszR9V5SSuryQ31EELlFMUz1kKyl939pY=

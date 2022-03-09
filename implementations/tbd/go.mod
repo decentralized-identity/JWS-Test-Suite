@@ -3,7 +3,7 @@ module github.com/decentralized-identity/JWS-Test-Suite/implementations/tbd
 go 1.17
 
 require (
-	github.com/TBD54566975/did-sdk v0.0.0-20220308231531-64d044e3b134
+	github.com/TBD54566975/did-sdk v0.0.0-20220308235500-dc84f08cc53c
 	github.com/pkg/errors v0.9.1
 )
 
