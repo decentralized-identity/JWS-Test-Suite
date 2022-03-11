@@ -13,6 +13,19 @@ This suite is used to create verifiable credentials and presentations that confo
 
 This test suite does not currently support VC-JWT, even though some implementations may also support it.
 
+## Key Types & Signature Algorithms
+
+As [defined in the suite](https://w3c-ccg.github.io/lds-jws2020/#jose-conformance) there are a number of supported key types using [JsonWebKey2020](https://w3c-ccg.github.io/lds-jws2020/#json-web-key-2020) and corresponding signature algorithms. The table below illustrates what this test suite supports for testing. Currently, there are [four keys used in testing](https://github.com/decentralized-identity/JWS-Test-Suite/tree/main/data/keys):
+
+| kty         | crv or size | signature
+| ----------- | ----------- | ---------
+| OKP         | Ed25519     | EdDSA
+| EC          | secp256k1   | ES256k
+| EC          | secp256r1 / P-256   | ES256
+| EC          | secp384r1 / P-384   | ES384
+| RSA         | 2048        | PS256
+
+
 ## Usage
 
 ```
@@ -88,3 +101,74 @@ presentation verify \
 --input $INPUT \
 --output $OUTPUT
 ```
+
+## Creating an Implementation
+
+Anyone is welcome to submit an implementation. This suite uses [docker compose](https://docs.docker.com/compose/) to simplify testing each implementation. [A mock implementation is provided here](https://github.com/decentralized-identity/JWS-Test-Suite/tree/main/implementations/mock) as a reference.
+
+In preparing your submission, you'll need to do the following:
+
+1. Create a new sub-directory in the `implementations` directory with your implementation.
+2. Create a new sub-directory in the `data/implementations` directory for your implementation's output files.
+3. Build your implementation in `implementations/{your-impl}` along with a working `Dockerfile` (details on functionality below).
+4. Modify the [docker-compose](https://github.com/decentralized-identity/JWS-Test-Suite/blob/main/docker-compose.yml) file to list your implementation.
+
+
+### Implementation Details
+
+Your Docker image needs to support the following inputs, styled as a CLI, as called from [generate.js](https://github.com/decentralized-identity/JWS-Test-Suite/blob/main/generate.js). It is not required to support all keys, credentials, or presentations. If your implementation does not support one of the options called during _generate_ it's advised to fail gracefully, and not write an empty output file.
+
+1. **credential create**
+
+Generates a credential using your implementation. Takes four arguments:
+
+- `--input $INPUT` where `$INPUT` is a path to an _existing credential file_ such as `/data/credentials/credential-0.json`
+- `--output $OUTPUT` where `$OUTPUT` is a path to a _file your implementation will create_ such as `data/implementations/$IMPLEMENTATION/credential-0--key-0-ed25519.json`
+- `--key $KEY` where `$KEY` is a path to an _existing key file_ such as `/data/keys/key-0-ed25519.json`
+- `--format $FORMAT` where `$FORMAT` is a either `vc` or `vc-jwt`
+
+2. **credential verify**
+
+Verifies a credential using your implementation. Takes four arguments:
+
+- `--input $INPUT` where `$INPUT` is a path to an _existing signed credential file_ such as `/data/implementations/$IMPLEMENTATION/credential-0--key-0-ed25519.json`
+- `--output $OUTPUT` where `$OUTPUT` is a path to a _file your implementation will create_ such as `/data/implementations/$IMPLEMENTATION/credential-0--key-0-ed25519.test.verification.json`
+
+3. **presentation create**
+
+Generates a presentation using your implementation. Takes four arguments:
+
+- `--input $INPUT` where `$INPUT` is a path to an _existing presentation file_ such as `/data/presentations/presentation-0.json`
+- `--output $OUTPUT` where `$OUTPUT` is a path to a _file your implementation will create_ such as `data/implementations/$IMPLEMENTATION/presentation-0--key-0-ed25519.json`
+- `--key $KEY` where `$KEY` is a path to an _existing key file_ such as `/data/keys/key-0-ed25519.json`
+- `--format $FORMAT` where `$FORMAT` is a either `vp` or `vp-jwt`
+
+4. **presentation verify**
+
+- `--input $INPUT` where `$INPUT` is a path to an _existing signed presentation file_ such as `/data/implementations/$IMPLEMENTATION/presentation-0--key-0-ed25519.json`
+- `--output $OUTPUT` where `$OUTPUT` is a path to a _file your implementation will create_ such as `/data/implementations/$IMPLEMENTATION/presentation-0--key-0-ed25519.test.verification.json`
+
+
+If your implementation supports both the plain (`vc`, `vp`) and JWT (`vc-jwt`, `vp-jwt`) variations you should differentation the output files for each credential and presentation and their verifications. The convention is as follows:
+
+For credentials...
+
+`vc`: `credential-0--key-0-ed25519.vc.json`
+`vc-jwt`: `credential-0--key-0-ed25519.vc-jwt.json`
+
+For presentations...
+
+`vp`: `presentation-0--key-0-ed25519.vp.json`
+`vp-jwt`: `presentation-0--key-0-ed25519.vp-jwt.json`
+
+### Generating Your Implementation Files
+
+To simplify generation of your implementation's signed files you can use the command `npm run report:generate`. If wish to only run your implementation, you can modify the (`focusedImplementations` value here)[https://github.com/decentralized-identity/JWS-Test-Suite/blob/main/generate.js#L25].
+
+### Testing Your Implementation
+
+To test your implementation you can verify the credentials and presentations your implementation generates against other implementations. At present, the `transmute` implementation is authoritative for all verifications except for credentials signed with RSA-2048 keys using PS256. For RSA credentials and presentations, test against `spruce`.
+
+The only thing tested by the suite are valid signatures for a given proof type. This means using the `proofPurpose` of `assertionMethod` for credentials, and the type of `authentication` for presentations, where a `challenge` value must be present.
+
+Example commands can be found above.
