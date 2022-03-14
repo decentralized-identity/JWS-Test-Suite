@@ -6,6 +6,7 @@ import (
 	"flag"
 	"fmt"
 	"os"
+	"strings"
 )
 
 const (
@@ -70,10 +71,19 @@ func main() {
 		}
 		validateVerifyFlags(input, output)
 		keyPath := buildKeyPath(input)
+
 		var err error
 		if inputType == CredentialInputType {
+			format := VerifiableCredentialFormat
+			if isJWTFile(input) {
+				format = VerifiableCredentialJWTFormat
+			}
 			err = VerifyCredential(input, keyPath, output, format)
 		} else {
+			format := VerifiablePresentationFormat
+			if isJWTFile(input) {
+				format = VerifiablePresentationJWTFormat
+			}
 			err = VerifyPresentation(input, keyPath, output, format)
 		}
 		if err != nil {
@@ -124,4 +134,8 @@ func isSupportedInputType(inputType string) bool {
 func isSupportedFormat(format string) bool {
 	return format == VerifiableCredentialFormat || format == VerifiablePresentationFormat ||
 		format == VerifiableCredentialJWTFormat || format == VerifiablePresentationJWTFormat
+}
+
+func isJWTFile(filePath string) bool {
+	return strings.Contains(filePath, "jwt")
 }
