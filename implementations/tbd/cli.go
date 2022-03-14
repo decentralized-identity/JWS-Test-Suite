@@ -16,8 +16,11 @@ const (
 
 	// Supported formats
 
-	VerifiableCredentialFormat   = "vc"
-	VerifiablePresentationFormat = "vp"
+	VerifiableCredentialFormat    = "vc"
+	VerifiableCredentialJWTFormat = "vc-jwt"
+
+	VerifiablePresentationFormat    = "vp"
+	VerifiablePresentationJWTFormat = "vp-jwt"
 )
 
 func main() {
@@ -52,9 +55,9 @@ func main() {
 		validateCreateFlags(input, output, key, format)
 		var err error
 		if inputType == CredentialInputType {
-			err = CreateCredential(input, key, output)
+			err = CreateCredential(input, key, output, format)
 		} else {
-			err = CreatePresentation(input, key, output)
+			err = CreatePresentation(input, key, output, format)
 		}
 		if err != nil {
 			fmt.Printf("error creating %s: %s\n", inputType, err.Error())
@@ -69,9 +72,9 @@ func main() {
 		keyPath := buildKeyPath(input)
 		var err error
 		if inputType == CredentialInputType {
-			err = VerifyCredential(input, keyPath, output)
+			err = VerifyCredential(input, keyPath, output, format)
 		} else {
-			err = VerifyPresentation(input, keyPath, output)
+			err = VerifyPresentation(input, keyPath, output, format)
 		}
 		if err != nil {
 			fmt.Printf("error verifying %s: %s\n", inputType, err.Error())
@@ -119,5 +122,6 @@ func isSupportedInputType(inputType string) bool {
 }
 
 func isSupportedFormat(format string) bool {
-	return format == VerifiableCredentialFormat || format == VerifiablePresentationFormat
+	return format == VerifiableCredentialFormat || format == VerifiablePresentationFormat ||
+		format == VerifiableCredentialJWTFormat || format == VerifiablePresentationJWTFormat
 }

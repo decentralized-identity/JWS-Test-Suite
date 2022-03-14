@@ -114,8 +114,8 @@ as a reference.
 
 In preparing your submission, you'll need to do the following:
 
-1. Create a new sub-directory in the `implementations` directory with your implementation.
-2. Create a new sub-directory in the `data/implementations` directory for your implementation's output files.
+1. Create a new subdirectory in the `implementations` directory with your implementation.
+2. Create a new subdirectory in the `data/implementations` directory for your implementation's output files.
 3. Build your implementation in `implementations/{your-impl}` along with a working `Dockerfile` (details on
    functionality below).
 4. Modify the [docker-compose](https://github.com/decentralized-identity/JWS-Test-Suite/blob/main/docker-compose.yml)
@@ -167,7 +167,7 @@ Generates a presentation using your implementation. Takes four arguments:
   as `/data/implementations/$IMPLEMENTATION/presentation-0--key-0-ed25519.test.verification.json`
 
 If your implementation supports both the plain (`vc`, `vp`) and JWT (`vc-jwt`, `vp-jwt`) variations you should
-differentation the output files for each credential and presentation and their verifications. The convention is as
+diff the output files for each credential and presentation and their verifications. The convention is as
 follows:
 
 For credentials...
@@ -179,6 +179,14 @@ For presentations...
 
 `vp`: `presentation-0--key-0-ed25519.vp.json`
 `vp-jwt`: `presentation-0--key-0-ed25519.vp-jwt.json`
+
+
+### Note on JWT Representations
+
+The JWT representations: `vc-jwt` and `vp-jwt` _do not_ use the Linked Data signature process described
+in the `JsonWebSignature2020` specification. Instead, for signing and verifying JWT representations, standard
+[JOSE](https://jose.readthedocs.io/en/latest/) is used. The key type and algorithm specified for signing and verifying
+are consistent with the `JsonWebKey2020` representations found in this test suite.
 
 ### Generating Your Implementation Files
 

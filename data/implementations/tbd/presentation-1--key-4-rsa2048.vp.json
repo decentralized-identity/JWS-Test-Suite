@@ -58,10 +58,10 @@
     ],
     "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2022-03-09T03:24:27Z",
-        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktNCJ9..UehJjNC8xM7BCjw08mwpk1MMhhTUMIBQFAL2vpI3i3OQXlbq3yyrKrmm1LhscfFqbi4PHWffrFqmmGu-yJG60O7UesTCAEzzfaTwvBO7AftTBqeVzeWOsMBlpDb580SLsHgMm167Wv9MDIj7SCGF7J0ySjPIAJedddnnOKXkc42xW_9ffFRIc5uOrthT7iRUNTJsmZJEdXBoV16r32xORSNbBbJdcF1yLT_KasLd45Kkj2PIrlaM8rlgJnM1XUvhcVALQ4jEkGxTAAdrXFJoU265GCchGA6rF5Wniob9L2UoT8BDerZ7ObGpnqXVb2qRqPGC2IHz7pVwirlxRU2GHg",
+        "created": "2022-03-14T22:36:12Z",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktNCJ9..LYW7aLc9VWgYwai01Y5hJTOZDmtA8qTcJ6XMuLfnOS71v5iblY80-mKfxs4tKZcQj8gJdOA475-EMcqNmB368zHccKV0pMYFce1D7Su949jEM0awhx6gx4s7BdcX-zEIykstH014YXwWAHN0hzRsttMZ5W8uAxNKPXvtWguzKuLgUBObSUg6NdTG60p_axAtJtyTdfDO3GZh8bgMbvTBTkbJ_gcR9ittgd_od0Lko575neY1guXIZY0mUR4ZxSHnWBBRUsi6CviaVpn1yPUGEFcNm52bNRIQQVYaOfcspSQ1Pl-Gdo7dsMQLOIMbDTRE4Cw_BM3haD2bccEhrQs8Bw",
         "proofPurpose": "authentication",
-        "challenge": "a8d22d5b-a7c4-4164-8707-a29076bdc7ef",
+        "challenge": "0411c7d1-e60f-4376-a53e-061cd0d98f27",
         "verificationMethod": "did:example:123#key-4"
     }
 }
