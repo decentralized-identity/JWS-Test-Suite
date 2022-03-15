@@ -45,7 +45,7 @@ func createCredential(signer *cryptosuite.JSONWebKeySigner, cred *vc.VerifiableC
 	if err := suite.Sign(signer, cred); err != nil {
 		return nil, err
 	}
-	signedBytes, err := json.MarshalIndent(cred, "", "    ")
+	signedBytes, err := json.Marshal(cred)
 	if err != nil {
 		return nil, err
 	}
@@ -108,6 +108,6 @@ func verifyJWTCredential(verifier *cryptosuite.JSONWebKeyVerifier, credFilePath 
 	if err != nil {
 		return false, errors.Wrapf(err, "could not get jwt from file: %s", credFilePath)
 	}
-	err = verifier.VerifyJWT(cred)
+	_, err = verifier.VerifyVerifiableCredentialJWT(cred)
 	return err == nil, nil
 }

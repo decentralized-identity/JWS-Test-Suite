@@ -59,7 +59,7 @@ func createJWTPresentation(signer *cryptosuite.JSONWebKeySigner, pres *vc.Verifi
 		return nil, err
 	}
 	jwtFile := JWTJSONFile{JWT: string(jwtBytes)}
-	signedBytes, err := json.MarshalIndent(jwtFile, "", "    ")
+	signedBytes, err := json.Marshal(jwtFile)
 	if err != nil {
 		return nil, err
 	}
@@ -110,6 +110,6 @@ func verifyJWTPresentation(verifier *cryptosuite.JSONWebKeyVerifier, presFilePat
 	if err != nil {
 		return false, errors.Wrapf(err, "could not get jwt from file: %s", presFilePath)
 	}
-	err = verifier.VerifyJWT(pres)
+	_, err = verifier.VerifyVerifiablePresentationJWT(pres)
 	return err == nil, nil
 }

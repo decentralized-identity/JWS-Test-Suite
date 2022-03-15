@@ -49,6 +49,8 @@ github.com/TBD54566975/did-sdk v0.0.0-20220309031428-f196e10f556b h1:ojIErTtxw+z
 github.com/TBD54566975/did-sdk v0.0.0-20220309031428-f196e10f556b/go.mod h1:eP3XhZiJ6K3IeKw4uVg8gGb/N+EdzIW36Hr1sN2zOjE=
 github.com/TBD54566975/did-sdk v0.0.0-20220314163910-beacaea898fb h1:qsr4jAg4b+fHbqDUX6dgPo4RsnQtkWwo0KiqclMR91k=
 github.com/TBD54566975/did-sdk v0.0.0-20220314163910-beacaea898fb/go.mod h1:eP3XhZiJ6K3IeKw4uVg8gGb/N+EdzIW36Hr1sN2zOjE=
+github.com/TBD54566975/did-sdk v0.0.0-20220315001954-41bd20a3214d h1:Ue0zEUNsZPpgAJCD2OK4IuCz9eVTLVWE7oUu/pvkV0k=
+github.com/TBD54566975/did-sdk v0.0.0-20220315001954-41bd20a3214d/go.mod h1:eP3XhZiJ6K3IeKw4uVg8gGb/N+EdzIW36Hr1sN2zOjE=
 github.com/antihax/optional v1.0.0/go.mod h1:uupD/76wgC+ih3iEmQUL+0Ugr19nfwCT1kdvxnR2qWY=
 github.com/armon/circbuf v0.0.0-20150827004946-bbbad097214e/go.mod h1:3U/XgcO3hCbHZ8TKRvWD2dDTCfh9M9ya+I9JpbB7O8o=
 github.com/armon/go-metrics v0.0.0-20180917152333-f0300d1749da/go.mod h1:Q73ZrmVTwzkszR9V5SSuryQ31EELlFMUz1kKyl939pY=
@@ -336,6 +338,8 @@ golang.org/x/crypto v0.0.0-20220307211146-efcb8507fb70 h1:syTAU9FwmvzEoIYMqcPHOc
 golang.org/x/crypto v0.0.0-20220307211146-efcb8507fb70/go.mod h1:IxCIyHEi3zRg3s0A5j5BB6A9Jmi73HwBIUl50j+osU4=
 golang.org/x/crypto v0.0.0-20220313003712-b769efc7c000 h1:SL+8VVnkqyshUSz5iNnXtrBQzvFF2SkROm6t5RczFAE=
 golang.org/x/crypto v0.0.0-20220313003712-b769efc7c000/go.mod h1:IxCIyHEi3zRg3s0A5j5BB6A9Jmi73HwBIUl50j+osU4=
+golang.org/x/crypto v0.0.0-20220314234724-5d542ad81a58 h1:L8CkJyVoa0/NslN3RUMLgasK5+KatNvyRGQ9QyCYAfc=
+golang.org/x/crypto v0.0.0-20220314234724-5d542ad81a58/go.mod h1:IxCIyHEi3zRg3s0A5j5BB6A9Jmi73HwBIUl50j+osU4=
 golang.org/x/exp v0.0.0-20190121172915-509febef88a4/go.mod h1:CJ0aWSM057203Lf6IL+f9T1iT9GByDxfZKAQTCR3kQA=
 golang.org/x/exp v0.0.0-20190306152737-a1d7652674e8/go.mod h1:CJ0aWSM057203Lf6IL+f9T1iT9GByDxfZKAQTCR3kQA=
 golang.org/x/exp v0.0.0-20190510132918-efd6b22b2522/go.mod h1:ZjyILWgesfNpC6sMxTJOJm9Kp84zZh5NQWvqDGG3Qr8=
