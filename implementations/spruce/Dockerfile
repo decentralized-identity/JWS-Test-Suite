@@ -6,5 +6,5 @@ WORKDIR /ssi-jws
 RUN cargo build --release
 
 FROM alpine
-COPY --from=builder /ssi-jws/target/x86_64-unknown-linux-musl/release/ssi-jws ssi-jws
+COPY --from=builder /ssi-jws/target/*/release/ssi-jws ssi-jws
 ENTRYPOINT ["./ssi-jws"]

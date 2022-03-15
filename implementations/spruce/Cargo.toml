@@ -5,7 +5,7 @@ edition = "2018"
 publish = false
 
 [dependencies]
-ssi = { git = "https://github.com/spruceid/ssi", features = ["secp256k1", "secp256r1", "keccak-hash"] }
+ssi = { git = "https://github.com/spruceid/ssi", rev = "dbe7c07cc6790e16d9da263112fc4e680bc5bb1a", features = ["secp256k1", "secp256r1", "keccak-hash"] }
 structopt = "0.3"
 tokio = { version = "1.0", features = ["macros", "rt-multi-thread"] }
 serde = { version = "1.0", features = ["derive"] }
