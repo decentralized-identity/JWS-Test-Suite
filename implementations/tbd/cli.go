@@ -46,6 +46,7 @@ func main() {
 	verifyCmd := flag.NewFlagSet("verify", flag.ExitOnError)
 	verifyCmd.StringVar(&input, "input", "", "input file")
 	verifyCmd.StringVar(&output, "output", "", "output file")
+	verifyCmd.StringVar(&format, "format", "", "format of output")
 
 	switch os.Args[2] {
 	case "create":
@@ -69,20 +70,24 @@ func main() {
 			fmt.Printf("error running verify: %s\n", err.Error())
 			os.Exit(1)
 		}
-		validateVerifyFlags(input, output)
+		validateVerifyFlags(input, output, format)
 		keyPath := buildKeyPath(input)
 
 		var err error
 		if inputType == CredentialInputType {
-			format := VerifiableCredentialFormat
-			if isJWTFile(input) {
-				format = VerifiableCredentialJWTFormat
+			if format == "" {
+				format = VerifiableCredentialFormat
+				if isJWTFile(input) {
+					format = VerifiableCredentialJWTFormat
+				}
 			}
 			err = VerifyCredential(input, keyPath, output, format)
 		} else {
-			format := VerifiablePresentationFormat
-			if isJWTFile(input) {
-				format = VerifiablePresentationJWTFormat
+			if format == "" {
+				format = VerifiablePresentationFormat
+				if isJWTFile(input) {
+					format = VerifiablePresentationJWTFormat
+				}
 			}
 			err = VerifyPresentation(input, keyPath, output, format)
 		}
@@ -97,7 +102,7 @@ func main() {
 }
 
 func validateCreateFlags(input, output, key, format string) {
-	validateInputAndOutputFlags(input, output)
+	validateInputAndOutputFlags(input, output, format)
 	if key == "" {
 		fmt.Println("no key specified")
 		os.Exit(1)
@@ -112,11 +117,11 @@ func validateCreateFlags(input, output, key, format string) {
 	}
 }
 
-func validateVerifyFlags(input, output string) {
-	validateInputAndOutputFlags(input, output)
+func validateVerifyFlags(input, output, format string) {
+	validateInputAndOutputFlags(input, output, format)
 }
 
-func validateInputAndOutputFlags(input, output string) {
+func validateInputAndOutputFlags(input, output, format string) {
 	if input == "" {
 		fmt.Println("no input file specified")
 		os.Exit(1)
@@ -124,6 +129,9 @@ func validateInputAndOutputFlags(input, output string) {
 	if output == "" {
 		fmt.Println("no output file specified")
 		os.Exit(1)
+	}
+	if format == "" {
+		fmt.Println("no format specified...will try to infer")
 	}
 }
 
