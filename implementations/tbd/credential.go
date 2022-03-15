@@ -45,7 +45,7 @@ func createCredential(signer *cryptosuite.JSONWebKeySigner, cred *vc.VerifiableC
 	if err := suite.Sign(signer, cred); err != nil {
 		return nil, err
 	}
-	signedBytes, err := json.Marshal(cred)
+	signedBytes, err := json.MarshalIndent(cred, "", "    ")
 	if err != nil {
 		return nil, err
 	}
