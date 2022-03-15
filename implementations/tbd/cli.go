@@ -6,6 +6,7 @@ import (
 	"flag"
 	"fmt"
 	"os"
+	"strings"
 )
 
 const (
@@ -16,8 +17,11 @@ const (
 
 	// Supported formats
 
-	VerifiableCredentialFormat   = "vc"
-	VerifiablePresentationFormat = "vp"
+	VerifiableCredentialFormat    = "vc"
+	VerifiableCredentialJWTFormat = "vc-jwt"
+
+	VerifiablePresentationFormat    = "vp"
+	VerifiablePresentationJWTFormat = "vp-jwt"
 )
 
 func main() {
@@ -42,6 +46,7 @@ func main() {
 	verifyCmd := flag.NewFlagSet("verify", flag.ExitOnError)
 	verifyCmd.StringVar(&input, "input", "", "input file")
 	verifyCmd.StringVar(&output, "output", "", "output file")
+	verifyCmd.StringVar(&format, "format", "", "format of output")
 
 	switch os.Args[2] {
 	case "create":
@@ -52,9 +57,9 @@ func main() {
 		validateCreateFlags(input, output, key, format)
 		var err error
 		if inputType == CredentialInputType {
-			err = CreateCredential(input, key, output)
+			err = CreateCredential(input, key, output, format)
 		} else {
-			err = CreatePresentation(input, key, output)
+			err = CreatePresentation(input, key, output, format)
 		}
 		if err != nil {
 			fmt.Printf("error creating %s: %s\n", inputType, err.Error())
@@ -65,13 +70,26 @@ func main() {
 			fmt.Printf("error running verify: %s\n", err.Error())
 			os.Exit(1)
 		}
-		validateVerifyFlags(input, output)
+		validateVerifyFlags(input, output, format)
 		keyPath := buildKeyPath(input)
+
 		var err error
 		if inputType == CredentialInputType {
-			err = VerifyCredential(input, keyPath, output)
+			if format == "" {
+				format = VerifiableCredentialFormat
+				if isJWTFile(input) {
+					format = VerifiableCredentialJWTFormat
+				}
+			}
+			err = VerifyCredential(input, keyPath, output, format)
 		} else {
-			err = VerifyPresentation(input, keyPath, output)
+			if format == "" {
+				format = VerifiablePresentationFormat
+				if isJWTFile(input) {
+					format = VerifiablePresentationJWTFormat
+				}
+			}
+			err = VerifyPresentation(input, keyPath, output, format)
 		}
 		if err != nil {
 			fmt.Printf("error verifying %s: %s\n", inputType, err.Error())
@@ -84,7 +102,7 @@ func main() {
 }
 
 func validateCreateFlags(input, output, key, format string) {
-	validateInputAndOutputFlags(input, output)
+	validateInputAndOutputFlags(input, output, format)
 	if key == "" {
 		fmt.Println("no key specified")
 		os.Exit(1)
@@ -99,11 +117,11 @@ func validateCreateFlags(input, output, key, format string) {
 	}
 }
 
-func validateVerifyFlags(input, output string) {
-	validateInputAndOutputFlags(input, output)
+func validateVerifyFlags(input, output, format string) {
+	validateInputAndOutputFlags(input, output, format)
 }
 
-func validateInputAndOutputFlags(input, output string) {
+func validateInputAndOutputFlags(input, output, format string) {
 	if input == "" {
 		fmt.Println("no input file specified")
 		os.Exit(1)
@@ -112,6 +130,9 @@ func validateInputAndOutputFlags(input, output string) {
 		fmt.Println("no output file specified")
 		os.Exit(1)
 	}
+	if format == "" {
+		fmt.Println("no format specified...will try to infer")
+	}
 }
 
 func isSupportedInputType(inputType string) bool {
@@ -119,5 +140,10 @@ func isSupportedInputType(inputType string) bool {
 }
 
 func isSupportedFormat(format string) bool {
-	return format == VerifiableCredentialFormat || format == VerifiablePresentationFormat
+	return format == VerifiableCredentialFormat || format == VerifiablePresentationFormat ||
+		format == VerifiableCredentialJWTFormat || format == VerifiablePresentationJWTFormat
+}
+
+func isJWTFile(filePath string) bool {
+	return strings.Contains(filePath, "jwt")
 }

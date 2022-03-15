@@ -36,6 +36,22 @@ func getPresentationFromFile(filePath string) (*vc.VerifiablePresentation, error
 	return &pres, nil
 }
 
+type JWTJSONFile struct {
+	JWT string `json:"jwt"`
+}
+
+func getJWTFromFile(filePath string) (string, error) {
+	bytes, err := ioutil.ReadFile(filePath)
+	if err != nil {
+		return "", errors.Wrapf(err, "could not read jwt from file: %s", filePath)
+	}
+	var jwt JWTJSONFile
+	if err := json.Unmarshal(bytes, &jwt); err != nil {
+		return "", errors.Wrap(err, "could not unmarshal jwt")
+	}
+	return jwt.JWT, nil
+}
+
 func getKeyFromFile(filePath string) (*cryptosuite.JSONWebKey2020, error) {
 	bytes, err := ioutil.ReadFile(filePath)
 	if err != nil {
