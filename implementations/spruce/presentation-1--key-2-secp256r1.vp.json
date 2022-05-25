@@ -37,20 +37,20 @@
           "type": [
             "DocumentVerification"
           ],
-          "evidenceDocument": "DriversLicense",
-          "subjectPresence": "Physical",
           "verifier": "https://example.edu/issuers/14",
-          "documentPresence": "Physical"
+          "evidenceDocument": "DriversLicense",
+          "documentPresence": "Physical",
+          "subjectPresence": "Physical"
         },
         {
           "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192dxyzab",
           "type": [
             "SupportingActivity"
           ],
-          "evidenceDocument": "Fluid Dynamics Focus",
-          "subjectPresence": "Digital",
           "documentPresence": "Digital",
-          "verifier": "https://example.edu/issuers/14"
+          "verifier": "https://example.edu/issuers/14",
+          "subjectPresence": "Digital",
+          "evidenceDocument": "Fluid Dynamics Focus"
         }
       ]
     }
@@ -60,8 +60,8 @@
     "proofPurpose": "authentication",
     "challenge": "123",
     "verificationMethod": "did:example:123#key-2",
-    "created": "2022-03-21T16:25:53.305Z",
-    "jws": "eyJhbGciOiJFUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..82rm-zXdCUNZXomwIqKM-xghWIUiG_haFScOExlBWIR3apViYaVMaD2d64iG12th0SdMsMssm306J3U_V3Xu1w"
+    "created": "2022-05-25T20:46:02.924Z",
+    "jws": "eyJhbGciOiJFUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..plQcFLs9aJIL2c4pe2OH31OfbIMrmstWLGcS4OCRhbMrbTAn7WZYokUVjRMx1YfzCYFD8MJMBlg1A7C9aDucsA"
   },
   "holder": "did:example:123"
 }

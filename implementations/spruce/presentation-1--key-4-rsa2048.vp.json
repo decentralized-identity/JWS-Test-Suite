@@ -37,20 +37,20 @@
           "type": [
             "DocumentVerification"
           ],
-          "documentPresence": "Physical",
-          "subjectPresence": "Physical",
           "verifier": "https://example.edu/issuers/14",
-          "evidenceDocument": "DriversLicense"
+          "evidenceDocument": "DriversLicense",
+          "documentPresence": "Physical",
+          "subjectPresence": "Physical"
         },
         {
           "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192dxyzab",
           "type": [
             "SupportingActivity"
           ],
-          "verifier": "https://example.edu/issuers/14",
           "documentPresence": "Digital",
-          "subjectPresence": "Digital",
-          "evidenceDocument": "Fluid Dynamics Focus"
+          "evidenceDocument": "Fluid Dynamics Focus",
+          "verifier": "https://example.edu/issuers/14",
+          "subjectPresence": "Digital"
         }
       ]
     }
@@ -60,8 +60,8 @@
     "proofPurpose": "authentication",
     "challenge": "123",
     "verificationMethod": "did:example:123#key-4",
-    "created": "2022-03-21T16:26:32.097Z",
-    "jws": "eyJhbGciOiJQUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..P5bpKwvEt-gSjMWBYrw-llP-VkDwK0Hfn8oiGVVNziHBkrRUsO5_HDmcEnBulIfGo7KCDVqTmnzvXFGi7jso7dPldV9vsAZAloc7yUDf8VRXt9Xhdlg1KgYMDR9jSDYm__49nSy1Rn3J9UJLjSHjQKuG-KHrtREz5DGP_jADZNH7X-1wPYFWFK7ceqNJUbeUHMSSbXubnm6Qk36aDe37eFw5slnGXTCqaamR9cK0u9I0Ql0hbHlMvoAyXltPIYtHwk7-l9CjDKnMmHNGCZUdMHxJPKmt5mhYVyCSTLOrHPLY3aVXg26X49kfB6CSxcI1DXFi8JunzNq-23QNsBoylw"
+    "created": "2022-05-25T20:46:32.928Z",
+    "jws": "eyJhbGciOiJQUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..Mo3EQG50Lb6jWfvZbdcWsqczcyHtn0D8ECjDQPQmgU7yvfEOOihLlXN18ewGdAjN14FY6frqtmWlRi2IRY3_FKSK602OnxyDarR4p9mbugtXaFK1VmJkHMkKKylQLHQWFfe5_AGQxTiKfeg3GI_-Y9dBShoePI9JEkW3fjSDuNRYGS1_T2ndme_xvRaGk-lSxiIWb75D29-EjiMam0cW9vnWGTYSl9tZN5PJAtVf2Wtuxc7kyXXJKrpRJHJTTISCKbvNufdjTUbrBK6sWbtgJmyd9ZMxSmwh-HgMk-N_wmUSoXN8_FdNSv4zJfTKV6YFBirehBGJHIdl0niJZWb6jw"
   },
   "holder": "did:example:123"
 }

@@ -58,10 +58,10 @@
     ],
     "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2022-03-21T16:27:50Z",
-        "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMyJ9..1h1a7d78mF7x3DOrhFSQmt5wVUDqJAoYKmECzw6Xkbf6VgCOuYvgHY3PsZpiHQzaVM7-djxZPCLf1B1kVe_hjn4Bg35jMi57B7-65yVOnV1piMCq9bts1dbsgvffBHtr",
+        "created": "2022-05-25T20:47:34Z",
+        "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMyJ9..8nErSrYWz7jVpLASluId926fGJ6BEqBeqdwUgGX9ZjSvSYL1O0Lmg_tueV-Hs1mxr19f_CKrzm3iK892WzuQUXBk6f6G0mUkoRg1WEPqO5igBWGcyOsBg-I5RqiDAqDX",
         "proofPurpose": "authentication",
-        "challenge": "aa9e881e-cd80-41c4-a818-97d857c88407",
+        "challenge": "b380f7e3-6cbe-4929-a3be-0b184d15b9f0",
         "verificationMethod": "did:example:123#key-3"
     }
 }
