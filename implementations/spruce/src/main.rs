@@ -278,6 +278,7 @@ async fn main() -> Result<(), std::io::Error> {
                 ..Default::default()
             };
             let resolver = DIDExample;
+            let mut context_loader = ssi::jsonld::ContextLoader::default();
             let output_file = file_or_stdout(output)?;
             let output_writer = BufWriter::new(output_file);
             if jwt {
@@ -290,7 +291,14 @@ async fn main() -> Result<(), std::io::Error> {
                 serde_json::to_writer_pretty(output_writer, &jwt_obj)?;
             } else {
                 let proof = JsonWebSignature2020
-                    .sign(&credential, &options, &resolver, &private_key_jwk, None)
+                    .sign(
+                        &credential,
+                        &options,
+                        &resolver,
+                        &mut context_loader,
+                        &private_key_jwk,
+                        None,
+                    )
                     .await
                     .unwrap();
                 credential.add_proof(proof);
@@ -311,12 +319,13 @@ async fn main() -> Result<(), std::io::Error> {
             let input_file = file_or_stdin(input)?;
             let input_reader = BufReader::new(input_file);
             let resolver = DIDExample;
+            let mut context_loader = ssi::jsonld::ContextLoader::default();
             let result = if jwt {
                 let jwt: JWT = serde_json::from_reader(input_reader)?;
-                Credential::verify_jwt(&jwt.jwt, None, &resolver).await
+                Credential::verify_jwt(&jwt.jwt, None, &resolver, &mut context_loader).await
             } else {
                 let vc: Credential = serde_json::from_reader(input_reader)?;
-                vc.verify(None, &resolver).await
+                vc.verify(None, &resolver, &mut context_loader).await
             };
             let output_file = file_or_stdout(output)?;
             let output_writer = BufWriter::new(output_file);
@@ -351,6 +360,7 @@ async fn main() -> Result<(), std::io::Error> {
                 ..Default::default()
             };
             let resolver = DIDExample;
+            let mut context_loader = ssi::jsonld::ContextLoader::default();
             let output_file = file_or_stdout(output)?;
             let output_writer = BufWriter::new(output_file);
             if jwt {
@@ -363,7 +373,14 @@ async fn main() -> Result<(), std::io::Error> {
                 serde_json::to_writer_pretty(output_writer, &jwt_obj)?;
             } else {
                 let proof = JsonWebSignature2020
-                    .sign(&presentation, &options, &resolver, &private_key_jwk, None)
+                    .sign(
+                        &presentation,
+                        &options,
+                        &resolver,
+                        &mut context_loader,
+                        &private_key_jwk,
+                        None,
+                    )
                     .await
                     .unwrap();
                 presentation.add_proof(proof);
@@ -384,12 +401,13 @@ async fn main() -> Result<(), std::io::Error> {
             let input_file = file_or_stdin(input)?;
             let input_reader = BufReader::new(input_file);
             let resolver = DIDExample;
+            let mut context_loader = ssi::jsonld::ContextLoader::default();
             let result = if jwt {
                 let jwt: JWT = serde_json::from_reader(input_reader)?;
-                Presentation::verify_jwt(&jwt.jwt, None, &resolver).await
+                Presentation::verify_jwt(&jwt.jwt, None, &resolver, &mut context_loader).await
             } else {
                 let vp: Presentation = serde_json::from_reader(input_reader)?;
-                vp.verify(None, &resolver).await
+                vp.verify(None, &resolver, &mut context_loader).await
             };
             let result = JWSTestSuiteVerificationResult::from(result);
             let output_file = file_or_stdout(output)?;
