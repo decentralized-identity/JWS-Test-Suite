@@ -14,17 +14,22 @@
         {
             "@context": [
                 "https://www.w3.org/2018/credentials/v1",
-                "https://w3id.org/security/suites/jws-2020/v1"
+                "https://w3id.org/security/suites/jws-2020/v1",
+                {
+                    "@vocab": "https://example.com/#"
+                }
             ],
             "type": [
                 "VerifiableCredential"
             ],
             "issuer": "did:example:123",
-            "issuanceDate": "2021-01-01T19:23:24Z",
-            "credentialSubject": {},
+            "issuanceDate": "2022-03-19T15:20:55Z",
+            "credentialSubject": {
+                "foo": "bar"
+            },
             "proof": {
-                "created": "2021-11-06T16:49:50Z",
-                "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..-OM7P_1AXTqC2p8b5bejObwP7rc-pIFH5vbBJCUzLXAqSXtT_mPW0wJIEgyEP4AII_BygxefoA__eztwJu4fDw",
+                "created": "2022-05-25T20:47:56Z",
+                "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..UZDrVaA0AbuYimw6_751qMLeBWJf5Av1KJIuDSvusq42WDbfP75ID6dZ7tarz-fy8hHYYD4FR7T1OJvlVxFkBA",
                 "proofPurpose": "assertionMethod",
                 "type": "JsonWebSignature2020",
                 "verificationMethod": "did:example:123#key-0"
@@ -33,10 +38,10 @@
     ],
     "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2022-05-25T20:47:20Z",
-        "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMiJ9..yoRl4zUKqRpMATcgkVneW0Y6vxhNHgM34Elkmk89DPATjzewpEfXMb-ViupjIGD4TW1lZa55dCpXGkxc5efKqA",
+        "created": "2022-05-27T19:09:55Z",
+        "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMiJ9..03peJ1waxdhhHjjb2ZVRYGsmtJRq0WvwLfFzEnVoaXGBwhRXSFD-WzzaSExc59SOYXrew7JQKcADXPj7f-470g",
         "proofPurpose": "authentication",
-        "challenge": "0269fb31-9f2e-4473-b600-a1326903d881",
+        "challenge": "eb094d37-7361-48ce-a4b1-3d538b5395e5",
         "verificationMethod": "did:example:123#key-2"
     }
 }

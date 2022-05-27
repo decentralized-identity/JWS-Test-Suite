@@ -38,8 +38,8 @@
             "DocumentVerification"
           ],
           "verifier": "https://example.edu/issuers/14",
-          "evidenceDocument": "DriversLicense",
           "subjectPresence": "Physical",
+          "evidenceDocument": "DriversLicense",
           "documentPresence": "Physical"
         },
         {
@@ -60,8 +60,8 @@
     "proofPurpose": "authentication",
     "challenge": "123",
     "verificationMethod": "did:example:123#key-1",
-    "created": "2022-05-25T20:45:47.987Z",
-    "jws": "eyJhbGciOiJFUzI1NksiLCJjcml0IjpbImI2NCJdLCJiNjQiOmZhbHNlfQ..7q1zcJEyuHOR8br85VJWzTMH7m04lnDVPg8g6bsLBZ9eSD7S1vYPk8vBIra7tsNiERTudX1DZD6UR6gvDid4sg"
+    "created": "2022-05-27T19:08:17.953Z",
+    "jws": "eyJhbGciOiJFUzI1NksiLCJjcml0IjpbImI2NCJdLCJiNjQiOmZhbHNlfQ..wIgI62I0B24PdEdAWokZiqy-xRO9wbK9IvfDt1BUaH1p4yaHwLAoce-hIGioZ_AL3H8NFZkYZqCp0V569m8slA"
   },
   "holder": "did:example:123"
 }

@@ -13,20 +13,25 @@
     {
       "@context": [
         "https://www.w3.org/2018/credentials/v1",
-        "https://w3id.org/security/suites/jws-2020/v1"
+        "https://w3id.org/security/suites/jws-2020/v1",
+        {
+          "@vocab": "https://example.com/#"
+        }
       ],
       "type": [
         "VerifiableCredential"
       ],
-      "credentialSubject": {},
+      "credentialSubject": {
+        "foo": "bar"
+      },
       "issuer": "did:example:123",
-      "issuanceDate": "2021-01-01T19:23:24Z",
+      "issuanceDate": "2022-03-19T15:20:55Z",
       "proof": {
         "type": "JsonWebSignature2020",
         "proofPurpose": "assertionMethod",
         "verificationMethod": "did:example:123#key-0",
-        "created": "2021-11-06T16:49:50Z",
-        "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..-OM7P_1AXTqC2p8b5bejObwP7rc-pIFH5vbBJCUzLXAqSXtT_mPW0wJIEgyEP4AII_BygxefoA__eztwJu4fDw"
+        "created": "2022-05-25T20:47:56Z",
+        "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..UZDrVaA0AbuYimw6_751qMLeBWJf5Av1KJIuDSvusq42WDbfP75ID6dZ7tarz-fy8hHYYD4FR7T1OJvlVxFkBA"
       }
     }
   ],
@@ -35,8 +40,8 @@
     "proofPurpose": "authentication",
     "challenge": "123",
     "verificationMethod": "did:example:123#key-2",
-    "created": "2022-05-25T20:46:03.987Z",
-    "jws": "eyJhbGciOiJFUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..jbBR7_3bQodAGw232gHYyalczj7YMW2AmWwUMv4jyN52n6dD6-1jDM7bkveCBHFfJk4hT-1Dkdctg8SXaEoeWQ"
+    "created": "2022-05-27T19:08:35.011Z",
+    "jws": "eyJhbGciOiJFUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..hHrSuVp6qM53CbN5xLS6qMrD_BONj7rBzeu4k-Psf5LVnEWBylOkrG4U3FeKd_BHvfcjSKPv35eD-soTE-sUWg"
   },
   "holder": "did:example:123",
   "presentation_submission": {
