@@ -22,13 +22,12 @@ function buildIssuer(did, privateKeyJwk) {
     const pk = privateKeyJwkToPrivateKeyBase58(buffer)
     theSigner = new EdDSASigner(pk)
     alg = 'EdDSA'
-  } 
-  /*
-  if (privateKeyJwk.kty === 'EC') {
-  const pk = keyto.from( JSON.stringify(privateKeyJwk), 'jwk').toString('blk', 'private')
-  theSigner = new ES256KSigner(pk)
-  if (privateKeyJwk.crv === 'secp256k1') {
+  } else if (privateKeyJwk.kty === 'EC' && privateKeyJwk.crv === 'secp256k1') {
+    const pk = base64url.toBuffer(privateKeyJwk.d)
+    theSigner = new ES256KSigner(pk)
     alg = 'ES256K'
+  }
+   /*
   } else if (privateKeyJwk.crv === 'P-256') {
     alg = 'ES256'
   }
