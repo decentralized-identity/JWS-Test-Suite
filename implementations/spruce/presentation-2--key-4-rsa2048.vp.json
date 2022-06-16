@@ -40,8 +40,8 @@
     "proofPurpose": "authentication",
     "challenge": "123",
     "verificationMethod": "did:example:123#key-4",
-    "created": "2022-05-27T19:09:06.912Z",
-    "jws": "eyJhbGciOiJQUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..k2vwN5uUtYmyWSSUO_wAKKFNr5AIlBbu0_bnP0Up-rfnhDCTUAF2WRW3MtS6htarfug4dhBIuwLOcV1EqR3VxvJBOqF_9XSxHw0pYYIywy9W81gx3TeFI_1VqgJx6W_YMH42LWct4SSYHklZKvG5u8GCpT5sT-dRZGjtoeJnt8E_jhe_UyzbL_6EnvUckk2R692gH8ge-_B5yVsyEJb8U7NBMp5GX1BCAlq0kqu5pV4eIUrxmTkQkwP9BKBrjUGXlcE_m0RzQuMPGe2APR5ldx-nOYYI_4GUPn9gay9snnO3VCEr7HjBGWKpnLL9HvEzMdqM3-Sj8aLmxl44pPEl2w"
+    "created": "2022-06-16T12:50:32.797Z",
+    "jws": "eyJhbGciOiJQUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..Z9vKvlx2ybsIKfCrWIKzNTPqFcqF8eGzzsLz1CS1l9Rj87XrYGE8mYgQ59FrU_8KrbGU_H_yKM76nEviA1H0aUEo3gRXn7Fchv1NZVmIPISla8cQ51kArEDMemlTCBhdcEFqN21lffXNiXvKR00v0y6K_GFfMLzfKYRLwOe6zq1IwelWgdBH-yxti69gf60wEATcAaq_YbXcaf3Xm1ga7i2MtVfGDyKN-FeXakyxI1cJlNAqECJH0wMJoQxJguj_etlhm9W2apeMZvuHMqu0hIeXxr1dh1f77_nAOWiVeNXfshBNyuZAxPEbdpCVdA8Uy4yZ6b_QV32wWwXDb2IJeg"
   },
   "holder": "did:example:123",
   "presentation_submission": {

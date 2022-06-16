@@ -40,8 +40,8 @@
     "proofPurpose": "authentication",
     "challenge": "123",
     "verificationMethod": "did:example:123#key-3",
-    "created": "2022-05-27T19:08:50.927Z",
-    "jws": "eyJhbGciOiJFUzM4NCIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..ajDKq48ckUvB6KxVcmfVNLVvQ7XvIEL7ss3xgn5PXektzSfM9zG400OnjPpYu1t91rfOxdgXb_cN8mM-hal9ul2CleRs9SNLwFwZGt44Y1vsjRvpZv13DbBHSWttqZ3w"
+    "created": "2022-06-16T12:50:16.047Z",
+    "jws": "eyJhbGciOiJFUzM4NCIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..HHoliVltU5vc6BKsfRLxh5FHz0F84Ql1s3fgI10NWmJNr3AFyzuRUDnyteCyTqAmvH8hbvH5OwTZnnNwgxNSuUxA3flUsFVHo_fVAcVP2N5NZIZtqenZlk6h1SEVowml"
   },
   "holder": "did:example:123",
   "presentation_submission": {
