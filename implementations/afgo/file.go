@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"fmt"
 	"io/ioutil"
 	"strings"
 
@@ -78,9 +79,21 @@ func writeOutputToFile(data []byte, filePath string) error {
 func buildKeyPath(input string) string {
 	keyIdx := strings.Index(input, "key")
 	dotIdx := strings.Index(input, ".")
+	relPrefix := "../.."
+	hasPrefix := strings.HasPrefix(input, relPrefix)
+	if hasPrefix {
+		dotIdx = strings.Index(input[len(relPrefix)+1:], ".") + len(relPrefix) + 1
+	}
+
 	fileIdx := strings.LastIndex(input, ".")
 	path := "/data/keys/"
+	if hasPrefix {
+		path = relPrefix + path
+	}
+
 	key := input[keyIdx:dotIdx]
 	file := input[fileIdx:]
+	fmt.Println(fmt.Sprintf("key path: %s", strings.Join([]string{path, key, file}, "")))
+
 	return strings.Join([]string{path, key, file}, "")
 }

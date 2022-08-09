@@ -4,9 +4,10 @@
         "https://w3id.org/security/suites/jws-2020/v1"
     ],
     "proof": {
-        "created": "2022-08-08T21:21:11.534032702Z",
-        "jws": "eyJhbGciOiJKc29uV2ViU2lnbmF0dXJlMjAyMCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..VWFJrQ_WzjveDhdK2RxemYBH_70770LY45N0cVDQ2WDkgPeaS1tgfasvI19Xc2mwl2dSKKvpAVaOrpzTrVDzkVasnn4YrjGTQildTsZpWlRsW-oZKjNsRv8QnhBPptza",
-        "proofPurpose": "assertionMethod",
+        "challenge": "74177e53-1c24-412a-a011-a5422e0a57b5",
+        "created": "2022-08-10T18:09:33.472879417Z",
+        "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..vIanbMmduO964p2vnk-Gwfd4B1lUvh4wh3YKmdvwmivRwHBxHoVipmuUhY3euDCLOn0Zbd5eQGMxWQQDWRdPq426M78vMWxDnpX60QbTxp-k5iczz5XLxN1hbW82GyEE",
+        "proofPurpose": "authentication",
         "type": "JsonWebSignature2020",
         "verificationMethod": "did:example:123#key-3"
     },

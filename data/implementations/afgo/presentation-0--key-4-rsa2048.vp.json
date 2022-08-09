@@ -4,9 +4,10 @@
         "https://w3id.org/security/suites/jws-2020/v1"
     ],
     "proof": {
-        "created": "2022-08-08T21:21:28.970536351Z",
-        "jws": "eyJhbGciOiJKc29uV2ViU2lnbmF0dXJlMjAyMCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..hjnNJ-qspbsfbCi5CZA_lignZBH5nqFNcqTg0fUPpJbvOWpvj7s-4XnBEjObECQYvgzD38nLa5vesy3XMPRbWbJTBULnF4-acYr2b5oVs9bzu9wESFmmqxnIvXO0gB2UWhtf46ubmUgKcNkwldF9O7bMFJmeI2Z9B6hQEG0eOfuFM9PT-YQNF2MZ3BH42VlC2bTxYNjdKznRltUnRz75voZyMcSf5sB1ggUeWIklOtHgVZPJCWorLgXPddsu1fESIhDyR1AGu2bCY5bBfwk84_AcCXD95qCagjWqVVRp3U_ZtvPxBP__jQH1YWPTCZA-sngvZqrAcL8N-fBKa12iWA",
-        "proofPurpose": "assertionMethod",
+        "challenge": "439452cf-b856-4f4c-b0d7-e40b34762b22",
+        "created": "2022-08-10T18:09:51.432893004Z",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..UtUjjhKNMojTVj0v2icbAqa04cy0SblCVSBtmb7MUq-FXngDr9ESFvbATbsPKDpxfT6r6e1cESMH-CUpTsma2i6szzPvPevBiKPDrUEzbk8xF8-79C0lq83jiQv7mFKLgb9XAyLeGpr4PNqKRs1J6ve6qQieo_2vmGRx5wM9lY3q4QCuhM2dN3BVbZjCVQzt1ZApCkDXWQK8ETxmL_iHvzh7463j9ez08_vZRbkPHbIE_fUyAEOHzAXFHXiggEi6fyIOP2s2vbaMMqYd3fM6OlO9Kd62ulSOQP4KckgZXWMEqZONSao5SOAaCWVpYMdvewsNhd17DmkVzoyGQBh9zA",
+        "proofPurpose": "authentication",
         "type": "JsonWebSignature2020",
         "verificationMethod": "did:example:123#key-4"
     },

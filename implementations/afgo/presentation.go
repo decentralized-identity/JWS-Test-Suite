@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
+	"github.com/google/uuid"
 	"github.com/pkg/errors"
 
 	"github.com/hyperledger/aries-framework-go/pkg/doc/jose/jwk"
@@ -61,6 +62,8 @@ func createPresentation(KeyId string, signer verifiable.Signer, vp *verifiable.P
 		SignatureRepresentation: verifiable.SignatureJWS,
 		Suite:                   jsonwebsignature2020.New(suite.WithSigner(signer)),
 		VerificationMethod:      KeyId,
+		Challenge:               uuid.New().String(),
+		Purpose:                 "authentication",
 	}, jsonldsig.WithDocumentLoader(documentLoader))
 	if err != nil {
 		return nil, err

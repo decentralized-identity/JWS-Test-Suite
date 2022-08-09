@@ -3,8 +3,9 @@ module github.com/decentralized-identity/JWS-Test-Suite/implementations/afgo
 go 1.17
 
 require (
-	github.com/hyperledger/aries-framework-go v0.1.9-0.20220808200314-1daefcc2be64
-	github.com/hyperledger/aries-framework-go/test/bdd v0.0.0-20220808200314-1daefcc2be64
+	github.com/google/uuid v1.3.0
+	github.com/hyperledger/aries-framework-go v0.1.9-0.20220810173204-995713217e09
+	github.com/hyperledger/aries-framework-go/test/bdd v0.0.0-20220810173204-995713217e09
 	github.com/pkg/errors v0.9.1
 )
 
@@ -22,7 +23,6 @@ require (
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/golang/snappy v0.0.3 // indirect
 	github.com/google/tink/go v1.6.1 // indirect
-	github.com/google/uuid v1.3.0 // indirect
 	github.com/hyperledger/aries-framework-go/component/storage/leveldb v0.0.0-20220322085443-50e8f9bd208b // indirect
 	github.com/hyperledger/aries-framework-go/component/storageutil v0.0.0-20220322085443-50e8f9bd208b // indirect
 	github.com/hyperledger/aries-framework-go/spi v0.0.0-20220606124520-53422361c38c // indirect

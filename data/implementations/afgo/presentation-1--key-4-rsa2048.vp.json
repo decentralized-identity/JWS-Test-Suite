@@ -6,9 +6,10 @@
     "holder": "did:example:123",
     "id": "urn:uuid:789",
     "proof": {
-        "created": "2022-08-08T21:21:30.259171795Z",
-        "jws": "eyJhbGciOiJKc29uV2ViU2lnbmF0dXJlMjAyMCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..h2mUO8BRq35ZzvVsve4Wa1FtXtsw2mAdgfzwyY4SNtAZpnbYVvj62e9zqHHpgTB5NfnSMgXSWqjWO7tMg7tWDA6A5eOrxhFYk3RUqCt6zgzDVCMSXvmWW2Wy4-HMGYqNDLEzExjAtllDn1-Tg6BQvzKGV9ERmW_mUe6Depqob3UBTD4zOWj8n2Qp8VSP9iOFpQ_1PPPRFx7AgmXf831gMQnVbXhH077wwPWJFtT0dKS2rU3yAW0D8kOosFXPZmviZ2wY_vY7yXRCsePx2HRMjkO3ADY9zhRvQ-ibUQSjMlWNZNEFpOF7vhETJ7bZ8mqr3N2tk_VQRbmysjlfax89Fw",
-        "proofPurpose": "assertionMethod",
+        "challenge": "f643f84c-8f68-44a3-b8e7-b9d4f4440d52",
+        "created": "2022-08-10T18:09:53.589588818Z",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Y3uSZDHGbFTYlQQDNlmMbbU284PWgbfK5P8U2wvHSfgOaBiPp-VerZ-A590shYRgJdvLgi-Wc8no_K_PMUueYkhgspN_zZAzI8KRA2w7w5U4STh6ZgkCecwXY6tGHEDrLm-jYETikaodVFJzeTdmHaNDjsAt9vwWWBF7tBjFb6aQojHrAOga6nSTslwFSVdZT8NL-yr_i5QnWbdDI35VuocmALN9loBPBn-ZDB2C7M6-3bshmw3_5CCOW1Rz_gQIlx4WOGBhaidCCsyAWUbaB9UFBhhTgDh3O2Ovj40v4wVVORJd0oK304hkVXibDvQhV2TMzSL8_i9UBq0UoCTYRQ",
+        "proofPurpose": "authentication",
         "type": "JsonWebSignature2020",
         "verificationMethod": "did:example:123#key-4"
     },

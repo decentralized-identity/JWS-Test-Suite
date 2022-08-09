@@ -6,9 +6,10 @@
     "holder": "did:example:123",
     "id": "urn:uuid:789",
     "proof": {
-        "created": "2022-08-08T21:20:36.783277642Z",
-        "jws": "eyJhbGciOiJKc29uV2ViU2lnbmF0dXJlMjAyMCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..7NeBJYns_YTzrifrqgzsDknfE6xBNbFaqp1mFWtbhDH8BgwxRPH8etyKW6SQH0mYZzIR9bvWalXGgLJYVpax6g",
-        "proofPurpose": "assertionMethod",
+        "challenge": "2932b9db-7a09-4630-a963-efcac02b1760",
+        "created": "2022-08-10T18:09:03.944583245Z",
+        "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..9n9Ifh52_iOa8TY-np8zvn7KSNdE34c3SffImKr_V2pzRS78aPsdvCbbhPYg3KyE5ih8LQGN_biuQmrp7WQsYQ",
+        "proofPurpose": "authentication",
         "type": "JsonWebSignature2020",
         "verificationMethod": "did:example:123#key-1"
     },

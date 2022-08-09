@@ -18,9 +18,10 @@
         "id": "a30e3b91-fb77-4d22-95fa-871689c322e2"
     },
     "proof": {
-        "created": "2022-08-08T21:20:38.080936675Z",
-        "jws": "eyJhbGciOiJKc29uV2ViU2lnbmF0dXJlMjAyMCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ZnE61XzmSCSq1XMe2Hx28ifABUh_46F3qUTblExLYgrx14An0HJn9EDRDWFLWZDb3tAyj9Gw-pe9EaJ6Qngs1g",
-        "proofPurpose": "assertionMethod",
+        "challenge": "f9589bdf-4068-46b0-bfd3-a31ca9f88556",
+        "created": "2022-08-10T18:09:04.995097858Z",
+        "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..yKyzG8gx6cF4AS3l5viMyOhPBW043a8x2M9oavjqJnUdzlz2fxBI-S54jGIx3ghEjvnP8kKxa5eA0V5fxd9EYQ",
+        "proofPurpose": "authentication",
         "type": "JsonWebSignature2020",
         "verificationMethod": "did:example:123#key-1"
     },
