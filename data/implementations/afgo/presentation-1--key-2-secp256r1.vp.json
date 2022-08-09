@@ -1,0 +1,64 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "holder": "did:example:123",
+    "id": "urn:uuid:789",
+    "proof": {
+        "created": "2022-08-08T21:20:55.071019178Z",
+        "jws": "eyJhbGciOiJKc29uV2ViU2lnbmF0dXJlMjAyMCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..pIfss3GqZRoci_Dson02JSFrM8GH4YzNkVp9lvpR1_j6Wpx2z3q1kwNf1zIols1yKkQ5CgJPd_R_YmQo2d2EJg",
+        "proofPurpose": "assertionMethod",
+        "type": "JsonWebSignature2020",
+        "verificationMethod": "did:example:123#key-2"
+    },
+    "type": "VerifiablePresentation",
+    "verifiableCredential": [
+        {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/jws-2020/v1",
+                {
+                    "@vocab": "https://example.com/#"
+                }
+            ],
+            "credentialSubject": {
+                "id": "did:example:456"
+            },
+            "evidence": [
+                {
+                    "documentPresence": "Physical",
+                    "evidenceDocument": "DriversLicense",
+                    "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192d4231",
+                    "subjectPresence": "Physical",
+                    "type": [
+                        "DocumentVerification"
+                    ],
+                    "verifier": "https://example.edu/issuers/14"
+                },
+                {
+                    "documentPresence": "Digital",
+                    "evidenceDocument": "Fluid Dynamics Focus",
+                    "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192dxyzab",
+                    "subjectPresence": "Digital",
+                    "type": [
+                        "SupportingActivity"
+                    ],
+                    "verifier": "https://example.edu/issuers/14"
+                }
+            ],
+            "issuanceDate": "2021-01-01T19:23:24Z",
+            "issuer": "did:example:123",
+            "proof": {
+                "created": "2021-10-02T17:58:00Z",
+                "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..VA8VQqAerUT6AIVdHc8W8Q2aj12LOQjV_VZ1e134NU9Q20eBsNySPjNdmTWp2HkdquCnbRhBHxIbNeFEIOOhAg",
+                "proofPurpose": "assertionMethod",
+                "type": "JsonWebSignature2020",
+                "verificationMethod": "did:example:123#key-0"
+            },
+            "type": [
+                "VerifiableCredential"
+            ]
+        }
+    ]
+}
