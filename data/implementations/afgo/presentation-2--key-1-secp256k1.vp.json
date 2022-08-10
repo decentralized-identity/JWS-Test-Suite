@@ -1,0 +1,58 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://identity.foundation/presentation-exchange/submission/v1"
+    ],
+    "holder": "did:example:123",
+    "id": "urn:uuid:789",
+    "presentation_submission": {
+        "definition_id": "32f54163-7166-48f1-93d8-ff217bdb0653",
+        "descriptor_map": [
+            {
+                "format": "ldp_vc",
+                "id": "example_input_1",
+                "path": "$.verifiableCredential[0]"
+            }
+        ],
+        "id": "a30e3b91-fb77-4d22-95fa-871689c322e2"
+    },
+    "proof": {
+        "challenge": "f9589bdf-4068-46b0-bfd3-a31ca9f88556",
+        "created": "2022-08-10T18:09:04.995097858Z",
+        "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..yKyzG8gx6cF4AS3l5viMyOhPBW043a8x2M9oavjqJnUdzlz2fxBI-S54jGIx3ghEjvnP8kKxa5eA0V5fxd9EYQ",
+        "proofPurpose": "authentication",
+        "type": "JsonWebSignature2020",
+        "verificationMethod": "did:example:123#key-1"
+    },
+    "type": [
+        "VerifiablePresentation",
+        "PresentationSubmission"
+    ],
+    "verifiableCredential": [
+        {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/jws-2020/v1",
+                {
+                    "@vocab": "https://example.com/#"
+                }
+            ],
+            "credentialSubject": {
+                "foo": "bar"
+            },
+            "issuanceDate": "2022-03-19T15:20:55Z",
+            "issuer": "did:example:123",
+            "proof": {
+                "created": "2022-05-25T20:47:56Z",
+                "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..UZDrVaA0AbuYimw6_751qMLeBWJf5Av1KJIuDSvusq42WDbfP75ID6dZ7tarz-fy8hHYYD4FR7T1OJvlVxFkBA",
+                "proofPurpose": "assertionMethod",
+                "type": "JsonWebSignature2020",
+                "verificationMethod": "did:example:123#key-0"
+            },
+            "type": [
+                "VerifiableCredential"
+            ]
+        }
+    ]
+}

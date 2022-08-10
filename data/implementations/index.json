@@ -1,4 +1,1876 @@
 {
+  "afgo": {
+    "credential-0--key-0-ed25519.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "vectorContent": "eyJhbGciOiJFZERTQSIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NDc3MDMyNTUsImlzcyI6ImRpZDpleGFtcGxlOjEyMyIsIm5iZiI6MTY0NzcwMzI1NSwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImZvbyI6ImJhciJ9LCJpc3N1YW5jZURhdGUiOiIyMDIyLTAzLTE5VDE1OjIwOjU1WiIsImlzc3VlciI6ImRpZDpleGFtcGxlOjEyMyIsInR5cGUiOiJWZXJpZmlhYmxlQ3JlZGVudGlhbCJ9fQ.NhVFyGIYUYymz37KaAj4A9IYDIEMaVYW8iAXuWb4qb1_X6n9PE2L8IcBxfygpCt9-zOGKuu4EguMOu4CaEawDw",
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-0--key-0-ed25519.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1",
+          {
+            "@vocab": "https://example.com/#"
+          }
+        ],
+        "credentialSubject": {
+          "foo": "bar"
+        },
+        "issuanceDate": "2022-03-19T15:20:55Z",
+        "issuer": "did:example:123",
+        "proof": {
+          "created": "2022-03-19T15:20:55Z",
+          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..mbaL34JyZW10xVYn6s8nL6Y5PRwmazBO-YvMoY_ug5MATzIVRFGe9ipKVE-CYmaIvjAXS3a6hqmYN6d0IonTBA",
+          "proofPurpose": "assertionMethod",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-0"
+        },
+        "type": "VerifiableCredential"
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-0--key-1-secp256k1.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "vectorContent": "eyJhbGciOiJFUzI1NksiLCJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTEiLCJ0eXAiOiJKV1QifQ.eyJpYXQiOjE2NDc3MDMyNTUsImlzcyI6ImRpZDpleGFtcGxlOjEyMyIsIm5iZiI6MTY0NzcwMzI1NSwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImZvbyI6ImJhciJ9LCJpc3N1YW5jZURhdGUiOiIyMDIyLTAzLTE5VDE1OjIwOjU1WiIsImlzc3VlciI6ImRpZDpleGFtcGxlOjEyMyIsInR5cGUiOiJWZXJpZmlhYmxlQ3JlZGVudGlhbCJ9fQ.qd510XNGI6WP9rHgEFy_v-TnFzrCKej58FwF7vPH3YVLyDpZsctzFIYHVPMFgz8jOJP0d5tXt5wDa9WXKD6atg",
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-0--key-1-secp256k1.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1",
+          {
+            "@vocab": "https://example.com/#"
+          }
+        ],
+        "credentialSubject": {
+          "foo": "bar"
+        },
+        "issuanceDate": "2022-03-19T15:20:55Z",
+        "issuer": "did:example:123",
+        "proof": {
+          "created": "2022-03-19T15:20:55Z",
+          "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..uDNbdIrs7dPyypzuKNrEjpaarwSXi_FWPohZQ-253yGc9LwVg7kRT8RRT41rJxXO0G3lghwOMBp51sAV-wwomQ",
+          "proofPurpose": "assertionMethod",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-1"
+        },
+        "type": "VerifiableCredential"
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-0--key-2-secp256r1.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "vectorContent": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NDc3MDMyNTUsImlzcyI6ImRpZDpleGFtcGxlOjEyMyIsIm5iZiI6MTY0NzcwMzI1NSwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImZvbyI6ImJhciJ9LCJpc3N1YW5jZURhdGUiOiIyMDIyLTAzLTE5VDE1OjIwOjU1WiIsImlzc3VlciI6ImRpZDpleGFtcGxlOjEyMyIsInR5cGUiOiJWZXJpZmlhYmxlQ3JlZGVudGlhbCJ9fQ.CObsSZ6gjy5jwjEMbtL541GP1PlqrYLwoSkyE-HC02hw3o-0RweDBCAgdgJCA_wmMzhrCIrZ38cdAna-ZSTGig",
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-0--key-2-secp256r1.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1",
+          {
+            "@vocab": "https://example.com/#"
+          }
+        ],
+        "credentialSubject": {
+          "foo": "bar"
+        },
+        "issuanceDate": "2022-03-19T15:20:55Z",
+        "issuer": "did:example:123",
+        "proof": {
+          "created": "2022-03-19T15:20:55Z",
+          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..31T1fEtaUzWofrU-1TAULaCDJDwlUb-QgGbhr3dKGcJQ5ukP8VtAvOAVAfezLQIJ0YFS-F7ZPRJtVP1WEuqBAQ",
+          "proofPurpose": "assertionMethod",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-2"
+        },
+        "type": "VerifiableCredential"
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-0--key-3-secp384r1.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "vectorContent": "eyJhbGciOiJFUzM4NCIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMyIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NDc3MDMyNTUsImlzcyI6ImRpZDpleGFtcGxlOjEyMyIsIm5iZiI6MTY0NzcwMzI1NSwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImZvbyI6ImJhciJ9LCJpc3N1YW5jZURhdGUiOiIyMDIyLTAzLTE5VDE1OjIwOjU1WiIsImlzc3VlciI6ImRpZDpleGFtcGxlOjEyMyIsInR5cGUiOiJWZXJpZmlhYmxlQ3JlZGVudGlhbCJ9fQ.eHVRSABqOuB4bP-xr42i-ZOen_N3hWu2kXpM1CHsEZqRFjL9sc8AvZm_aFJN_pC_nMd5-Z1TwV_Fo5-fepsPHhnt6lheSOlCUavu7ARY6mYg5EQ6yk16QYr7SZMPfCKs",
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-0--key-3-secp384r1.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1",
+          {
+            "@vocab": "https://example.com/#"
+          }
+        ],
+        "credentialSubject": {
+          "foo": "bar"
+        },
+        "issuanceDate": "2022-03-19T15:20:55Z",
+        "issuer": "did:example:123",
+        "proof": {
+          "created": "2022-03-19T15:20:55Z",
+          "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..M-gv241XqwoR5aRVwQ_H3xV7pknM_Z-vDwoyIWGUeXhT2Jw1mBesqVcCmbp8Js4IIwSVHK6WNLO4F9GCixmiL2GEhbS3k8mkouIJn4Q95POxIpHpMiO6R-ZOaLZAvlI4",
+          "proofPurpose": "assertionMethod",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-3"
+        },
+        "type": "VerifiableCredential"
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-0--key-4-rsa2048.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "vectorContent": "eyJhbGciOiJQUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktNCIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NDc3MDMyNTUsImlzcyI6ImRpZDpleGFtcGxlOjEyMyIsIm5iZiI6MTY0NzcwMzI1NSwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImZvbyI6ImJhciJ9LCJpc3N1YW5jZURhdGUiOiIyMDIyLTAzLTE5VDE1OjIwOjU1WiIsImlzc3VlciI6ImRpZDpleGFtcGxlOjEyMyIsInR5cGUiOiJWZXJpZmlhYmxlQ3JlZGVudGlhbCJ9fQ.ANz73ym5t8BSyuyefgG3Uuh8r_bqAQKvdKYNHwSNb5U_lrfQz_T0QCqAayMfEzWhOaYvYW0gcTM9txWGmVYK_-fPv-kVv7_dWa75EI-ZWfEId0f1D_krXK5pJ6qrN6DDvmH641jT2xIsZHra9NAXp6yqXlTPJF5RP7VJFg8JshgnSAZH4J_fjvz3fOZrgRsRxK1BOPNEXlZjHIo_WiKrK5RT2TGqNAX175WGuShMZg56rsWF5qF1Kc2bAr046l9C6cQRnhF4iJlg9HZgV0056z1Vjo4c8S5V5TNZi0xAE8-DYMkEyY7j7kbwftyniRIBe1y57Vvx2FOMrXnY7xdhbw",
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-0--key-4-rsa2048.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1",
+          {
+            "@vocab": "https://example.com/#"
+          }
+        ],
+        "credentialSubject": {
+          "foo": "bar"
+        },
+        "issuanceDate": "2022-03-19T15:20:55Z",
+        "issuer": "did:example:123",
+        "proof": {
+          "created": "2022-03-19T15:20:55Z",
+          "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ZOwSxuMx0OpnJxG1QXkFYZGOzY4oyqnQFqWd5OsXwlWZMTXOx1Y0W_JQ-QNxGjbGhrkdtotQx4BZw5Fgq_1Mtk307U1y6ST5HrDUh79cdozZzulzafOkaW__49xbA8XNOGVFRojZLiERjGY4Wq2ApQCWxBcUqkmQ8WslOe1gdUAf0uwCE31wYJjkjsh2ipcd5L3SMs-L6wVP_OjyWigUa0HVySvk3xxHGvQgoh1HlBs7YiuSIyE2h_lKFCqu7PXDNBKYAKiSAiA-suYQyzG5rYPH4xOE7TbTl9Wm7G1hDgt9AIk8x3HQ-xOknqQwTXgT1FozotFs9mgYHVOoFU5R6g",
+          "proofPurpose": "assertionMethod",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-4"
+        },
+        "type": "VerifiableCredential"
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-1--key-0-ed25519.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "vectorContent": "eyJhbGciOiJFZERTQSIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCIsInR5cCI6IkpXVCJ9.eyJleHAiOjE5MjUwNjE4MDQsImlhdCI6MTYwOTUyOTAwNCwiaXNzIjoiZGlkOmV4YW1wbGU6MTIzIiwibmJmIjoxNjA5NTI5MDA0LCJzdWIiOiJkaWQ6ZXhhbXBsZTo0NTYiLCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwiY3JlZGVudGlhbFN1YmplY3QiOnsiaWQiOiJkaWQ6ZXhhbXBsZTo0NTYiLCJ0eXBlIjoiUGVyc29uIn0sImV4cGlyYXRpb25EYXRlIjoiMjAzMS0wMS0wMVQxOToyMzoyNFoiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImlzc3VlciI6ImRpZDpleGFtcGxlOjEyMyIsInR5cGUiOiJWZXJpZmlhYmxlQ3JlZGVudGlhbCJ9fQ.uy9g8oyVrTGPcOZh7OXH45oMw007bQ1ur5HWt--sK5LEEk-XP8y-xBIRnxMCUgcQV9rzb6hCJ4fNczAHxYi8BA",
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-1--key-0-ed25519.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1",
+          {
+            "@vocab": "https://example.com/#"
+          }
+        ],
+        "credentialSubject": {
+          "id": "did:example:456",
+          "type": "Person"
+        },
+        "expirationDate": "2031-01-01T19:23:24Z",
+        "issuanceDate": "2021-01-01T19:23:24Z",
+        "issuer": "did:example:123",
+        "proof": {
+          "created": "2021-01-01T19:23:24Z",
+          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..H1qFSCR-Iz2A6WoUIoghvO7Ld1tusrDNCRIZWdARmbVz6WdBlE1u8DYyc21XtEa9HQHuYAq_IJprtz34QRaoBw",
+          "proofPurpose": "assertionMethod",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-0"
+        },
+        "type": "VerifiableCredential"
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-1--key-1-secp256k1.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "vectorContent": "eyJhbGciOiJFUzI1NksiLCJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTEiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE5MjUwNjE4MDQsImlhdCI6MTYwOTUyOTAwNCwiaXNzIjoiZGlkOmV4YW1wbGU6MTIzIiwibmJmIjoxNjA5NTI5MDA0LCJzdWIiOiJkaWQ6ZXhhbXBsZTo0NTYiLCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwiY3JlZGVudGlhbFN1YmplY3QiOnsiaWQiOiJkaWQ6ZXhhbXBsZTo0NTYiLCJ0eXBlIjoiUGVyc29uIn0sImV4cGlyYXRpb25EYXRlIjoiMjAzMS0wMS0wMVQxOToyMzoyNFoiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImlzc3VlciI6ImRpZDpleGFtcGxlOjEyMyIsInR5cGUiOiJWZXJpZmlhYmxlQ3JlZGVudGlhbCJ9fQ.7gQMm25DXJ5tpODVIrFzfYQKqAb4jXAUlhKzBVa3paGrP6xIPKdRSVXVAK9g29lRvzeilrrtQRUpW_SyyWk_fA",
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-1--key-1-secp256k1.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1",
+          {
+            "@vocab": "https://example.com/#"
+          }
+        ],
+        "credentialSubject": {
+          "id": "did:example:456",
+          "type": "Person"
+        },
+        "expirationDate": "2031-01-01T19:23:24Z",
+        "issuanceDate": "2021-01-01T19:23:24Z",
+        "issuer": "did:example:123",
+        "proof": {
+          "created": "2021-01-01T19:23:24Z",
+          "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..fzyJfqnpHv5H2-vhLhVEVHyUhdRIf6N9c6YYqoe7SIsTkezvtpJVw6kc1XRymLLU5Z4pb4CPIW4zoqDn37zyng",
+          "proofPurpose": "assertionMethod",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-1"
+        },
+        "type": "VerifiableCredential"
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-1--key-2-secp256r1.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "vectorContent": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE5MjUwNjE4MDQsImlhdCI6MTYwOTUyOTAwNCwiaXNzIjoiZGlkOmV4YW1wbGU6MTIzIiwibmJmIjoxNjA5NTI5MDA0LCJzdWIiOiJkaWQ6ZXhhbXBsZTo0NTYiLCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwiY3JlZGVudGlhbFN1YmplY3QiOnsiaWQiOiJkaWQ6ZXhhbXBsZTo0NTYiLCJ0eXBlIjoiUGVyc29uIn0sImV4cGlyYXRpb25EYXRlIjoiMjAzMS0wMS0wMVQxOToyMzoyNFoiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImlzc3VlciI6ImRpZDpleGFtcGxlOjEyMyIsInR5cGUiOiJWZXJpZmlhYmxlQ3JlZGVudGlhbCJ9fQ.nJR0Of3PtPlLL-a4pAC-Xd7iv6D9nDIboI1d8CT3-Z3dabKU5G_ttx0b-hhfw-ULhqrLGxxJ9GWzxSkRaxQCTA",
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-1--key-2-secp256r1.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1",
+          {
+            "@vocab": "https://example.com/#"
+          }
+        ],
+        "credentialSubject": {
+          "id": "did:example:456",
+          "type": "Person"
+        },
+        "expirationDate": "2031-01-01T19:23:24Z",
+        "issuanceDate": "2021-01-01T19:23:24Z",
+        "issuer": "did:example:123",
+        "proof": {
+          "created": "2021-01-01T19:23:24Z",
+          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Ei1FAdrOr3u8qhd4jMXeV47jNZXEpPHI5zM-7CPjOInBzpBHwAvXhzIm1wpIb4gHPx3fqNvgDDV72ie4QqtIOg",
+          "proofPurpose": "assertionMethod",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-2"
+        },
+        "type": "VerifiableCredential"
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-1--key-3-secp384r1.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "vectorContent": "eyJhbGciOiJFUzM4NCIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE5MjUwNjE4MDQsImlhdCI6MTYwOTUyOTAwNCwiaXNzIjoiZGlkOmV4YW1wbGU6MTIzIiwibmJmIjoxNjA5NTI5MDA0LCJzdWIiOiJkaWQ6ZXhhbXBsZTo0NTYiLCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwiY3JlZGVudGlhbFN1YmplY3QiOnsiaWQiOiJkaWQ6ZXhhbXBsZTo0NTYiLCJ0eXBlIjoiUGVyc29uIn0sImV4cGlyYXRpb25EYXRlIjoiMjAzMS0wMS0wMVQxOToyMzoyNFoiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImlzc3VlciI6ImRpZDpleGFtcGxlOjEyMyIsInR5cGUiOiJWZXJpZmlhYmxlQ3JlZGVudGlhbCJ9fQ.tJbudPF49L-G1xkieyPUZsnsTlxuVHSIqyQoNGcENHF4-cGoPkrC78fYYhl10CVpg8QLRSrj4qhcZ5-fJ7qy20LcFy1MpG6SBfm67M9EK8Ca2IfMsrPeSN9XYjdoO9vr",
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-1--key-3-secp384r1.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1",
+          {
+            "@vocab": "https://example.com/#"
+          }
+        ],
+        "credentialSubject": {
+          "id": "did:example:456",
+          "type": "Person"
+        },
+        "expirationDate": "2031-01-01T19:23:24Z",
+        "issuanceDate": "2021-01-01T19:23:24Z",
+        "issuer": "did:example:123",
+        "proof": {
+          "created": "2021-01-01T19:23:24Z",
+          "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..5k0RNCDcpa7cADCSXBHOWqS_-NQJFll95uOCIVmHOf9gqF2rpqOOsfXj1eJHO99beFuhUiKBM-zEPZnGpyVzckOzypvOi4ZtrrRm0eecXKih-Qgqfn0XMCG3SYUHsqsY",
+          "proofPurpose": "assertionMethod",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-3"
+        },
+        "type": "VerifiableCredential"
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-1--key-4-rsa2048.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "vectorContent": "eyJhbGciOiJQUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktNCIsInR5cCI6IkpXVCJ9.eyJleHAiOjE5MjUwNjE4MDQsImlhdCI6MTYwOTUyOTAwNCwiaXNzIjoiZGlkOmV4YW1wbGU6MTIzIiwibmJmIjoxNjA5NTI5MDA0LCJzdWIiOiJkaWQ6ZXhhbXBsZTo0NTYiLCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwiY3JlZGVudGlhbFN1YmplY3QiOnsiaWQiOiJkaWQ6ZXhhbXBsZTo0NTYiLCJ0eXBlIjoiUGVyc29uIn0sImV4cGlyYXRpb25EYXRlIjoiMjAzMS0wMS0wMVQxOToyMzoyNFoiLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImlzc3VlciI6ImRpZDpleGFtcGxlOjEyMyIsInR5cGUiOiJWZXJpZmlhYmxlQ3JlZGVudGlhbCJ9fQ.Fqh-HWbd1KHgcSIszdDbfJFc483skMi33lysowjTtzJbQWKKnd3pE628y99Uz0lomXgNXjTkJb6QOABwrPPxqCzUZcGE_XKxA3Ge0kTWZGh6L5xVPYdgKEcTWJ6buTn-lNHhCg9IHa8FEpKI89NGsz3bcLy0EV1iLS1I6wn_xBSzKDt8ZVQW_SpFh6GH-osEDYPpcsWsY3f9su368PR891wBj1L8iP7_pdy7WlItG0WI1vlBZNUHb9C7sB-qosWDBiZGM8VaM9-mj8siLGPHttgmsrFz7VeL8FJ3tdIRMD7YoOz1nvYNDUfzBebXZ3t7iFQjYkCuyCiLyul5igJmUg",
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-1--key-4-rsa2048.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1",
+          {
+            "@vocab": "https://example.com/#"
+          }
+        ],
+        "credentialSubject": {
+          "id": "did:example:456",
+          "type": "Person"
+        },
+        "expirationDate": "2031-01-01T19:23:24Z",
+        "issuanceDate": "2021-01-01T19:23:24Z",
+        "issuer": "did:example:123",
+        "proof": {
+          "created": "2021-01-01T19:23:24Z",
+          "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ght4pK8dLHwDt6SCcR-uYyEl86ubf1dmabNHrO8kiokmr9RgdjnP82fcKIuqkDG0rDLo26Ol7qrtPKMRCV7m8nbxAQYqXw942spVuyj_FLQf7rSxY_ltAevnrx0UeRp--bDvUNHawyuXJNMm1V1stzww115BCySr9dDUiOfmNR0Iu4hVTWmaWUmsAwV85Cd4kYChZP-o9VDsDxm7cnTdm77CLnPGGlZ86vP93NEb9Oio3PSBfWsEFHVfuDaPXiNwuUyhkLsNgXubY2dSfis7VyUa-x1jBKKFlDvhoKemqGPGS1aY1P9Piyz9cbFMCcl3yaZiRKfnLRH_-X3BKCK0ww",
+          "proofPurpose": "assertionMethod",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-4"
+        },
+        "type": "VerifiableCredential"
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-2--key-0-ed25519.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "vectorContent": "eyJhbGciOiJFZERTQSIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MDk1MjkwMDQsImlzcyI6ImRpZDpleGFtcGxlOjEyMyIsIm5iZiI6MTYwOTUyOTAwNCwic3ViIjoiZGlkOmV4YW1wbGU6NDU2IiwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImlkIjoiZGlkOmV4YW1wbGU6NDU2In0sImV2aWRlbmNlIjpbeyJkb2N1bWVudFByZXNlbmNlIjoiUGh5c2ljYWwiLCJldmlkZW5jZURvY3VtZW50IjoiRHJpdmVyc0xpY2Vuc2UiLCJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmQ0MjMxIiwic3ViamVjdFByZXNlbmNlIjoiUGh5c2ljYWwiLCJ0eXBlIjpbIkRvY3VtZW50VmVyaWZpY2F0aW9uIl0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0In0seyJkb2N1bWVudFByZXNlbmNlIjoiRGlnaXRhbCIsImV2aWRlbmNlRG9jdW1lbnQiOiJGbHVpZCBEeW5hbWljcyBGb2N1cyIsImlkIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9ldmlkZW5jZS9mMmFlZWM5Ny1mYzBkLTQyYmYtOGNhNy0wNTQ4MTkyZHh5emFiIiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCIsInR5cGUiOlsiU3VwcG9ydGluZ0FjdGl2aXR5Il0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0In1dLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImlzc3VlciI6ImRpZDpleGFtcGxlOjEyMyIsInR5cGUiOiJWZXJpZmlhYmxlQ3JlZGVudGlhbCJ9fQ.wZdROe_5ytK0xvLAfG1z-LLIoNUqbcQ0KcnFnDCkXPbDKi7H4wL7sa9Ze9Ei9_1fI4LZ25gVCSjM15ob65ymBQ",
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-2--key-0-ed25519.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1",
+          {
+            "@vocab": "https://example.com/#"
+          }
+        ],
+        "credentialSubject": {
+          "id": "did:example:456"
+        },
+        "evidence": [
+          {
+            "documentPresence": "Physical",
+            "evidenceDocument": "DriversLicense",
+            "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192d4231",
+            "subjectPresence": "Physical",
+            "type": [
+              "DocumentVerification"
+            ],
+            "verifier": "https://example.edu/issuers/14"
+          },
+          {
+            "documentPresence": "Digital",
+            "evidenceDocument": "Fluid Dynamics Focus",
+            "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192dxyzab",
+            "subjectPresence": "Digital",
+            "type": [
+              "SupportingActivity"
+            ],
+            "verifier": "https://example.edu/issuers/14"
+          }
+        ],
+        "issuanceDate": "2021-01-01T19:23:24Z",
+        "issuer": "did:example:123",
+        "proof": {
+          "created": "2021-01-01T19:23:24Z",
+          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ktqUdBFG5caNjbEkYbetrrkxRaM0yfdo9dY_g7XuwJDSVw4TBqiE7lHx4zGIwz0IXMWoRXuPEXS3fZI9kI9OCg",
+          "proofPurpose": "assertionMethod",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-0"
+        },
+        "type": "VerifiableCredential"
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-2--key-1-secp256k1.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "vectorContent": "eyJhbGciOiJFUzI1NksiLCJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTEiLCJ0eXAiOiJKV1QifQ.eyJpYXQiOjE2MDk1MjkwMDQsImlzcyI6ImRpZDpleGFtcGxlOjEyMyIsIm5iZiI6MTYwOTUyOTAwNCwic3ViIjoiZGlkOmV4YW1wbGU6NDU2IiwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImlkIjoiZGlkOmV4YW1wbGU6NDU2In0sImV2aWRlbmNlIjpbeyJkb2N1bWVudFByZXNlbmNlIjoiUGh5c2ljYWwiLCJldmlkZW5jZURvY3VtZW50IjoiRHJpdmVyc0xpY2Vuc2UiLCJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmQ0MjMxIiwic3ViamVjdFByZXNlbmNlIjoiUGh5c2ljYWwiLCJ0eXBlIjpbIkRvY3VtZW50VmVyaWZpY2F0aW9uIl0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0In0seyJkb2N1bWVudFByZXNlbmNlIjoiRGlnaXRhbCIsImV2aWRlbmNlRG9jdW1lbnQiOiJGbHVpZCBEeW5hbWljcyBGb2N1cyIsImlkIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9ldmlkZW5jZS9mMmFlZWM5Ny1mYzBkLTQyYmYtOGNhNy0wNTQ4MTkyZHh5emFiIiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCIsInR5cGUiOlsiU3VwcG9ydGluZ0FjdGl2aXR5Il0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0In1dLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImlzc3VlciI6ImRpZDpleGFtcGxlOjEyMyIsInR5cGUiOiJWZXJpZmlhYmxlQ3JlZGVudGlhbCJ9fQ.WWiRZpkK2FTf7cwhbRrksJE9Q_ra3zRIBMIYVlmI2MyMfhxJLTMnCjKX2Twf_SsZd8bx6X5ieV-tFT1wzULm1A",
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-2--key-1-secp256k1.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1",
+          {
+            "@vocab": "https://example.com/#"
+          }
+        ],
+        "credentialSubject": {
+          "id": "did:example:456"
+        },
+        "evidence": [
+          {
+            "documentPresence": "Physical",
+            "evidenceDocument": "DriversLicense",
+            "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192d4231",
+            "subjectPresence": "Physical",
+            "type": [
+              "DocumentVerification"
+            ],
+            "verifier": "https://example.edu/issuers/14"
+          },
+          {
+            "documentPresence": "Digital",
+            "evidenceDocument": "Fluid Dynamics Focus",
+            "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192dxyzab",
+            "subjectPresence": "Digital",
+            "type": [
+              "SupportingActivity"
+            ],
+            "verifier": "https://example.edu/issuers/14"
+          }
+        ],
+        "issuanceDate": "2021-01-01T19:23:24Z",
+        "issuer": "did:example:123",
+        "proof": {
+          "created": "2021-01-01T19:23:24Z",
+          "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..eD78XlLmIqpUsiIqh-bgqswN1uEFTxcoL1ZUjg1fFts6ain0tRYlviGpiy4tiSI8fZ9P4zRyw5PlGg-f4vYZSg",
+          "proofPurpose": "assertionMethod",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-1"
+        },
+        "type": "VerifiableCredential"
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-2--key-2-secp256r1.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "vectorContent": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MDk1MjkwMDQsImlzcyI6ImRpZDpleGFtcGxlOjEyMyIsIm5iZiI6MTYwOTUyOTAwNCwic3ViIjoiZGlkOmV4YW1wbGU6NDU2IiwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImlkIjoiZGlkOmV4YW1wbGU6NDU2In0sImV2aWRlbmNlIjpbeyJkb2N1bWVudFByZXNlbmNlIjoiUGh5c2ljYWwiLCJldmlkZW5jZURvY3VtZW50IjoiRHJpdmVyc0xpY2Vuc2UiLCJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmQ0MjMxIiwic3ViamVjdFByZXNlbmNlIjoiUGh5c2ljYWwiLCJ0eXBlIjpbIkRvY3VtZW50VmVyaWZpY2F0aW9uIl0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0In0seyJkb2N1bWVudFByZXNlbmNlIjoiRGlnaXRhbCIsImV2aWRlbmNlRG9jdW1lbnQiOiJGbHVpZCBEeW5hbWljcyBGb2N1cyIsImlkIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9ldmlkZW5jZS9mMmFlZWM5Ny1mYzBkLTQyYmYtOGNhNy0wNTQ4MTkyZHh5emFiIiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCIsInR5cGUiOlsiU3VwcG9ydGluZ0FjdGl2aXR5Il0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0In1dLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImlzc3VlciI6ImRpZDpleGFtcGxlOjEyMyIsInR5cGUiOiJWZXJpZmlhYmxlQ3JlZGVudGlhbCJ9fQ.51DI5We5xdJuI5RNzrPvf8LtyDv63KVzVKcAeGlA_-DdDIc1PtYm20zeeRTgbuaABuETi_QS1NisYq3T95rrSA",
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-2--key-2-secp256r1.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1",
+          {
+            "@vocab": "https://example.com/#"
+          }
+        ],
+        "credentialSubject": {
+          "id": "did:example:456"
+        },
+        "evidence": [
+          {
+            "documentPresence": "Physical",
+            "evidenceDocument": "DriversLicense",
+            "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192d4231",
+            "subjectPresence": "Physical",
+            "type": [
+              "DocumentVerification"
+            ],
+            "verifier": "https://example.edu/issuers/14"
+          },
+          {
+            "documentPresence": "Digital",
+            "evidenceDocument": "Fluid Dynamics Focus",
+            "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192dxyzab",
+            "subjectPresence": "Digital",
+            "type": [
+              "SupportingActivity"
+            ],
+            "verifier": "https://example.edu/issuers/14"
+          }
+        ],
+        "issuanceDate": "2021-01-01T19:23:24Z",
+        "issuer": "did:example:123",
+        "proof": {
+          "created": "2021-01-01T19:23:24Z",
+          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..fALH41hCLgGa6XVITC7ntsyYWcg5cd0eXhZYQn-KZziZ01N7C1pt17v5u2TUWYXNBOnMCEcy70R2dP0BUWrDaA",
+          "proofPurpose": "assertionMethod",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-2"
+        },
+        "type": "VerifiableCredential"
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-2--key-3-secp384r1.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "vectorContent": "eyJhbGciOiJFUzM4NCIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMyIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MDk1MjkwMDQsImlzcyI6ImRpZDpleGFtcGxlOjEyMyIsIm5iZiI6MTYwOTUyOTAwNCwic3ViIjoiZGlkOmV4YW1wbGU6NDU2IiwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImlkIjoiZGlkOmV4YW1wbGU6NDU2In0sImV2aWRlbmNlIjpbeyJkb2N1bWVudFByZXNlbmNlIjoiUGh5c2ljYWwiLCJldmlkZW5jZURvY3VtZW50IjoiRHJpdmVyc0xpY2Vuc2UiLCJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmQ0MjMxIiwic3ViamVjdFByZXNlbmNlIjoiUGh5c2ljYWwiLCJ0eXBlIjpbIkRvY3VtZW50VmVyaWZpY2F0aW9uIl0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0In0seyJkb2N1bWVudFByZXNlbmNlIjoiRGlnaXRhbCIsImV2aWRlbmNlRG9jdW1lbnQiOiJGbHVpZCBEeW5hbWljcyBGb2N1cyIsImlkIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9ldmlkZW5jZS9mMmFlZWM5Ny1mYzBkLTQyYmYtOGNhNy0wNTQ4MTkyZHh5emFiIiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCIsInR5cGUiOlsiU3VwcG9ydGluZ0FjdGl2aXR5Il0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0In1dLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImlzc3VlciI6ImRpZDpleGFtcGxlOjEyMyIsInR5cGUiOiJWZXJpZmlhYmxlQ3JlZGVudGlhbCJ9fQ.UMFbrH_EtnU_u42DulMWwTTX2de8Kyy3oLktRBZpY1r5ZJhFKmRk7pcuD_yXZfZauP2FpwKvHI7cEAvCjQXm-orcVrlt80kmfiKt6sY5EySALGk-8d3wYBtLWIKvcQ5S",
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-2--key-3-secp384r1.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1",
+          {
+            "@vocab": "https://example.com/#"
+          }
+        ],
+        "credentialSubject": {
+          "id": "did:example:456"
+        },
+        "evidence": [
+          {
+            "documentPresence": "Physical",
+            "evidenceDocument": "DriversLicense",
+            "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192d4231",
+            "subjectPresence": "Physical",
+            "type": [
+              "DocumentVerification"
+            ],
+            "verifier": "https://example.edu/issuers/14"
+          },
+          {
+            "documentPresence": "Digital",
+            "evidenceDocument": "Fluid Dynamics Focus",
+            "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192dxyzab",
+            "subjectPresence": "Digital",
+            "type": [
+              "SupportingActivity"
+            ],
+            "verifier": "https://example.edu/issuers/14"
+          }
+        ],
+        "issuanceDate": "2021-01-01T19:23:24Z",
+        "issuer": "did:example:123",
+        "proof": {
+          "created": "2021-01-01T19:23:24Z",
+          "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..7B-Iu6MNwCDQtbSV6xtGSnk0Uk58FYnXIz5M5H9_dQORd2RSc0-VMT0eN-vpSfYDurq632iT5q0XHmKoCBwwfAz-R6XwFjHsx4UWUwaUnhKzPOYf6iFxfUFAMOTJqKsv",
+          "proofPurpose": "assertionMethod",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-3"
+        },
+        "type": "VerifiableCredential"
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-2--key-4-rsa2048.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "vectorContent": "eyJhbGciOiJQUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktNCIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MDk1MjkwMDQsImlzcyI6ImRpZDpleGFtcGxlOjEyMyIsIm5iZiI6MTYwOTUyOTAwNCwic3ViIjoiZGlkOmV4YW1wbGU6NDU2IiwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImlkIjoiZGlkOmV4YW1wbGU6NDU2In0sImV2aWRlbmNlIjpbeyJkb2N1bWVudFByZXNlbmNlIjoiUGh5c2ljYWwiLCJldmlkZW5jZURvY3VtZW50IjoiRHJpdmVyc0xpY2Vuc2UiLCJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmQ0MjMxIiwic3ViamVjdFByZXNlbmNlIjoiUGh5c2ljYWwiLCJ0eXBlIjpbIkRvY3VtZW50VmVyaWZpY2F0aW9uIl0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0In0seyJkb2N1bWVudFByZXNlbmNlIjoiRGlnaXRhbCIsImV2aWRlbmNlRG9jdW1lbnQiOiJGbHVpZCBEeW5hbWljcyBGb2N1cyIsImlkIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9ldmlkZW5jZS9mMmFlZWM5Ny1mYzBkLTQyYmYtOGNhNy0wNTQ4MTkyZHh5emFiIiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCIsInR5cGUiOlsiU3VwcG9ydGluZ0FjdGl2aXR5Il0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0In1dLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImlzc3VlciI6ImRpZDpleGFtcGxlOjEyMyIsInR5cGUiOiJWZXJpZmlhYmxlQ3JlZGVudGlhbCJ9fQ.Sg1cFVWLLboCGCq_tVXwfthVVlzr10-Jqg7nPgps0YfzVCuAlJzXMCAkh7M3NILkGQ_ukhZcTTKziJfYBqA7cPrhqqSGCSitO-VrtwW6DLxOVW3gBmYYLRR_tJEVKNW_gxI16PfeVocytuDrRR3GyfHu4daBMITLEzAa_u9ngq2KEuiY4sAyQLxrwmfYcKitoyeQLSfjHXRFAhcO5gXDZstxcY62pYmhTfmpbzYgmPFXSfUmi8e7hROJBInkVEyc916Gedmcz56Fm--vwDbIHzUj3xw0ll4qrF9iGLtWZegf4QhanSZCvbHXQKwnYHJjzIR8RhXT8vLqs-FdkSGiQA",
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-2--key-4-rsa2048.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1",
+          {
+            "@vocab": "https://example.com/#"
+          }
+        ],
+        "credentialSubject": {
+          "id": "did:example:456"
+        },
+        "evidence": [
+          {
+            "documentPresence": "Physical",
+            "evidenceDocument": "DriversLicense",
+            "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192d4231",
+            "subjectPresence": "Physical",
+            "type": [
+              "DocumentVerification"
+            ],
+            "verifier": "https://example.edu/issuers/14"
+          },
+          {
+            "documentPresence": "Digital",
+            "evidenceDocument": "Fluid Dynamics Focus",
+            "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192dxyzab",
+            "subjectPresence": "Digital",
+            "type": [
+              "SupportingActivity"
+            ],
+            "verifier": "https://example.edu/issuers/14"
+          }
+        ],
+        "issuanceDate": "2021-01-01T19:23:24Z",
+        "issuer": "did:example:123",
+        "proof": {
+          "created": "2021-01-01T19:23:24Z",
+          "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..iGViIfnQAnewsgkT24KCpDxCKAWbcl95cD7oDYJ-O3SiRrFO57GN6AT9wE4xmh3lW0O1KCOFtfqDBkqDlS2VXABd68QukwAY9_2sBQ7roVWJowMeAkGlimNCZWMo5qlmBWptry3vlVEw1ovNrjlcGWiLrC4MvnGNadrfjKs8RUucmI4nzBVwjzHaXPlz0ouQ1YGyPop0ZVtfNJO19lxLsWgscudrOmmFE14TZt4yAwmihGp1zLVCMcpn0ILsNLM4_7HdGbNoRWZhoNsNHhiRdx0mhVNkdLcjllF9ay7x9qT1-NxbeFkG2-Sc1FEoIJcqMS8nPVo6t43hYTi0QPT2cA",
+          "proofPurpose": "assertionMethod",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-4"
+        },
+        "type": "VerifiableCredential"
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-3--key-0-ed25519.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "vectorContent": "eyJhbGciOiJFZERTQSIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCIsInR5cCI6IkpXVCJ9.eyJleHAiOjIxNDc0ODM2NDgsImlhdCI6MTQ4MzIyODc5OSwiaXNzIjoiZGlkOmV4YW1wbGU6MTIzIiwianRpIjoiaHR0cHM6Ly9leGFtcGxlLmNvbS9jcmVkZW50aWFsLzEyMzQ1NiIsIm5iZiI6MTQ4MzIyODc5OSwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7Im5hbWUiOiJTdGVlbCBNYW51ZmFjdHVyZXIgT3JnIiwidHlwZSI6WyJPcmdhbml6YXRpb24iXSwidXJsIjoiaHR0cHM6Ly93d3cuZXhhbXBsZS5jb20vIn0sImV4cGlyYXRpb25EYXRlIjoiMjAzOC0wMS0xOVQwMzoxNDowOFoiLCJpZCI6Imh0dHBzOi8vZXhhbXBsZS5jb20vY3JlZGVudGlhbC8xMjM0NTYiLCJpc3N1YW5jZURhdGUiOiIyMDE2LTEyLTMxVDIzOjU5OjU5WiIsImlzc3VlciI6eyJhZGRyZXNzIjp7ImFkZHJlc3NDb3VudHJ5IjoiQXVzdHJpYSIsImFkZHJlc3NMb2NhbGl0eSI6IlBvcnQgUmViYSIsImFkZHJlc3NSZWdpb24iOiJTb3V0aCBDYXJvbGluYSIsInBvc3RhbENvZGUiOiI1MzA2Mi03MzU2Iiwic3RyZWV0QWRkcmVzcyI6IjA1MTYgS2VuZHJpY2sgSGVpZ2h0cyIsInR5cGUiOiJQb3N0YWxBZGRyZXNzIn0sImRlc2NyaXB0aW9uIjoiU2VjdXJlZCAyNC83IG5ldXJhbC1uZXQiLCJlbWFpbCI6IkNvcmEzMUBleGFtcGxlLm5ldCIsImZheE51bWJlciI6IjU1NS01NzctMzU2NyIsImlkIjoiZGlkOmV4YW1wbGU6MTIzIiwibmFtZSI6IkdyYWR5LCBQdXJkeSBhbmQgUGFjb2NoYSIsInBob25lTnVtYmVyIjoiNTU1LTE1OC0yNTI4IiwidHlwZSI6Ik9yZ2FuaXphdGlvbiJ9LCJuYW1lIjoiVmVyaWZpYWJsZSBCdXNpbmVzcyBDYXJkIiwicmVsYXRlZExpbmsiOlt7ImxpbmtSZWxhdGlvbnNoaXAiOiJPcmdhbml6YXRpb25QcmVzZW50YXRpb25FbmRwb2ludCIsInRhcmdldCI6Imh0dHBzOi8vZXhhbXBsZS5jb20vb3JnYW5pemF0aW9ucy9leGFtcGxlLW9yZy9wcmVzZW50YXRpb25zL2F2YWlsYWJsZSIsInR5cGUiOiJMaW5rUm9sZSJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIlZlcmlmaWFibGVCdXNpbmVzc0NhcmQiXX19.j4RQ3ZJejCPo8rgIQRhLKaXZ5U4BN2bUMhDXnsuS6kKUafTRVQxiae8bgVJUpdcONatxn_Dli6TN3WJP1b93BQ",
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-3--key-0-ed25519.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1",
+          {
+            "@vocab": "https://example.com/#"
+          }
+        ],
+        "credentialSubject": {
+          "name": "Steel Manufacturer Org",
+          "type": [
+            "Organization"
+          ],
+          "url": "https://www.example.com/"
+        },
+        "expirationDate": "2038-01-19T03:14:08Z",
+        "id": "https://example.com/credential/123456",
+        "issuanceDate": "2016-12-31T23:59:59Z",
+        "issuer": {
+          "address": {
+            "addressCountry": "Austria",
+            "addressLocality": "Port Reba",
+            "addressRegion": "South Carolina",
+            "postalCode": "53062-7356",
+            "streetAddress": "0516 Kendrick Heights",
+            "type": "PostalAddress"
+          },
+          "description": "Secured 24/7 neural-net",
+          "email": "Cora31@example.net",
+          "faxNumber": "555-577-3567",
+          "id": "did:example:123",
+          "name": "Grady, Purdy and Pacocha",
+          "phoneNumber": "555-158-2528",
+          "type": "Organization"
+        },
+        "name": "Verifiable Business Card",
+        "proof": {
+          "created": "2016-12-31T23:59:59Z",
+          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..JJ_AjyTo-p-jPvGEtcIQAY2QEax2hsW37SoUwHi9Lwcd8NGyBXmHfGbl1mDI1MkBRvjU_aAZO-x8fy28O_X_Bg",
+          "proofPurpose": "assertionMethod",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-0"
+        },
+        "relatedLink": [
+          {
+            "linkRelationship": "OrganizationPresentationEndpoint",
+            "target": "https://example.com/organizations/example-org/presentations/available",
+            "type": "LinkRole"
+          }
+        ],
+        "type": [
+          "VerifiableCredential",
+          "VerifiableBusinessCard"
+        ]
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-3--key-1-secp256k1.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "vectorContent": "eyJhbGciOiJFUzI1NksiLCJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTEiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjIxNDc0ODM2NDgsImlhdCI6MTQ4MzIyODc5OSwiaXNzIjoiZGlkOmV4YW1wbGU6MTIzIiwianRpIjoiaHR0cHM6Ly9leGFtcGxlLmNvbS9jcmVkZW50aWFsLzEyMzQ1NiIsIm5iZiI6MTQ4MzIyODc5OSwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7Im5hbWUiOiJTdGVlbCBNYW51ZmFjdHVyZXIgT3JnIiwidHlwZSI6WyJPcmdhbml6YXRpb24iXSwidXJsIjoiaHR0cHM6Ly93d3cuZXhhbXBsZS5jb20vIn0sImV4cGlyYXRpb25EYXRlIjoiMjAzOC0wMS0xOVQwMzoxNDowOFoiLCJpZCI6Imh0dHBzOi8vZXhhbXBsZS5jb20vY3JlZGVudGlhbC8xMjM0NTYiLCJpc3N1YW5jZURhdGUiOiIyMDE2LTEyLTMxVDIzOjU5OjU5WiIsImlzc3VlciI6eyJhZGRyZXNzIjp7ImFkZHJlc3NDb3VudHJ5IjoiQXVzdHJpYSIsImFkZHJlc3NMb2NhbGl0eSI6IlBvcnQgUmViYSIsImFkZHJlc3NSZWdpb24iOiJTb3V0aCBDYXJvbGluYSIsInBvc3RhbENvZGUiOiI1MzA2Mi03MzU2Iiwic3RyZWV0QWRkcmVzcyI6IjA1MTYgS2VuZHJpY2sgSGVpZ2h0cyIsInR5cGUiOiJQb3N0YWxBZGRyZXNzIn0sImRlc2NyaXB0aW9uIjoiU2VjdXJlZCAyNC83IG5ldXJhbC1uZXQiLCJlbWFpbCI6IkNvcmEzMUBleGFtcGxlLm5ldCIsImZheE51bWJlciI6IjU1NS01NzctMzU2NyIsImlkIjoiZGlkOmV4YW1wbGU6MTIzIiwibmFtZSI6IkdyYWR5LCBQdXJkeSBhbmQgUGFjb2NoYSIsInBob25lTnVtYmVyIjoiNTU1LTE1OC0yNTI4IiwidHlwZSI6Ik9yZ2FuaXphdGlvbiJ9LCJuYW1lIjoiVmVyaWZpYWJsZSBCdXNpbmVzcyBDYXJkIiwicmVsYXRlZExpbmsiOlt7ImxpbmtSZWxhdGlvbnNoaXAiOiJPcmdhbml6YXRpb25QcmVzZW50YXRpb25FbmRwb2ludCIsInRhcmdldCI6Imh0dHBzOi8vZXhhbXBsZS5jb20vb3JnYW5pemF0aW9ucy9leGFtcGxlLW9yZy9wcmVzZW50YXRpb25zL2F2YWlsYWJsZSIsInR5cGUiOiJMaW5rUm9sZSJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIlZlcmlmaWFibGVCdXNpbmVzc0NhcmQiXX19.p7uJBJLO3albP_wtg7ko5btL42-3xMPCRBd47eN-3xwOMj_L3dN8-7GnP7ePmMgX5VCgC3s3HHlNJoH4U1wvMA",
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-3--key-1-secp256k1.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1",
+          {
+            "@vocab": "https://example.com/#"
+          }
+        ],
+        "credentialSubject": {
+          "name": "Steel Manufacturer Org",
+          "type": [
+            "Organization"
+          ],
+          "url": "https://www.example.com/"
+        },
+        "expirationDate": "2038-01-19T03:14:08Z",
+        "id": "https://example.com/credential/123456",
+        "issuanceDate": "2016-12-31T23:59:59Z",
+        "issuer": {
+          "address": {
+            "addressCountry": "Austria",
+            "addressLocality": "Port Reba",
+            "addressRegion": "South Carolina",
+            "postalCode": "53062-7356",
+            "streetAddress": "0516 Kendrick Heights",
+            "type": "PostalAddress"
+          },
+          "description": "Secured 24/7 neural-net",
+          "email": "Cora31@example.net",
+          "faxNumber": "555-577-3567",
+          "id": "did:example:123",
+          "name": "Grady, Purdy and Pacocha",
+          "phoneNumber": "555-158-2528",
+          "type": "Organization"
+        },
+        "name": "Verifiable Business Card",
+        "proof": {
+          "created": "2016-12-31T23:59:59Z",
+          "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..gvph5gNaGvAmJsT-th2w5ZzkUEOdiqjyf3tYqQr7mJIWGrRevBEY-r-yznOBBra1Y-ZP3p6tF2vlWv7TA_2cDQ",
+          "proofPurpose": "assertionMethod",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-1"
+        },
+        "relatedLink": [
+          {
+            "linkRelationship": "OrganizationPresentationEndpoint",
+            "target": "https://example.com/organizations/example-org/presentations/available",
+            "type": "LinkRole"
+          }
+        ],
+        "type": [
+          "VerifiableCredential",
+          "VerifiableBusinessCard"
+        ]
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-3--key-2-secp256r1.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "vectorContent": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjIxNDc0ODM2NDgsImlhdCI6MTQ4MzIyODc5OSwiaXNzIjoiZGlkOmV4YW1wbGU6MTIzIiwianRpIjoiaHR0cHM6Ly9leGFtcGxlLmNvbS9jcmVkZW50aWFsLzEyMzQ1NiIsIm5iZiI6MTQ4MzIyODc5OSwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7Im5hbWUiOiJTdGVlbCBNYW51ZmFjdHVyZXIgT3JnIiwidHlwZSI6WyJPcmdhbml6YXRpb24iXSwidXJsIjoiaHR0cHM6Ly93d3cuZXhhbXBsZS5jb20vIn0sImV4cGlyYXRpb25EYXRlIjoiMjAzOC0wMS0xOVQwMzoxNDowOFoiLCJpZCI6Imh0dHBzOi8vZXhhbXBsZS5jb20vY3JlZGVudGlhbC8xMjM0NTYiLCJpc3N1YW5jZURhdGUiOiIyMDE2LTEyLTMxVDIzOjU5OjU5WiIsImlzc3VlciI6eyJhZGRyZXNzIjp7ImFkZHJlc3NDb3VudHJ5IjoiQXVzdHJpYSIsImFkZHJlc3NMb2NhbGl0eSI6IlBvcnQgUmViYSIsImFkZHJlc3NSZWdpb24iOiJTb3V0aCBDYXJvbGluYSIsInBvc3RhbENvZGUiOiI1MzA2Mi03MzU2Iiwic3RyZWV0QWRkcmVzcyI6IjA1MTYgS2VuZHJpY2sgSGVpZ2h0cyIsInR5cGUiOiJQb3N0YWxBZGRyZXNzIn0sImRlc2NyaXB0aW9uIjoiU2VjdXJlZCAyNC83IG5ldXJhbC1uZXQiLCJlbWFpbCI6IkNvcmEzMUBleGFtcGxlLm5ldCIsImZheE51bWJlciI6IjU1NS01NzctMzU2NyIsImlkIjoiZGlkOmV4YW1wbGU6MTIzIiwibmFtZSI6IkdyYWR5LCBQdXJkeSBhbmQgUGFjb2NoYSIsInBob25lTnVtYmVyIjoiNTU1LTE1OC0yNTI4IiwidHlwZSI6Ik9yZ2FuaXphdGlvbiJ9LCJuYW1lIjoiVmVyaWZpYWJsZSBCdXNpbmVzcyBDYXJkIiwicmVsYXRlZExpbmsiOlt7ImxpbmtSZWxhdGlvbnNoaXAiOiJPcmdhbml6YXRpb25QcmVzZW50YXRpb25FbmRwb2ludCIsInRhcmdldCI6Imh0dHBzOi8vZXhhbXBsZS5jb20vb3JnYW5pemF0aW9ucy9leGFtcGxlLW9yZy9wcmVzZW50YXRpb25zL2F2YWlsYWJsZSIsInR5cGUiOiJMaW5rUm9sZSJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIlZlcmlmaWFibGVCdXNpbmVzc0NhcmQiXX19.6F-8ePrnGB4RNLoBSxZDc9ZIWjjnahGmgC6G6DM4fnTTIMhptjQcnWEwEMOlyC_mOdJgliThNRDqzk1pYmOHbw",
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-3--key-2-secp256r1.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1",
+          {
+            "@vocab": "https://example.com/#"
+          }
+        ],
+        "credentialSubject": {
+          "name": "Steel Manufacturer Org",
+          "type": [
+            "Organization"
+          ],
+          "url": "https://www.example.com/"
+        },
+        "expirationDate": "2038-01-19T03:14:08Z",
+        "id": "https://example.com/credential/123456",
+        "issuanceDate": "2016-12-31T23:59:59Z",
+        "issuer": {
+          "address": {
+            "addressCountry": "Austria",
+            "addressLocality": "Port Reba",
+            "addressRegion": "South Carolina",
+            "postalCode": "53062-7356",
+            "streetAddress": "0516 Kendrick Heights",
+            "type": "PostalAddress"
+          },
+          "description": "Secured 24/7 neural-net",
+          "email": "Cora31@example.net",
+          "faxNumber": "555-577-3567",
+          "id": "did:example:123",
+          "name": "Grady, Purdy and Pacocha",
+          "phoneNumber": "555-158-2528",
+          "type": "Organization"
+        },
+        "name": "Verifiable Business Card",
+        "proof": {
+          "created": "2016-12-31T23:59:59Z",
+          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..9_7NnyOzkCmBhQCBLOH3dQE70j8PC778kejtUL5BxUiyu4rJsgqWCUWA-fGCWtXLx2dzMexnncTckNASyRMWtw",
+          "proofPurpose": "assertionMethod",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-2"
+        },
+        "relatedLink": [
+          {
+            "linkRelationship": "OrganizationPresentationEndpoint",
+            "target": "https://example.com/organizations/example-org/presentations/available",
+            "type": "LinkRole"
+          }
+        ],
+        "type": [
+          "VerifiableCredential",
+          "VerifiableBusinessCard"
+        ]
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-3--key-3-secp384r1.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "vectorContent": "eyJhbGciOiJFUzM4NCIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjIxNDc0ODM2NDgsImlhdCI6MTQ4MzIyODc5OSwiaXNzIjoiZGlkOmV4YW1wbGU6MTIzIiwianRpIjoiaHR0cHM6Ly9leGFtcGxlLmNvbS9jcmVkZW50aWFsLzEyMzQ1NiIsIm5iZiI6MTQ4MzIyODc5OSwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7Im5hbWUiOiJTdGVlbCBNYW51ZmFjdHVyZXIgT3JnIiwidHlwZSI6WyJPcmdhbml6YXRpb24iXSwidXJsIjoiaHR0cHM6Ly93d3cuZXhhbXBsZS5jb20vIn0sImV4cGlyYXRpb25EYXRlIjoiMjAzOC0wMS0xOVQwMzoxNDowOFoiLCJpZCI6Imh0dHBzOi8vZXhhbXBsZS5jb20vY3JlZGVudGlhbC8xMjM0NTYiLCJpc3N1YW5jZURhdGUiOiIyMDE2LTEyLTMxVDIzOjU5OjU5WiIsImlzc3VlciI6eyJhZGRyZXNzIjp7ImFkZHJlc3NDb3VudHJ5IjoiQXVzdHJpYSIsImFkZHJlc3NMb2NhbGl0eSI6IlBvcnQgUmViYSIsImFkZHJlc3NSZWdpb24iOiJTb3V0aCBDYXJvbGluYSIsInBvc3RhbENvZGUiOiI1MzA2Mi03MzU2Iiwic3RyZWV0QWRkcmVzcyI6IjA1MTYgS2VuZHJpY2sgSGVpZ2h0cyIsInR5cGUiOiJQb3N0YWxBZGRyZXNzIn0sImRlc2NyaXB0aW9uIjoiU2VjdXJlZCAyNC83IG5ldXJhbC1uZXQiLCJlbWFpbCI6IkNvcmEzMUBleGFtcGxlLm5ldCIsImZheE51bWJlciI6IjU1NS01NzctMzU2NyIsImlkIjoiZGlkOmV4YW1wbGU6MTIzIiwibmFtZSI6IkdyYWR5LCBQdXJkeSBhbmQgUGFjb2NoYSIsInBob25lTnVtYmVyIjoiNTU1LTE1OC0yNTI4IiwidHlwZSI6Ik9yZ2FuaXphdGlvbiJ9LCJuYW1lIjoiVmVyaWZpYWJsZSBCdXNpbmVzcyBDYXJkIiwicmVsYXRlZExpbmsiOlt7ImxpbmtSZWxhdGlvbnNoaXAiOiJPcmdhbml6YXRpb25QcmVzZW50YXRpb25FbmRwb2ludCIsInRhcmdldCI6Imh0dHBzOi8vZXhhbXBsZS5jb20vb3JnYW5pemF0aW9ucy9leGFtcGxlLW9yZy9wcmVzZW50YXRpb25zL2F2YWlsYWJsZSIsInR5cGUiOiJMaW5rUm9sZSJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIlZlcmlmaWFibGVCdXNpbmVzc0NhcmQiXX19.KoepO1cSfGFx5vf3ZDHaVbgBz1Hy1Wjhzj2ut1mdBjdMJOmRjdP9SullYrQsx6Mu72kR0Xb-GiGS0rsvHSvhjT9G_zyyFgIk07vdirCWENcWLgTYXJmugigQC6yhPjsL",
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-3--key-3-secp384r1.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1",
+          {
+            "@vocab": "https://example.com/#"
+          }
+        ],
+        "credentialSubject": {
+          "name": "Steel Manufacturer Org",
+          "type": [
+            "Organization"
+          ],
+          "url": "https://www.example.com/"
+        },
+        "expirationDate": "2038-01-19T03:14:08Z",
+        "id": "https://example.com/credential/123456",
+        "issuanceDate": "2016-12-31T23:59:59Z",
+        "issuer": {
+          "address": {
+            "addressCountry": "Austria",
+            "addressLocality": "Port Reba",
+            "addressRegion": "South Carolina",
+            "postalCode": "53062-7356",
+            "streetAddress": "0516 Kendrick Heights",
+            "type": "PostalAddress"
+          },
+          "description": "Secured 24/7 neural-net",
+          "email": "Cora31@example.net",
+          "faxNumber": "555-577-3567",
+          "id": "did:example:123",
+          "name": "Grady, Purdy and Pacocha",
+          "phoneNumber": "555-158-2528",
+          "type": "Organization"
+        },
+        "name": "Verifiable Business Card",
+        "proof": {
+          "created": "2016-12-31T23:59:59Z",
+          "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..E7ibW8e6JgICAvSDUIrE6qmuQOsIptoctW4pDtzhvdTX7XRtIqai4wK4fspukMrBvhdgRTI1U7vCK9mvvA4jcyTj4h9k7tkaq1TKZJK5-Nj-GBImwDMkxwuQHNOP8Hb5",
+          "proofPurpose": "assertionMethod",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-3"
+        },
+        "relatedLink": [
+          {
+            "linkRelationship": "OrganizationPresentationEndpoint",
+            "target": "https://example.com/organizations/example-org/presentations/available",
+            "type": "LinkRole"
+          }
+        ],
+        "type": [
+          "VerifiableCredential",
+          "VerifiableBusinessCard"
+        ]
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-3--key-4-rsa2048.vc-jwt.json": {
+      "vector": "vc-jwt",
+      "vectorContent": "eyJhbGciOiJQUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktNCIsInR5cCI6IkpXVCJ9.eyJleHAiOjIxNDc0ODM2NDgsImlhdCI6MTQ4MzIyODc5OSwiaXNzIjoiZGlkOmV4YW1wbGU6MTIzIiwianRpIjoiaHR0cHM6Ly9leGFtcGxlLmNvbS9jcmVkZW50aWFsLzEyMzQ1NiIsIm5iZiI6MTQ4MzIyODc5OSwidmMiOnsiQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7Im5hbWUiOiJTdGVlbCBNYW51ZmFjdHVyZXIgT3JnIiwidHlwZSI6WyJPcmdhbml6YXRpb24iXSwidXJsIjoiaHR0cHM6Ly93d3cuZXhhbXBsZS5jb20vIn0sImV4cGlyYXRpb25EYXRlIjoiMjAzOC0wMS0xOVQwMzoxNDowOFoiLCJpZCI6Imh0dHBzOi8vZXhhbXBsZS5jb20vY3JlZGVudGlhbC8xMjM0NTYiLCJpc3N1YW5jZURhdGUiOiIyMDE2LTEyLTMxVDIzOjU5OjU5WiIsImlzc3VlciI6eyJhZGRyZXNzIjp7ImFkZHJlc3NDb3VudHJ5IjoiQXVzdHJpYSIsImFkZHJlc3NMb2NhbGl0eSI6IlBvcnQgUmViYSIsImFkZHJlc3NSZWdpb24iOiJTb3V0aCBDYXJvbGluYSIsInBvc3RhbENvZGUiOiI1MzA2Mi03MzU2Iiwic3RyZWV0QWRkcmVzcyI6IjA1MTYgS2VuZHJpY2sgSGVpZ2h0cyIsInR5cGUiOiJQb3N0YWxBZGRyZXNzIn0sImRlc2NyaXB0aW9uIjoiU2VjdXJlZCAyNC83IG5ldXJhbC1uZXQiLCJlbWFpbCI6IkNvcmEzMUBleGFtcGxlLm5ldCIsImZheE51bWJlciI6IjU1NS01NzctMzU2NyIsImlkIjoiZGlkOmV4YW1wbGU6MTIzIiwibmFtZSI6IkdyYWR5LCBQdXJkeSBhbmQgUGFjb2NoYSIsInBob25lTnVtYmVyIjoiNTU1LTE1OC0yNTI4IiwidHlwZSI6Ik9yZ2FuaXphdGlvbiJ9LCJuYW1lIjoiVmVyaWZpYWJsZSBCdXNpbmVzcyBDYXJkIiwicmVsYXRlZExpbmsiOlt7ImxpbmtSZWxhdGlvbnNoaXAiOiJPcmdhbml6YXRpb25QcmVzZW50YXRpb25FbmRwb2ludCIsInRhcmdldCI6Imh0dHBzOi8vZXhhbXBsZS5jb20vb3JnYW5pemF0aW9ucy9leGFtcGxlLW9yZy9wcmVzZW50YXRpb25zL2F2YWlsYWJsZSIsInR5cGUiOiJMaW5rUm9sZSJ9XSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIlZlcmlmaWFibGVCdXNpbmVzc0NhcmQiXX19.aZAbBxwPC2DAvu2OZLLJTfrg_rim3aBFRKqXF2w-YM6X2ebAIrq5AuONt9K-qZnwd79g1nv2VE5-MiUl9KEwV6yimv3AfLzoyX5vtS1oOSum6mlVvb4mPA170i18pa4lEh3SM8ccBf5rXHwFDXxg3sjINhXklb58lG7hUMZnHcSYW9oiKkW3UYGlJYD9W4fpGTUwcadjXF_SRNCgEMDH6oEkU08MWuwfImK4vUT-U5n1QgP4jRA9wacaACVZ9j5oEklZ9X7KmD05gjFLM1_UgbGu2qINfD2ENXC2Ur-_8JFQEDb5u4Zg09g0K5oEDkiXSjiE879tEAt3ZqAd7SBqzA",
+      "verification": {
+        "verified": true
+      }
+    },
+    "credential-3--key-4-rsa2048.vc.json": {
+      "vector": "vc",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1",
+          {
+            "@vocab": "https://example.com/#"
+          }
+        ],
+        "credentialSubject": {
+          "name": "Steel Manufacturer Org",
+          "type": [
+            "Organization"
+          ],
+          "url": "https://www.example.com/"
+        },
+        "expirationDate": "2038-01-19T03:14:08Z",
+        "id": "https://example.com/credential/123456",
+        "issuanceDate": "2016-12-31T23:59:59Z",
+        "issuer": {
+          "address": {
+            "addressCountry": "Austria",
+            "addressLocality": "Port Reba",
+            "addressRegion": "South Carolina",
+            "postalCode": "53062-7356",
+            "streetAddress": "0516 Kendrick Heights",
+            "type": "PostalAddress"
+          },
+          "description": "Secured 24/7 neural-net",
+          "email": "Cora31@example.net",
+          "faxNumber": "555-577-3567",
+          "id": "did:example:123",
+          "name": "Grady, Purdy and Pacocha",
+          "phoneNumber": "555-158-2528",
+          "type": "Organization"
+        },
+        "name": "Verifiable Business Card",
+        "proof": {
+          "created": "2016-12-31T23:59:59Z",
+          "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..HA4Dy89yolZT0q6CziakS5eSGq9iUoc1FVEuZqukg2CXLcQpOEsYbOv8QRd2DmQzMIQBc-q_sm8ToUELi74mv2_FxGYtovwlwO-u4YaHWCTe5M_ePbKBV43YWPUhoZexqBQmHeO35O_BaFXHVa3dJEmyLYfLWUPGKXy83LPlKKTroDdB7ZoJrqC2zbdcZ_Xatk6HDAGnFCmYpbuJCCcC3tD6FyMD8L9aVAllmtzst1erbeDKBpJfep1D15FrcFirenVYeHU24J_5_R2j-HX0mFBMWAEGiYZ0NZlgWtXIWS9thehWIY3-cAbv7MvivaVGN9Pl65_mC6nUdyggi1NBNg",
+          "proofPurpose": "assertionMethod",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-4"
+        },
+        "relatedLink": [
+          {
+            "linkRelationship": "OrganizationPresentationEndpoint",
+            "target": "https://example.com/organizations/example-org/presentations/available",
+            "type": "LinkRole"
+          }
+        ],
+        "type": [
+          "VerifiableCredential",
+          "VerifiableBusinessCard"
+        ]
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "presentation-0--key-0-ed25519.vp-jwt.json": {
+      "vector": "vp-jwt",
+      "vectorContent": "eyJhbGciOiJFZERTQSIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCIsInR5cCI6IkpXVCJ9.eyJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOiJWZXJpZmlhYmxlUHJlc2VudGF0aW9uIn19.DNIBuqbeAOhwXa8rW04khJnyY5Te4dG_pAH2lPMFOSOQ1a8dRJb8AJhA9d6aVPAXvIpdzdl1OfWJcb_5nF5uBg",
+      "verification": {
+        "verified": true
+      }
+    },
+    "presentation-0--key-0-ed25519.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1"
+        ],
+        "proof": {
+          "challenge": "33926830-fa3e-40d9-b85d-748ff32f52d0",
+          "created": "2022-08-10T18:08:46.6147225Z",
+          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..DDTfua7FqP8lA2Ho0P-5QyTYqlpEGmeS0rEWI-KnQiwLEh_YvUu5Aqa8O5yfmGUzr3xKI6YdEFQP6PJa1PYmAg",
+          "proofPurpose": "authentication",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-0"
+        },
+        "type": "VerifiablePresentation"
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "presentation-0--key-1-secp256k1.vp-jwt.json": {
+      "vector": "vp-jwt",
+      "vectorContent": "eyJhbGciOiJFUzI1NksiLCJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTEiLCJ0eXAiOiJKV1QifQ.eyJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOiJWZXJpZmlhYmxlUHJlc2VudGF0aW9uIn19.SMGylh35OfuaqkTNc-fN80RQr3zuymUZLZnpF6wdXiu_yGA1imDBKrHLYwcTmZFqTKAim1oizXgyTcDb2ygHVg",
+      "verification": {
+        "verified": true
+      }
+    },
+    "presentation-0--key-1-secp256k1.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1"
+        ],
+        "proof": {
+          "challenge": "6e7c7aca-5145-438a-a035-752d2e35d0ba",
+          "created": "2022-08-10T18:09:02.731802168Z",
+          "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..Ze05BF-UbtGCOL-5J2V23XO6oj0to22pgBuOuTAzSi_pNsOLsqzEDcb82Enb9ZHhI_-pjhUKSo2Mz8Fh0-Xj7A",
+          "proofPurpose": "authentication",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-1"
+        },
+        "type": "VerifiablePresentation"
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "presentation-0--key-2-secp256r1.vp-jwt.json": {
+      "vector": "vp-jwt",
+      "vectorContent": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMiIsInR5cCI6IkpXVCJ9.eyJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOiJWZXJpZmlhYmxlUHJlc2VudGF0aW9uIn19.DJv3C2H6FWLPEaofspe-O6ImqF7-1aaU7q4zVBlBNXZXF366VyRAvfBuaRQXP8FZEIMK8vVIVN5vrVcwnDjSSg",
+      "verification": {
+        "verified": true
+      }
+    },
+    "presentation-0--key-2-secp256r1.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1"
+        ],
+        "proof": {
+          "challenge": "15f4c7a0-171c-44ae-b8c1-121b6c24d3d5",
+          "created": "2022-08-10T18:09:17.636133197Z",
+          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..z9fYX4nwsxUlRrzqrlenT8AZpmIHsrhQ6Ski6VeIIJytveCRsHWpnoqgsUmtt_VaAi3hwemULXmqV7DJ6BUkRA",
+          "proofPurpose": "authentication",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-2"
+        },
+        "type": "VerifiablePresentation"
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "presentation-0--key-3-secp384r1.vp-jwt.json": {
+      "vector": "vp-jwt",
+      "vectorContent": "eyJhbGciOiJFUzM4NCIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMyIsInR5cCI6IkpXVCJ9.eyJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOiJWZXJpZmlhYmxlUHJlc2VudGF0aW9uIn19.WI_wOrkTbjbozswEAuPoqjBYakJX2hA1Wcos858oPxfVtIQvWxn7lut5Y8CgX5EI0dwkTcjONTnuz8bNaR5XQL1NHjFddS164NS2MCUmXV0XnmFgZ9FcTzN9bmVA4uSX",
+      "verification": {
+        "verified": true
+      }
+    },
+    "presentation-0--key-3-secp384r1.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1"
+        ],
+        "proof": {
+          "challenge": "74177e53-1c24-412a-a011-a5422e0a57b5",
+          "created": "2022-08-10T18:09:33.472879417Z",
+          "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..vIanbMmduO964p2vnk-Gwfd4B1lUvh4wh3YKmdvwmivRwHBxHoVipmuUhY3euDCLOn0Zbd5eQGMxWQQDWRdPq426M78vMWxDnpX60QbTxp-k5iczz5XLxN1hbW82GyEE",
+          "proofPurpose": "authentication",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-3"
+        },
+        "type": "VerifiablePresentation"
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "presentation-0--key-4-rsa2048.vp-jwt.json": {
+      "vector": "vp-jwt",
+      "vectorContent": "eyJhbGciOiJQUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktNCIsInR5cCI6IkpXVCJ9.eyJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sInR5cGUiOiJWZXJpZmlhYmxlUHJlc2VudGF0aW9uIn19.ICLk3BhFxvO0GBuR2N-oz5st4z8mBva7KJf6r66BKsHNef76euEPR_wsHpvwqD4CsA3mCRONMkOcQmQRaQmuUmmZSAbqzHdXLxyhVlTVkdupHf_OuDNzo_CF5YBSIZ1iLgiW9FTr9rFaIKMwbHHL0rTu036O0oIQfVKwFyyx5n75XqAabhM_d5dy11mDSKztSUkgPHBqjELiczL55_A0gp0Okod6nTj3iCavLT0mWJP4juvdKfHcxdmXi2exsVGvj1Kb3FG_bhQqqyrFjOW_0NnY1xXXZeK2OkhWYeOG7o63m9QtR0fG270u-9nCOysyp8Gm4Y8d34zVczFmMxV6iA",
+      "verification": {
+        "verified": true
+      }
+    },
+    "presentation-0--key-4-rsa2048.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1"
+        ],
+        "proof": {
+          "challenge": "439452cf-b856-4f4c-b0d7-e40b34762b22",
+          "created": "2022-08-10T18:09:51.432893004Z",
+          "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..UtUjjhKNMojTVj0v2icbAqa04cy0SblCVSBtmb7MUq-FXngDr9ESFvbATbsPKDpxfT6r6e1cESMH-CUpTsma2i6szzPvPevBiKPDrUEzbk8xF8-79C0lq83jiQv7mFKLgb9XAyLeGpr4PNqKRs1J6ve6qQieo_2vmGRx5wM9lY3q4QCuhM2dN3BVbZjCVQzt1ZApCkDXWQK8ETxmL_iHvzh7463j9ez08_vZRbkPHbIE_fUyAEOHzAXFHXiggEi6fyIOP2s2vbaMMqYd3fM6OlO9Kd62ulSOQP4KckgZXWMEqZONSao5SOAaCWVpYMdvewsNhd17DmkVzoyGQBh9zA",
+          "proofPurpose": "authentication",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-4"
+        },
+        "type": "VerifiablePresentation"
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "presentation-1--key-0-ed25519.vp-jwt.json": {
+      "vector": "vp-jwt",
+      "vectorContent": "eyJhbGciOiJFZERTQSIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJqdGkiOiJ1cm46dXVpZDo3ODkiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sImhvbGRlciI6ImRpZDpleGFtcGxlOjEyMyIsImlkIjoidXJuOnV1aWQ6Nzg5IiwidHlwZSI6IlZlcmlmaWFibGVQcmVzZW50YXRpb24iLCJ2ZXJpZmlhYmxlQ3JlZGVudGlhbCI6W3siQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImlkIjoiZGlkOmV4YW1wbGU6NDU2In0sImV2aWRlbmNlIjpbeyJkb2N1bWVudFByZXNlbmNlIjoiUGh5c2ljYWwiLCJldmlkZW5jZURvY3VtZW50IjoiRHJpdmVyc0xpY2Vuc2UiLCJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmQ0MjMxIiwic3ViamVjdFByZXNlbmNlIjoiUGh5c2ljYWwiLCJ0eXBlIjpbIkRvY3VtZW50VmVyaWZpY2F0aW9uIl0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0In0seyJkb2N1bWVudFByZXNlbmNlIjoiRGlnaXRhbCIsImV2aWRlbmNlRG9jdW1lbnQiOiJGbHVpZCBEeW5hbWljcyBGb2N1cyIsImlkIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9ldmlkZW5jZS9mMmFlZWM5Ny1mYzBkLTQyYmYtOGNhNy0wNTQ4MTkyZHh5emFiIiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCIsInR5cGUiOlsiU3VwcG9ydGluZ0FjdGl2aXR5Il0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0In1dLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImlzc3VlciI6ImRpZDpleGFtcGxlOjEyMyIsInByb29mIjp7ImNyZWF0ZWQiOiIyMDIxLTEwLTAyVDE3OjU4OjAwWiIsImp3cyI6ImV5SmlOalFpT21aaGJITmxMQ0pqY21sMElqcGJJbUkyTkNKZExDSmhiR2NpT2lKRlpFUlRRU0o5Li5WQThWUXFBZXJVVDZBSVZkSGM4VzhRMmFqMTJMT1FqVl9WWjFlMTM0TlU5UTIwZUJzTnlTUGpOZG1UV3AySGtkcXVDbmJSaEJIeEliTmVGRUlPT2hBZyIsInByb29mUHVycG9zZSI6ImFzc2VydGlvbk1ldGhvZCIsInR5cGUiOiJKc29uV2ViU2lnbmF0dXJlMjAyMCIsInZlcmlmaWNhdGlvbk1ldGhvZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCJ9LCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIl19XX19._QRSvCy6XMVQ7RyBw-YEkh1sMXhnh2xdcAen5dR2nKOX6mo4x49oh0ZeBuPvEuqz1p4Nkw1U3-Swf0096ibMAA",
+      "verification": {
+        "verified": true
+      }
+    },
+    "presentation-1--key-0-ed25519.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1"
+        ],
+        "holder": "did:example:123",
+        "id": "urn:uuid:789",
+        "proof": {
+          "challenge": "209848fc-8260-40a7-bd59-c707653c259d",
+          "created": "2022-08-10T18:08:48.040201352Z",
+          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..pWV2ocTPk7UjhQfM48Iev6lFCRAxQm7jdDEqZQ8_cGhWFrnL-w0lsDyABdZTrpKzW1Q7sWOjavFIvVs1dliwDw",
+          "proofPurpose": "authentication",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-0"
+        },
+        "type": "VerifiablePresentation",
+        "verifiableCredential": [
+          {
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/security/suites/jws-2020/v1",
+              {
+                "@vocab": "https://example.com/#"
+              }
+            ],
+            "credentialSubject": {
+              "id": "did:example:456"
+            },
+            "evidence": [
+              {
+                "documentPresence": "Physical",
+                "evidenceDocument": "DriversLicense",
+                "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192d4231",
+                "subjectPresence": "Physical",
+                "type": [
+                  "DocumentVerification"
+                ],
+                "verifier": "https://example.edu/issuers/14"
+              },
+              {
+                "documentPresence": "Digital",
+                "evidenceDocument": "Fluid Dynamics Focus",
+                "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192dxyzab",
+                "subjectPresence": "Digital",
+                "type": [
+                  "SupportingActivity"
+                ],
+                "verifier": "https://example.edu/issuers/14"
+              }
+            ],
+            "issuanceDate": "2021-01-01T19:23:24Z",
+            "issuer": "did:example:123",
+            "proof": {
+              "created": "2021-10-02T17:58:00Z",
+              "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..VA8VQqAerUT6AIVdHc8W8Q2aj12LOQjV_VZ1e134NU9Q20eBsNySPjNdmTWp2HkdquCnbRhBHxIbNeFEIOOhAg",
+              "proofPurpose": "assertionMethod",
+              "type": "JsonWebSignature2020",
+              "verificationMethod": "did:example:123#key-0"
+            },
+            "type": [
+              "VerifiableCredential"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "presentation-1--key-1-secp256k1.vp-jwt.json": {
+      "vector": "vp-jwt",
+      "vectorContent": "eyJhbGciOiJFUzI1NksiLCJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJqdGkiOiJ1cm46dXVpZDo3ODkiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sImhvbGRlciI6ImRpZDpleGFtcGxlOjEyMyIsImlkIjoidXJuOnV1aWQ6Nzg5IiwidHlwZSI6IlZlcmlmaWFibGVQcmVzZW50YXRpb24iLCJ2ZXJpZmlhYmxlQ3JlZGVudGlhbCI6W3siQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImlkIjoiZGlkOmV4YW1wbGU6NDU2In0sImV2aWRlbmNlIjpbeyJkb2N1bWVudFByZXNlbmNlIjoiUGh5c2ljYWwiLCJldmlkZW5jZURvY3VtZW50IjoiRHJpdmVyc0xpY2Vuc2UiLCJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmQ0MjMxIiwic3ViamVjdFByZXNlbmNlIjoiUGh5c2ljYWwiLCJ0eXBlIjpbIkRvY3VtZW50VmVyaWZpY2F0aW9uIl0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0In0seyJkb2N1bWVudFByZXNlbmNlIjoiRGlnaXRhbCIsImV2aWRlbmNlRG9jdW1lbnQiOiJGbHVpZCBEeW5hbWljcyBGb2N1cyIsImlkIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9ldmlkZW5jZS9mMmFlZWM5Ny1mYzBkLTQyYmYtOGNhNy0wNTQ4MTkyZHh5emFiIiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCIsInR5cGUiOlsiU3VwcG9ydGluZ0FjdGl2aXR5Il0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0In1dLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImlzc3VlciI6ImRpZDpleGFtcGxlOjEyMyIsInByb29mIjp7ImNyZWF0ZWQiOiIyMDIxLTEwLTAyVDE3OjU4OjAwWiIsImp3cyI6ImV5SmlOalFpT21aaGJITmxMQ0pqY21sMElqcGJJbUkyTkNKZExDSmhiR2NpT2lKRlpFUlRRU0o5Li5WQThWUXFBZXJVVDZBSVZkSGM4VzhRMmFqMTJMT1FqVl9WWjFlMTM0TlU5UTIwZUJzTnlTUGpOZG1UV3AySGtkcXVDbmJSaEJIeEliTmVGRUlPT2hBZyIsInByb29mUHVycG9zZSI6ImFzc2VydGlvbk1ldGhvZCIsInR5cGUiOiJKc29uV2ViU2lnbmF0dXJlMjAyMCIsInZlcmlmaWNhdGlvbk1ldGhvZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCJ9LCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIl19XX19.UdKS4LcJUTOmmQ4FHs1W6pGc0E6LtvPtxAYzRKOug-0dxNZfLKlyJMzT0oDempmWzuHyWaEANiX5v8Z2kLquew",
+      "verification": {
+        "verified": true
+      }
+    },
+    "presentation-1--key-1-secp256k1.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1"
+        ],
+        "holder": "did:example:123",
+        "id": "urn:uuid:789",
+        "proof": {
+          "challenge": "2932b9db-7a09-4630-a963-efcac02b1760",
+          "created": "2022-08-10T18:09:03.944583245Z",
+          "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..9n9Ifh52_iOa8TY-np8zvn7KSNdE34c3SffImKr_V2pzRS78aPsdvCbbhPYg3KyE5ih8LQGN_biuQmrp7WQsYQ",
+          "proofPurpose": "authentication",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-1"
+        },
+        "type": "VerifiablePresentation",
+        "verifiableCredential": [
+          {
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/security/suites/jws-2020/v1",
+              {
+                "@vocab": "https://example.com/#"
+              }
+            ],
+            "credentialSubject": {
+              "id": "did:example:456"
+            },
+            "evidence": [
+              {
+                "documentPresence": "Physical",
+                "evidenceDocument": "DriversLicense",
+                "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192d4231",
+                "subjectPresence": "Physical",
+                "type": [
+                  "DocumentVerification"
+                ],
+                "verifier": "https://example.edu/issuers/14"
+              },
+              {
+                "documentPresence": "Digital",
+                "evidenceDocument": "Fluid Dynamics Focus",
+                "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192dxyzab",
+                "subjectPresence": "Digital",
+                "type": [
+                  "SupportingActivity"
+                ],
+                "verifier": "https://example.edu/issuers/14"
+              }
+            ],
+            "issuanceDate": "2021-01-01T19:23:24Z",
+            "issuer": "did:example:123",
+            "proof": {
+              "created": "2021-10-02T17:58:00Z",
+              "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..VA8VQqAerUT6AIVdHc8W8Q2aj12LOQjV_VZ1e134NU9Q20eBsNySPjNdmTWp2HkdquCnbRhBHxIbNeFEIOOhAg",
+              "proofPurpose": "assertionMethod",
+              "type": "JsonWebSignature2020",
+              "verificationMethod": "did:example:123#key-0"
+            },
+            "type": [
+              "VerifiableCredential"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "presentation-1--key-2-secp256r1.vp-jwt.json": {
+      "vector": "vp-jwt",
+      "vectorContent": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJqdGkiOiJ1cm46dXVpZDo3ODkiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sImhvbGRlciI6ImRpZDpleGFtcGxlOjEyMyIsImlkIjoidXJuOnV1aWQ6Nzg5IiwidHlwZSI6IlZlcmlmaWFibGVQcmVzZW50YXRpb24iLCJ2ZXJpZmlhYmxlQ3JlZGVudGlhbCI6W3siQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImlkIjoiZGlkOmV4YW1wbGU6NDU2In0sImV2aWRlbmNlIjpbeyJkb2N1bWVudFByZXNlbmNlIjoiUGh5c2ljYWwiLCJldmlkZW5jZURvY3VtZW50IjoiRHJpdmVyc0xpY2Vuc2UiLCJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmQ0MjMxIiwic3ViamVjdFByZXNlbmNlIjoiUGh5c2ljYWwiLCJ0eXBlIjpbIkRvY3VtZW50VmVyaWZpY2F0aW9uIl0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0In0seyJkb2N1bWVudFByZXNlbmNlIjoiRGlnaXRhbCIsImV2aWRlbmNlRG9jdW1lbnQiOiJGbHVpZCBEeW5hbWljcyBGb2N1cyIsImlkIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9ldmlkZW5jZS9mMmFlZWM5Ny1mYzBkLTQyYmYtOGNhNy0wNTQ4MTkyZHh5emFiIiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCIsInR5cGUiOlsiU3VwcG9ydGluZ0FjdGl2aXR5Il0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0In1dLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImlzc3VlciI6ImRpZDpleGFtcGxlOjEyMyIsInByb29mIjp7ImNyZWF0ZWQiOiIyMDIxLTEwLTAyVDE3OjU4OjAwWiIsImp3cyI6ImV5SmlOalFpT21aaGJITmxMQ0pqY21sMElqcGJJbUkyTkNKZExDSmhiR2NpT2lKRlpFUlRRU0o5Li5WQThWUXFBZXJVVDZBSVZkSGM4VzhRMmFqMTJMT1FqVl9WWjFlMTM0TlU5UTIwZUJzTnlTUGpOZG1UV3AySGtkcXVDbmJSaEJIeEliTmVGRUlPT2hBZyIsInByb29mUHVycG9zZSI6ImFzc2VydGlvbk1ldGhvZCIsInR5cGUiOiJKc29uV2ViU2lnbmF0dXJlMjAyMCIsInZlcmlmaWNhdGlvbk1ldGhvZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCJ9LCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIl19XX19.3Y5O7BODYXNvEZT6hFr8XXayZ9nKN_Uwlqv5JhX-4I88tieexw-AnrmrK9rz9qRUMboA33h5yQUm-7AWjW179Q",
+      "verification": {
+        "verified": true
+      }
+    },
+    "presentation-1--key-2-secp256r1.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1"
+        ],
+        "holder": "did:example:123",
+        "id": "urn:uuid:789",
+        "proof": {
+          "challenge": "5a96dd53-59ed-453a-9edb-4e1499ac8f2f",
+          "created": "2022-08-10T18:09:18.955088954Z",
+          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..FfGBgnA-BqhN5lhPSHopr_SIdCAKIzGmuL4tzhvW947Vs73FfrprhMwcF11zlG9-HYiowvmz6lAIkwwu-Z-n5w",
+          "proofPurpose": "authentication",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-2"
+        },
+        "type": "VerifiablePresentation",
+        "verifiableCredential": [
+          {
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/security/suites/jws-2020/v1",
+              {
+                "@vocab": "https://example.com/#"
+              }
+            ],
+            "credentialSubject": {
+              "id": "did:example:456"
+            },
+            "evidence": [
+              {
+                "documentPresence": "Physical",
+                "evidenceDocument": "DriversLicense",
+                "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192d4231",
+                "subjectPresence": "Physical",
+                "type": [
+                  "DocumentVerification"
+                ],
+                "verifier": "https://example.edu/issuers/14"
+              },
+              {
+                "documentPresence": "Digital",
+                "evidenceDocument": "Fluid Dynamics Focus",
+                "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192dxyzab",
+                "subjectPresence": "Digital",
+                "type": [
+                  "SupportingActivity"
+                ],
+                "verifier": "https://example.edu/issuers/14"
+              }
+            ],
+            "issuanceDate": "2021-01-01T19:23:24Z",
+            "issuer": "did:example:123",
+            "proof": {
+              "created": "2021-10-02T17:58:00Z",
+              "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..VA8VQqAerUT6AIVdHc8W8Q2aj12LOQjV_VZ1e134NU9Q20eBsNySPjNdmTWp2HkdquCnbRhBHxIbNeFEIOOhAg",
+              "proofPurpose": "assertionMethod",
+              "type": "JsonWebSignature2020",
+              "verificationMethod": "did:example:123#key-0"
+            },
+            "type": [
+              "VerifiableCredential"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "presentation-1--key-3-secp384r1.vp-jwt.json": {
+      "vector": "vp-jwt",
+      "vectorContent": "eyJhbGciOiJFUzM4NCIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMyIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJqdGkiOiJ1cm46dXVpZDo3ODkiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sImhvbGRlciI6ImRpZDpleGFtcGxlOjEyMyIsImlkIjoidXJuOnV1aWQ6Nzg5IiwidHlwZSI6IlZlcmlmaWFibGVQcmVzZW50YXRpb24iLCJ2ZXJpZmlhYmxlQ3JlZGVudGlhbCI6W3siQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImlkIjoiZGlkOmV4YW1wbGU6NDU2In0sImV2aWRlbmNlIjpbeyJkb2N1bWVudFByZXNlbmNlIjoiUGh5c2ljYWwiLCJldmlkZW5jZURvY3VtZW50IjoiRHJpdmVyc0xpY2Vuc2UiLCJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmQ0MjMxIiwic3ViamVjdFByZXNlbmNlIjoiUGh5c2ljYWwiLCJ0eXBlIjpbIkRvY3VtZW50VmVyaWZpY2F0aW9uIl0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0In0seyJkb2N1bWVudFByZXNlbmNlIjoiRGlnaXRhbCIsImV2aWRlbmNlRG9jdW1lbnQiOiJGbHVpZCBEeW5hbWljcyBGb2N1cyIsImlkIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9ldmlkZW5jZS9mMmFlZWM5Ny1mYzBkLTQyYmYtOGNhNy0wNTQ4MTkyZHh5emFiIiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCIsInR5cGUiOlsiU3VwcG9ydGluZ0FjdGl2aXR5Il0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0In1dLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImlzc3VlciI6ImRpZDpleGFtcGxlOjEyMyIsInByb29mIjp7ImNyZWF0ZWQiOiIyMDIxLTEwLTAyVDE3OjU4OjAwWiIsImp3cyI6ImV5SmlOalFpT21aaGJITmxMQ0pqY21sMElqcGJJbUkyTkNKZExDSmhiR2NpT2lKRlpFUlRRU0o5Li5WQThWUXFBZXJVVDZBSVZkSGM4VzhRMmFqMTJMT1FqVl9WWjFlMTM0TlU5UTIwZUJzTnlTUGpOZG1UV3AySGtkcXVDbmJSaEJIeEliTmVGRUlPT2hBZyIsInByb29mUHVycG9zZSI6ImFzc2VydGlvbk1ldGhvZCIsInR5cGUiOiJKc29uV2ViU2lnbmF0dXJlMjAyMCIsInZlcmlmaWNhdGlvbk1ldGhvZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCJ9LCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIl19XX19.nqnbhsXgBDkVZrlZ58XBOs2SJqqQ_kP3hezyPcEkGYNZRJ_mm1D430ZHxFB_K5Si10YwBWpDTIxeCT0y-HdhIkMv-tzapUjLPK1WRYoCs07ZRNYg8d4RkEAWS9IoaNPm",
+      "verification": {
+        "verified": true
+      }
+    },
+    "presentation-1--key-3-secp384r1.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1"
+        ],
+        "holder": "did:example:123",
+        "id": "urn:uuid:789",
+        "proof": {
+          "challenge": "7a7822b1-1ca1-4b06-bf8a-a046c7a8ce0a",
+          "created": "2022-08-10T18:09:34.56369273Z",
+          "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..dqu8DAtAzN2nD30KVQVFjV8Ot13fwfVdlYe4CP0UVKkxGjhOUWlKXB49k4Zyr1VOSqzSU4AgxTqxSSzSj6TGq_BgVTab5wj8M9tN_0L7UyyTe98bBRTzHDlms0T-5uyA",
+          "proofPurpose": "authentication",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-3"
+        },
+        "type": "VerifiablePresentation",
+        "verifiableCredential": [
+          {
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/security/suites/jws-2020/v1",
+              {
+                "@vocab": "https://example.com/#"
+              }
+            ],
+            "credentialSubject": {
+              "id": "did:example:456"
+            },
+            "evidence": [
+              {
+                "documentPresence": "Physical",
+                "evidenceDocument": "DriversLicense",
+                "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192d4231",
+                "subjectPresence": "Physical",
+                "type": [
+                  "DocumentVerification"
+                ],
+                "verifier": "https://example.edu/issuers/14"
+              },
+              {
+                "documentPresence": "Digital",
+                "evidenceDocument": "Fluid Dynamics Focus",
+                "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192dxyzab",
+                "subjectPresence": "Digital",
+                "type": [
+                  "SupportingActivity"
+                ],
+                "verifier": "https://example.edu/issuers/14"
+              }
+            ],
+            "issuanceDate": "2021-01-01T19:23:24Z",
+            "issuer": "did:example:123",
+            "proof": {
+              "created": "2021-10-02T17:58:00Z",
+              "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..VA8VQqAerUT6AIVdHc8W8Q2aj12LOQjV_VZ1e134NU9Q20eBsNySPjNdmTWp2HkdquCnbRhBHxIbNeFEIOOhAg",
+              "proofPurpose": "assertionMethod",
+              "type": "JsonWebSignature2020",
+              "verificationMethod": "did:example:123#key-0"
+            },
+            "type": [
+              "VerifiableCredential"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "presentation-1--key-4-rsa2048.vp-jwt.json": {
+      "vector": "vp-jwt",
+      "vectorContent": "eyJhbGciOiJQUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktNCIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJqdGkiOiJ1cm46dXVpZDo3ODkiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIl0sImhvbGRlciI6ImRpZDpleGFtcGxlOjEyMyIsImlkIjoidXJuOnV1aWQ6Nzg5IiwidHlwZSI6IlZlcmlmaWFibGVQcmVzZW50YXRpb24iLCJ2ZXJpZmlhYmxlQ3JlZGVudGlhbCI6W3siQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9qd3MtMjAyMC92MSIseyJAdm9jYWIiOiJodHRwczovL2V4YW1wbGUuY29tLyMifV0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImlkIjoiZGlkOmV4YW1wbGU6NDU2In0sImV2aWRlbmNlIjpbeyJkb2N1bWVudFByZXNlbmNlIjoiUGh5c2ljYWwiLCJldmlkZW5jZURvY3VtZW50IjoiRHJpdmVyc0xpY2Vuc2UiLCJpZCI6Imh0dHBzOi8vZXhhbXBsZS5lZHUvZXZpZGVuY2UvZjJhZWVjOTctZmMwZC00MmJmLThjYTctMDU0ODE5MmQ0MjMxIiwic3ViamVjdFByZXNlbmNlIjoiUGh5c2ljYWwiLCJ0eXBlIjpbIkRvY3VtZW50VmVyaWZpY2F0aW9uIl0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0In0seyJkb2N1bWVudFByZXNlbmNlIjoiRGlnaXRhbCIsImV2aWRlbmNlRG9jdW1lbnQiOiJGbHVpZCBEeW5hbWljcyBGb2N1cyIsImlkIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9ldmlkZW5jZS9mMmFlZWM5Ny1mYzBkLTQyYmYtOGNhNy0wNTQ4MTkyZHh5emFiIiwic3ViamVjdFByZXNlbmNlIjoiRGlnaXRhbCIsInR5cGUiOlsiU3VwcG9ydGluZ0FjdGl2aXR5Il0sInZlcmlmaWVyIjoiaHR0cHM6Ly9leGFtcGxlLmVkdS9pc3N1ZXJzLzE0In1dLCJpc3N1YW5jZURhdGUiOiIyMDIxLTAxLTAxVDE5OjIzOjI0WiIsImlzc3VlciI6ImRpZDpleGFtcGxlOjEyMyIsInByb29mIjp7ImNyZWF0ZWQiOiIyMDIxLTEwLTAyVDE3OjU4OjAwWiIsImp3cyI6ImV5SmlOalFpT21aaGJITmxMQ0pqY21sMElqcGJJbUkyTkNKZExDSmhiR2NpT2lKRlpFUlRRU0o5Li5WQThWUXFBZXJVVDZBSVZkSGM4VzhRMmFqMTJMT1FqVl9WWjFlMTM0TlU5UTIwZUJzTnlTUGpOZG1UV3AySGtkcXVDbmJSaEJIeEliTmVGRUlPT2hBZyIsInByb29mUHVycG9zZSI6ImFzc2VydGlvbk1ldGhvZCIsInR5cGUiOiJKc29uV2ViU2lnbmF0dXJlMjAyMCIsInZlcmlmaWNhdGlvbk1ldGhvZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCJ9LCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIl19XX19.fdoIfwpvjoBafpUbawfgP5LJsQNCYUbFF1N77LC63G2yXhqv-1438lPQaI9qaotPKMbIpsULZbYoJ6_yKaEeITSNPAYTdh8ggm8EivkDAxK_cUSwoOIpeljpzObByUKCRLfVwFSqeVaGxSZoaU8s3WghQIAfXPO0gopNuZIymzGQHvuX4pYHuQwgdMOxVLRh7Tuc9Mf4KgKvuG5kUTbruuHpk-LRQzj1_MFYE61-T_Fkqb8xLEEa5gG8RjgCeorQY6kEUMCeJtKlp_e7LsiVHTwseWThVulgla6HPWdpBr8vDvpSN2dPhed12-xmkr_MXOo-sf1DDbhhepdvIbzowA",
+      "verification": {
+        "verified": true
+      }
+    },
+    "presentation-1--key-4-rsa2048.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1"
+        ],
+        "holder": "did:example:123",
+        "id": "urn:uuid:789",
+        "proof": {
+          "challenge": "f643f84c-8f68-44a3-b8e7-b9d4f4440d52",
+          "created": "2022-08-10T18:09:53.589588818Z",
+          "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Y3uSZDHGbFTYlQQDNlmMbbU284PWgbfK5P8U2wvHSfgOaBiPp-VerZ-A590shYRgJdvLgi-Wc8no_K_PMUueYkhgspN_zZAzI8KRA2w7w5U4STh6ZgkCecwXY6tGHEDrLm-jYETikaodVFJzeTdmHaNDjsAt9vwWWBF7tBjFb6aQojHrAOga6nSTslwFSVdZT8NL-yr_i5QnWbdDI35VuocmALN9loBPBn-ZDB2C7M6-3bshmw3_5CCOW1Rz_gQIlx4WOGBhaidCCsyAWUbaB9UFBhhTgDh3O2Ovj40v4wVVORJd0oK304hkVXibDvQhV2TMzSL8_i9UBq0UoCTYRQ",
+          "proofPurpose": "authentication",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-4"
+        },
+        "type": "VerifiablePresentation",
+        "verifiableCredential": [
+          {
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/security/suites/jws-2020/v1",
+              {
+                "@vocab": "https://example.com/#"
+              }
+            ],
+            "credentialSubject": {
+              "id": "did:example:456"
+            },
+            "evidence": [
+              {
+                "documentPresence": "Physical",
+                "evidenceDocument": "DriversLicense",
+                "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192d4231",
+                "subjectPresence": "Physical",
+                "type": [
+                  "DocumentVerification"
+                ],
+                "verifier": "https://example.edu/issuers/14"
+              },
+              {
+                "documentPresence": "Digital",
+                "evidenceDocument": "Fluid Dynamics Focus",
+                "id": "https://example.edu/evidence/f2aeec97-fc0d-42bf-8ca7-0548192dxyzab",
+                "subjectPresence": "Digital",
+                "type": [
+                  "SupportingActivity"
+                ],
+                "verifier": "https://example.edu/issuers/14"
+              }
+            ],
+            "issuanceDate": "2021-01-01T19:23:24Z",
+            "issuer": "did:example:123",
+            "proof": {
+              "created": "2021-10-02T17:58:00Z",
+              "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..VA8VQqAerUT6AIVdHc8W8Q2aj12LOQjV_VZ1e134NU9Q20eBsNySPjNdmTWp2HkdquCnbRhBHxIbNeFEIOOhAg",
+              "proofPurpose": "assertionMethod",
+              "type": "JsonWebSignature2020",
+              "verificationMethod": "did:example:123#key-0"
+            },
+            "type": [
+              "VerifiableCredential"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "presentation-2--key-0-ed25519.vp-jwt.json": {
+      "vector": "vp-jwt",
+      "vectorContent": "eyJhbGciOiJFZERTQSIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMCIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJqdGkiOiJ1cm46dXVpZDo3ODkiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIiwiaHR0cHM6Ly9pZGVudGl0eS5mb3VuZGF0aW9uL3ByZXNlbnRhdGlvbi1leGNoYW5nZS9zdWJtaXNzaW9uL3YxIl0sImhvbGRlciI6ImRpZDpleGFtcGxlOjEyMyIsImlkIjoidXJuOnV1aWQ6Nzg5IiwicHJlc2VudGF0aW9uX3N1Ym1pc3Npb24iOnsiZGVmaW5pdGlvbl9pZCI6IjMyZjU0MTYzLTcxNjYtNDhmMS05M2Q4LWZmMjE3YmRiMDY1MyIsImRlc2NyaXB0b3JfbWFwIjpbeyJmb3JtYXQiOiJsZHBfdmMiLCJpZCI6ImV4YW1wbGVfaW5wdXRfMSIsInBhdGgiOiIkLnZlcmlmaWFibGVDcmVkZW50aWFsWzBdIn1dLCJpZCI6ImEzMGUzYjkxLWZiNzctNGQyMi05NWZhLTg3MTY4OWMzMjJlMiJ9LCJ0eXBlIjpbIlZlcmlmaWFibGVQcmVzZW50YXRpb24iLCJQcmVzZW50YXRpb25TdWJtaXNzaW9uIl0sInZlcmlmaWFibGVDcmVkZW50aWFsIjpbeyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwiY3JlZGVudGlhbFN1YmplY3QiOnsiZm9vIjoiYmFyIn0sImlzc3VhbmNlRGF0ZSI6IjIwMjItMDMtMTlUMTU6MjA6NTVaIiwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwicHJvb2YiOnsiY3JlYXRlZCI6IjIwMjItMDUtMjVUMjA6NDc6NTZaIiwiandzIjoiZXlKaGJHY2lPaUpGWkVSVFFTSXNJbUkyTkNJNlptRnNjMlVzSW1OeWFYUWlPbHNpWWpZMElsMTkuLlVaRHJWYUEwQWJ1WWltdzZfNzUxcU1MZUJXSmY1QXYxS0pJdURTdnVzcTQyV0RiZlA3NUlENmRaN3RhcnotZnk4aEhZWUQ0RlI3VDFPSnZsVnhGa0JBIiwicHJvb2ZQdXJwb3NlIjoiYXNzZXJ0aW9uTWV0aG9kIiwidHlwZSI6Ikpzb25XZWJTaWduYXR1cmUyMDIwIiwidmVyaWZpY2F0aW9uTWV0aG9kIjoiZGlkOmV4YW1wbGU6MTIzI2tleS0wIn0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXX1dfX0.q7waNzmqr7nUyWq2Pi39v0wQwhwIUhvr8Gh8whrfmJUSp3O-9R9DvKEwkyVoWBuQaSF_ULrij5OSSSpku-jrDA",
+      "verification": {
+        "verified": true
+      }
+    },
+    "presentation-2--key-0-ed25519.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1",
+          "https://identity.foundation/presentation-exchange/submission/v1"
+        ],
+        "holder": "did:example:123",
+        "id": "urn:uuid:789",
+        "presentation_submission": {
+          "definition_id": "32f54163-7166-48f1-93d8-ff217bdb0653",
+          "descriptor_map": [
+            {
+              "format": "ldp_vc",
+              "id": "example_input_1",
+              "path": "$.verifiableCredential[0]"
+            }
+          ],
+          "id": "a30e3b91-fb77-4d22-95fa-871689c322e2"
+        },
+        "proof": {
+          "challenge": "2d8b0ce2-8a25-4402-9578-b88570b43424",
+          "created": "2022-08-10T18:08:49.074870015Z",
+          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..r13POMbifLeYGyRUaWXTwJRIbJrllyo4azSgLDVQo4WHgQ8Q-IhkjPTJCiXKECTgECsb7AgvsVoXxPjPGVrzDw",
+          "proofPurpose": "authentication",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-0"
+        },
+        "type": [
+          "VerifiablePresentation",
+          "PresentationSubmission"
+        ],
+        "verifiableCredential": [
+          {
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/security/suites/jws-2020/v1",
+              {
+                "@vocab": "https://example.com/#"
+              }
+            ],
+            "credentialSubject": {
+              "foo": "bar"
+            },
+            "issuanceDate": "2022-03-19T15:20:55Z",
+            "issuer": "did:example:123",
+            "proof": {
+              "created": "2022-05-25T20:47:56Z",
+              "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..UZDrVaA0AbuYimw6_751qMLeBWJf5Av1KJIuDSvusq42WDbfP75ID6dZ7tarz-fy8hHYYD4FR7T1OJvlVxFkBA",
+              "proofPurpose": "assertionMethod",
+              "type": "JsonWebSignature2020",
+              "verificationMethod": "did:example:123#key-0"
+            },
+            "type": [
+              "VerifiableCredential"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "presentation-2--key-1-secp256k1.vp-jwt.json": {
+      "vector": "vp-jwt",
+      "vectorContent": "eyJhbGciOiJFUzI1NksiLCJraWQiOiJkaWQ6ZXhhbXBsZToxMjMja2V5LTEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJqdGkiOiJ1cm46dXVpZDo3ODkiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIiwiaHR0cHM6Ly9pZGVudGl0eS5mb3VuZGF0aW9uL3ByZXNlbnRhdGlvbi1leGNoYW5nZS9zdWJtaXNzaW9uL3YxIl0sImhvbGRlciI6ImRpZDpleGFtcGxlOjEyMyIsImlkIjoidXJuOnV1aWQ6Nzg5IiwicHJlc2VudGF0aW9uX3N1Ym1pc3Npb24iOnsiZGVmaW5pdGlvbl9pZCI6IjMyZjU0MTYzLTcxNjYtNDhmMS05M2Q4LWZmMjE3YmRiMDY1MyIsImRlc2NyaXB0b3JfbWFwIjpbeyJmb3JtYXQiOiJsZHBfdmMiLCJpZCI6ImV4YW1wbGVfaW5wdXRfMSIsInBhdGgiOiIkLnZlcmlmaWFibGVDcmVkZW50aWFsWzBdIn1dLCJpZCI6ImEzMGUzYjkxLWZiNzctNGQyMi05NWZhLTg3MTY4OWMzMjJlMiJ9LCJ0eXBlIjpbIlZlcmlmaWFibGVQcmVzZW50YXRpb24iLCJQcmVzZW50YXRpb25TdWJtaXNzaW9uIl0sInZlcmlmaWFibGVDcmVkZW50aWFsIjpbeyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwiY3JlZGVudGlhbFN1YmplY3QiOnsiZm9vIjoiYmFyIn0sImlzc3VhbmNlRGF0ZSI6IjIwMjItMDMtMTlUMTU6MjA6NTVaIiwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwicHJvb2YiOnsiY3JlYXRlZCI6IjIwMjItMDUtMjVUMjA6NDc6NTZaIiwiandzIjoiZXlKaGJHY2lPaUpGWkVSVFFTSXNJbUkyTkNJNlptRnNjMlVzSW1OeWFYUWlPbHNpWWpZMElsMTkuLlVaRHJWYUEwQWJ1WWltdzZfNzUxcU1MZUJXSmY1QXYxS0pJdURTdnVzcTQyV0RiZlA3NUlENmRaN3RhcnotZnk4aEhZWUQ0RlI3VDFPSnZsVnhGa0JBIiwicHJvb2ZQdXJwb3NlIjoiYXNzZXJ0aW9uTWV0aG9kIiwidHlwZSI6Ikpzb25XZWJTaWduYXR1cmUyMDIwIiwidmVyaWZpY2F0aW9uTWV0aG9kIjoiZGlkOmV4YW1wbGU6MTIzI2tleS0wIn0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXX1dfX0.fCKpvAoWLlTqqfCiEngzKQb6yhJHy9QdRbNw8TFRA382UkJrfVKMA32NknLlxRGvzyTWYe1eKxbZchSQUi0zOg",
+      "verification": {
+        "verified": true
+      }
+    },
+    "presentation-2--key-1-secp256k1.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1",
+          "https://identity.foundation/presentation-exchange/submission/v1"
+        ],
+        "holder": "did:example:123",
+        "id": "urn:uuid:789",
+        "presentation_submission": {
+          "definition_id": "32f54163-7166-48f1-93d8-ff217bdb0653",
+          "descriptor_map": [
+            {
+              "format": "ldp_vc",
+              "id": "example_input_1",
+              "path": "$.verifiableCredential[0]"
+            }
+          ],
+          "id": "a30e3b91-fb77-4d22-95fa-871689c322e2"
+        },
+        "proof": {
+          "challenge": "f9589bdf-4068-46b0-bfd3-a31ca9f88556",
+          "created": "2022-08-10T18:09:04.995097858Z",
+          "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..yKyzG8gx6cF4AS3l5viMyOhPBW043a8x2M9oavjqJnUdzlz2fxBI-S54jGIx3ghEjvnP8kKxa5eA0V5fxd9EYQ",
+          "proofPurpose": "authentication",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-1"
+        },
+        "type": [
+          "VerifiablePresentation",
+          "PresentationSubmission"
+        ],
+        "verifiableCredential": [
+          {
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/security/suites/jws-2020/v1",
+              {
+                "@vocab": "https://example.com/#"
+              }
+            ],
+            "credentialSubject": {
+              "foo": "bar"
+            },
+            "issuanceDate": "2022-03-19T15:20:55Z",
+            "issuer": "did:example:123",
+            "proof": {
+              "created": "2022-05-25T20:47:56Z",
+              "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..UZDrVaA0AbuYimw6_751qMLeBWJf5Av1KJIuDSvusq42WDbfP75ID6dZ7tarz-fy8hHYYD4FR7T1OJvlVxFkBA",
+              "proofPurpose": "assertionMethod",
+              "type": "JsonWebSignature2020",
+              "verificationMethod": "did:example:123#key-0"
+            },
+            "type": [
+              "VerifiableCredential"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "presentation-2--key-2-secp256r1.vp-jwt.json": {
+      "vector": "vp-jwt",
+      "vectorContent": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJqdGkiOiJ1cm46dXVpZDo3ODkiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIiwiaHR0cHM6Ly9pZGVudGl0eS5mb3VuZGF0aW9uL3ByZXNlbnRhdGlvbi1leGNoYW5nZS9zdWJtaXNzaW9uL3YxIl0sImhvbGRlciI6ImRpZDpleGFtcGxlOjEyMyIsImlkIjoidXJuOnV1aWQ6Nzg5IiwicHJlc2VudGF0aW9uX3N1Ym1pc3Npb24iOnsiZGVmaW5pdGlvbl9pZCI6IjMyZjU0MTYzLTcxNjYtNDhmMS05M2Q4LWZmMjE3YmRiMDY1MyIsImRlc2NyaXB0b3JfbWFwIjpbeyJmb3JtYXQiOiJsZHBfdmMiLCJpZCI6ImV4YW1wbGVfaW5wdXRfMSIsInBhdGgiOiIkLnZlcmlmaWFibGVDcmVkZW50aWFsWzBdIn1dLCJpZCI6ImEzMGUzYjkxLWZiNzctNGQyMi05NWZhLTg3MTY4OWMzMjJlMiJ9LCJ0eXBlIjpbIlZlcmlmaWFibGVQcmVzZW50YXRpb24iLCJQcmVzZW50YXRpb25TdWJtaXNzaW9uIl0sInZlcmlmaWFibGVDcmVkZW50aWFsIjpbeyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwiY3JlZGVudGlhbFN1YmplY3QiOnsiZm9vIjoiYmFyIn0sImlzc3VhbmNlRGF0ZSI6IjIwMjItMDMtMTlUMTU6MjA6NTVaIiwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwicHJvb2YiOnsiY3JlYXRlZCI6IjIwMjItMDUtMjVUMjA6NDc6NTZaIiwiandzIjoiZXlKaGJHY2lPaUpGWkVSVFFTSXNJbUkyTkNJNlptRnNjMlVzSW1OeWFYUWlPbHNpWWpZMElsMTkuLlVaRHJWYUEwQWJ1WWltdzZfNzUxcU1MZUJXSmY1QXYxS0pJdURTdnVzcTQyV0RiZlA3NUlENmRaN3RhcnotZnk4aEhZWUQ0RlI3VDFPSnZsVnhGa0JBIiwicHJvb2ZQdXJwb3NlIjoiYXNzZXJ0aW9uTWV0aG9kIiwidHlwZSI6Ikpzb25XZWJTaWduYXR1cmUyMDIwIiwidmVyaWZpY2F0aW9uTWV0aG9kIjoiZGlkOmV4YW1wbGU6MTIzI2tleS0wIn0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXX1dfX0.GcJZw-v3-cwxPFeSqYaYax-x2JkAOHiqlo35VK_JdwS_wyvD6POjsphLWCPiFDNQl52Z-O69gF177GAZyNJSQw",
+      "verification": {
+        "verified": true
+      }
+    },
+    "presentation-2--key-2-secp256r1.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1",
+          "https://identity.foundation/presentation-exchange/submission/v1"
+        ],
+        "holder": "did:example:123",
+        "id": "urn:uuid:789",
+        "presentation_submission": {
+          "definition_id": "32f54163-7166-48f1-93d8-ff217bdb0653",
+          "descriptor_map": [
+            {
+              "format": "ldp_vc",
+              "id": "example_input_1",
+              "path": "$.verifiableCredential[0]"
+            }
+          ],
+          "id": "a30e3b91-fb77-4d22-95fa-871689c322e2"
+        },
+        "proof": {
+          "challenge": "cb0424cb-8b37-4021-b1f8-ef1318f57305",
+          "created": "2022-08-10T18:09:20.038219075Z",
+          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Wx8OrWHsmWuvTEqddg-LhvbWklvv3JilCf5XxK_Of3W_zVGnK2YIqRfeu_YlvzYvk_5clc_WKWvxYilggHL5lg",
+          "proofPurpose": "authentication",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-2"
+        },
+        "type": [
+          "VerifiablePresentation",
+          "PresentationSubmission"
+        ],
+        "verifiableCredential": [
+          {
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/security/suites/jws-2020/v1",
+              {
+                "@vocab": "https://example.com/#"
+              }
+            ],
+            "credentialSubject": {
+              "foo": "bar"
+            },
+            "issuanceDate": "2022-03-19T15:20:55Z",
+            "issuer": "did:example:123",
+            "proof": {
+              "created": "2022-05-25T20:47:56Z",
+              "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..UZDrVaA0AbuYimw6_751qMLeBWJf5Av1KJIuDSvusq42WDbfP75ID6dZ7tarz-fy8hHYYD4FR7T1OJvlVxFkBA",
+              "proofPurpose": "assertionMethod",
+              "type": "JsonWebSignature2020",
+              "verificationMethod": "did:example:123#key-0"
+            },
+            "type": [
+              "VerifiableCredential"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "presentation-2--key-3-secp384r1.vp-jwt.json": {
+      "vector": "vp-jwt",
+      "vectorContent": "eyJhbGciOiJFUzM4NCIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktMyIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJqdGkiOiJ1cm46dXVpZDo3ODkiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIiwiaHR0cHM6Ly9pZGVudGl0eS5mb3VuZGF0aW9uL3ByZXNlbnRhdGlvbi1leGNoYW5nZS9zdWJtaXNzaW9uL3YxIl0sImhvbGRlciI6ImRpZDpleGFtcGxlOjEyMyIsImlkIjoidXJuOnV1aWQ6Nzg5IiwicHJlc2VudGF0aW9uX3N1Ym1pc3Npb24iOnsiZGVmaW5pdGlvbl9pZCI6IjMyZjU0MTYzLTcxNjYtNDhmMS05M2Q4LWZmMjE3YmRiMDY1MyIsImRlc2NyaXB0b3JfbWFwIjpbeyJmb3JtYXQiOiJsZHBfdmMiLCJpZCI6ImV4YW1wbGVfaW5wdXRfMSIsInBhdGgiOiIkLnZlcmlmaWFibGVDcmVkZW50aWFsWzBdIn1dLCJpZCI6ImEzMGUzYjkxLWZiNzctNGQyMi05NWZhLTg3MTY4OWMzMjJlMiJ9LCJ0eXBlIjpbIlZlcmlmaWFibGVQcmVzZW50YXRpb24iLCJQcmVzZW50YXRpb25TdWJtaXNzaW9uIl0sInZlcmlmaWFibGVDcmVkZW50aWFsIjpbeyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwiY3JlZGVudGlhbFN1YmplY3QiOnsiZm9vIjoiYmFyIn0sImlzc3VhbmNlRGF0ZSI6IjIwMjItMDMtMTlUMTU6MjA6NTVaIiwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwicHJvb2YiOnsiY3JlYXRlZCI6IjIwMjItMDUtMjVUMjA6NDc6NTZaIiwiandzIjoiZXlKaGJHY2lPaUpGWkVSVFFTSXNJbUkyTkNJNlptRnNjMlVzSW1OeWFYUWlPbHNpWWpZMElsMTkuLlVaRHJWYUEwQWJ1WWltdzZfNzUxcU1MZUJXSmY1QXYxS0pJdURTdnVzcTQyV0RiZlA3NUlENmRaN3RhcnotZnk4aEhZWUQ0RlI3VDFPSnZsVnhGa0JBIiwicHJvb2ZQdXJwb3NlIjoiYXNzZXJ0aW9uTWV0aG9kIiwidHlwZSI6Ikpzb25XZWJTaWduYXR1cmUyMDIwIiwidmVyaWZpY2F0aW9uTWV0aG9kIjoiZGlkOmV4YW1wbGU6MTIzI2tleS0wIn0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXX1dfX0.8gi78g218bznnTyHmUOaA08C1__Pcy4Z_VSmlBe6RnwpnbJ5OUvpOVi_C2B7KcDjWfEoraZwm-avCh4LlwWHxDV5ahUegm9tdkPxlCgwfa6qXWaWwkLqS2ZwborwP7Nt",
+      "verification": {
+        "verified": true
+      }
+    },
+    "presentation-2--key-3-secp384r1.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1",
+          "https://identity.foundation/presentation-exchange/submission/v1"
+        ],
+        "holder": "did:example:123",
+        "id": "urn:uuid:789",
+        "presentation_submission": {
+          "definition_id": "32f54163-7166-48f1-93d8-ff217bdb0653",
+          "descriptor_map": [
+            {
+              "format": "ldp_vc",
+              "id": "example_input_1",
+              "path": "$.verifiableCredential[0]"
+            }
+          ],
+          "id": "a30e3b91-fb77-4d22-95fa-871689c322e2"
+        },
+        "proof": {
+          "challenge": "a424955d-2515-482c-82c3-8f33b9ba59eb",
+          "created": "2022-08-10T18:09:35.912556941Z",
+          "jws": "eyJhbGciOiJFUzM4NCIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..PJ3AKyuEMl8woHtrkZ53fqz-9KM7ItG-2_F2o0xidTcWWIWYyr-P_xuBKmCNzhLjz52DBL0GgcLtTTaxbBh-BbhV0pbZzmB1yugKaFQbgSEiKsR3djrcqCeywtommi1h",
+          "proofPurpose": "authentication",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-3"
+        },
+        "type": [
+          "VerifiablePresentation",
+          "PresentationSubmission"
+        ],
+        "verifiableCredential": [
+          {
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/security/suites/jws-2020/v1",
+              {
+                "@vocab": "https://example.com/#"
+              }
+            ],
+            "credentialSubject": {
+              "foo": "bar"
+            },
+            "issuanceDate": "2022-03-19T15:20:55Z",
+            "issuer": "did:example:123",
+            "proof": {
+              "created": "2022-05-25T20:47:56Z",
+              "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..UZDrVaA0AbuYimw6_751qMLeBWJf5Av1KJIuDSvusq42WDbfP75ID6dZ7tarz-fy8hHYYD4FR7T1OJvlVxFkBA",
+              "proofPurpose": "assertionMethod",
+              "type": "JsonWebSignature2020",
+              "verificationMethod": "did:example:123#key-0"
+            },
+            "type": [
+              "VerifiableCredential"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "verified": true
+      }
+    },
+    "presentation-2--key-4-rsa2048.vp-jwt.json": {
+      "vector": "vp-jwt",
+      "vectorContent": "eyJhbGciOiJQUzI1NiIsImtpZCI6ImRpZDpleGFtcGxlOjEyMyNrZXktNCIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJkaWQ6ZXhhbXBsZToxMjMiLCJqdGkiOiJ1cm46dXVpZDo3ODkiLCJ2cCI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIiwiaHR0cHM6Ly9pZGVudGl0eS5mb3VuZGF0aW9uL3ByZXNlbnRhdGlvbi1leGNoYW5nZS9zdWJtaXNzaW9uL3YxIl0sImhvbGRlciI6ImRpZDpleGFtcGxlOjEyMyIsImlkIjoidXJuOnV1aWQ6Nzg5IiwicHJlc2VudGF0aW9uX3N1Ym1pc3Npb24iOnsiZGVmaW5pdGlvbl9pZCI6IjMyZjU0MTYzLTcxNjYtNDhmMS05M2Q4LWZmMjE3YmRiMDY1MyIsImRlc2NyaXB0b3JfbWFwIjpbeyJmb3JtYXQiOiJsZHBfdmMiLCJpZCI6ImV4YW1wbGVfaW5wdXRfMSIsInBhdGgiOiIkLnZlcmlmaWFibGVDcmVkZW50aWFsWzBdIn1dLCJpZCI6ImEzMGUzYjkxLWZiNzctNGQyMi05NWZhLTg3MTY4OWMzMjJlMiJ9LCJ0eXBlIjpbIlZlcmlmaWFibGVQcmVzZW50YXRpb24iLCJQcmVzZW50YXRpb25TdWJtaXNzaW9uIl0sInZlcmlmaWFibGVDcmVkZW50aWFsIjpbeyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIix7IkB2b2NhYiI6Imh0dHBzOi8vZXhhbXBsZS5jb20vIyJ9XSwiY3JlZGVudGlhbFN1YmplY3QiOnsiZm9vIjoiYmFyIn0sImlzc3VhbmNlRGF0ZSI6IjIwMjItMDMtMTlUMTU6MjA6NTVaIiwiaXNzdWVyIjoiZGlkOmV4YW1wbGU6MTIzIiwicHJvb2YiOnsiY3JlYXRlZCI6IjIwMjItMDUtMjVUMjA6NDc6NTZaIiwiandzIjoiZXlKaGJHY2lPaUpGWkVSVFFTSXNJbUkyTkNJNlptRnNjMlVzSW1OeWFYUWlPbHNpWWpZMElsMTkuLlVaRHJWYUEwQWJ1WWltdzZfNzUxcU1MZUJXSmY1QXYxS0pJdURTdnVzcTQyV0RiZlA3NUlENmRaN3RhcnotZnk4aEhZWUQ0RlI3VDFPSnZsVnhGa0JBIiwicHJvb2ZQdXJwb3NlIjoiYXNzZXJ0aW9uTWV0aG9kIiwidHlwZSI6Ikpzb25XZWJTaWduYXR1cmUyMDIwIiwidmVyaWZpY2F0aW9uTWV0aG9kIjoiZGlkOmV4YW1wbGU6MTIzI2tleS0wIn0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXX1dfX0.TVtTnzofs3l9CmqYv6Pe3vFsJvIwd2-sZIR1j9kKk2iN8EwDx5226Zay8h4ldXm7Ggq-G_y3nPUOfut4h0hn2CH0_WCFIblxE1nQ0kmyLUiPuHeXFEENNSnf8NeJEgmuA6CSYAH7Q7-VP5XHKKSGMt0DAIx-C04goPodcPUqbha0QqPpr2s2fo9bKzDAx9nTDq2ZY81_TwcC0hKodTgVD28PmXDvT-QsfHID89TM5c6ufuukV4K1DbcRpEDTVq06nqG_NHcW8b9aHN9R1XfGaVkRiBTIn0exnNZJ4QwJSGCyvwlFKdJmEvyFyA62ccxkzS0ZVgg0vEYnsxv9uWth3g",
+      "verification": {
+        "verified": true
+      }
+    },
+    "presentation-2--key-4-rsa2048.vp.json": {
+      "vector": "vp",
+      "vectorContent": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1",
+          "https://identity.foundation/presentation-exchange/submission/v1"
+        ],
+        "holder": "did:example:123",
+        "id": "urn:uuid:789",
+        "presentation_submission": {
+          "definition_id": "32f54163-7166-48f1-93d8-ff217bdb0653",
+          "descriptor_map": [
+            {
+              "format": "ldp_vc",
+              "id": "example_input_1",
+              "path": "$.verifiableCredential[0]"
+            }
+          ],
+          "id": "a30e3b91-fb77-4d22-95fa-871689c322e2"
+        },
+        "proof": {
+          "challenge": "64dbba56-62ee-4cb2-a9c1-283dbda046a8",
+          "created": "2022-08-10T18:09:54.760322372Z",
+          "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..WjEc1pPem6nvPtHdjcS3XNXeSpMsv1_DxRl6tPqWjJ5OIKmKrxYKX3CjFdsjiUy2mUJV4CM9k8rcg2USkOVWLNoge17YLO57gppQPykuWxzbFJYKu0qVxvcLGzo_ItSqNiFqV-36BHEdAOI3-EjLUjDloF_qOG2Dpih7WWMRtgNCQ6uEZ2Om49e1P3_h55Dg86SRdFwnVzC3b9-Krg2iD5pFmKrPMeAANDZ9ACHzo8cNh6jYlVlCx_0eGwub5HPM_IQFnwT0qQ4opl9xFXFL1qdTqxuJJ7MIqSmBv7tG4ZTsWU1yAVXnJM5QD3iyvu4LLTGIhsyR-3uEKfIiYFIinw",
+          "proofPurpose": "authentication",
+          "type": "JsonWebSignature2020",
+          "verificationMethod": "did:example:123#key-4"
+        },
+        "type": [
+          "VerifiablePresentation",
+          "PresentationSubmission"
+        ],
+        "verifiableCredential": [
+          {
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/security/suites/jws-2020/v1",
+              {
+                "@vocab": "https://example.com/#"
+              }
+            ],
+            "credentialSubject": {
+              "foo": "bar"
+            },
+            "issuanceDate": "2022-03-19T15:20:55Z",
+            "issuer": "did:example:123",
+            "proof": {
+              "created": "2022-05-25T20:47:56Z",
+              "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..UZDrVaA0AbuYimw6_751qMLeBWJf5Av1KJIuDSvusq42WDbfP75ID6dZ7tarz-fy8hHYYD4FR7T1OJvlVxFkBA",
+              "proofPurpose": "assertionMethod",
+              "type": "JsonWebSignature2020",
+              "verificationMethod": "did:example:123#key-0"
+            },
+            "type": [
+              "VerifiableCredential"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "verified": true
+      }
+    }
+  },
   "danubetech": {
     "credential-0--key-0-ed25519.vc-jwt.json": {
       "vector": "vc-jwt",

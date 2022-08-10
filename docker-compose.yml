@@ -42,3 +42,10 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./data:/data
+  afgo:
+    image: afgo/jws-test-suite-cli
+    build:
+      context: ./implementations/afgo
+      dockerfile: Dockerfile
+    volumes:
+      - ./data:/data
