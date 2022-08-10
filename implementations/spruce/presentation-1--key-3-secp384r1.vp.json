@@ -47,10 +47,10 @@
           "type": [
             "SupportingActivity"
           ],
-          "documentPresence": "Digital",
-          "verifier": "https://example.edu/issuers/14",
           "subjectPresence": "Digital",
-          "evidenceDocument": "Fluid Dynamics Focus"
+          "documentPresence": "Digital",
+          "evidenceDocument": "Fluid Dynamics Focus",
+          "verifier": "https://example.edu/issuers/14"
         }
       ]
     }
@@ -60,8 +60,8 @@
     "proofPurpose": "authentication",
     "challenge": "123",
     "verificationMethod": "did:example:123#key-3",
-    "created": "2022-06-16T12:50:14.758Z",
-    "jws": "eyJhbGciOiJFUzM4NCIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..Ay7XNa6ru_BM64pjFCidKqrXhD5_wm7rDFojU7JBpnRoCCZ0BvY0eCcr9X1Gf6thDDWMEkQPIqp6vA0kk7wlKnpnVttWxyIPAiPU2eumF7_rYtyBjgp-4q_ZYO0wUsz0"
+    "created": "2022-08-10T18:50:47.744Z",
+    "jws": "eyJhbGciOiJFUzM4NCIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..kkVjPP7Goy6ZLJFon7xZXo4KK9mpY0KE3Ki9BbCo7Z8oThbr2yOdwvrN3H0wqGELZGZDOM5dy-WyrbJqnjO9zJD69omNMoDbJNuiE8ne0gFyZe6TVk3Pn3GdAX9651q7"
   },
   "holder": "did:example:123"
 }

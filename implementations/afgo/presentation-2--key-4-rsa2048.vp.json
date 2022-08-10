@@ -1,0 +1,58 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://identity.foundation/presentation-exchange/submission/v1"
+    ],
+    "holder": "did:example:123",
+    "id": "urn:uuid:789",
+    "presentation_submission": {
+        "definition_id": "32f54163-7166-48f1-93d8-ff217bdb0653",
+        "descriptor_map": [
+            {
+                "format": "ldp_vc",
+                "id": "example_input_1",
+                "path": "$.verifiableCredential[0]"
+            }
+        ],
+        "id": "a30e3b91-fb77-4d22-95fa-871689c322e2"
+    },
+    "proof": {
+        "challenge": "d976a25b-8f48-4537-8e6f-cfa1af23a14f",
+        "created": "2022-08-10T18:45:43.497833881Z",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..BMfL8nGiYco4qFEmZhN-TfT9VhbJ1gm42nFpCWAByxJi_OSV7t92SZFGqOh4n555Efev-6LA6weIe6b5k1Q03l3_jR0EF97obihbVgBaVmrF-yG_vXkcyFP6RJ_fHcYHc-xyPwGybav85uCj9u1aCIPP3pRRV9-d89UCR1OKwX0jwUqK7xaYcd-Twxbrvmbf07cnU3scvOqD4KmV6zYkaob6mWFDSVnDQZio5moq__E5fM1PBcC7N8IH3l6LG_ig_eXZHPDBCWn3iT03fg3cQuks_FRNSd_-9ZxoUJUHs3A2TU-dCdemTlejz4gRZPwuKCybzTA9xSt7NGSbirq_ng",
+        "proofPurpose": "authentication",
+        "type": "JsonWebSignature2020",
+        "verificationMethod": "did:example:123#key-4"
+    },
+    "type": [
+        "VerifiablePresentation",
+        "PresentationSubmission"
+    ],
+    "verifiableCredential": [
+        {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/jws-2020/v1",
+                {
+                    "@vocab": "https://example.com/#"
+                }
+            ],
+            "credentialSubject": {
+                "foo": "bar"
+            },
+            "issuanceDate": "2022-03-19T15:20:55Z",
+            "issuer": "did:example:123",
+            "proof": {
+                "created": "2022-05-25T20:47:56Z",
+                "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..UZDrVaA0AbuYimw6_751qMLeBWJf5Av1KJIuDSvusq42WDbfP75ID6dZ7tarz-fy8hHYYD4FR7T1OJvlVxFkBA",
+                "proofPurpose": "assertionMethod",
+                "type": "JsonWebSignature2020",
+                "verificationMethod": "did:example:123#key-0"
+            },
+            "type": [
+                "VerifiableCredential"
+            ]
+        }
+    ]
+}

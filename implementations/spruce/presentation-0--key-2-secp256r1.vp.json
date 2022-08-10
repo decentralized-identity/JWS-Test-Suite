@@ -11,7 +11,7 @@
     "proofPurpose": "authentication",
     "challenge": "123",
     "verificationMethod": "did:example:123#key-2",
-    "created": "2022-06-16T12:49:56.737Z",
-    "jws": "eyJhbGciOiJFUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..BDogHBcnk0Y_DSQiHSQC4bEtgCgMUm9Y-vi7X9PNu5VNk1jshicyceKxTxWcY0bX1lyT31TsWpcad-h6VTusjA"
+    "created": "2022-08-10T18:50:31.216Z",
+    "jws": "eyJhbGciOiJFUzI1NiIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..e7SsZwoHilC6oy1bm19FD_WMwr9_-fyT_SoxM6RIjJGKYTLtV4K_nbM2ORnBAZ2nfEnSYjaNUWAQZrE54veCgg"
   }
 }
